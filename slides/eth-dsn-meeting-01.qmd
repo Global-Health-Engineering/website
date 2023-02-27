@@ -166,7 +166,7 @@ knitr::include_graphics("https://ethz.ch/en/research/research-promotion/open-res
 
 - Slides created via revealjs and Quarto: [https://quarto.org/docs/presentations/revealjs/](https://quarto.org/docs/presentations/revealjs/)
 - Access: [Source code of slides on GitHub](https://github.com/Global-Health-Engineering/website/blob/main/slides/eth-dsn-meeting-01.qmd)
-- Download: [Slides as PDF]()
+- Download: [Slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/eth-dsn-meeting-01.pdf)
   
 This material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). 
 
