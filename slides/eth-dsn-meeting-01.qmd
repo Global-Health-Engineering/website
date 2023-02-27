@@ -1,0 +1,171 @@
+---
+title: "DSN Kick-off"
+subtitle: "Connecting people and topics on data stewardship at ETH Zurich"
+author: 
+  - name: Lars Schöbitz
+    email: lschoebitz@ethz.ch
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+format: 
+  revealjs: 
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+editor: source
+editor_options: 
+  chunk_output_type: console
+bibliography: references.bib
+---
+
+# Hello! `r emo::ji("wave")` {background-color="#0F4C81"}
+
+## Lars Schöbitz
+
+::: columns
+::: {.column width="50%"}
+![](img/lars_schoebitz_profile_photo.jpg){fig-alt="Headshot of Lars Schöbitz" fig-align="center"}
+:::
+
+::: {.column width="50%"}
+-   Environmental Engineer\
+-   Open Science Specialist at Global Health Engineering
+-   [RStudio certified instructor](https://education.rstudio.com/trainers/) for Data Science with R
+-   Twitter: [\@larnsce](https://twitter.com/larnsce)
+:::
+:::
+
+## My role - **Open Science Specialist**
+
+-   research data management
+-   reproducible workflows
+-   mindset for Open Science
+-   research communication
+-   teaching data science tools
+-   proposal writing
+
+::: footer
+Job Description: [Open Science Specialist](https://github.com/Global-Health-Engineering/job-descriptions/blob/main/open-science-specialist/README.md)
+:::
+
+## Data at Global Health Engineering
+
+::: columns
+::: {.column width="40%"}
+-   small (few MBs)
+-   tabular
+-   non-sensitive
+-   topics
+    -   waste management
+    -   sanitation
+    -   air quality
+    -   etc.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| out.width="100%"
+knitr::include_graphics("img/kiteezi-landfill-kampala-uganda.jpg")
+```
+:::
+:::
+
+::: footer
+Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/110829077@N08/15704065265/in/album-72157649056083306/)
+:::
+
+## Problem statement
+
+```{r}
+knitr::include_graphics("img/screenshot-supplementary-data-ms-word-01.png")
+```
+
+::: footer
+Screenshot from @greene2021
+:::
+
+## Problem statement
+
+```{r}
+knitr::include_graphics("img/screenshot-supplementary-data-ms-word-02.png")
+```
+
+::: footer
+Screenshot from @greene2021
+:::
+
+# Aspired RDM workflow at GHE {background-color="#0F4C81"}
+
+##  {background-image="img/ghe-rdm-workflow-01.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-02.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-03.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-04.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-05.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-06.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-07.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-08.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-09.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-10.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-11.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-12.drawio.svg" background-size="1400px"}
+
+# Publisher policies
+
+##  {background-image="img/publisher-policies-01.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-02.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-03.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-04.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-05.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-06.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-07.drawio.svg" background-size="1400px"}
+
+# Ongoing activities {background-color="#0F4C81"}
+
+## Open Research Data (ORD) funding programmes
+
+-   Explore project (150k): <https://openwashdata.org/pages/proposal/>
+-   Contribute project (30k): <https://github.com/openwashdata/proposal-eth-ord-scheme-contribute/blob/main/proposal-eth-ord-scheme-contribute.md>
+
+## Upcoming funding opportunities
+
+```{r}
+knitr::include_graphics("https://ethz.ch/en/research/research-promotion/open-research-data--ord--funding-programmes/_jcr_content/par/image/image.imageformat.lightbox.276083994.jpg")
+```
+
+::: footer
+[Forthcoming submission dates](https://ethz.ch/en/research/research-promotion/open-research-data--ord--funding-programmes.html) (ORD calls ETH Domain and Swissuniversities) © Office of Research
+:::
+
+## Data stewardship activities
+
+-   ETH4D data management support
+-   ETH4D skills course (HS 2023) - 0.5 ECTS: [Open Research Data - Tools and a workflow for the modern researcher](https://github.com/Global-Health-Engineering/eth-data-stewardship/blob/main/workshops/eth4d-skills-course-rdm.md)
+
+# Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}
+
+## 
+
+- Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/   
+- Source code of slides on GitHub
+- [Download slides as PDF]()
+  
+This material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). 
+
+## References
