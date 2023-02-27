@@ -1,5 +1,7 @@
 ---
-title: "website"
+title: "Welcome!"
 ---
+
+<script defer data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
 
 This website is currenty under construction. 

@@ -18,6 +18,8 @@ editor_options:
 bibliography: references.bib
 ---
 
+<script defer data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
+
 # Hello! `r emo::ji("wave")` {background-color="#0F4C81"}
 
 ## Lars Schöbitz
@@ -160,11 +162,11 @@ knitr::include_graphics("https://ethz.ch/en/research/research-promotion/open-res
 
 # Thanks! `r emo::ji("sunflower")`  {background-color="#0F4C81"}
 
-## 
+## Thanks
 
-- Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/   
-- Source code of slides on GitHub
-- [Download slides as PDF]()
+- Slides created via revealjs and Quarto: [https://quarto.org/docs/presentations/revealjs/](https://quarto.org/docs/presentations/revealjs/)
+- Access: [Source code of slides on GitHub](https://github.com/Global-Health-Engineering/website/blob/main/slides/eth-dsn-meeting-01.qmd)
+- Download: [Slides as PDF]()
   
 This material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). 
 

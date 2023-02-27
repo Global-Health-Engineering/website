@@ -1,8 +1,15 @@
 [
   {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Slides",
+    "section": "",
+    "text": "🖥 ETH Data Stewardship Network - Kick-off Meeting"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "website",
+    "title": "Welcome!",
     "section": "",
     "text": "This website is currenty under construction."
   },
@@ -63,11 +70,11 @@
     "text": "Data stewardship activities\n\nETH4D data management support\nETH4D skills course (HS 2023) - 0.5 ECTS: Open Research Data - Tools and a workflow for the modern researcher"
   },
   {
-    "objectID": "slides/eth-dsn-meeting-01.html#section-19",
-    "href": "slides/eth-dsn-meeting-01.html#section-19",
+    "objectID": "slides/eth-dsn-meeting-01.html#thanks-1",
+    "href": "slides/eth-dsn-meeting-01.html#thanks-1",
     "title": "DSN Kick-off",
-    "section": "",
-    "text": "Slides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\n\nSource code of slides on GitHub\nDownload slides as PDF\n\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International."
+    "section": "Thanks",
+    "text": "Thanks\n\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess: Source code of slides on GitHub\nDownload: Slides as PDF\n\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International."
   },
   {
     "objectID": "slides/eth-dsn-meeting-01.html#references",
