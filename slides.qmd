@@ -3,7 +3,5 @@ title: "Slides"
 ---
 
 
-```{r}
 
-```
-
+- `r emo::ji("desktop_computer")` [Data Stewardship Network - Kick-off](/slides/eth-dsn-meeting-01.html) 

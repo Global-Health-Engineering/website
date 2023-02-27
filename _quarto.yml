@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Global Health Engineering"
@@ -8,12 +9,14 @@ website:
       - href: index.qmd
         text: Slides
       - slides.qmd
-
+      
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
 
+execute: 
+  freeze: auto
 
 
