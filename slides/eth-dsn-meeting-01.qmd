@@ -7,6 +7,8 @@ author:
     affiliations:
         - name: Global Health Engineering - ETH Zurich
           url: https://ghe.ethz.ch/
+date: 2023-03-27
+date-format: long
 format: 
   revealjs: 
     theme: slides.scss
