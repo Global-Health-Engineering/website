@@ -1,10 +1,8 @@
 {
-  "hash": "e5054ed47f57b8981dbbe5b35cbc9ff3",
+  "hash": "c30f939ddbb3f436a573dcc1241473a1",
   "result": {
-    "markdown": "---\ntitle: \"Slides\"\n---\n\n<script defer data-domain=\"global-health-engineering.github.io/website\" src=\"https://plausible.io/js/script.js\"></script>\n\n- 🖥 [ETH Data Stewardship Network - Kick-off Meeting](/slides/eth-dsn-meeting-01.html) ",
-    "supporting": [
-      "slides_files"
-    ],
+    "markdown": "---\ntitle: \"Slides\"\n---\n\n<script defer data-domain=\"global-health-engineering.github.io/website\" src=\"https://plausible.io/js/script.js\"></script>\n\n- 🖥 [ETH Data Stewardship Network - Kick-off Meeting](/slides/d01-eth-dsn/eth-dsn-meeting-01.html) ",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

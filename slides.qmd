@@ -3,4 +3,4 @@ title: "Slides"
 ---
 <script defer data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
 
-- `r emo::ji("desktop_computer")` [ETH Data Stewardship Network - Kick-off Meeting](/slides/eth-dsn-meeting-01.html) 
+- `r emo::ji("desktop_computer")` [ETH Data Stewardship Network - Kick-off Meeting](/slides/d01-eth-dsn/eth-dsn-meeting-01.html) 
