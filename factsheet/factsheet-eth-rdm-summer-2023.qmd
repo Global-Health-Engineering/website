@@ -1,0 +1,69 @@
+---
+title: "open by default"
+subtitle: "a data management strategy"
+author: 
+  - name: Lars Schöbitz
+    email: lschoebitz@ethz.ch
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+date: 2023-06-12
+date-format: long
+format: pdf
+editor: source
+editor_options: 
+  chunk_output_type: console
+---
+
+# Project {background-color="#0F4C81"}
+
+## My role - **Open Science Specialist**
+
+-   research data management
+-   reproducible workflows
+-   mindset for Open Science
+-   research communication
+-   teaching data science tools
+-   proposal writing
+
+[Open Science Specialist - Job Description](https://github.com/Global-Health-Engineering/job-descriptions/tree/main/open-science-specialist)
+
+## Data Management Strategy
+
+![](img/ghe-rdm-workflow.jpg){width=60%}
+
+# Characteristics
+
+## Data at Global Health Engineering
+
+-   small (few MBs)
+-   tabular
+-   non-sensitive
+-   topics (waste management, sanitation, air quality, etc.)
+    
+# Pain Points
+
+## Lost and overwhelmed
+
+- terminology (underlying data, raw data, processed data, metadata, open sources, open access, ...)
+- licensing (CC-BY, MIT, public domain, code, data)
+- security & privacy (phone numbers, GPS locations of houses)
+- repositories (documentation, upload, maintenance)
+
+## Computational tools
+
+- intimidating
+- hard
+- not everyone's business
+
+## Scientist as a lone ranger
+
+- acts alone (until becoming a manager/professor)
+- exposure to tools (100s throughout research career at different institutions)
+- own stack of tools (builds their own individual worksflows -> not team oriented)
+- the way to do it (doesn't have time to learn what would be most effective for a team)
+
+# DMP? {{< fa thumbs-up >}}
+
+[https://github.com/Global-Health-Engineering/dmp-sor4d](https://github.com/Global-Health-Engineering/dmp-sor4d){preview-link="true"}
+

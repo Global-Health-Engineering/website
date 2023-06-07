@@ -166,7 +166,7 @@ Slides created via **revealjs** and **Quarto**: [https://quarto.org/docs/present
 
 Source code: [GitHub](https://github.com/Global-Health-Engineering/website/blob/main/slides/d02-eth-rdm-summer-2023.qmd)
  
-Access: [HTML](    footer: https://global-health-engineering.github.io/website/slides.html)
+Access: [HTML](https://global-health-engineering.github.io/website/slides.html)
 
 Download: [PDF](https://github.com/Global-Health-Engineering/website/blob/main/slides/d02-eth-rdm-summer-2023.pdf)
   
