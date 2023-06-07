@@ -2,9 +2,9 @@
   {
     "objectID": "slides.html",
     "href": "slides.html",
-    "title": "Slides",
+    "title": " Slides",
     "section": "",
-    "text": "🖥 ETH Data Stewardship Network - Kick-off Meeting"
+    "text": "ETH Data Stewardship Network - Kick-off Meeting"
   },
   {
     "objectID": "index.html",
@@ -14,73 +14,192 @@
     "text": "This website is currenty under construction."
   },
   {
-    "objectID": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#lars-schöbitz",
-    "href": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#lars-schöbitz",
+    "objectID": "slides/d-01-eth-dsn-meeting.html#lars-schöbitz",
+    "href": "slides/d-01-eth-dsn-meeting.html#lars-schöbitz",
     "title": "DSN Kick-off",
     "section": "Lars Schöbitz",
     "text": "Lars Schöbitz\n\n\n\n\n\n\n\n\n\nEnvironmental Engineer\n\nOpen Science Specialist at Global Health Engineering\nRStudio certified instructor for Data Science with R\nTwitter: @larnsce"
   },
   {
-    "objectID": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#my-role---open-science-specialist",
-    "href": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#my-role---open-science-specialist",
+    "objectID": "slides/d-01-eth-dsn-meeting.html#my-role---open-science-specialist",
+    "href": "slides/d-01-eth-dsn-meeting.html#my-role---open-science-specialist",
     "title": "DSN Kick-off",
     "section": "My role - Open Science Specialist",
     "text": "My role - Open Science Specialist\n\nresearch data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing\n\n\nJob Description: Open Science Specialist"
   },
   {
-    "objectID": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#data-at-global-health-engineering",
-    "href": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#data-at-global-health-engineering",
+    "objectID": "slides/d-01-eth-dsn-meeting.html#data-at-global-health-engineering",
+    "href": "slides/d-01-eth-dsn-meeting.html#data-at-global-health-engineering",
     "title": "DSN Kick-off",
     "section": "Data at Global Health Engineering",
     "text": "Data at Global Health Engineering\n\n\n\nsmall (few MBs)\ntabular\nnon-sensitive\ntopics\n\nwaste management\nsanitation\nair quality\netc.\n\n\n\n\n\n\n\n\n\n\n\nPhoto: Kiteezi Landfill, Kampala, Uganda"
   },
   {
-    "objectID": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#problem-statement",
-    "href": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#problem-statement",
+    "objectID": "slides/d-01-eth-dsn-meeting.html#problem-statement",
+    "href": "slides/d-01-eth-dsn-meeting.html#problem-statement",
     "title": "DSN Kick-off",
     "section": "Problem statement",
     "text": "Problem statement\n\n\nScreenshot from Greene et al. (2021)"
   },
   {
-    "objectID": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#problem-statement-1",
-    "href": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#problem-statement-1",
+    "objectID": "slides/d-01-eth-dsn-meeting.html#problem-statement-1",
+    "href": "slides/d-01-eth-dsn-meeting.html#problem-statement-1",
     "title": "DSN Kick-off",
     "section": "Problem statement",
     "text": "Problem statement\n\n\nScreenshot from Greene et al. (2021)"
   },
   {
-    "objectID": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#open-research-data-ord-funding-programmes",
-    "href": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#open-research-data-ord-funding-programmes",
+    "objectID": "slides/d-01-eth-dsn-meeting.html#open-research-data-ord-funding-programmes",
+    "href": "slides/d-01-eth-dsn-meeting.html#open-research-data-ord-funding-programmes",
     "title": "DSN Kick-off",
     "section": "Open Research Data (ORD) funding programmes",
     "text": "Open Research Data (ORD) funding programmes\n\nExplore project (150k): https://openwashdata.org/pages/proposal/\nContribute project (30k): https://github.com/openwashdata/proposal-eth-ord-scheme-contribute/blob/main/proposal-eth-ord-scheme-contribute.md"
   },
   {
-    "objectID": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#upcoming-funding-opportunities",
-    "href": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#upcoming-funding-opportunities",
+    "objectID": "slides/d-01-eth-dsn-meeting.html#upcoming-funding-opportunities",
+    "href": "slides/d-01-eth-dsn-meeting.html#upcoming-funding-opportunities",
     "title": "DSN Kick-off",
     "section": "Upcoming funding opportunities",
     "text": "Upcoming funding opportunities\n\n\nForthcoming submission dates (ORD calls ETH Domain and Swissuniversities) © Office of Research"
   },
   {
-    "objectID": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#data-stewardship-activities",
-    "href": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#data-stewardship-activities",
+    "objectID": "slides/d-01-eth-dsn-meeting.html#data-stewardship-activities",
+    "href": "slides/d-01-eth-dsn-meeting.html#data-stewardship-activities",
     "title": "DSN Kick-off",
     "section": "Data stewardship activities",
     "text": "Data stewardship activities\n\nETH4D data management support\nETH4D skills course (HS 2023) - 0.5 ECTS: Open Research Data - Tools and a workflow for the modern researcher"
   },
   {
-    "objectID": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#thanks-1",
-    "href": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#thanks-1",
+    "objectID": "slides/d-01-eth-dsn-meeting.html#thanks-1",
+    "href": "slides/d-01-eth-dsn-meeting.html#thanks-1",
     "title": "DSN Kick-off",
     "section": "Thanks",
     "text": "Thanks\n\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess: Source code of slides on GitHub\nDownload: Slides as PDF\n\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International."
   },
   {
-    "objectID": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#references",
-    "href": "slides/d01-eth-dsn/eth-dsn-meeting-01.html#references",
+    "objectID": "slides/d-01-eth-dsn-meeting.html#references",
+    "href": "slides/d-01-eth-dsn-meeting.html#references",
     "title": "DSN Kick-off",
     "section": "References",
     "text": "References\n\n\n\n\n\n\nGreene, Nicola, Sarah Hennessy, Tate W. Rogers, Jocelyn Tsai, and Francis L. de los Reyes III. 2021. “The Role of Emptying Services in Provision of Safely Managed Sanitation: A Classification and Quantification of the Needs of LMICs.” Journal of Environmental Management 290 (July): 112612. https://doi.org/10.1016/j.jenvman.2021.112612."
+  },
+  {
+    "objectID": "slides/d-02-eth-rdm-summer-2023.html#data-management-strategy",
+    "href": "slides/d-02-eth-rdm-summer-2023.html#data-management-strategy",
+    "title": "open by default",
+    "section": "Data Management Strategy",
+    "text": "Data Management Strategy"
+  },
+  {
+    "objectID": "slides/d-02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
+    "href": "slides/d-02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
+    "title": "open by default",
+    "section": "My role - Open Science Specialist",
+    "text": "My role - Open Science Specialist\n\nresearch data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing"
+  },
+  {
+    "objectID": "slides/d-02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
+    "href": "slides/d-02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
+    "title": "open by default",
+    "section": "Data at Global Health Engineering",
+    "text": "Data at Global Health Engineering\n\n\n\nsmall (few MBs)\ntabular\nnon-sensitive\ntopics\n\nwaste management\nsanitation\nair quality\netc.\n\n\n\n\n\n\n\n\n\n\n\nPhoto: Kiteezi Landfill, Kampala, Uganda"
+  },
+  {
+    "objectID": "slides/d-02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
+    "href": "slides/d-02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
+    "title": "open by default",
+    "section": "Lost and overwhelmed",
+    "text": "Lost and overwhelmed\n\n\n\nterminology\nlicensing\nsecurity\nrepositories\n\n\ncontents…\n\n\n\n\nterminology (underlying data, raw data, processed data, metadata, open sources, open access, …)\nlicensing (CC-BY, MIT, public domain, code, data)\nsecurity & privacy (phone numbers, GPS locations of houses)\nrepositories (documentation, upload, maintenance)"
+  },
+  {
+    "objectID": "slides/d-02-eth-rdm-summer-2023.html#computational-work",
+    "href": "slides/d-02-eth-rdm-summer-2023.html#computational-work",
+    "title": "open by default",
+    "section": "Computational work",
+    "text": "Computational work\n\nintimidating\nhard\nnot everyone’s business"
+  },
+  {
+    "objectID": "slides/d-02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
+    "href": "slides/d-02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
+    "title": "open by default",
+    "section": "Scientist as a lone ranger",
+    "text": "Scientist as a lone ranger\n\n\n\nacts alone\nexposure to tools\nown stack of tools\nthe way to do it\n\n\ncontents…\n\n\n\n\nacts alone (until becoming a manager/professor)\nexposure to tools (100s throughout research career at different institutions)\nown stack of tools (builds their own individual worksflows -&gt; not team oriented)\nthe way to do it (doesn’t have time to learn what would be most effective for a team)"
+  },
+  {
+    "objectID": "slides/d-02-eth-rdm-summer-2023.html#yes",
+    "href": "slides/d-02-eth-rdm-summer-2023.html#yes",
+    "title": "open by default",
+    "section": "Yes! :)",
+    "text": "Yes! :)\nhttps://github.com/Global-Health-Engineering/dmp-sor4d"
+  },
+  {
+    "objectID": "slides/d-02-eth-rdm-summer-2023.html#computational-notebooks",
+    "href": "slides/d-02-eth-rdm-summer-2023.html#computational-notebooks",
+    "title": "open by default",
+    "section": "Computational notebooks",
+    "text": "Computational notebooks\n\nintimidating\nhard\nnot everyone’s business"
+  },
+  {
+    "objectID": "slides/d-02-eth-rdm-summer-2023.html#computational-tools",
+    "href": "slides/d-02-eth-rdm-summer-2023.html#computational-tools",
+    "title": "open by default",
+    "section": "Computational tools",
+    "text": "Computational tools\n\n\n\nintimidating\nhard\nnot everyone’s business\n\n\ncontents…\n\n\n\n\njupyter notebooks\nopen file formats\nversion control systems"
+  },
+  {
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
+    "href": "slides/d02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
+    "title": "open by default",
+    "section": "My role - Open Science Specialist",
+    "text": "My role - Open Science Specialist\n\nresearch data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing"
+  },
+  {
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#data-management-strategy",
+    "href": "slides/d02-eth-rdm-summer-2023.html#data-management-strategy",
+    "title": "open by default",
+    "section": "Data Management Strategy",
+    "text": "Data Management Strategy"
+  },
+  {
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
+    "href": "slides/d02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
+    "title": "open by default",
+    "section": "Data at Global Health Engineering",
+    "text": "Data at Global Health Engineering\n\n\n\nsmall (few MBs)\ntabular\nnon-sensitive\ntopics\n\nwaste management\nsanitation\nair quality\netc.\n\n\n\n\n\n\n\n\n\n\n\nPhoto: Kiteezi Landfill, Kampala, Uganda"
+  },
+  {
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
+    "href": "slides/d02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
+    "title": "open by default",
+    "section": "Lost and overwhelmed",
+    "text": "Lost and overwhelmed\n\n\n\nterminology\nlicensing\nsecurity\nrepositories\n\n\n\n\n\n\n\n\n\n\nPhoto by Christian Erfurt on unsplash.com\n\n\n\nterminology (underlying data, raw data, processed data, metadata, open sources, open access, …)\nlicensing (CC-BY, MIT, public domain, code, data)\nsecurity & privacy (phone numbers, GPS locations of houses)\nrepositories (documentation, upload, maintenance)"
+  },
+  {
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#computational-tools",
+    "href": "slides/d02-eth-rdm-summer-2023.html#computational-tools",
+    "title": "open by default",
+    "section": "Computational tools",
+    "text": "Computational tools\n\n\n\nintimidating\nhard\nnot everyone’s business\n\n\n\n\n\n\n\n\n\n\n\njupyter notebooks\nopen file formats\nversion control systems\n\n\n\n\nPhoto by Amza Andrei on unsplash.com"
+  },
+  {
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
+    "href": "slides/d02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
+    "title": "open by default",
+    "section": "Scientist as a lone ranger",
+    "text": "Scientist as a lone ranger\n\n\n\nacts alone\nexposure to tools\nown stack of tools\nthe way to do it\n\n\n\n\n\n\n\n\n\n\nPhoto by Jeffrey Hamilton on unsplash.com\n\n\n\nacts alone (until becoming a manager/professor)\nexposure to tools (100s throughout research career at different institutions)\nown stack of tools (builds their own individual worksflows -&gt; not team oriented)\nthe way to do it (doesn’t have time to learn what would be most effective for a team)"
+  },
+  {
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#yes",
+    "href": "slides/d02-eth-rdm-summer-2023.html#yes",
+    "title": "open by default",
+    "section": "Yes! :)",
+    "text": "Yes! :)\nhttps://github.com/Global-Health-Engineering/dmp-sor4d"
+  },
+  {
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#thanks-1",
+    "href": "slides/d02-eth-rdm-summer-2023.html#thanks-1",
+    "title": "open by default",
+    "section": "Thanks",
+    "text": "Thanks\n\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess: Source code of slides on GitHub\nDownload: Slides as PDF\n\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International."
   }
 ]
