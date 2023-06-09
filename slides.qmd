@@ -1,7 +1,0 @@
----
-title: "{{< fa display >}} Slides"
----
-<script defer data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
-
-- [ETH Data Stewardship Network - Kick-off Meeting](/slides/d01-eth-dsn-meeting.html) 
-- [ETH Research Data Management Summer School 2023](/slides/d02-eth-rdm-summer-2023.html)

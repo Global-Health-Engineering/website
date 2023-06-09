@@ -13,12 +13,12 @@ website:
         href: https://github.com/Global-Health-Engineering/website
     left:
       - href: index.qmd
-        text: "Home"
-      - href: slides.qmd
-        text: "Slides"
-      - text: "Tutorials"
+        text: Home
+      - href: 1-slides/index.qmd
+        text: Slides
+      - text: Tutorials
         menu: 
-          - data-package.qmd
+          - 2-tutorials/data-package.qmd
       
 format:
   html:

@@ -1,136 +1,17 @@
 [
   {
-    "objectID": "slides.html",
-    "href": "slides.html",
-    "title": " Slides",
+    "objectID": "2-tutorials/data-package.html",
+    "href": "2-tutorials/data-package.html",
+    "title": "Develop and publish an R data package",
     "section": "",
-    "text": "ETH Data Stewardship Network - Kick-off Meeting\nETH Research Data Management Summer School 2023"
+    "text": "This tutorial was used as a workshop for team members of the Global Health Engineering group. It is part of a greater data management strategy and covers the aspired research data publication and archiving method.\nThe objectives are to:\n\nmake data cite-able\nappropriately document data\npublish analysis-ready data prior to scientific article\nreduce workload at the point of submission of a scientific article\nprovide opportunities for showcasing data\ngive credit to contributors that would not be a co-author of a scientific article\nenhance reproducibility of analysis-ready data (from unprocessed raw data to tidy data)\nallow for reproducibility of scientific article by providing data alongside code\nprovide opportunities for iterations on exploratory analysis and iterations\nincrease number of group relevant datasets that can be used for teaching computational tools\n…\n\nThe “Why?” is also covered in a talk prepared for the launch meeting of the data stewardship network at ETH Zurich. It can be accessed via the Slides page.\n\n\n\nSlides: https://global-health-engineering.github.io/website/slides/d01-eth-dsn-meeting.html#/title-slide\n\nOpen GitHub\n\n{{[[TODO]]}} Decide on a name for the repository and corresponding R data package\n\nhave all small letters\nhave no spaces or dashes\nbe a combination of two to three words\nidentify location and/or theme/topic\n\n{{[[TODO]]}} Create a new repository with the following settings\n\nPublic\nDo not add a README\nDo not add a .gitignore\nDo not add a LICENSE\n\n\nOpen RStudio IDE\n\n{{[[TODO]]}} Check if R Packages [[{devtools}]] and [[{usethis}]] are installed. Install, if they are not.\n{{[[TODO]]}} Create a new project using the R Package [[{devtools}]] template and the same name you used on GitHub\n\nIf project folder does not yet exist, use\n\nFile -&gt; New Project -&gt; New Directory -&gt; R Package using devtools -&gt; Choose directory name and location of sub-directory\n\n\n{{[[TODO]]}} Add git version control to local directory\n\nIn Console, execute\n\nlibrary(usethis)\nuse_git()\n\nyes, commit\nyes, restart\n\n\n\n{{[[TODO]]}} Connect remote repository on GitHub with local repository\n\ngit remote add origin URL\ngit branch -M main\ngit push -u origin main\n\n{{[[TODO]]}} Add directory for raw-data to project\n\nIn Console, execute\n\nlibrary(devtools)\nuse_data_raw()\n\nThis will create a data-raw/ subdirectory.\n\ncontains a DATASET.R file\n\nrename to data_processing.R\n\n\n\n\n\n{{[[TODO]]}} Add, commit and push all changes to GitHub\n{{[[TODO]]}} On GitHub, open issue 1 for adding data to data-raw/ folder\n\nuse an issue template (example: https://github.com/openwashdata/cbssuitabilityhaiti/issues/1#issue-1657507593)\n\n{{[[TODO]]}} Prepare import of data and export of tidy raw data in data_processing.R file\n\n```javascript\n\n\n\nlibrary(readr)\nkitas &lt;- read_csv(“data-raw/kennzahlen_kitas_seit2006.csv”)\n\n\nusethis::use_data(kitas, overwrite = TRUE) 9. {{[[TODO]]}} Add, commit and push all changes to GitHub      10. {{[[TODO]]}} Add `dictionary.csv` to `data-raw/` with columns:         - directory, file_name, variable_name, variable_type, description     11. {{[[TODO]]}} Once data reaches tidy state, fill `dictionary.csv` for each dataset and variable      12. {{[[TODO]]}}  On GitHub, open issue 3 for cross-checking in with data donator for correct understanding of variables in  `dictionary.csv`     13. {{[[TODO]]}} Initiate documentation folder for writing up metadata and documentation for objects         - Create new folder R             - `usethis::use_r`     14. {{[[TODO]]}} Install openwashdata R package         - `devtools::install_github(\"openwashdata/openwashdata\")`     15. {{[[TODO]]}} Write documentation in `\\R` folder using #[[{roxygen}]] comments         -javascript openwashdata::generate_roxygen_docs( input_file_path = “data-raw/dictionary.csv”, output_file_path = “R/kitas.R”)- Include a title         - Include a description         - Write a source             -javascript #’ @source https://data.stadt-zuerich.ch/dataset/sd_zv_kitas_kennzahlen- If `dictionary.csv` is complete use function `generate_roxygen_docs` of [[{openwashdata}]] R package to document variables             - https://github.com/openwashdata/openwashdata/blob/main/R/generate_roxygen_docs.R         - Example             - https://github.com/Global-Health-Engineering/durbanplasticwaste22/blob/main/R/litterboom_counts.R             - Object has to be quoted at the end of roxygen comments         - Resource             - https://r-pkgs.org/data.html#sec-documenting-data     16. {{[[TODO]]}} Add, commit and push all changes to GitHub          - On GitHub, setup issue 4 with details to write up  `DESCRIPTION` file             - Template             - List                 - {{[[TODO]]}} Title                      - make this title short, not the title of the thesis                 - {{[[TODO]]}} Description                     - Brief and to the point describing what's in the data                 - {{[[TODO]]}} Contributors (name, email, role, ORCID)                     - Include everyone here                     - Roles                         - cre = maintainer                         - aut = significant contributions                         - ctb = contributor with smaller contributios             - Resource                 - https://r-pkgs.org/description.html     17. {{[[TODO]]}} Complete `DESCRIPTION` file         - Add author             -javascript use_author( given = “Lars”, family = “Schöbitz”, role = c(“aut”, “cre”), email = “lschoebitz(at)ethz.ch”, comment = c(ORCID = “0000-0003-2196-5015”) )- Roles                 - cre = maintainer                 - aut = significant contributions                 - ctb = contributor with smaller contributios         - Add license             - `usethis::use_cc_by()`     18. {{[[TODO]]}} Add, commit and push all changes to GitHub      19. {{[[TODO]]}} Use `devtools` to load, document, check, and install         - Use keyboard shortcuts             - `devtools::load_all()` \"Cmd + Shift + L\"             - `devtools::document()` \"Cmd + Shift + D\"             - `devtools::check()` \"Cmd + Shift + E\"             - `devtools::install()` \"Cmd + Shift + B\"     20. {{[[TODO]]}} Add `CITATION.cff`          -javascript library(cffr) cff_write()- use the [[{cffr}]] Package once the Description file is complete         - current #gist to be turned into function for [[{openwashdata}]] R package             - https://gist.github.com/larnsce/dccdb26762837618c6dda82a5614b584             - needs doi paramater, which will only be used after first release to Zenodo     21. {{[[TODO]]}} Add, commit and push all changes to GitHub      22. {{[[TODO]]}} Create a rmd README for package         - `usethis::use_readme_rmd()`             - Outline template                 -javascript readr::read_csv(“data-raw/dictionary.csv”) |&gt; dplyr::select(variable_name:description) |&gt; gt::gt()``- https://github.com/Global-Health-Engineering/durbanplasticwaste22/blob/main/README.Rmd         -devtools::build_readme()23. {{[[TODO]]}} Add, commit and push all changes to GitHub          - On GitHub, open issue 5 to define who writes up which parts of the README     24. {{[[TODO]]}} Create an examples article for the package         -usethis::use_article(“examples”)-devtools::build_rmd(“vignettes/articles/examples.Rmd”)- Resources             - https://r-pkgs.org/vignettes.html#sec-vignettes-workflow-writing         - Prepare one or two data visualisation or table examples     19. {{[[TODO]]}} Usedevtoolsto load, document, check, and install         - Use keyboard shortcuts             -devtools::load_all()\"Cmd + Shift + L\"             -devtools::document()\"Cmd + Shift + D\"             -devtools::check()\"Cmd + Shift + E\"             -devtools::install()\"Cmd + Shift + B\"         -usethis::use_github_action_check_standard()?- checks build for Mac, Windows, Linux     26. {{[[TODO]]}} Setup pkgdown configuration and github actions         -usethis::use_pkgdown- open_pkgdown.yml- {{[[TODO]]}} add github pages URL             - {{[[TODO]]}} add plausible script (plausible for openwashdata to be setup)                 - template:                     - bootstrap: 5                     - includes:                         - in_header: |                             - &lt;script defer data-domain=\"global-health-engineering.github.io/durbanplasticwaste\" src=\"https://plausible.io/js/script.js\"&gt;&lt;/script&gt;     27. {{[[TODO]]}} Build pkgdown website         -pkgdown::build_site()28. {{[[TODO]]}} Add, commit and push all changes to GitHub      29. {{[[TODO]]}} Edit Home Index         - use this as template: https://github.com/Global-Health-Engineering/durbanplasticwaste/blob/main/_pkgdown.yml             - consider writing pkgdown template for this: https://github.com/openwashdata/book/issues/16                 - https://github.com/tidyverse/tidytemplate         - https://pkgdown.r-lib.org/articles/pkgdown.html#home-page         - explore: https://pkgdown.r-lib.org/articles/customise.html - **Open GitHub**     - Publish as GitHub Pages - **Open Zenodo**     - {{[[TODO]]}} login with GitHub account     - {{[[TODO]]}} click on dropdown next to email address in top right         - select GitHub         - find the repository in the list         - and flip switch to \"ON\"         - click on repo link     - {{[[TODO]]}} create release v0.0.1 on GitHub         - initial package releas     - {{[[TODO]]}} Get the DOI Badge     - {{[[TODO]]}} Edit the main page and remove text under Additional notes - **Open RStudio IDE**     - {{[[TODO]]}} Add DOI badge to repository README.md     - {{[[TODO]]}} Edit DESCRIPTION         - edit version number     - {{[[TODO]]}} Write CITATION.cff and inst/CITATION with DOI entry using #gist or respective [[{openwashdata}]] R Package         - https://gist.github.com/larnsce/dccdb26762837618c6dda82a5614b584     - {{[[TODO]]}}pkgdown::build_site()` - Open ETH Research Collection (not for openwashdata, but GHE workflow) - research data -&gt; dataset - organisational unit - tilley - license - creative commons attribution 4.0 International - Common items to be fixed - R CMD CHECK - Notes - unable to verify current time - Fix: https://stackoverflow.com/a/63837547/6816220 - Non-standard files/directories found at top level: - Fix: https://stackoverflow.com/questions/48955103/non-standard-file-directory-found-at-top-level-readme-rmd-persists-even-after"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
+    "objectID": "2-tutorials/data-package.html#code-to-prepare-dataset-dataset-goes-here",
+    "href": "2-tutorials/data-package.html#code-to-prepare-dataset-dataset-goes-here",
+    "title": "Develop and publish an R data package",
     "section": "",
-    "text": "This website provides access to slides, tutorials, and other teaching material developed by the Global Health Engineering group at ETH Zurich."
-  },
-  {
-    "objectID": "slides/d01-eth-dsn-meeting.html#lars-schöbitz",
-    "href": "slides/d01-eth-dsn-meeting.html#lars-schöbitz",
-    "title": "DSN Kick-off",
-    "section": "Lars Schöbitz",
-    "text": "Lars Schöbitz\n\n\n\n\n\n\n\n\n\nEnvironmental Engineer\n\nOpen Science Specialist at Global Health Engineering\nRStudio certified instructor for Data Science with R\nTwitter: @larnsce"
-  },
-  {
-    "objectID": "slides/d01-eth-dsn-meeting.html#my-role---open-science-specialist",
-    "href": "slides/d01-eth-dsn-meeting.html#my-role---open-science-specialist",
-    "title": "DSN Kick-off",
-    "section": "My role - Open Science Specialist",
-    "text": "My role - Open Science Specialist\n\nresearch data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing\n\n\nJob Description: Open Science Specialist"
-  },
-  {
-    "objectID": "slides/d01-eth-dsn-meeting.html#data-at-global-health-engineering",
-    "href": "slides/d01-eth-dsn-meeting.html#data-at-global-health-engineering",
-    "title": "DSN Kick-off",
-    "section": "Data at Global Health Engineering",
-    "text": "Data at Global Health Engineering\n\n\n\nsmall (few MBs)\ntabular\nnon-sensitive\ntopics\n\nwaste management\nsanitation\nair quality\netc.\n\n\n\n\n\n\n\n\n\n\n\nPhoto: Kiteezi Landfill, Kampala, Uganda"
-  },
-  {
-    "objectID": "slides/d01-eth-dsn-meeting.html#problem-statement",
-    "href": "slides/d01-eth-dsn-meeting.html#problem-statement",
-    "title": "DSN Kick-off",
-    "section": "Problem statement",
-    "text": "Problem statement\n\n\nScreenshot from Greene et al. (2021)"
-  },
-  {
-    "objectID": "slides/d01-eth-dsn-meeting.html#problem-statement-1",
-    "href": "slides/d01-eth-dsn-meeting.html#problem-statement-1",
-    "title": "DSN Kick-off",
-    "section": "Problem statement",
-    "text": "Problem statement\n\n\nScreenshot from Greene et al. (2021)"
-  },
-  {
-    "objectID": "slides/d01-eth-dsn-meeting.html#open-research-data-ord-funding-programmes",
-    "href": "slides/d01-eth-dsn-meeting.html#open-research-data-ord-funding-programmes",
-    "title": "DSN Kick-off",
-    "section": "Open Research Data (ORD) funding programmes",
-    "text": "Open Research Data (ORD) funding programmes\n\nExplore project (150k): https://openwashdata.org/pages/proposal/\nContribute project (30k): https://github.com/openwashdata/proposal-eth-ord-scheme-contribute/blob/main/proposal-eth-ord-scheme-contribute.md"
-  },
-  {
-    "objectID": "slides/d01-eth-dsn-meeting.html#upcoming-funding-opportunities",
-    "href": "slides/d01-eth-dsn-meeting.html#upcoming-funding-opportunities",
-    "title": "DSN Kick-off",
-    "section": "Upcoming funding opportunities",
-    "text": "Upcoming funding opportunities\n\n\nForthcoming submission dates (ORD calls ETH Domain and Swissuniversities) © Office of Research"
-  },
-  {
-    "objectID": "slides/d01-eth-dsn-meeting.html#data-stewardship-activities",
-    "href": "slides/d01-eth-dsn-meeting.html#data-stewardship-activities",
-    "title": "DSN Kick-off",
-    "section": "Data stewardship activities",
-    "text": "Data stewardship activities\n\nETH4D data management support\nETH4D skills course (HS 2023) - 0.5 ECTS: Open Research Data - Tools and a workflow for the modern researcher"
-  },
-  {
-    "objectID": "slides/d01-eth-dsn-meeting.html#thanks-1",
-    "href": "slides/d01-eth-dsn-meeting.html#thanks-1",
-    "title": "DSN Kick-off",
-    "section": "Thanks",
-    "text": "Thanks\n\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess: Source code of slides on GitHub\nDownload: Slides as PDF\n\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International."
-  },
-  {
-    "objectID": "slides/d01-eth-dsn-meeting.html#references",
-    "href": "slides/d01-eth-dsn-meeting.html#references",
-    "title": "DSN Kick-off",
-    "section": "References",
-    "text": "References\n\n\nhttps://global-health-engineering.github.io/website/slides.html\n\n\n\nGreene, Nicola, Sarah Hennessy, Tate W. Rogers, Jocelyn Tsai, and Francis L. de los Reyes III. 2021. “The Role of Emptying Services in Provision of Safely Managed Sanitation: A Classification and Quantification of the Needs of LMICs.” Journal of Environmental Management 290 (July): 112612. https://doi.org/10.1016/j.jenvman.2021.112612."
-  },
-  {
-    "objectID": "slides/d02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
-    "href": "slides/d02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
-    "title": "open by default",
-    "section": "My role - Open Science Specialist",
-    "text": "My role - Open Science Specialist\n\nresearch data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing\n\n\nOpen Science Specialist - Job Description"
-  },
-  {
-    "objectID": "slides/d02-eth-rdm-summer-2023.html#data-management-strategy",
-    "href": "slides/d02-eth-rdm-summer-2023.html#data-management-strategy",
-    "title": "open by default",
-    "section": "Data Management Strategy",
-    "text": "Data Management Strategy"
-  },
-  {
-    "objectID": "slides/d02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
-    "href": "slides/d02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
-    "title": "open by default",
-    "section": "Data at Global Health Engineering",
-    "text": "Data at Global Health Engineering\n\n\n\nsmall (few MBs)\ntabular\nnon-sensitive\ntopics\n\nwaste management\nsanitation\nair quality\netc.\n\n\n\n\n\n\n\n\n\n\n\nPhoto: Kiteezi Landfill, Kampala, Uganda"
-  },
-  {
-    "objectID": "slides/d02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
-    "href": "slides/d02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
-    "title": "open by default",
-    "section": "Lost and overwhelmed",
-    "text": "Lost and overwhelmed\n\n\n\nterminology\nlicensing\nsecurity\nrepositories\n\n\n\n\n\n\n\n\n\n\nPhoto by Christian Erfurt on unsplash.com\n\n\n\nterminology (underlying data, raw data, processed data, metadata, open sources, open access, …)\nlicensing (CC-BY, MIT, public domain, code, data)\nsecurity & privacy (phone numbers, GPS locations of houses)\nrepositories (documentation, upload, maintenance)"
-  },
-  {
-    "objectID": "slides/d02-eth-rdm-summer-2023.html#computational-tools",
-    "href": "slides/d02-eth-rdm-summer-2023.html#computational-tools",
-    "title": "open by default",
-    "section": "Computational tools",
-    "text": "Computational tools\n\n\n\nintimidating\nhard\nnot everyone’s business\n\n\n\n\n\n\n\n\n\n\n\njupyter notebooks\nopen file formats\nversion control systems\n\n\n\n\nPhoto by Amza Andrei on unsplash.com"
-  },
-  {
-    "objectID": "slides/d02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
-    "href": "slides/d02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
-    "title": "open by default",
-    "section": "Scientist as a lone ranger",
-    "text": "Scientist as a lone ranger\n\n\n\nacts alone\nexposure to tools\nown stack of tools\nthe way to do it\n\n\n\n\n\n\n\n\n\n\nPhoto by Jeffrey Hamilton on unsplash.com\n\n\n\nacts alone (until becoming a manager/professor)\nexposure to tools (100s throughout research career at different institutions)\nown stack of tools (builds their own individual worksflows -&gt; not team oriented)\nthe way to do it (doesn’t have time to learn what would be most effective for a team)"
-  },
-  {
-    "objectID": "slides/d02-eth-rdm-summer-2023.html#thanks-1",
-    "href": "slides/d02-eth-rdm-summer-2023.html#thanks-1",
-    "title": "open by default",
-    "section": "Thanks",
-    "text": "Thanks\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nSource code: GitHub\nAccess: HTML\nDownload: PDF\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International.\n\n\nhttps://global-health-engineering.github.io/website/slides.html"
+    "text": "usethis::use_data(kitas, overwrite = TRUE) 9. {{[[TODO]]}} Add, commit and push all changes to GitHub      10. {{[[TODO]]}} Add `dictionary.csv` to `data-raw/` with columns:         - directory, file_name, variable_name, variable_type, description     11. {{[[TODO]]}} Once data reaches tidy state, fill `dictionary.csv` for each dataset and variable      12. {{[[TODO]]}}  On GitHub, open issue 3 for cross-checking in with data donator for correct understanding of variables in  `dictionary.csv`     13. {{[[TODO]]}} Initiate documentation folder for writing up metadata and documentation for objects         - Create new folder R             - `usethis::use_r`     14. {{[[TODO]]}} Install openwashdata R package         - `devtools::install_github(\"openwashdata/openwashdata\")`     15. {{[[TODO]]}} Write documentation in `\\R` folder using #[[{roxygen}]] comments         -javascript openwashdata::generate_roxygen_docs( input_file_path = “data-raw/dictionary.csv”, output_file_path = “R/kitas.R”)- Include a title         - Include a description         - Write a source             -javascript #’ @source https://data.stadt-zuerich.ch/dataset/sd_zv_kitas_kennzahlen- If `dictionary.csv` is complete use function `generate_roxygen_docs` of [[{openwashdata}]] R package to document variables             - https://github.com/openwashdata/openwashdata/blob/main/R/generate_roxygen_docs.R         - Example             - https://github.com/Global-Health-Engineering/durbanplasticwaste22/blob/main/R/litterboom_counts.R             - Object has to be quoted at the end of roxygen comments         - Resource             - https://r-pkgs.org/data.html#sec-documenting-data     16. {{[[TODO]]}} Add, commit and push all changes to GitHub          - On GitHub, setup issue 4 with details to write up  `DESCRIPTION` file             - Template             - List                 - {{[[TODO]]}} Title                      - make this title short, not the title of the thesis                 - {{[[TODO]]}} Description                     - Brief and to the point describing what's in the data                 - {{[[TODO]]}} Contributors (name, email, role, ORCID)                     - Include everyone here                     - Roles                         - cre = maintainer                         - aut = significant contributions                         - ctb = contributor with smaller contributios             - Resource                 - https://r-pkgs.org/description.html     17. {{[[TODO]]}} Complete `DESCRIPTION` file         - Add author             -javascript use_author( given = “Lars”, family = “Schöbitz”, role = c(“aut”, “cre”), email = “lschoebitz(at)ethz.ch”, comment = c(ORCID = “0000-0003-2196-5015”) )- Roles                 - cre = maintainer                 - aut = significant contributions                 - ctb = contributor with smaller contributios         - Add license             - `usethis::use_cc_by()`     18. {{[[TODO]]}} Add, commit and push all changes to GitHub      19. {{[[TODO]]}} Use `devtools` to load, document, check, and install         - Use keyboard shortcuts             - `devtools::load_all()` \"Cmd + Shift + L\"             - `devtools::document()` \"Cmd + Shift + D\"             - `devtools::check()` \"Cmd + Shift + E\"             - `devtools::install()` \"Cmd + Shift + B\"     20. {{[[TODO]]}} Add `CITATION.cff`          -javascript library(cffr) cff_write()- use the [[{cffr}]] Package once the Description file is complete         - current #gist to be turned into function for [[{openwashdata}]] R package             - https://gist.github.com/larnsce/dccdb26762837618c6dda82a5614b584             - needs doi paramater, which will only be used after first release to Zenodo     21. {{[[TODO]]}} Add, commit and push all changes to GitHub      22. {{[[TODO]]}} Create a rmd README for package         - `usethis::use_readme_rmd()`             - Outline template                 -javascript readr::read_csv(“data-raw/dictionary.csv”) |&gt; dplyr::select(variable_name:description) |&gt; gt::gt()``- https://github.com/Global-Health-Engineering/durbanplasticwaste22/blob/main/README.Rmd         -devtools::build_readme()23. {{[[TODO]]}} Add, commit and push all changes to GitHub          - On GitHub, open issue 5 to define who writes up which parts of the README     24. {{[[TODO]]}} Create an examples article for the package         -usethis::use_article(“examples”)-devtools::build_rmd(“vignettes/articles/examples.Rmd”)- Resources             - https://r-pkgs.org/vignettes.html#sec-vignettes-workflow-writing         - Prepare one or two data visualisation or table examples     19. {{[[TODO]]}} Usedevtoolsto load, document, check, and install         - Use keyboard shortcuts             -devtools::load_all()\"Cmd + Shift + L\"             -devtools::document()\"Cmd + Shift + D\"             -devtools::check()\"Cmd + Shift + E\"             -devtools::install()\"Cmd + Shift + B\"         -usethis::use_github_action_check_standard()?- checks build for Mac, Windows, Linux     26. {{[[TODO]]}} Setup pkgdown configuration and github actions         -usethis::use_pkgdown- open_pkgdown.yml- {{[[TODO]]}} add github pages URL             - {{[[TODO]]}} add plausible script (plausible for openwashdata to be setup)                 - template:                     - bootstrap: 5                     - includes:                         - in_header: |                             - &lt;script defer data-domain=\"global-health-engineering.github.io/durbanplasticwaste\" src=\"https://plausible.io/js/script.js\"&gt;&lt;/script&gt;     27. {{[[TODO]]}} Build pkgdown website         -pkgdown::build_site()28. {{[[TODO]]}} Add, commit and push all changes to GitHub      29. {{[[TODO]]}} Edit Home Index         - use this as template: https://github.com/Global-Health-Engineering/durbanplasticwaste/blob/main/_pkgdown.yml             - consider writing pkgdown template for this: https://github.com/openwashdata/book/issues/16                 - https://github.com/tidyverse/tidytemplate         - https://pkgdown.r-lib.org/articles/pkgdown.html#home-page         - explore: https://pkgdown.r-lib.org/articles/customise.html - **Open GitHub**     - Publish as GitHub Pages - **Open Zenodo**     - {{[[TODO]]}} login with GitHub account     - {{[[TODO]]}} click on dropdown next to email address in top right         - select GitHub         - find the repository in the list         - and flip switch to \"ON\"         - click on repo link     - {{[[TODO]]}} create release v0.0.1 on GitHub         - initial package releas     - {{[[TODO]]}} Get the DOI Badge     - {{[[TODO]]}} Edit the main page and remove text under Additional notes - **Open RStudio IDE**     - {{[[TODO]]}} Add DOI badge to repository README.md     - {{[[TODO]]}} Edit DESCRIPTION         - edit version number     - {{[[TODO]]}} Write CITATION.cff and inst/CITATION with DOI entry using #gist or respective [[{openwashdata}]] R Package         - https://gist.github.com/larnsce/dccdb26762837618c6dda82a5614b584     - {{[[TODO]]}}pkgdown::build_site()` - Open ETH Research Collection (not for openwashdata, but GHE workflow) - research data -&gt; dataset - organisational unit - tilley - license - creative commons attribution 4.0 International - Common items to be fixed - R CMD CHECK - Notes - unable to verify current time - Fix: https://stackoverflow.com/a/63837547/6816220 - Non-standard files/directories found at top level: - Fix: https://stackoverflow.com/questions/48955103/non-standard-file-directory-found-at-top-level-readme-rmd-persists-even-after"
   },
   {
     "objectID": "factsheet/factsheet-eth-rdm-summer-2023.html",
@@ -173,5 +54,152 @@
     "title": "open by default",
     "section": "Scientist as a lone ranger",
     "text": "Scientist as a lone ranger\n\nacts alone (until becoming a manager/professor)\nexposure to tools (100s throughout research career at different institutions)\nown stack of tools (builds their own individual worksflows -&gt; not team oriented)\nthe way to do it (doesn’t have time to learn what would be most effective for a team)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "This website provides access to slides, tutorials, and other teaching material developed by the Global Health Engineering group at ETH Zurich."
+  },
+  {
+    "objectID": "1-slides/d01-eth-dsn-meeting.html#lars-schöbitz",
+    "href": "1-slides/d01-eth-dsn-meeting.html#lars-schöbitz",
+    "title": "DSN Kick-off",
+    "section": "Lars Schöbitz",
+    "text": "Lars Schöbitz\n\n\n\n\n\n\n\n\n\nEnvironmental Engineer\n\nOpen Science Specialist at Global Health Engineering\nRStudio certified instructor for Data Science with R\nTwitter: @larnsce"
+  },
+  {
+    "objectID": "1-slides/d01-eth-dsn-meeting.html#my-role---open-science-specialist",
+    "href": "1-slides/d01-eth-dsn-meeting.html#my-role---open-science-specialist",
+    "title": "DSN Kick-off",
+    "section": "My role - Open Science Specialist",
+    "text": "My role - Open Science Specialist\n\nresearch data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing\n\n\nJob Description: Open Science Specialist"
+  },
+  {
+    "objectID": "1-slides/d01-eth-dsn-meeting.html#data-at-global-health-engineering",
+    "href": "1-slides/d01-eth-dsn-meeting.html#data-at-global-health-engineering",
+    "title": "DSN Kick-off",
+    "section": "Data at Global Health Engineering",
+    "text": "Data at Global Health Engineering\n\n\n\nsmall (few MBs)\ntabular\nnon-sensitive\ntopics\n\nwaste management\nsanitation\nair quality\netc.\n\n\n\n\n\n\n\n\n\n\n\nPhoto: Kiteezi Landfill, Kampala, Uganda"
+  },
+  {
+    "objectID": "1-slides/d01-eth-dsn-meeting.html#problem-statement",
+    "href": "1-slides/d01-eth-dsn-meeting.html#problem-statement",
+    "title": "DSN Kick-off",
+    "section": "Problem statement",
+    "text": "Problem statement\n\n\nScreenshot from Greene et al. (2021)"
+  },
+  {
+    "objectID": "1-slides/d01-eth-dsn-meeting.html#problem-statement-1",
+    "href": "1-slides/d01-eth-dsn-meeting.html#problem-statement-1",
+    "title": "DSN Kick-off",
+    "section": "Problem statement",
+    "text": "Problem statement\n\n\nScreenshot from Greene et al. (2021)"
+  },
+  {
+    "objectID": "1-slides/d01-eth-dsn-meeting.html#open-research-data-ord-funding-programmes",
+    "href": "1-slides/d01-eth-dsn-meeting.html#open-research-data-ord-funding-programmes",
+    "title": "DSN Kick-off",
+    "section": "Open Research Data (ORD) funding programmes",
+    "text": "Open Research Data (ORD) funding programmes\n\nExplore project (150k): https://openwashdata.org/pages/proposal/\nContribute project (30k): https://github.com/openwashdata/proposal-eth-ord-scheme-contribute/blob/main/proposal-eth-ord-scheme-contribute.md"
+  },
+  {
+    "objectID": "1-slides/d01-eth-dsn-meeting.html#upcoming-funding-opportunities",
+    "href": "1-slides/d01-eth-dsn-meeting.html#upcoming-funding-opportunities",
+    "title": "DSN Kick-off",
+    "section": "Upcoming funding opportunities",
+    "text": "Upcoming funding opportunities\n\n\nForthcoming submission dates (ORD calls ETH Domain and Swissuniversities) © Office of Research"
+  },
+  {
+    "objectID": "1-slides/d01-eth-dsn-meeting.html#data-stewardship-activities",
+    "href": "1-slides/d01-eth-dsn-meeting.html#data-stewardship-activities",
+    "title": "DSN Kick-off",
+    "section": "Data stewardship activities",
+    "text": "Data stewardship activities\n\nETH4D data management support\nETH4D skills course (HS 2023) - 0.5 ECTS: Open Research Data - Tools and a workflow for the modern researcher"
+  },
+  {
+    "objectID": "1-slides/d01-eth-dsn-meeting.html#thanks-1",
+    "href": "1-slides/d01-eth-dsn-meeting.html#thanks-1",
+    "title": "DSN Kick-off",
+    "section": "Thanks",
+    "text": "Thanks\n\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess: Source code of slides on GitHub\nDownload: Slides as PDF\n\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International."
+  },
+  {
+    "objectID": "1-slides/d01-eth-dsn-meeting.html#references",
+    "href": "1-slides/d01-eth-dsn-meeting.html#references",
+    "title": "DSN Kick-off",
+    "section": "References",
+    "text": "References\n\n\nhttps://global-health-engineering.github.io/website/slides.html\n\n\n\nGreene, Nicola, Sarah Hennessy, Tate W. Rogers, Jocelyn Tsai, and Francis L. de los Reyes III. 2021. “The Role of Emptying Services in Provision of Safely Managed Sanitation: A Classification and Quantification of the Needs of LMICs.” Journal of Environmental Management 290 (July): 112612. https://doi.org/10.1016/j.jenvman.2021.112612."
+  },
+  {
+    "objectID": "1-slides/index.html",
+    "href": "1-slides/index.html",
+    "title": " Slides",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "1-slides/index.html#eth-data-stewardship-network---kick-off-meeting",
+    "href": "1-slides/index.html#eth-data-stewardship-network---kick-off-meeting",
+    "title": " Slides",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "1-slides/index.html#eth-research-data-management-summer-school-2023",
+    "href": "1-slides/index.html#eth-research-data-management-summer-school-2023",
+    "title": " Slides",
+    "section": "ETH Research Data Management Summer School 2023",
+    "text": "ETH Research Data Management Summer School 2023\nView slides in full screen"
+  },
+  {
+    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
+    "href": "1-slides/d02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
+    "title": "open by default",
+    "section": "My role - Open Science Specialist",
+    "text": "My role - Open Science Specialist\n\nresearch data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing\n\n\nOpen Science Specialist - Job Description"
+  },
+  {
+    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#data-management-strategy",
+    "href": "1-slides/d02-eth-rdm-summer-2023.html#data-management-strategy",
+    "title": "open by default",
+    "section": "Data Management Strategy",
+    "text": "Data Management Strategy"
+  },
+  {
+    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
+    "href": "1-slides/d02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
+    "title": "open by default",
+    "section": "Data at Global Health Engineering",
+    "text": "Data at Global Health Engineering\n\n\n\nsmall (few MBs)\ntabular\nnon-sensitive\ntopics\n\nwaste management\nsanitation\nair quality\netc.\n\n\n\n\n\n\n\n\n\n\n\nPhoto: Kiteezi Landfill, Kampala, Uganda"
+  },
+  {
+    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
+    "href": "1-slides/d02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
+    "title": "open by default",
+    "section": "Lost and overwhelmed",
+    "text": "Lost and overwhelmed\n\n\n\nterminology\nlicensing\nsecurity\nrepositories\n\n\n\n\n\n\n\n\n\n\nPhoto by Christian Erfurt on unsplash.com\n\n\n\nterminology (underlying data, raw data, processed data, metadata, open sources, open access, …)\nlicensing (CC-BY, MIT, public domain, code, data)\nsecurity & privacy (phone numbers, GPS locations of houses)\nrepositories (documentation, upload, maintenance)"
+  },
+  {
+    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#computational-tools",
+    "href": "1-slides/d02-eth-rdm-summer-2023.html#computational-tools",
+    "title": "open by default",
+    "section": "Computational tools",
+    "text": "Computational tools\n\n\n\nintimidating\nhard\nnot everyone’s business\n\n\n\n\n\n\n\n\n\n\n\njupyter notebooks\nopen file formats\nversion control systems\n\n\n\n\nPhoto by Amza Andrei on unsplash.com"
+  },
+  {
+    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
+    "href": "1-slides/d02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
+    "title": "open by default",
+    "section": "Scientist as a lone ranger",
+    "text": "Scientist as a lone ranger\n\n\n\nacts alone\nexposure to tools\nown stack of tools\nthe way to do it\n\n\n\n\n\n\n\n\n\n\nPhoto by Jeffrey Hamilton on unsplash.com\n\n\n\nacts alone (until becoming a manager/professor)\nexposure to tools (100s throughout research career at different institutions)\nown stack of tools (builds their own individual worksflows -&gt; not team oriented)\nthe way to do it (doesn’t have time to learn what would be most effective for a team)"
+  },
+  {
+    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#thanks-1",
+    "href": "1-slides/d02-eth-rdm-summer-2023.html#thanks-1",
+    "title": "open by default",
+    "section": "Thanks",
+    "text": "Thanks\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nSource code: GitHub\nAccess: HTML\nDownload: PDF\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International.\n\n\nhttps://global-health-engineering.github.io/website/slides.html"
   }
 ]
