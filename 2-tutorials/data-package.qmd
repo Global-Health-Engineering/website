@@ -1,226 +1,315 @@
 ---
-title: "Develop and publish an R data package"
-subtitle: "the GHE way"
+title: "R data package - the GHE way"
 ---
 
-# Why?
+## Why?
 
-This tutorial was used as a workshop for team members of the Global Health Engineering group. It is part of a greater data management strategy and covers the aspired research data publication and archiving method. 
+This tutorial was used as a workshop for team members of the Global Health Engineering group. It is part of a greater data management strategy and covers the aspired research data publication and archiving method.
 
 The objectives are to:
 
-- make data cite-able 
-- appropriately document data
-- publish analysis-ready data prior to scientific article
-- reduce workload at the point of submission of a scientific article
-- provide opportunities for showcasing data
-- give credit to contributors that would not be a co-author of a scientific article
-- enhance reproducibility of analysis-ready data (from unprocessed raw data to tidy data)
-- allow for reproducibility of scientific article by providing data alongside code
-- provide opportunities for iterations on exploratory analysis and iterations
-- increase number of group relevant datasets that can be used for teaching computational tools
-- ...
+-   make data cite-able
+-   appropriately document data
+-   publish analysis-ready data prior to scientific article
+-   reduce workload at the point of submission of a scientific article
+-   provide opportunities for showcasing data
+-   give credit to contributors that would not be a co-author of a scientific article
+-   enhance reproducibility of analysis-ready data (from unprocessed raw data to tidy data)
+-   allow for reproducibility of scientific article by providing data alongside code
+-   provide opportunities for iterations on exploratory analysis and iterations
+-   increase number of group relevant datasets that can be used for teaching computational tools
+-   ...
 
-The "Why?" is also covered in a talk prepared for the launch meeting of the data stewardship network at ETH Zurich. It can be accessed via the [Slides](../slides/) page.
+The "Why?" is also covered in a talk prepared for the launch meeting of the data stewardship network at ETH Zurich. It can be accessed via the [Slides](../1-slides/) page.
 
-- # Part 1: Why? (15 minutes)
-    - Slides: https://global-health-engineering.github.io/website/slides/d01-eth-dsn-meeting.html#/title-slide
-- **Open GitHub**
-    1. {{[[TODO]]}} Decide on a name for the repository and corresponding R data package
-        - have all small letters
-        - have no spaces or dashes
-        - be a combination of two to three words
-        - identify location and/or theme/topic
-    2. {{[[TODO]]}} Create a new repository with the following settings
-        - Public
-        - Do **not** add a README
-        - Do **not** add a .gitignore
-        - Do **not** add a LICENSE
-- **Open RStudio IDE**
-    1. {{[[TODO]]}} Check if R Packages [[{devtools}]] and [[{usethis}]] are installed. Install, if they are not.
-    2. {{[[TODO]]}} Create a new project using the R Package [[{devtools}]] template and the same name you used on GitHub
-        - If project folder does not yet exist, use
-            - File -> New Project -> New Directory -> R Package using devtools -> Choose directory name and location of sub-directory
-    3. {{[[TODO]]}} Add git version control to local directory
-        - In Console, execute
-            - `library(usethis)`
-            - `use_git()`
-                - yes, commit
-                - yes, restart
-    4. {{[[TODO]]}} Connect remote repository on GitHub with local repository
-        - `git remote add origin URL`
-        - `git branch -M main`
-        - `git push -u origin main`
-    5. {{[[TODO]]}} Add directory for raw-data to project
-        - In Console, execute
-            - `library(devtools)`
-            - `use_data_raw()`
-                - This will create a `data-raw/` subdirectory.
-                    - contains a DATASET.R file
-                        - rename to `data_processing.R`
-    6. {{[[TODO]]}} Add, commit and push all changes to GitHub 
-    7. {{[[TODO]]}} On GitHub, open issue 1 for adding data to `data-raw/` folder
-        - use an issue template (example: https://github.com/openwashdata/cbssuitabilityhaiti/issues/1#issue-1657507593)
-    8. {{[[TODO]]}} Prepare import of data and export of tidy raw data in `data_processing.R` file
-        - ```javascript
+## Part 1 - Create GitHub repo
+
+1.  Decide on a name for the repository and corresponding R data package
+    -   have all small letters
+    -   have no spaces or dashes
+    -   be a combination of two to three words
+    -   identify location and/or theme/topic
+    
+2.  Open <https://github.com/> and start a new repo with the following settings
+    -   Public
+    -   Do **not** add a README
+    -   Do **not** add a .gitignore
+    -   Do **not** add a LICENSE
+
+## Part 2 - Write the package
+
+1.  Open RStudio IDE
+
+2.  Create a new project using the R Package devtools and the same name you used for the repository on GitHub
+
+    -   File -\> New Project -\> New Directory -\> R Package using devtools -\> Choose directory name and location of sub-directory
+
+3.  Add git version control to local directory
+
+```{{r}}
+usethis::use_git()
+```
+
+-   yes, commit
+-   yes, restart
+
+1.  Connect local repo with remote repo
+
+-   open your repository site on GitHub
+-   copy the commands under "...or push an existing repository from the command line"
+-   open the Terminal within RStudio IDE (tab next to Console)
+-   paste and execute the commands you copied from GitHub
+
+```         
+git remote add origin URL
+git branch -M main
+git push -u origin main
+```
+
+1.  Add `data-raw/`directory to package
+
+```{{r}}
+usethis::use_data_raw()
+```
+
+
+This will create a `data-raw/` directory.
+
+-   contains a `DATASET.R`
+-   rename to `data_processing.R`
+
+1.  Add, commit and push all changes to GitHub
+
+2.  If you have an external data donation, open issue 1 on the GitHub repository to communicate about raw data submission ([example for issue template](https://github.com/openwashdata/cbssuitabilityhaiti/issues/1#issue-1657507593))
+
+3.  If you have the raw data available, add to the `data-raw` directory using your file management system
+
+4.  Prepare initial import of and export of data in `data_processing.R`
+
+-   replace `dataset` with a short name in **small letters** that describes your data
+    -   if the package will consist of single dataset, chose the same as the name for your package
+    -   if you will have several datasets in your package, chose a short name (one word) in small letters
+
+```{{r}}
+# description -------------------------------------------------------------
+
+# R script to process uploaded raw data into a tidy dataframe
+
+# load packages -----------------------------------------------------------
 
 library(readr)
 
-kitas <- read_csv("data-raw/kennzahlen_kitas_seit2006.csv")
+# read data ---------------------------------------------------------------
 
-## code to prepare `DATASET` dataset goes here
+dataset <- read_csv("data-raw/data.csv")
 
-usethis::use_data(kitas, overwrite = TRUE)
+# tidy data ---------------------------------------------------------------
+
+## code to prepare a tidy, analysis-ready dataset goes here
+
+# write data --------------------------------------------------------------
+
+usethis::use_data(dataset, overwrite = TRUE)
+
 ```
-    9. {{[[TODO]]}} Add, commit and push all changes to GitHub 
-    10. {{[[TODO]]}} Add `dictionary.csv` to `data-raw/` with columns:
-        - directory, file_name, variable_name, variable_type, description
-    11. {{[[TODO]]}} Once data reaches tidy state, fill `dictionary.csv` for each dataset and variable 
-    12. {{[[TODO]]}}  On GitHub, open issue 3 for cross-checking in with data donator for correct understanding of variables in  `dictionary.csv`
-    13. {{[[TODO]]}} Initiate documentation folder for writing up metadata and documentation for objects
-        - Create new folder R
-            - `usethis::use_r`
-    14. {{[[TODO]]}} Install openwashdata R package
-        - `devtools::install_github("openwashdata/openwashdata")`
-    15. {{[[TODO]]}} Write documentation in `\R` folder using #[[{roxygen}]] comments
-        - ```javascript
-openwashdata::generate_roxygen_docs(
-  input_file_path = "data-raw/dictionary.csv", 
-  output_file_path = "R/kitas.R")```
-        - Include a title
-        - Include a description
-        - Write a source
-            - ```javascript
-#' @source <https://data.stadt-zuerich.ch/dataset/sd_zv_kitas_kennzahlen>```
-        - If `dictionary.csv` is complete use function `generate_roxygen_docs` of [[{openwashdata}]] R package to document variables
-            - https://github.com/openwashdata/openwashdata/blob/main/R/generate_roxygen_docs.R
-        - Example
-            - https://github.com/Global-Health-Engineering/durbanplasticwaste22/blob/main/R/litterboom_counts.R
-            - Object has to be quoted at the end of roxygen comments
-        - Resource
-            - https://r-pkgs.org/data.html#sec-documenting-data
-    16. {{[[TODO]]}} Add, commit and push all changes to GitHub 
-        - On GitHub, setup issue 4 with details to write up  `DESCRIPTION` file
-            - Template
-            - List
-                - {{[[TODO]]}} Title 
-                    - make this title short, not the title of the thesis
-                - {{[[TODO]]}} Description
-                    - Brief and to the point describing what's in the data
-                - {{[[TODO]]}} Contributors (name, email, role, ORCID)
-                    - Include everyone here
-                    - Roles
-                        - cre = maintainer
-                        - aut = significant contributions
-                        - ctb = contributor with smaller contributios
-            - Resource
-                - https://r-pkgs.org/description.html
-    17. {{[[TODO]]}} Complete `DESCRIPTION` file
-        - Add author
-            - ```javascript
-use_author(
-  given = "Lars",
-  family = "Schöbitz",
-  role = c("aut", "cre"),
-  email = "lschoebitz(at)ethz.ch",
-  comment = c(ORCID = "0000-0003-2196-5015")
-)```
-            - Roles
-                - cre = maintainer
-                - aut = significant contributions
-                - ctb = contributor with smaller contributios
-        - Add license
-            - `usethis::use_cc_by()`
-    18. {{[[TODO]]}} Add, commit and push all changes to GitHub 
-    19. {{[[TODO]]}} Use `devtools` to load, document, check, and install
-        - Use keyboard shortcuts
-            - `devtools::load_all()` "Cmd + Shift + L"
-            - `devtools::document()` "Cmd + Shift + D"
-            - `devtools::check()` "Cmd + Shift + E"
-            - `devtools::install()` "Cmd + Shift + B"
-    20. {{[[TODO]]}} Add `CITATION.cff` 
-        - ```javascript
-library(cffr)
-cff_write()```
-        - use the [[{cffr}]] Package once the Description file is complete
-        - current #gist to be turned into function for [[{openwashdata}]] R package
-            - https://gist.github.com/larnsce/dccdb26762837618c6dda82a5614b584
-            - needs doi paramater, which will only be used after first release to Zenodo
-    21. {{[[TODO]]}} Add, commit and push all changes to GitHub 
-    22. {{[[TODO]]}} Create a rmd README for package
-        - `usethis::use_readme_rmd()`
-            - Outline template
-                - ```javascript
+
+1.  Add, commit and push all changes to GitHub
+
+2.  Prepare data dictionary to document the variables of the exported dataset
+
+-   create a new text file named `dictionary.csv`
+-   add the following columns as the first line of the file: directory, file_name, variable_name, variable_type, description
+-   in column `variable_name` list all variables of your dataset
+-   in column `description` provide a one line description for each variable
+
+1.  On GitHub, open issue to cross-check in with data donator for correct understanding of variables in `dictionary.csv`
+
+2.  Install openwashdata R package
+
+```{{r}}
+devtools::install_github("openwashdata/openwashdata")
+```
+
+1.  Initiate documentation folder for writing up metadata and documentation for objects
+
+-   replace dataset with the same name that you used for the object you exported with `usethis::use_data()` in `data_processing.R`
+
+```{{r}}
+usethis::use_r("dataset")
+```
+
+-   opens a new R script
+
+1.  Add documentation from data dictionary to script as roxygen comments
+
+```{{r}}
+openwashdata::generate_roxygen_docs("data-raw/dictionary.csv", output_file_path = "R/dataset.R")
+```
+
+-   example of [durbanplasticwaste documentation](https://github.com/Global-Health-Engineering/durbanplasticwaste/blob/main/R/litterboom_counts.R):
+
+1.  Add, commit and push all changes to GitHub
+
+2.  Document the package run checks for errors, warnings, and notes
+
+```{{r}}
+devtools::document() # keyboard shortcut: Cmd/Ctrl + Shift + D
+devtools::check().   # keyboard shortcut: Cmd/Ctrl + Shift + E
+```
+
+-   make sure all errors are fixed
+-   ignore warnings for now
+
+1.  Open the `DESCRIPTION` to document the package
+
+-   edit title field (keep this short)
+-   edit description field (keep it short and to the point describing the data)
+
+1.  Add everyone that has contributed to the Authors\@R field in DESCRIPTION
+
+-   ensure you have the ORCID id of everyone (e.g. by opening an issue on GitHub and ask people to share their details)
+
+For each person, replace details and run the following code in your Console: 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATgBnAEEAdwBBAEQAQQBBAE4AZwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBkAFEAQgB6AEEARwBVAEEAWAB3AEIAaABBAEgAVQBBAGQAQQBCAG8AQQBHADgAQQBjAGcAQQBvAEEAQQBvAEEASQBBAEEAZwBBAEcAYwBBAGEAUQBCADIAQQBHAFUAQQBiAGcAQQBnAEEARAAwAEEASQBBAEEAaQBBAEUAdwBBAGQAUQBCAGoAQQBIAGsAQQBJAGcAQQBzAEEAQQBvAEEASQBBAEEAZwBBAEcAWQBBAFkAUQBCAHQAQQBHAGsAQQBiAEEAQgA1AEEAQwBBAEEAUABRAEEAZwBBAEMASQBBAGQAZwBCAGgAQQBHADQAQQBJAEEAQgBRAEEARwBVAEEAYgBBAEIAMABBAEMASQBBAEwAQQBBAEsAQQBDAEEAQQBJAEEAQgB5AEEARwA4AEEAYgBBAEIAbABBAEMAQQBBAFAAUQBBAGcAQQBHAE0AQQBLAEEAQQBpAEEARwBFAEEAZABRAEIAMABBAEMASQBBAEwAQQBBAGcAQQBDAEkAQQBZAHcAQgB5AEEARwBVAEEASQBnAEEAcABBAEMAdwBBAEMAZwBBAGcAQQBDAEEAQQBaAFEAQgB0AEEARwBFAEEAYQBRAEIAcwBBAEMAQQBBAFAAUQBBAGcAQQBDAEkAQQBiAEEAQgAxAEEARwBNAEEAZQBRAEIAQQBBAEcAVQBBAGUAQQBCAGgAQQBHADAAQQBjAEEAQgBzAEEARwBVAEEATABnAEIAagBBAEcAOABBAGIAUQBBAGkAQQBDAHcAQQBDAGcAQQBnAEEAQwBBAEEAWQB3AEIAdgBBAEcAMABBAGIAUQBCAGwAQQBHADQAQQBkAEEAQQBnAEEARAAwAEEASQBBAEIAagBBAEMAZwBBAFQAdwBCAFMAQQBFAE0AQQBTAFEAQgBFAEEAQwBBAEEAUABRAEEAZwBBAEMASQBBAFQAQQBCAFYAQQBFAE0AQQBXAFEAQQB0AEEARQA4AEEAVQBnAEIARABBAEUAawBBAFIAQQBBAHQAQQBFAGsAQQBSAEEAQQBpAEEAQwBrAEEAQwBnAEEAcABBAEEAbwBBAFkAQQBCAGcAQQBHAEEAQQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
+
+1 Add CC-BY or CC0 license
+
+In your Console, run: 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATgBnAEEAeQBBAEQASQBBAE0AQQBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBkAFEAQgB6AEEARwBVAEEAZABBAEIAbwBBAEcAawBBAGMAdwBBADYAQQBEAG8AQQBkAFEAQgB6AEEARwBVAEEAWAB3AEIAagBBAEcATQBBAFgAdwBCAGkAQQBIAGsAQQBLAEEAQQBwAEEAQQBvAEEAWQBBAEIAZwBBAEcAQQBBAAoAcwB1AGYAZgBpAHgAOgA=:31b8e172-b470-440e-83d8-e6b185028602
+
+1.  Document the package run checks for errors, warnings, and notes
+
+```{{r}}
+devtools::document() # keyboard shortcut: Cmd/Ctrl + Shift + D
+devtools::check().   # keyboard shortcut: Cmd/Ctrl + Shift + E
+```
+
+1.  Add `CITATION.cff` file to repo
+
+```{{r}}
+cffr::cff_write()
+```
+
+1.  Add, commit and push all changes to GitHub
+
+2.  Create a rmd README for package
+
+```{{r}}
+usethis::use_readme_rmd()
+```
+
+-   remove everything starting from line 41 "What is special about using `README.Rmd` instead of ..."
+-   add table with variable descriptions
+
+```{{r}}
 readr::read_csv("data-raw/dictionary.csv") |> 
   dplyr::select(variable_name:description) |> 
-  gt::gt()```
-                - https://github.com/Global-Health-Engineering/durbanplasticwaste22/blob/main/README.Rmd
-        - `devtools::build_readme()`
-    23. {{[[TODO]]}} Add, commit and push all changes to GitHub 
-        - On GitHub, open issue 5 to define who writes up which parts of the README
-    24. {{[[TODO]]}} Create an examples article for the package
-        - `usethis::use_article("examples")`
-        - `devtools::build_rmd("vignettes/articles/examples.Rmd")`
-        - Resources
-            - https://r-pkgs.org/vignettes.html#sec-vignettes-workflow-writing
-        - Prepare one or two data visualisation or table examples
-    19. {{[[TODO]]}} Use `devtools` to load, document, check, and install
-        - Use keyboard shortcuts
-            - `devtools::load_all()` "Cmd + Shift + L"
-            - `devtools::document()` "Cmd + Shift + D"
-            - `devtools::check()` "Cmd + Shift + E"
-            - `devtools::install()` "Cmd + Shift + B"
-        - `usethis::use_github_action_check_standard()?`
-            - checks build for Mac, Windows, Linux
-    26. {{[[TODO]]}} Setup pkgdown configuration and github actions
-        - `usethis::use_pkgdown`
-        - open `_pkgdown.yml`
-            - {{[[TODO]]}} add github pages URL
-            - {{[[TODO]]}} add plausible script (plausible for openwashdata to be setup)
-                - template:
-                    - bootstrap: 5
-                    - includes:
-                        - in_header: |
-                            - <script defer data-domain="global-health-engineering.github.io/durbanplasticwaste" src="https://plausible.io/js/script.js"></script>
-    27. {{[[TODO]]}} Build pkgdown website
-        - `pkgdown::build_site()`
-    28. {{[[TODO]]}} Add, commit and push all changes to GitHub 
-    29. {{[[TODO]]}} Edit Home Index
-        - use this as template: https://github.com/Global-Health-Engineering/durbanplasticwaste/blob/main/_pkgdown.yml
-            - consider writing pkgdown template for this: https://github.com/openwashdata/book/issues/16
-                - https://github.com/tidyverse/tidytemplate
-        - https://pkgdown.r-lib.org/articles/pkgdown.html#home-page
-        - explore: https://pkgdown.r-lib.org/articles/customise.html
-- **Open GitHub**
-    - Publish as GitHub Pages
-- **Open Zenodo**
-    - {{[[TODO]]}} login with GitHub account
-    - {{[[TODO]]}} click on dropdown next to email address in top right
-        - select GitHub
-        - find the repository in the list
-        - and flip switch to "ON"
-        - click on repo link
-    - {{[[TODO]]}} create release v0.0.1 on GitHub
-        - initial package releas
-    - {{[[TODO]]}} Get the DOI Badge
-    - {{[[TODO]]}} Edit the main page and remove text under Additional notes
-- **Open RStudio IDE**
-    - {{[[TODO]]}} Add DOI badge to repository README.md
-    - {{[[TODO]]}} Edit DESCRIPTION
-        - edit version number
-    - {{[[TODO]]}} Write CITATION.cff and inst/CITATION with DOI entry using #gist or respective [[{openwashdata}]] R Package
-        - https://gist.github.com/larnsce/dccdb26762837618c6dda82a5614b584
-    - {{[[TODO]]}} `pkgdown::build_site()`
-- **Open ETH Research Collection (not for openwashdata, but GHE workflow)**
-    - research data -> dataset
-    - organisational unit
-        - tilley
-    - license
-        - creative commons attribution 4.0 International
-- **Common items to be fixed**
-    - R CMD CHECK
-        - Notes
-            - unable to verify current time
-                - Fix: https://stackoverflow.com/a/63837547/6816220
-            - Non-standard files/directories found at top level:
-                - Fix: https://stackoverflow.com/questions/48955103/non-standard-file-directory-found-at-top-level-readme-rmd-persists-even-after
+  gt::gt()
+```
+
+-   add the first ten rows of the data
+
+```{{r}}
+dataset |> 
+  head() |> 
+  gt::gt()
+```
+
+1.  Build the README.rmd to output README.md
+
+```{{r}}
+devtools::build_readme()
+```
+
+1.  Add, commit and push all changes to GitHub
+
+2.  Create an examples article for the package
+
+```{{r}}
+usethis::use_article("examples")
+```
+
+-   prepare some exploratory analysis (e.g. a plot, a map, a table)
+
+1.  Document the package run checks for errors, warnings, and notes
+
+```{{r}}
+devtools::document() # keyboard shortcut: Cmd/Ctrl + Shift + D
+devtools::check().   # keyboard shortcut: Cmd/Ctrl + Shift + E
+```
+
+## Part 3 - Setup pkgdown website
+
+1.  Setup pkgdown configuration and github actions
+
+```{{r}}
+usethis::use_pkgdown()
+```
+
+1.  Remove `docs` from `.gitignore` file
+
+```{{r}}
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
+```
+
+1.  Build website with `pkgdown`
+
+```{{r}}
+pkgdown::build_site()
+```
+
+1.  Add, commit and push all changes to GitHub
+
+## Part 4 - Host with GitHub Pages
+
+1.  Deploy to GitHub Pages
+
+-   open your repository site on GitHub
+-   click the Settings (gear icon) option
+-   on the left sidebar under "Code and automation" click "Pages"
+-   under "Build and deployment", in "Branch" section
+    -   select "main" from Dropdown menu that states "None"
+    -   select "docs" from Dropdown menu that states "/ (root)"
+    -   click "Save" button
+
+1.  Edit repository details
+
+-   go back to your main page of your repository site on GitHub
+-   on the right side, next to "About" click on the gear icon
+-   provide a short description (e.g. the same as you have used for describing your dataset)
+-   click the box next to "Use your GitHub Pages website"
+-   click "Save changes" button
+
+## Part 5 - Use web analytics
+
+1.  Add plausible.io script and website URL to \_pkdown.yml
+
+-   open your repository in RStudio IDE
+-   open `_pkgdown.yml` file
+-   copy the content below and replace the two instances of PACKAGENAME with the name of your package
+
+```{{yaml}}
+url: https://global-health-engineering.github.io/PACKAGENAME/
+
+template:
+  bootstrap: 5
+  includes:
+    in_header: |
+      <script defer data-domain="global-health-engineering.github.io/PACKAGENAME" src="https://plausible.io/js/script.js"></script>
+```
+
+-   a more detailed example is available for the [`durbanplasticwaste` package](https://github.com/Global-Health-Engineering/durbanplasticwaste/blob/main/_pkgdown.yml)
+
+## Part 6 - Publish
+
+
+TODO
+
+- publish to Zenodo
+- add DOI everywhere
+- add to research collection
+
+

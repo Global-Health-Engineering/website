@@ -7,3 +7,6 @@
 
 .DS_Store
 _extensions
+.Rdata
+.httr-oauth
+.quarto
