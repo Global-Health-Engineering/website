@@ -9,7 +9,6 @@ author:
           url: https://ghe.ethz.ch/
 date: 2023-06-12
 date-format: long
-format: pdf
 editor: source
 editor_options: 
   chunk_output_type: console

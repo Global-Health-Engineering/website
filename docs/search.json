@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "This website is currenty under construction."
+    "text": "This website provides access to slides, tutorials, and other teaching material developed by the Global Health Engineering group at ETH Zurich."
   },
   {
     "objectID": "slides/d01-eth-dsn-meeting.html#lars-schöbitz",
@@ -131,5 +131,47 @@
     "title": "open by default",
     "section": "Thanks",
     "text": "Thanks\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nSource code: GitHub\nAccess: HTML\nDownload: PDF\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International.\n\n\nhttps://global-health-engineering.github.io/website/slides.html"
+  },
+  {
+    "objectID": "factsheet/factsheet-eth-rdm-summer-2023.html",
+    "href": "factsheet/factsheet-eth-rdm-summer-2023.html",
+    "title": "open by default",
+    "section": "",
+    "text": "research data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing\n\nOpen Science Specialist - Job Description"
+  },
+  {
+    "objectID": "factsheet/factsheet-eth-rdm-summer-2023.html#my-role---open-science-specialist",
+    "href": "factsheet/factsheet-eth-rdm-summer-2023.html#my-role---open-science-specialist",
+    "title": "open by default",
+    "section": "",
+    "text": "research data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing\n\nOpen Science Specialist - Job Description"
+  },
+  {
+    "objectID": "factsheet/factsheet-eth-rdm-summer-2023.html#data-at-global-health-engineering",
+    "href": "factsheet/factsheet-eth-rdm-summer-2023.html#data-at-global-health-engineering",
+    "title": "open by default",
+    "section": "Data at Global Health Engineering",
+    "text": "Data at Global Health Engineering\n\nsmall (few MBs)\ntabular\nnon-sensitive\ntopics (waste management, sanitation, air quality, etc.)"
+  },
+  {
+    "objectID": "factsheet/factsheet-eth-rdm-summer-2023.html#lost-and-overwhelmed",
+    "href": "factsheet/factsheet-eth-rdm-summer-2023.html#lost-and-overwhelmed",
+    "title": "open by default",
+    "section": "Lost and overwhelmed",
+    "text": "Lost and overwhelmed\n\nterminology (underlying data, raw data, processed data, metadata, open sources, open access, …)\nlicensing (CC-BY, MIT, public domain, code, data)\nsecurity & privacy (phone numbers, GPS locations of houses)\nrepositories (documentation, upload, maintenance)"
+  },
+  {
+    "objectID": "factsheet/factsheet-eth-rdm-summer-2023.html#computational-tools",
+    "href": "factsheet/factsheet-eth-rdm-summer-2023.html#computational-tools",
+    "title": "open by default",
+    "section": "Computational tools",
+    "text": "Computational tools\n\nintimidating\nhard\nnot everyone’s business"
+  },
+  {
+    "objectID": "factsheet/factsheet-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
+    "href": "factsheet/factsheet-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
+    "title": "open by default",
+    "section": "Scientist as a lone ranger",
+    "text": "Scientist as a lone ranger\n\nacts alone (until becoming a manager/professor)\nexposure to tools (100s throughout research career at different institutions)\nown stack of tools (builds their own individual worksflows -&gt; not team oriented)\nthe way to do it (doesn’t have time to learn what would be most effective for a team)"
   }
 ]

@@ -3,19 +3,30 @@ project:
   output-dir: docs
 
 website:
+  page-navigation: true
   title: "Global Health Engineering"
+  description: "Homepage for slides, tutorials, and other teaching material."
+  site-url: "https://global-health-engineering.github.io/website/"
   navbar:
+    tools:
+      - icon: github
+        href: https://github.com/Global-Health-Engineering/website
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - href: slides.qmd
-        text: Slides
+        text: "Slides"
+      - text: "Tutorials"
+        menu: 
+          - data-package.qmd
       
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    code-copy: true
+    code-overflow: wrap
 
 execute: 
   freeze: auto
