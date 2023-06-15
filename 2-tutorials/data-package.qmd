@@ -37,6 +37,8 @@ The "Why?" is also covered in a talk prepared for the launch meeting of the data
 
 ## Part 2 - Write the package
 
+### Initializa new data package
+
 1.  Open RStudio IDE
 
 2.  Create a new project using the R Package devtools and the same name you used for the repository on GitHub
@@ -67,24 +69,21 @@ git push -u origin main
 ```
 ````
 
+### Create `data-raw` directory
+
 1.  Add `data-raw/`directory to package
 
 ```{{r}}
-usethis::use_data_raw()
+usethis::use_data_raw(name = "data_processing")
 ```
 
-This will create a `data-raw/` directory.
+2.  Add, commit and push all changes to GitHub
 
--   contains a `DATASET.R`
--   rename to `data_processing.R`
+3.  If you have an external data donation, open issue 1 on the GitHub repository to communicate about raw data submission ([example for issue template](https://github.com/openwashdata/cbssuitabilityhaiti/issues/1#issue-1657507593))
 
-1.  Add, commit and push all changes to GitHub
+4.  If you have the raw data available, add to the `data-raw` directory using your file management system
 
-2.  If you have an external data donation, open issue 1 on the GitHub repository to communicate about raw data submission ([example for issue template](https://github.com/openwashdata/cbssuitabilityhaiti/issues/1#issue-1657507593))
-
-3.  If you have the raw data available, add to the `data-raw` directory using your file management system
-
-4.  Prepare initial import of and export of data in `data_processing.R`
+5.  Prepare initial import of and export of data in `data_processing.R`
 
 -   replace `dataset` with a short name in **small letters** that describes your data
     -   if the package will consist of single dataset, chose the same as the name for your package
@@ -113,9 +112,11 @@ usethis::use_data(dataset, overwrite = TRUE)
 
 ```
 
-1.  Add, commit and push all changes to GitHub
+6.  Add, commit and push all changes to GitHub
 
-2.  Prepare data dictionary to document the variables of the exported dataset
+### Add Data Dictionary
+
+1.  Prepare data dictionary to document the variables of the exported dataset
 
 -   create a new text file named `dictionary.csv`
 -   add the following columns as the first line of the file: directory, file_name, variable_name, variable_type, description
@@ -160,45 +161,51 @@ devtools::check().   # keyboard shortcut: Cmd/Ctrl + Shift + E
 -   make sure all errors are fixed
 -   ignore warnings for now
 
+### Edit `DESCRIPTION`
+
 1.  Open the `DESCRIPTION` to document the package
 
 -   edit title field (keep this short)
 -   edit description field (keep it short and to the point describing the data)
 
-1.  Add everyone that has contributed to the Authors\@R field in DESCRIPTION
+2.  Add everyone that has contributed to the `Authors\@R` field in DESCRIPTION
 
 -   ensure you have the ORCID id of everyone (e.g. by opening an issue on GitHub and ask people to share their details)
 
 For each person, replace details and run the following code in your Console:
 
-``` R
+``` r
 ```
+
+### Add License and Citation File
 
 1.  Add CC-BY or CC0 license
 
-    ``` R
+    ``` r
     usethis::use_ccby_license()
     usethis::use_cc0_license()
     ```
 
 In your Console, run:
 
-1.  Document the package run checks for errors, warnings, and notes
+2.  Document the package run checks for errors, warnings, and notes
 
 ```{{r}}
 devtools::document() # keyboard shortcut: Cmd/Ctrl + Shift + D
 devtools::check().   # keyboard shortcut: Cmd/Ctrl + Shift + E
 ```
 
-1.  Add `CITATION.cff` file to repo
+3.  Add `CITATION.cff` file to repo
 
 ```{{r}}
 cffr::cff_write()
 ```
 
-1.  Add, commit and push all changes to GitHub
+4.  Add, commit and push all changes to GitHub
 
-2.  Create a rmd README for package
+### Add README
+
+1.  Create a rmd `README` for the package
 
 ```{{r}}
 usethis::use_readme_rmd()
@@ -221,15 +228,15 @@ dataset |>
   gt::gt()
 ```
 
-1.  Build the README.rmd to output README.md
+2.  Build the `README.rmd` to output `README.md`
 
 ```{{r}}
 devtools::build_readme()
 ```
 
-1.  Add, commit and push all changes to GitHub
+3.  Add, commit and push all changes to GitHub
 
-2.  Create an examples article for the package
+4.  Create an examples article for the package
 
 ```{{r}}
 usethis::use_article("examples")
@@ -237,7 +244,9 @@ usethis::use_article("examples")
 
 -   prepare some exploratory analysis (e.g. a plot, a map, a table)
 
-1.  Document the package run checks for errors, warnings, and notes
+### Final document and check
+
+Document the package run checks for errors, warnings, and notes
 
 ```{{r}}
 devtools::document() # keyboard shortcut: Cmd/Ctrl + Shift + D
