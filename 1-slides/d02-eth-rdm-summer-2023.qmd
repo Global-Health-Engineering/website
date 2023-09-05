@@ -14,7 +14,7 @@ format:
     theme: slides.scss
     transition: fade
     slide-number: true
-    footer: https://global-health-engineering.github.io/website/slides.html
+    footer: <https://global-health-engineering.github.io/website/1-slides/>
 editor: source
 editor_options: 
   chunk_output_type: console

@@ -19,6 +19,9 @@ website:
       - text: Tutorials
         menu: 
           - 2-tutorials/data-package.qmd
+      - href: 3-blog/index.qmd
+        text: Blog
+        
       
 format:
   html:

@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://global-health-engineering.github.io/website/2-tutorials/data-package.html</loc>
-    <lastmod>2023-06-09T09:18:22.989Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/factsheet/factsheet-eth-rdm-summer-2023.html</loc>
-    <lastmod>2023-06-09T09:18:23.302Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/index.html</loc>
-    <lastmod>2023-06-09T09:18:23.532Z</lastmod>
+    <loc>https://global-health-engineering.github.io/website/1-slides/d02-eth-rdm-summer-2023.html</loc>
+    <lastmod>2023-06-09T09:33:25.934Z</lastmod>
   </url>
   <url>
     <loc>https://global-health-engineering.github.io/website/1-slides/d01-eth-dsn-meeting.html</loc>
-    <lastmod>2023-06-09T09:18:23.875Z</lastmod>
+    <lastmod>2023-06-09T09:33:36.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/3-blog/index.html</loc>
+    <lastmod>2023-09-04T07:45:44.268Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/factsheet/factsheet-eth-rdm-summer-2023.html</loc>
+    <lastmod>2023-06-09T07:10:02.236Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/2-tutorials/data-package.html</loc>
+    <lastmod>2023-06-09T09:18:04.713Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/3-blog/posts/2023-09-04-qualitative-data/index.html</loc>
+    <lastmod>2023-09-05T09:04:24.270Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/index.html</loc>
+    <lastmod>2023-09-05T08:39:54.088Z</lastmod>
   </url>
   <url>
     <loc>https://global-health-engineering.github.io/website/1-slides/index.html</loc>
-    <lastmod>2023-06-09T09:18:24.087Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/1-slides/d02-eth-rdm-summer-2023.html</loc>
-    <lastmod>2023-06-09T09:18:24.418Z</lastmod>
+    <lastmod>2023-06-09T07:32:49.747Z</lastmod>
   </url>
 </urlset>
