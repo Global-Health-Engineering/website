@@ -18,7 +18,7 @@ author:
 citation:
   type: post
   container-title: Global Health Engineering Blog
-  doi: "10.5281/zenodo.8318368"
+  doi: "10.5281/zenodo.8318442"
   url: https://ghe.ethz.ch/ghe-blog-news.html
 date: "2023-06-21"
 draft: false
