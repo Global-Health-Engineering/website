@@ -19,7 +19,7 @@ citation:
 date: "2023-10-10"
 draft: false
 image: "biogas-digesters-drawing.png"
-image-alt: "African landscape with earthy colours and small biogas digesters attached to homes in the scenery. Drawing. Created by DALL-E 3"
+image-alt: "African landscape with earthy colours and small biogas digesters attached to homes in the scenery. Drawing. Created by DALL-E 3."
 google-scholar: true
 ---
 
@@ -33,8 +33,8 @@ In September 2023 I had the privilege to travel to Kenya with my supervisor Prof
 
 [^2]: <https://www.opero-services.com/>
 
-By accident, at the same time as our stay in Kenya, the first Africa Climate Summit[^3] took place, bringing around 30 - 35 thousand visitors to Nairobi. I had a chance to exchange with the Summit's participants. The opportunity was invaluable and provided additional context for framing my work. After the Covid-​19 pandemic, everyone got used to virtual meetings and remote working, but the trip reminded me that travel, and the experiences that come with it, can be invaluable. Although you may collaborate from a distance, in-​person interactions can provide immediate answers to problems which otherwise would take long days to understand through a chain of email exchanges. In retrospect, my first trip to Kenya was a rich and diverse experience, both professionally and personally. I departed with an intent to return, and a clearer vision of how I can support both my students and our Kenyan partners. Moreover, I left Kenya with a profound sense of appreciation for its culture, as well as hope for its future to be brighter. Although I may have returned to Zurich, to a calendar full of online meetings, I\'m already thinking ahead to my next trip.\
-
- 
+By accident, at the same time as our stay in Kenya, the first Africa Climate Summit[^3] took place, bringing around 30 - 35 thousand visitors to Nairobi. I had a chance to exchange with the Summit's participants. The opportunity was invaluable and provided additional context for framing my work. After the Covid-​19 pandemic, everyone got used to virtual meetings and remote working, but the trip reminded me that travel, and the experiences that come with it, can be invaluable. Although you may collaborate from a distance, in-​person interactions can provide immediate answers to problems which otherwise would take long days to understand through a chain of email exchanges. In retrospect, my first trip to Kenya was a rich and diverse experience, both professionally and personally. I departed with an intent to return, and a clearer vision of how I can support both my students and our Kenyan partners. Moreover, I left Kenya with a profound sense of appreciation for its culture, as well as hope for its future to be brighter. Although I may have returned to Zurich, to a calendar full of online meetings, I'm already thinking ahead to my next trip.\
 
 [^3]: <https://africaclimatesummit.org/>
+
+ 
