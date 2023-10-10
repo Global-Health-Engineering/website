@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://global-health-engineering.github.io/website/1-slides/d02-eth-rdm-summer-2023.html</loc>
-    <lastmod>2023-06-09T09:33:25.934Z</lastmod>
+    <loc>https://global-health-engineering.github.io/website/1-slides/index.html</loc>
+    <lastmod>2023-06-09T07:32:49.747Z</lastmod>
   </url>
   <url>
-    <loc>https://global-health-engineering.github.io/website/1-slides/d01-eth-dsn-meeting.html</loc>
-    <lastmod>2023-06-09T09:33:36.104Z</lastmod>
+    <loc>https://global-health-engineering.github.io/website/index.html</loc>
+    <lastmod>2023-09-05T09:18:53.051Z</lastmod>
   </url>
   <url>
-    <loc>https://global-health-engineering.github.io/website/3-blog/index.html</loc>
-    <lastmod>2023-09-04T07:45:44.268Z</lastmod>
+    <loc>https://global-health-engineering.github.io/website/3-blog/posts/2023-09-04-qualitative-data/index.html</loc>
+    <lastmod>2023-10-10T08:48:48.898Z</lastmod>
   </url>
   <url>
     <loc>https://global-health-engineering.github.io/website/factsheet/factsheet-eth-rdm-summer-2023.html</loc>
@@ -25,19 +25,19 @@
     <lastmod>2023-09-05T09:15:50.215Z</lastmod>
   </url>
   <url>
-    <loc>https://global-health-engineering.github.io/website/3-blog/posts/2023-09-04-qualitative-data/index.html</loc>
-    <lastmod>2023-09-12T06:57:32.391Z</lastmod>
+    <loc>https://global-health-engineering.github.io/website/3-blog/posts/2023-10-10-collaboration-kenya/index.html</loc>
+    <lastmod>2023-10-10T09:02:40.650Z</lastmod>
   </url>
   <url>
-    <loc>https://global-health-engineering.github.io/website/index.html</loc>
-    <lastmod>2023-09-05T09:18:53.051Z</lastmod>
+    <loc>https://global-health-engineering.github.io/website/3-blog/index.html</loc>
+    <lastmod>2023-09-04T07:45:44.268Z</lastmod>
   </url>
   <url>
-    <loc>https://global-health-engineering.github.io/website/1-slides/index.html</loc>
-    <lastmod>2023-06-09T07:32:49.747Z</lastmod>
+    <loc>https://global-health-engineering.github.io/website/1-slides/d01-eth-dsn-meeting.html</loc>
+    <lastmod>2023-06-09T09:33:36.104Z</lastmod>
   </url>
   <url>
-    <loc>https://global-health-engineering.github.io/website/4-open-science/index.html</loc>
-    <lastmod>2023-09-19T11:27:14.869Z</lastmod>
+    <loc>https://global-health-engineering.github.io/website/1-slides/d02-eth-rdm-summer-2023.html</loc>
+    <lastmod>2023-06-09T09:33:25.934Z</lastmod>
   </url>
 </urlset>

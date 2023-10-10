@@ -1,0 +1,40 @@
+---
+title: "Creating collaboration on the ground: Reflecting on my first visit to Kenya"
+description: |
+  Work in higher education is about learning. Is there a better way to learn than travel? 
+categories:
+  - collaboration
+  - travel
+  - learning
+author:
+  - name: Jakub Tkaczuk
+    url: https://ghe.ethz.ch/about/people/person-detail.MzIxNzEy.TGlzdC80MTI2LC0xNDYwMDMwNTU3.html
+    affiliation: Global Health Engineering, ETH Zurich
+    affiliation-url: https://ghe.ethz.ch
+citation:
+  type: post
+  container-title: Global Health Engineering Blog
+  doi: "10.5281/zenodo.8318442"
+  url: https://ghe.ethz.ch/ghe-blog-news.html
+date: "2023-10-10"
+draft: false
+image: "biogas-digesters-drawing.png"
+image-alt: "African landscape with earthy colours and small biogas digesters attached to homes in the scenery. Drawing. Created by DALL-E 3"
+google-scholar: true
+---
+
+**Note:** This blog post was published is a re-published version from the [Global Health Engineering website](https://ghe.ethz.ch/ghe-blog-news/2023/10/blog-creating-collaboration-on-the-ground-reflecting-on-my-first-visit-to-kenya.html). For attribution, please see the [Citation information](https://global-health-engineering.github.io/website/3-blog/posts/2023-10-10-collaboration-kenya/#citation) at the end of this post.
+
+As a freshly employed senior scientist at Global Health Engineering, part of my role is coordinating the multitude of student projects we offer each semester. Our students are engaged in a range of vital research projects related to human health across several African countries. For instance, over the past two years GHE students have partnered with Sistema Bio in Kenya to design and test the use of biogas for the thermal disinfection of wastewater. And, although as a mechanical engineer I have been able to evaluate and advise on this work, one problem remains - I have never been to Kenya and I've never personally engaged with the problems we are trying to help address. What's the best way to address this professional shortcoming? Although we are all trying to reduce our personal carbon emissions, Zoom calls can only get you so far - sometimes you have to travel to learn.
+
+In September 2023 I had the privilege to travel to Kenya with my supervisor Prof. Tilley to connect with our biogas project partners. My journey in Kenya allowed me to engage with a variety of individuals from diverse backgrounds who all enriched my own understanding of Kenya and its socio-​technical challenges. This included learners and educators at schools in Kiababu and Ikinu, a Meru University of Science and Technology professor[^1], and entrepreneurs in Kisumu[^2] made. The enthusiasm of students and educators was contagious; I was impressed by their dedication to learning. Apart from all the engaging and meaningful exchanges, I also stirred cubic meters of human waste for the first time in my life. Again, Zoom is a useful tool, but standing together and getting your hands dirty trying to solve a problem can bring the answer much quicker. With all of the partners in the same space, learning together, we were able to identify issues with the biogas installation, found clear paths for further development, and devised a sustainable plan for future collaboration to scale up our findings nationally.
+
+[^1]: <https://www.must.ac.ke/celebrating-excellence-dr-joy-riungu-receives-the-distinguished-alumni-award-2022-from-ihe-delft/>
+
+[^2]: <https://www.opero-services.com/>
+
+By accident, at the same time as our stay in Kenya, the first Africa Climate Summit[^3] took place, bringing around 30 - 35 thousand visitors to Nairobi. I had a chance to exchange with the Summit's participants. The opportunity was invaluable and provided additional context for framing my work. After the Covid-​19 pandemic, everyone got used to virtual meetings and remote working, but the trip reminded me that travel, and the experiences that come with it, can be invaluable. Although you may collaborate from a distance, in-​person interactions can provide immediate answers to problems which otherwise would take long days to understand through a chain of email exchanges. In retrospect, my first trip to Kenya was a rich and diverse experience, both professionally and personally. I departed with an intent to return, and a clearer vision of how I can support both my students and our Kenyan partners. Moreover, I left Kenya with a profound sense of appreciation for its culture, as well as hope for its future to be brighter. Although I may have returned to Zurich, to a calendar full of online meetings, I\'m already thinking ahead to my next trip.\
+
+ 
+
+[^3]: <https://africaclimatesummit.org/>
