@@ -75,8 +75,8 @@ Think of a citation as a signpost on a road trip. It tells you where the informa
 
 ## What's a Citation?
 
-- Inequality underpins waste management systems, structuring who can or cannot access services [@kalina2023rich].
-- Many visitors still expect a personal pick-up, despite the availability of taxi services [@tilley2021].
+- Inequality underpins waste management systems, structuring who can or cannot access services [[@kalina2023rich].]{.highlight-yellow}
+- Many visitors still expect a personal pick-up, despite the availability of taxi services [[@tilley2021].]{.highlight-yellow}
 - In @tilley2021, the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.
 
 
