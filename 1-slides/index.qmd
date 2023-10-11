@@ -3,9 +3,9 @@ title: "{{< fa display >}} Slides"
 ---
 <script defer data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
 
-## Hubris to Hope HS23 - Reference Management
+## Hubris to Hope HS23 - Reference Management with Zotero
 
-[View slides in full screen](d03-hubris-to-hope-reference-management.html)
+[View slides in full screen](d03-hubris-to-hope-reference-management.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/1-slides/d03-hubris-to-hope-reference-management.pdf)
 
 ```{=html}
 <iframe class="slide-deck" src="d03-hubris-to-hope-reference-management.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
