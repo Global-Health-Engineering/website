@@ -3,13 +3,14 @@ title: "{{< fa display >}} Slides"
 ---
 <script defer data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
 
-## ETH Data Stewardship Network - Kick-off Meeting
+## Hubris to Hope HS23 - Reference Management
 
-[View slides in full screen](d01-eth-dsn-meeting.html)
+[View slides in full screen](d03-hubris-to-hope-reference-management.html)
 
 ```{=html}
-<iframe class="slide-deck" src="d01-eth-dsn-meeting.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" src="d03-hubris-to-hope-reference-management.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
+
 
 ## ETH Research Data Management Summer School 2023
 
@@ -19,5 +20,10 @@ title: "{{< fa display >}} Slides"
 <iframe class="slide-deck" src="d02-eth-rdm-summer-2023.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
+## ETH Data Stewardship Network - Kick-off Meeting
 
+[View slides in full screen](d01-eth-dsn-meeting.html)
 
+```{=html}
+<iframe class="slide-deck" src="d01-eth-dsn-meeting.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
