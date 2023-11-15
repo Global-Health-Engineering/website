@@ -25,11 +25,16 @@ website:
       
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [litera, theme.scss]
     css: styles.css
     toc: true
+    mainfont: "Atkinson Hyperlegible"
     code-copy: true
     code-overflow: wrap
+    include-in-header: 
+        - text: |
+            <script defer data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
 
 execute: 
   freeze: auto
