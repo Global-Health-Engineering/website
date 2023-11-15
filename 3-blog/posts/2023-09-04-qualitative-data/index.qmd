@@ -22,7 +22,6 @@ citation:
   url: https://ghe.ethz.ch/ghe-blog-news.html
 date: "2023-06-21"
 draft: false
-image: "_2f10017e-794c-412b-87c5-f722626e767b.jpeg"
 image-alt: "A colourful interview transcript used for research in Malawi, using earthy colours. Created by Bing Image Creator. "
 bibliography: references.bib
 google-scholar: true
