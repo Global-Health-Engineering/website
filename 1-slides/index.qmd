@@ -1,7 +1,14 @@
 ---
 title: "{{< fa display >}} Slides"
 ---
-<script defer data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
+
+## Hubris to Hope HS23 - Reference Management with Zotero
+
+[View slides in full screen](d04-sst-workshop-basel.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/1-slides/d04-sst-workshop-basel.pdf)
+
+```{=html}
+<iframe class="slide-deck" src="d04-sst-workshop-basel.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
 
 ## Hubris to Hope HS23 - Reference Management with Zotero
 

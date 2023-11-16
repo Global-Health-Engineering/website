@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://global-health-engineering.github.io/website/1-slides/d03-hubris-to-hope-reference-management.html</loc>
-    <lastmod>2023-10-12T12:27:33.143Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/1-slides/d01-eth-dsn-meeting.html</loc>
-    <lastmod>2023-06-09T09:33:36.104Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/3-blog/index.html</loc>
-    <lastmod>2023-09-04T07:45:44.268Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/3-blog/posts/2023-10-10-collaboration-kenya/index.html</loc>
-    <lastmod>2023-10-10T11:39:34.869Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/LICENSE.html</loc>
-    <lastmod>2023-09-05T09:15:50.215Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/2-tutorials/data-package.html</loc>
-    <lastmod>2023-09-05T09:05:13.603Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/factsheet/factsheet-eth-rdm-summer-2023.html</loc>
-    <lastmod>2023-06-09T07:10:02.236Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/3-blog/posts/2023-09-04-qualitative-data/index.html</loc>
-    <lastmod>2023-10-10T08:48:48.898Z</lastmod>
-  </url>
-  <url>
-    <loc>https://global-health-engineering.github.io/website/index.html</loc>
-    <lastmod>2023-09-05T09:18:53.051Z</lastmod>
+    <loc>https://global-health-engineering.github.io/website/1-slides/d04-sst-workshop-basel.html</loc>
+    <lastmod>2023-11-16T10:05:30.649Z</lastmod>
   </url>
   <url>
     <loc>https://global-health-engineering.github.io/website/1-slides/index.html</loc>
-    <lastmod>2023-10-11T12:10:52.465Z</lastmod>
+    <lastmod>2023-11-16T10:05:29.746Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/index.html</loc>
+    <lastmod>2023-11-16T10:05:29.203Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/3-blog/posts/2023-09-04-qualitative-data/index.html</loc>
+    <lastmod>2023-11-16T10:05:28.671Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/factsheet/factsheet-eth-rdm-summer-2023.html</loc>
+    <lastmod>2023-11-16T10:05:27.621Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/2-tutorials/data-package.html</loc>
+    <lastmod>2023-11-16T10:05:26.721Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/LICENSE.html</loc>
+    <lastmod>2023-11-16T10:05:27.288Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/3-blog/posts/2023-10-10-collaboration-kenya/index.html</loc>
+    <lastmod>2023-11-16T10:05:28.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/3-blog/index.html</loc>
+    <lastmod>2023-11-16T10:05:28.988Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/1-slides/d01-eth-dsn-meeting.html</loc>
+    <lastmod>2023-11-16T10:05:29.529Z</lastmod>
+  </url>
+  <url>
+    <loc>https://global-health-engineering.github.io/website/1-slides/d03-hubris-to-hope-reference-management.html</loc>
+    <lastmod>2023-11-16T10:05:30.262Z</lastmod>
   </url>
   <url>
     <loc>https://global-health-engineering.github.io/website/1-slides/d02-eth-rdm-summer-2023.html</loc>
-    <lastmod>2023-06-09T09:33:25.934Z</lastmod>
+    <lastmod>2023-11-16T10:05:30.978Z</lastmod>
   </url>
 </urlset>

@@ -9,7 +9,7 @@
 <link>https://global-health-engineering.github.io/website/3-blog/index.html</link>
 <atom:link href="https://global-health-engineering.github.io/website/3-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Homepage for slides, tutorials, and other teaching material.</description>
-<generator>quarto-1.4.217</generator>
+<generator>quarto-1.3.450</generator>
 <lastBuildDate>Mon, 09 Oct 2023 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Creating collaboration on the ground: Reflecting on my first visit to Kenya</title>
@@ -29,14 +29,14 @@
 
 
 
-<div id="quarto-appendix" class="default"><aside id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p><a href="https://www.must.ac.ke/celebrating-excellence-dr-joy-riungu-receives-the-distinguished-alumni-award-2022-from-ihe-delft/" class="uri">https://www.must.ac.ke/celebrating-excellence-dr-joy-riungu-receives-the-distinguished-alumni-award-2022-from-ihe-delft/</a>↩︎</p></li>
 <li id="fn2"><p><a href="https://www.opero-services.com/" class="uri">https://www.opero-services.com/</a>↩︎</p></li>
 <li id="fn3"><p><a href="https://africaclimatesummit.org/" class="uri">https://africaclimatesummit.org/</a>↩︎</p></li>
 </ol>
-</aside><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{tkaczuk2023,
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{tkaczuk2023,
   author = {Tkaczuk, Jakub},
   title = {Creating Collaboration on the Ground: {Reflecting} on My
     First Visit to {Kenya}},
@@ -88,13 +88,13 @@ Engineering Blog</em>. <a href="https://doi.org/10.5281/zenodo.8318442">https://
 <div id="ref-schobitz2023biogasoutcomesmalawia" class="csl-entry">
 Schöbitz, Lars, Sebastian Camilo Loos, Marc Kalina, Jonathan Olal Ogwang, Jonathan Kwangulero, and Elizabeth Tilley. 2023. <span>“Biogasoutcomesmalawi: <span>Data</span> for 61 Semi-Structured Interviews with Biogas Owners in <span>Malawi</span>.”</span> <a href="https://doi.org/10.5281/zenodo.8289621">https://doi.org/10.5281/zenodo.8289621</a>.
 </div>
-</div></section><aside id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>This is a great blog post by Open Working summing up a presentation by Sebastian Karcher at TU Delft on the limits of reproducibility within qualitative research: <a href="https://openworking.wordpress.com/2019/02/11/what-does-reproducibility-mean-for-qualitative-research/" class="uri">https://openworking.wordpress.com/2019/02/11/what-does-reproducibility-mean-for-qualitative-research/</a>↩︎</p></li>
 <li id="fn2"><p>Learn more about how we do this in this interview with Dr.&nbsp;Julian Dederke of the ETH Library: https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html↩︎</p></li>
 </ol>
-</aside><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{kalina2023,
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{kalina2023,
   author = {Kalina, Marc},
   title = {In an Era of Open Science, How Is “Transparency” Shifting
     Within Qualitative Research},

@@ -1,0 +1,239 @@
+---
+title: "SST Educational Workshop"
+subtitle: "Data Stewardship"
+author: 
+  - name: Lars Schöbitz
+    email: lschoebitz@ethz.ch
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+date: 2023-11-17
+date-format: long
+footer: "[{{< fa link >}} global-health-engineering.github.io/website/1-slides/](https://global-health-engineering.github.io/website/1-slides/)"
+format: 
+  revealjs: 
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+editor: source
+editor_options: 
+  chunk_output_type: console
+execute:
+  freeze: auto
+bibliography: ["references.bib"]
+---
+
+# Hello! `r emo::ji("wave")` {background-color="#0F4C81" .center-align}
+
+## Lars Schöbitz
+
+::: columns
+::: {.column width="50%"}
+![](img/lars_schoebitz_profile_photo.jpg){fig-alt="Headshot of Lars Schöbitz" fig-align="center"}
+:::
+
+::: {.column width="50%"}
+-   Environmental Engineer\
+-   Open Science Specialist at Global Health Engineering
+-   [RStudio certified instructor](https://education.rstudio.com/trainers/) for Data Science with R
+:::
+:::
+
+# Data Stewardship {background-color="#0F4C81" .center-align}
+
+## The Vision?
+
+An active community that applies [FAIR principles]{.highlight-yellow} [@wilkinson2016] to [data]{.highlight-yellow} generated in the greater sector of the 
+Swiss Society of Toxicology. 
+
+. . . 
+
+- Findable
+- Accessible
+- Interoperable
+- Reusable 
+
+A set of technical principles that can be applied to data. 
+
+# The Opportunity {background-color="#0F4C81" .center-align}
+
+## Journal Articles {.center-align}
+
+```{r}
+knitr::include_graphics("img/01-journal-article.png")
+```
+
+::: footer
+Screenshot from @greene2021
+:::
+
+## {{< fa hand >}} hands up {{< fa hand >}} {.center-align auto-animate="true"}
+
+::: {style="margin-top: 50px; font-size: 1.5em"}
+Who has published a scientific article in a journal?
+:::
+
+## {{< fa hand >}} hands up {{< fa hand >}} {.center-align auto-animate="true"}
+
+::: {style="margin-top: 50px; font-size: 1.5em"}
+Who has published data as supplemental material?
+:::
+
+## Journal Articles {.center-align auto-animate="true"}
+
+```{r}
+knitr::include_graphics("img/02-journal-article.png")
+```
+
+::: footer
+Screenshot from @greene2021
+:::
+
+## Journal Articles {.center-align auto-animate="true"}
+
+```{r}
+knitr::include_graphics("img/03-journal-article.png")
+```
+
+::: footer
+Screenshot from @greene2021
+:::
+
+## PDF reports {.center-align auto-animate="true"}
+
+```{r}
+knitr::include_graphics("img/pdf-report-01.png")
+```
+
+::: footer
+Screenshot from @soeters2021treatment
+:::
+
+## PDF reports {.center-align auto-animate="true"}
+
+```{r}
+knitr::include_graphics("img/pdf-report-02.png")
+```
+
+::: footer
+Screenshot from @soeters2021treatment
+:::
+
+## PDF reports {.center-align auto-animate="true"}
+
+```{r}
+knitr::include_graphics("img/pdf-report-03.png")
+```
+
+::: footer
+Screenshot from @soeters2021treatment
+:::
+
+
+## {{< fa hand >}} hands up {{< fa hand >}} {.center-align auto-animate="true"}
+
+::: {style="margin-top: 50px; font-size: 1.5em"}
+Who has [published data]{.highlight-yellow}, separate from an article/report, and [assigned a unique DOI]{.highlight-yellow}?
+:::
+
+## {{< fa hand >}} hands up {{< fa hand >}} {.center-align auto-animate="true"}
+
+::: {style="margin-top: 50px; font-size: 1.5em"}
+Who has an ORCID iD <br>
+(account on: <https://orcid.org/>)
+:::
+
+
+# Our RDM workflow at GHE {background-color="#0F4C81" .center-align}
+
+##  {background-image="img/ghe-rdm-workflow-01.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-02.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-03.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-04.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-05.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-06.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-07.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-08.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-09.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-10.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-11.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/ghe-rdm-workflow-12.drawio.svg" background-size="1400px"}
+
+# Publisher policies {background-color="#0F4C81" .center-align}
+
+##  {background-image="img/publisher-policies-01.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-02.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-03.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-04.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-05.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-06.drawio.svg" background-size="1400px"}
+
+##  {background-image="img/publisher-policies-07.drawio.svg" background-size="1400px"}
+
+# The Challenge {background-color="#0F4C81" .center-align}
+
+## (Technical) Overhead
+
+- Data management workflows 
+- Tools for scientific computing (R, Python)
+- Version control system (Git)
+- Project management tools (GitHub, GitLab)
+- Communication (Slack, Element) 
+- Authoring (RMarkdown, Jupyter, Quarto)
+- Publishing (Zenodo, Figshare, OSF)
+
+# The Start {background-color="#0F4C81"}
+
+## Funding - ETH ORD Program
+
+- Open Research Data Program of the ETH Board: <https://ethrat.ch/en/eth-domain/open-research-data/>
+
+- ORD 1st Explore [(150k)]{.highlight-yellow}, our [funded proposal]{.highlight-yellow}: <https://openwashdata.org/pages/gallery/proposal/>
+
+- ORD 2nd Contribute [(30k)]{.highlight-yellow}, our [funded proposal]{.highlight-yellow}: <https://github.com/openwashdata-dev/proposal-eth-ord-scheme-contribute/blob/main/proposal-eth-ord-scheme-contribute.md>
+
+- ORD 2nd Explore [(150k)]{.highlight-yellow} guidelines, due [29th February 2024]{.highlight-yellow}: <https://ethrat.ch/wp-content/uploads/2023/10/Application-Guidelines_TrackA_Explore_2nd_call_FINAL.pdf>
+
+- ORD 6th Contribute [(30k)]{.highlight-yellow} guidelines, due [12th December 2023]{.highlight-yellow}: <https://ethrat.ch/wp-content/uploads/2023/10/Application-guidelines_TrackC-Contribute-projects-6th-call-FINAL.pdf>
+
+## Funding - ETH ORD Program
+
+> We draw your attention to the fact that the Contribute calls are suitable for young researchers (PhD and postdoc) who would like to add value to their data within their projects.
+
+Open Science Working Group Email (2023-10-05)  
+
+## Learning - Open Science Tools
+
+::: learn-more
+[ost-hs23.github.io/website/syllabus.html](https://ost-hs23.github.io/website/syllabus.html)
+
+```{=html}
+<iframe src="https://ost-hs23.github.io/website/syllabus.html" width="100%" height="500" style="border:2px solid #123233;" title="Open Science Tools - Syllabus"></iframe>
+```
+:::
+
+## Thanks `r emo::ji("sunflower")` {.center-align} 
+
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
+
+Access slides as [PDF on GitHub](https://github.com/cven5873-ss23/website/raw/main/slides/lec-05-communicate.pdf)
+
+This material is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). 
+
+## References
