@@ -1,0 +1,90 @@
+---
+title: "We can’t decolonize research until we fix publishing"
+description: |
+  Academic publishing needs a complete overhaul to make it less elite and biased. But until we see a revolution at a     grand scale, we must focus on the power we have as ethical reviewers to revolutionize a system that is no longer fit   for purpose.   
+categories:
+  - decolonization
+  - publishing
+  - peer-review
+author:
+  - name: Elizabeth Tilley
+    url: https://ghe.ethz.ch/about/people/person-detail.MTc2MjI5.TGlzdC80MTI2LC0xNDYwMDMwNTU3.html
+    affiliation: Global Health Engineering, ETH Zurich
+    affiliation-url: https://ghe.ethz.ch
+citation:
+  type: post
+  container-title: Global Health Engineering Blog
+  doi: "10.5281/zenodo.8318442"
+  url: https://ghe.ethz.ch/ghe-blog-news.html
+date: "2023-11-14"
+draft: false
+image: "dalle-scientific-article.png"
+image-alt: "A surreal depiction of publishing a scientific article without any people. Imagine an ethereal landscape where a giant, glowing book with scientific symbols and equations on its pages floats above a scenic landscape. Below the book, a stream of ink flows from a large, antique fountain pen, weaving through the scenery like a river. The background is filled with floating abstract shapes and mathematical formulas, creating an otherworldly atmosphere that symbolizes the journey of scientific discovery and publication. Drawing created by DALL-E"
+google-scholar: true
+---
+
+**Note:** This blog post was published is a re-published version from the [Global Health Engineering website](https://ghe.ethz.ch/ghe-blog-news/2023/11/blog-we-cant-decolonize-research-until-we-fix-publishing.html). For attribution, please see the [Citation information](https://global-health-engineering.github.io/website/3-blog/posts/2023-11-14-change-publishin/#citation) at the end of this post.
+
+In the olden days, back before the internet, academic publishing was a laborious, but distinguished process. Authors would submit manuscripts to prestigious publishers, who would in turn, seek out the most renowned scientists in the field and solicit their commentary. The publisher would then type-set, print, and mail the bound paper journal to the few institutions that could afford the pricey, yet vital, subscription. Being an invited reviewer, or an editor was an honour, and the honour was deemed to be sufficient compensation for hours, if not days of work.
+
+But things changed. On the one hand, "open-access" publishing has allowed millions (billions?) of people to read scientific papers without having to pay for a subscription; as of 2020, about 36% of articles have full open access [^1]. In 2021, The International Water Association (IWA), which publishes important WASH-sector journals like Water Science & Technology[^2], and my favourite, WASHDEV[^3], announced that 10 of their titles would be published completely open-access[^4] going forward and would allow authors from 103 countries to publish for free, or for an unlucky 33, a 50% discount[^5] (sorry, Nicaragua). These initiatives are part of "decolonizing research", i.e. increasing access to those researchers and students without the means to subscribe, submit, or read papers behind unaffordable paywalls. Unfortunately, researchers from the Global South, are still publishing at rates far lower than their more funded colleagues, and even more worrisome, are still rarely included as authors about work done in their own countries: of the publications on Africa climate research, 58% (7232) included no African authors[^6]. The measures in place are not enough, but there is growing recognition that more must be done to increase diversity and reduce bias within publishing, and fee waivers are a start.
+
+[^1]: https://wordsrated.com/academic-publishing-statistics/
+
+[^2]: https://iwaponline.com/wst
+
+[^3]: https://iwaponline.com/washdev
+
+[^4]: https://iwa-network.org/news/iwap-open-access/
+
+[^5]: https://iwaponline.com/open_access/pages/Research4Life
+
+[^6]: https://doi.org/10.1016/j.envsci.2021.10.023
+
+On the other hand, for-profit publishing houses have become increasingly commercial and monopolistic, multiplying the mechanisms for making money from authors while expanding the need for unpaid reviewers and editors. Currently, academic publishing is dominated by 5 main houses: Elsevier, John Wiley & Sons, Taylor & Francis, Springer Nature, and SAGE who, combined, generate about 50% of the \$19 billion in annual profit[^7]. Elsevier, who manages 2928 different journals, reported £8.5 billion in revenue for 2022, and £2.6 billion in adjusted operating profit[^8]. Meanwhile, few editors are paid for their service, and the hoards of reviewers, upon whom the entire industry rests, are kindly thanked (sometimes with a coupon).
+
+[^7]: https://wordsrated.com/academic-publishers-statistics/
+
+[^8]: https://stories.relx.com/2022-relx-highlights/index.html
+
+As a response to what can only be called the greedy hyperaccumulation of wealth, some are pushing back. More than 40 scientists resigned from the editorial board of Elsevier's journal *Neuroimage*[^9] and in 2019, The University of California (one of the largest academic institutions in the US) decided to not renew its \$11 million a year subscription fee[^10] contract with Elsevier, after lengthy negotiations failed to ensure that all UC publications would be made open access. These bold actions are commendable and are adding cracks to an already eroded foundation of trust in traditional publishing. Transformation is underway and inevitable but requires action from everyone: not just big account holders. What, you may be wondering, can I do? Whether you are a first time reviewer or a seasoned pro, I've compiled a few, simple actions that you can take to help make publishing more fair, diverse, and efficient for everyone.
+
+[^9]: https://t.co/0aamG7bemJ
+
+[^10]: https://www.universityofcalifornia.edu/news/why-uc-split-publishing-giant-elsevier
+
+**Actions for Reviewers who want to make an impact within the current system**
+
+In 2022, over 5 million papers were published[^11]. For any given paper, an Editor may send out between 5 and 20 reviewer invitations to get 2-3 acceptable reviews that can be returned to, and actually help, the author. Editors don't want to flood your inboxes with requests, but we are increasingly becoming desperate to find sufficient and suitable reviewers within a manageable time frame. The best thing you can do as a reviewer is to accept the invitation, write a great report, and submit it on time. This keeps the wheels of academia moving.
+
+[^11]: https://wordsrated.com/academic-publishing-statistics/
+
+If you don't have the time or expertise, the next best thing you can do is reject the invitation immediately. Typically, an editor will set a "respond-by" date: if the invited reviewer does not respond within say, 2 weeks, the editor will look for another. Waiting until the invitation expires means that the clock starts again, and the paper continues to languish, frustrating the author and editor alike. If you really can't do the review, click the "reject" button and let the Editor get to work on finding a replacement.
+
+However, before blindly following my advice and rejecting every invitation that comes your way, consider your obligations to the system as well as your opportunities to change it. Go check your profile on Web of Science[^12]: there, you can see your publications, your citations, and your review statistics. With a Peer Review to Publication ratio of 1.9:1, I am in the 95th percentile of reviewers who have a median of 0.3:1. In other words, I review almost 2 papers for every one I publish, which is at the low-end of what is needed to fully cover the reviews that I receive for my publications. For everyone else who is reviewing less than 1 paper for every 3 they publish, we need more from you. And if you haven't been invited as a reviewer yet, send an email to the editor of your favourite journal asking them to add you to their database: they will be thrilled!
+
+[^12]: https://www.webofscience.com
+
+And yes, asking for more is a big request; especially for junior faculty, women, and those already burdened with various types of unpaid labour. But you have choices: consider passing up requests from "top tier" journals and focus your limited time on providing feedback for first-time authors or manuscripts from less represented countries[^13]. As long as the journal is indexed[^14], you get the same amount of credit for reviewing for a journal that is considered "less prestigious", but your impact will be much greater. Importantly, you can also always decline to review if you see something you don't like: refusing to take on a manuscript without an author from the country of study, sends a strong signal to the editor, and hopefully, in time, the journal.
+
+[^13]: https://www.ajol.info/index.php/ajol
+
+[^14]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3354504/
+
+Until we have a complete overhaul of the publishing industry that includes new models of reviewing[^15], funding[^16], and disseminating research[^17], we must do our best to exist within it. However, small, consistent, acts by millions of ethical academics will hasten the crumbling of a system that excludes too many and profits too few. What role will you play?
+
+[^15]: https://openreview.net/about
+
+[^16]: https://doi.org/10.1186/s41073-021-00118-2
+
+[^17]: https://zenodo.org/records/7974116
+
+Elizabeth Tilley is currently an Associate Editor for WASHDEV[^18] and WaterSA[^19], and was formerly an Editor for Waste Management[^20] and The Malawi Medical Journal[^21].
+
+[^18]: https://iwaponline.com/washdev
+
+[^19]: https://watersa.net/
+
+[^20]: https://www.sciencedirect.com/journal/waste-management
+
+[^21]: https://www.mmj.mw/

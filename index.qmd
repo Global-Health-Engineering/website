@@ -2,8 +2,6 @@
 title: "Welcome!"
 ---
 
-<script defer data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
+We run a [Blog](3-blog), check out our posts. 
 
-We now run a [Blog](3-blog), check out our first post. 
-
-This website also provides access to [slides](1-slides/), [tutorials](2-tutorials/), aand other open educational material developed by the [Global Health Engineering group at ETH Zurich](https://ghe.ethz.ch/). 
+This website also provides access to [slides](1-slides/), [tutorials](2-tutorials/), and other open educational material developed by the [Global Health Engineering group at ETH Zurich](https://ghe.ethz.ch/). 
