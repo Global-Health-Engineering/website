@@ -200,7 +200,7 @@ Who has an ORCID iD <br>
 
 # The Start {background-color="#0F4C81"}
 
-## Funding - ETH ORD Program
+## Funding - ETH ORD Program {.smaller}
 
 - Open Research Data Program of the ETH Board: <https://ethrat.ch/en/eth-domain/open-research-data/>
 
