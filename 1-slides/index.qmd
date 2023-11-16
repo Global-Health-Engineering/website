@@ -2,7 +2,7 @@
 title: "{{< fa display >}} Slides"
 ---
 
-## Hubris to Hope HS23 - Reference Management with Zotero
+## Swiss Toxicology Society - Education Workshop
 
 [View slides in full screen](d04-sst-workshop-basel.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/1-slides/d04-sst-workshop-basel.pdf)
 
