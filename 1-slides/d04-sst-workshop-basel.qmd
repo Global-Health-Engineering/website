@@ -234,6 +234,18 @@ Open Science Working Group Email (2023-10-05)
 ```
 :::
 
+## A job at Roche?
+
+::: learn-more
+
+[careers.roche.com](https://careers.roche.com/global/en): FAIR Data Expert
+
+```{r}
+knitr::include_graphics("img/fair-data-job-roche.png")
+```
+
+:::
+
 ## Thanks `r emo::ji("sunflower")` {.center-align} 
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
