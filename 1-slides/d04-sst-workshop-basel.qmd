@@ -25,17 +25,23 @@ bibliography: ["references.bib"]
 
 # Hello! `r emo::ji("wave")` {background-color="#0F4C81" .center-align}
 
-## Lars Schöbitz
+## Lars
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="30%"}
 ![](img/lars_schoebitz_profile_photo.jpg){fig-alt="Headshot of Lars Schöbitz" fig-align="center"}
 :::
 
-::: {.column width="50%"}
--   Environmental Engineer\
--   Open Science Specialist at Global Health Engineering
--   [RStudio certified instructor](https://education.rstudio.com/trainers/) for Data Science with R
+::: {.column width="70%"}
+
+{{< fa brands pagelines size=xl >}} Environmental Engineer\
+<br>
+
+{{< fa book-open size=xl >}} [Open Science Specialist](https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html) at ETH Zurich
+
+<br>
+
+{{< fa chalkboard-user size=xl >}} [RStudio certified instructor](https://education.rstudio.com/trainers/) for Data Science with R
 :::
 :::
 
