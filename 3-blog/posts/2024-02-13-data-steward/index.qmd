@@ -1,0 +1,61 @@
+---
+title: "Attention, Prof: You need a data steward for your team."
+description: |
+     
+categories:
+  - open science
+  - open data
+  - metrics
+author:
+  - name: Lars Schöbitz
+    url: https://lse.de/
+    affiliation: Global Health Engineering, ETH Zurich
+    affiliation-url: https://ghe.ethz.ch
+citation:
+  type: post
+  container-title: Global Health Engineering Blog
+  doi: "10.5281/zenodo.8318442"
+  url: https://ghe.ethz.ch/ghe-blog-news.html
+date: "2024-02-14"
+draft: false
+image: "dalle-scientific-article.png"
+image-alt: ""
+google-scholar: true
+---
+
+**Note:** This blog post was published is a re-published version from the [Global Health Engineering website](https://ghe.ethz.ch/ghe-blog-news/2023/11/blog-we-cant-decolonize-research-until-we-fix-publishing.html). For attribution, please see the [Citation information](https://global-health-engineering.github.io/website/3-blog/posts/2023-11-14-change-publishin/#citation) at the end of this post.
+
+You are a professor. It's long working hours, often after 5 pm. It's working weekends. It's sitting committees, and being stuck in meetings that could have been emails, or even better, not at all. It's teaching, and grading, and supervising, and mentoring. And now, on top of all that, you are supposed to make all your research data public applying FAIR principles. 
+
+You need a data steward.
+
+In simply terms and in the context of research, a data steward is defined as "someone who does not generate their own research data, but has the responsibility for the management of research data of others." 
+
+In 2021, when the Global Health Engineering group was launched, we specifically hired an Open Science Speciliast (ref) 
+
+What profile do you need?
+
+There aren't many established programmes that specifically qualify people to be a data steward. At the moment, it's a skill that's mostly learned on the job. Do not look for academic degrees (e.g. a PhD) or for someone on an academic career path. Look for someone that has an affinity for IT, that has worked in a range of different organisations (government, private sector, research) and with different types of data (lab experiments, observations, quantitative & qualitative surveys). At ETH Zurich, there is even an attractive path that doesn't require a PhD and offers the potential for a permanent position (IT Software Engineer).
+
+What are the tasks?
+
+A data steward will support you in defining your strategy for Research Data Management (RDM). In our view, this is a strategy which supports the concepts of open research data and computational reproducibility, both concepts that are increasingly important to make research more rigorous, transparent, and impactful. 
+
+On a group level, a data steward hosts strategic meetings and organises workshops to identify current file and data management practices within a group. They don't prescribe one way of doing things, but rather help to identify the best practices for the group, allowing individual researchers to use the workflows and tools that suit them best, so that scientific autonomy isn't hampered.
+
+On an indvidual level, a data steward offers weekly RDM support. They become the bridge from abstract concepts like FAIR principles, version control, literate programming, to the actual practical work that needs to be done. 
+
+Data stewardship in practice
+
+At Global Health Engineering, we aim to make all our research outputs reproducible and foster an Open Science culture. In our workflow of a research study that aims at producing a scientific article, we categorize our data into three stages:
+
+- Stage 1: unprocessed raw data
+- Stage 2: processed analysis-ready data
+- Stage 3: data supporting publication results
+
+In each of these stages, the unique work that is required to manage the collected data is recognised. We do this by assigning a digital object identifier (DOI) to the code that transforms the unprocessed raw data into analysis-ready data. Together, they form a data package, fully documented with relevant metadata, and citeable and reusable by the research community. It's a stage of data cleaning and data curation, which the a data steward is uniquely positioned to support, so that the researcher can focus on applying their expertise to the data, rather than on the data itself. The actual work that goes into authoring a manuscript, fine-tuning tables, preparing figures and models rests with the researcher and is what we consider getting data from Stage 2 to Stage 3. The data stewards remains a available to support the researcher in applying best practices for computational reproducibility, but the researcher is the one who is responsible for the analysis, discussion, and conclusions. 
+
+The ETH Library initiated a programme, funded by swissuniversities, that is building a data stewardship network at ETH. It has identified six people at ETH who already consider themselves to be in this role and dedicate 20% of their time to data stewardship activities beyond the tasks they already perform for the research group. 
+
+
+
