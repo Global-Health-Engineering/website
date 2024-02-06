@@ -16,9 +16,8 @@ citation:
   container-title: Global Health Engineering Blog
   doi: "10.5281/zenodo.8318442"
   url: https://ghe.ethz.ch/ghe-blog-news.html
-format: docx
-date: "2024-02-14"
-draft: true
+date: "2024-02-13"
+draft: false
 image: "dalle-scientific-article.png"
 image-alt: ""
 google-scholar: true
@@ -28,23 +27,31 @@ google-scholar: true
 
 ## Lead
 
-You are a professor. You’re working long hours; you’re working weekends; you’re sitting in committees, and stuck in meetings that could have been emails; you’re teaching, grading,  supervising, and mentoring. And now, on top of all that, you are supposed to make all your research data public, by applying FAIR principles. You need a data steward.
+You are a professor. You’re working long hours; you’re working weekends; you’re sitting in committees, and stuck in meetings that could have been emails; you’re teaching, grading, supervising, and mentoring. And now, on top of all that, you are supposed to make all your research data public, by applying FAIR principles. You need a data steward.
 
-## What's a data steward? 
+## What's a data steward?
 
-In simple terms and in the context of research, a data steward is defined as “someone who does not generate their own research data, but has the responsibility for the management of research data of others.” (ref)
+In simple terms and in the context of research, a data stewards are defined as "people who support the management of research data and reproducible data workflows in research groups, institutes and departments."[^1]
+
+[^1]: <https://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/data-stewardship.html>
 
 ## What profile do they need?
 
-Few established programmes specifically qualify people to be a data steward (e.g. REF). At the moment, it’s a skill that’s mostly learned on the job. Do not look for academic degrees (e.g. a PhD) or for someone on an academic career path (long list of publications). Look for someone who has an affinity for IT and has worked in various organizations (government, private sector, research) and with different types of data (lab experiments, observations, quantitative & qualitative surveys). A Research Software Engineer, which is a more established term, could be a good fit.
+Few established programmes specifically qualify people to be a data steward (e.g. Postgraduate Center University of Vienna[^2]). At the moment, it’s a skill that’s mostly learned on the job. Do not look for academic degrees (e.g. a PhD) or for someone on an academic career path (e.g. with a long list of publications). Look for someone who has an affinity for IT, has worked in various organizations (government, private sector, research) , and with different types of data (lab experiments, observations, quantitative & qualitative surveys). A Research Software Engineer, which is a more established term, could be a good fit.
+
+[^2]: <https://www.postgraduatecenter.at/en/programs/communication-media/data-steward/>
 
 ## What can you offer them?
 
-Whether it’s data stewardship or research software engineering, both career paths still need to be fully recognized and established within the scientific community. However, at ETH Zurich, there is an attractive career path for someone without a PhD. It falls under the “administrative, technical, IT and laboratory staff” category. The assigned function level XXX offers an attractive salary for someone with >5 years of experience, the yearly appraisal interview for mechanisms of a performance-bound annual increase, and also the potential for a permanent position.
+Whether it’s data stewardship or research software engineering, both career paths still need to be fully recognized and established within the scientific community. However, at ETH Zurich, there is an attractive career path for someone without a PhD. It falls under the “administrative, technical, IT and laboratory staff” category. The assigned function code 4042 (System specialist / software engineering) offers an attractive salary for someone with \>5 years of experience, the yearly appraisal interview for mechanisms of a performance-bound annual increase, and also the potential for a permanent position.
 
 ## What are the tasks?
 
-A data steward will support you in defining your strategy for Research Data Management (RDM). Ideally, this is a strategy that promotes the concepts of open research data and open code to support computational reproducibility, a practice that is increasingly important to make research more rigorous, transparent, and impactful. When we established our group in 2021, we defined this role more generally as “Open Science Specialist,” and you can find the published job description here XXX.
+A data steward will support you in defining your strategy for Research Data Management (RDM). Ideally, this is a strategy that promotes the concepts of open research data and open code to support computational reproducibility, a practice that is increasingly important to make research more rigorous, transparent, and impactful. When we established our group in 2021, we defined this role more generally as "Open Science Specialist", and you can find the published job description[^3] for your own use. Since then, we have established new projects and defined our RDM strategy and workflows[^4].
+
+[^3]: <https://github.com/Global-Health-Engineering/job-descriptions/blob/main/open-science-specialist/README.md>
+
+[^4]: <https://ghe.ethz.ch/open-science.html>
 
 ## How a data steward supports the group
 
@@ -58,17 +65,20 @@ On an individual level, a data steward offers weekly RDM support. They become th
 
 At Global Health Engineering, we aim to make all our research outputs reproducible and foster an Open Science culture. In our workflow (which starts with designing a research study and ends with the production of a scientific article), we categorize our data into three stages:
 
-- Stage 1: unprocessed raw data
-- Stage 2: processed analysis-ready data
-- Stage 3: data supporting publication results
+-   Stage 1: unprocessed raw data
+-   Stage 2: processed analysis-ready data
+-   Stage 3: data supporting publication results
 
-The unique work required to manage the collected data is recognized in each of these stages. We assign a digital object identifier (DOI) to the code that transforms the unprocessed raw data from Stage 1 into processed analysis-ready data (Stage 2). Together, they form a data package, which is fully documented with relevant metadata, and is citeable and reusable by the research community. A data steward is uniquely positioned to support  data cleaning and curation, so that the researcher can focus on applying their expertise to the data rather than on the data itself. The actual work that goes into authoring a manuscript, fine-tuning tables, and preparing figures and models rests with the researcher and is what we consider getting data from Stage 2 to Stage 3. The data steward remains available to support the researcher in applying best practices for data management. Still, the researcher is the one who is responsible for the analysis, discussion, and conclusions.
+The unique work required to manage the collected data is recognized in each of these stages. We assign a digital object identifier (DOI) to the code that transforms the unprocessed raw data from Stage 1 into processed analysis-ready data (Stage 2). Together, they form a data package, which is fully documented with relevant metadata, and is citeable and reusable by the research community. A data steward is uniquely positioned to support data cleaning and curation, so that the researcher can focus on applying their expertise to the data rather than on the data itself. The actual work that goes into authoring a manuscript, fine-tuning tables, and preparing figures and models rests with the researcher and is what we consider getting data from Stage 2 to Stage 3. The data steward remains available to support the researcher in applying best practices for data management. Still, the researcher is the one who is responsible for the analysis, discussion, and conclusions.
 
 ## ETH Library Data Stewardship Network
 
-The ETH Library initiated a programme funded by swissuniversities to build a data stewardship network at ETH. It has identified six people at ETH who already consider themselves to have this role and dedicate 20% of their time to data stewardship activities beyond the tasks they already perform for the research group. Through these activities, data stewards can further explore and develop their skills and competencies in data stewardship and, at the same time, support other researchers in applying best practices for data management and sharing.
+The ETH Library initiated a programme funded by swissuniversities to build a data stewardship network at ETH[^5]. It has identified six people at ETH who already consider themselves to have this role and dedicate 20% of their time to data stewardship activities beyond the tasks they already perform for the research group. Through these activities, data stewards can further explore and develop their skills and competencies in data stewardship and, at the same time, support other researchers in applying best practices for data management and sharing[^6].
+
+[^5]: <https://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/data-stewardship.html>
+
+[^6]: <https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html>
 
 ## Hire now
 
-Hiring a data steward for your group who can connect and engage with other data stewards at ETH and beyond will significantly advance the impact of your research. If you are interested in speaking about hiring a data steward, please get in touch.
-
+Hiring a data steward for your group who can connect and engage with other data stewards at ETH and beyond will significantly advance the impact of your research. If you are interested in speaking about hiring a data steward, please get in touch: \<ghe\@mavt.ethz.ch\>
