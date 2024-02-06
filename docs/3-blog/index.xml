@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Global Health Engineering</title>
-<link>https://global-health-engineering.github.io/website/3-blog/index.html</link>
+<link>https://global-health-engineering.github.io/website/3-blog/</link>
 <atom:link href="https://global-health-engineering.github.io/website/3-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Homepage for slides, tutorials, and other teaching material.</description>
-<generator>quarto-1.3.450</generator>
-<lastBuildDate>Mon, 13 Nov 2023 23:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.549</generator>
+<lastBuildDate>Mon, 13 Nov 2023 22:00:00 GMT</lastBuildDate>
 <item>
   <title>We can’t decolonize research until we fix publishing</title>
   <dc:creator>Elizabeth Tilley</dc:creator>
-  <link>https://global-health-engineering.github.io/website/3-blog/posts/2023-11-14-change-publishing/index.html</link>
+  <link>https://global-health-engineering.github.io/website/3-blog/posts/2023-11-14-change-publishing/</link>
   <description><![CDATA[ 
 
 
@@ -75,14 +75,14 @@ Fix Publishing.”</span> <em>Global Health Engineering Blog</em>. <a href="http
   <category>decolonization</category>
   <category>publishing</category>
   <category>peer-review</category>
-  <guid>https://global-health-engineering.github.io/website/3-blog/posts/2023-11-14-change-publishing/index.html</guid>
-  <pubDate>Mon, 13 Nov 2023 23:00:00 GMT</pubDate>
+  <guid>https://global-health-engineering.github.io/website/3-blog/posts/2023-11-14-change-publishing/</guid>
+  <pubDate>Mon, 13 Nov 2023 22:00:00 GMT</pubDate>
   <media:content url="https://global-health-engineering.github.io/website/3-blog/posts/2023-11-14-change-publishing/dalle-scientific-article.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Creating collaboration on the ground: Reflecting on my first visit to Kenya</title>
   <dc:creator>Jakub Tkaczuk</dc:creator>
-  <link>https://global-health-engineering.github.io/website/3-blog/posts/2023-10-10-collaboration-kenya/index.html</link>
+  <link>https://global-health-engineering.github.io/website/3-blog/posts/2023-10-10-collaboration-kenya/</link>
   <description><![CDATA[ 
 
 
@@ -121,14 +121,14 @@ Engineering Blog</em>. <a href="https://doi.org/10.5281/zenodo.8318442">https://
   <category>collaboration</category>
   <category>travel</category>
   <category>learning</category>
-  <guid>https://global-health-engineering.github.io/website/3-blog/posts/2023-10-10-collaboration-kenya/index.html</guid>
+  <guid>https://global-health-engineering.github.io/website/3-blog/posts/2023-10-10-collaboration-kenya/</guid>
   <pubDate>Mon, 09 Oct 2023 22:00:00 GMT</pubDate>
   <media:content url="https://global-health-engineering.github.io/website/3-blog/posts/2023-10-10-collaboration-kenya/biogas-digesters-drawing.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>In an era of open science, how is ‘transparency’ shifting within qualitative research</title>
   <dc:creator>Marc Kalina</dc:creator>
-  <link>https://global-health-engineering.github.io/website/3-blog/posts/2023-09-04-qualitative-data/index.html</link>
+  <link>https://global-health-engineering.github.io/website/3-blog/posts/2023-09-04-qualitative-data/</link>
   <description><![CDATA[ 
 
 
@@ -179,7 +179,7 @@ Research.”</span> <em>Global Health Engineering Blog</em>. <a href="https://do
   <category>qualitative data</category>
   <category>transparency</category>
   <category>transcripts</category>
-  <guid>https://global-health-engineering.github.io/website/3-blog/posts/2023-09-04-qualitative-data/index.html</guid>
+  <guid>https://global-health-engineering.github.io/website/3-blog/posts/2023-09-04-qualitative-data/</guid>
   <pubDate>Tue, 20 Jun 2023 22:00:00 GMT</pubDate>
 </item>
 </channel>
