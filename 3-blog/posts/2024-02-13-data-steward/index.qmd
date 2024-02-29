@@ -18,12 +18,12 @@ citation:
   url: https://ghe.ethz.ch/ghe-blog-news.html
 date: "2024-02-13"
 draft: false
-image: "dalle-scientific-article.png"
-image-alt: ""
+image: "dalle-overworked-prof.webp"
+image-alt: "In a university setting, a woman professor and a man professor, are depicted in a dynamic and detailed scene that embodies the multifaceted nature of academic life. The woman is seen sitting at a cluttered desk, surrounded by piles of papers and books, grading assignments and looking exasperated. Beside her, a laptop displays an email about another meeting. The man is standing, holding a stack of documents, looking at a poster on the wall that explains the FAIR principles (Findable, Accessible, Interoperable, and Reusable) for making research data public. The background is filled with elements that suggest a busy academic environment: a chalkboard filled with notes, a clock showing a late hour, and a door slightly ajar with a 'Data Steward Needed' sign hanging on it. The scene conveys the overwhelming workload and the additional pressure of adhering to new research data policies, highlighting the need for support in the academic community. Created with DALL-E by OpenAI."
 google-scholar: true
 ---
 
-**Note:** This blog post was published is a re-published version from the [Global Health Engineering website](). For attribution, please see the [Citation information](https://global-health-engineering.github.io/website/3-blog/posts/2023-11-14-change-publishin/#citation) at the end of this post.
+**Note:** This blog post was published is a re-published version from the [Global Health Engineering website](https://ghe.ethz.ch/ghe-blog-news/2024/02/blog-attention-prof-you-need-a-data-steward-for-your-team.html). For attribution, please see the [Citation information](https://global-health-engineering.github.io/website/3-blog/posts/2024-02-13-data-steward/#citation) at the end of this post.
 
 ## Lead
 
@@ -37,17 +37,17 @@ In simple terms and in the context of research, a data stewards are defined as "
 
 ## What profile do they need?
 
-Few established programmes specifically qualify people to be a data steward (e.g. Postgraduate Center University of Vienna[^2]). At the moment, it’s a skill that’s mostly learned on the job. Do not look for academic degrees (e.g. a PhD) or for someone on an academic career path (e.g. with a long list of publications). Look for someone who has an affinity for IT, has worked in various organizations (government, private sector, research) , and with different types of data (lab experiments, observations, quantitative & qualitative surveys). A Research Software Engineer, which is a more established term, could be a good fit.
+Few established programmes specifically qualify people to be a data steward (e.g. Postgraduate Center University of Vienna2). At the moment, it’s a skill that’s mostly learned on the job. Do not look for academic degrees (e.g. a PhD) or for someone on an academic career path (e.g. with a long list of publications). Look for someone who has an affinity for IT, has worked in various organizations (government, private sector, research) , and with different types of data (lab experiments, observations, quantitative & qualitative surveys). A Research Software Engineer, which is a more established term, could be a good fit, but there are other suitable profiles, too.
 
 [^2]: <https://www.postgraduatecenter.at/en/programs/communication-media/data-steward/>
 
 ## What can you offer them?
 
-Whether it’s data stewardship or research software engineering, both career paths still need to be fully recognized and established within the scientific community. However, at ETH Zurich, there is an attractive career path for someone without a PhD. It falls under the “administrative, technical, IT and laboratory staff” category. The assigned function code 4042 (System specialist / software engineering) offers an attractive salary for someone with \>5 years of experience, the yearly appraisal interview for mechanisms of a performance-bound annual increase, and also the potential for a permanent position.
+Whether it’s data stewardship or research software engineering, both career paths still need to be fully recognized and established within the scientific community. However, at ETH Zurich, there is an attractive career path for someone without a PhD. It falls under the “administrative, technical, IT and laboratory staff” category. The assigned function code 4042 (System specialist / software engineering) offers an attractive salary for someone with >5 years of experience, the yearly appraisal interview for mechanisms of a performance-bound annual increase, and also the potential for a permanent position.
 
 ## What are the tasks?
 
-A data steward will support you in defining your strategy for Research Data Management (RDM). Ideally, this is a strategy that promotes the concepts of open research data and open code to support computational reproducibility, a practice that is increasingly important to make research more rigorous, transparent, and impactful. When we established our group in 2021, we defined this role more generally as "Open Science Specialist", and you can find the published job description[^3] for your own use. Since then, we have established new projects and defined our RDM strategy and workflows[^4].
+A data steward will support you in defining your strategy for Research Data Management (RDM). Ideally, this is a strategy that promotes the concepts of open research data and open code to support computational reproducibility, a practice that is increasingly important to make research more rigorous, transparent, and impactful. When we established our group in 2021, we defined this role more generally as “Open Science Specialist”, and you can find the published job description[^3] for your own use. Since then, we have established new projects and defined our RDM strategy and workflows[^4].
 
 [^3]: <https://github.com/Global-Health-Engineering/job-descriptions/blob/main/open-science-specialist/README.md>
 
@@ -79,6 +79,6 @@ The ETH Library initiated a programme funded by swissuniversities to build a dat
 
 [^6]: <https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html>
 
-## Hire now
+## Hire now & discuss
 
-Hiring a data steward for your group who can connect and engage with other data stewards at ETH and beyond will significantly advance the impact of your research. If you are interested in speaking about hiring a data steward, please get in touch: \<ghe\@mavt.ethz.ch\>
+Hiring a data steward for your group who can connect and engage with other data stewards at ETH and beyond will significantly advance the impact of your research. If you are interested in speaking about hiring a data steward, please get in touch: \<ghe\@mavt.ethz.ch\> or connect with us for a discussion on our open room on Matrix chat: <https://matrix.to/#/#ghe-open:staffchat.ethz.ch>
