@@ -10,3 +10,4 @@ _extensions
 .Rdata
 .httr-oauth
 .quarto
+*.docx
