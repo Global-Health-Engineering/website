@@ -1,5 +1,5 @@
 ---
-title: "Research Data Management in Practice - How hiring a data steward ..."
+title: "Plan for tomorrow today: why you need a data steward"
 subtitle: "Abstract for submission to Swiss Reproducibility conference 2024"
 author:
   - name: Lars Schöbitz
@@ -16,26 +16,26 @@ draft: true
 
 Explore the transformative wave of open scholarship, emphasizing the importance of transparency in the research lifecycle. From pre-registration and registered reports to open access publications, research data, and code—this session illuminates the pivotal role of open practices in fostering trust and collaboration in the scientific community.
 
-## Conference Goals 
+## Conference Goals
 
-- Engage with researchers to make their research rigorous, transparent and reproducible
-- Promote RTR research practices
-- Disseminate ways to improve research quality
+-   Engage with researchers to make their research rigorous, transparent and reproducible
+-   Promote RTR research practices
+-   Disseminate ways to improve research quality
 
 ## Opportunities and Exposure:
 
-- Foster scientific exchange across all disciplines in Switzerland
-- Provide the research community with a unique exposure to resources, expertise, and approaches in reproducible research
+-   Foster scientific exchange across all disciplines in Switzerland
+-   Provide the research community with a unique exposure to resources, expertise, and approaches in reproducible research
 
-# Title: "Research Data Management in Practice - How hiring a data steward ..." (10 / 40 words)
+# Title: "Plan for tomorrow today: why you need a data stewar" (10 / 40 words)
 
-# Abstract (342/350 words)
+# Abstract (350/350 words)
 
-This talk will promote the RTR research practices we have applied to research in our group and the scientific community. We will highlight our approach to open data and code as individual research products separate from scientific articles derived from them. Using a real-world case study example, we will present this approach to reproducible research.
+This talk will promote the RTR research practices we have applied to research at the Chair of Global Health Engineering (ETH Zurich) and the scientific community. Using our group as a case study example, we will highlight our approach to producing open data and code as individual research products and explain how they are separate from and sometimes more valuable than the scientific articles derived from them.
 
-The R package development environment allows researchers to keep an audit trail from unprocessed raw data to analysis-ready data. Data are stored in a git repository on GitHub with the code for data processing and rich metadata and documentation, following FAIR data sharing principles. The repository contains a citation file format (.cff) file that records each contributor's ORCID ID and a permissive CC-BY license. The GitHub to Zenodo integration allows for the automated generation of a digital object identifier (DOI) and ensures long-term archiving, following internationally recommended best practices by funding agencies. Once published, the entry is imported to the ETH Research Collection via the DOI for increased discoverability and institutional archiving. For data communication purposes, the R package pkgdown is ideal. Without any web development experience, the package allows competent R practitioners to prepare a visually appealing website with R code snippets showing exploratory data analysis examples. 
+The R package development environment allows researchers to keep an audit trail from unprocessed raw data to analysis-ready data. Data is stored in a git repository on GitHub with the code for data processing, rich metadata and documentation, following FAIR data sharing principles. The repository contains a citation file format (.cff) file that records each contributor’s ORCID ID and a permissive CC-BY license. The GitHub to Zenodo integration allows for the automated generation of a digital object identifier (DOI) and ensures long-term archiving, following internationally recommended best practices by funding agencies. Once published, the entry is imported to the ETH Research Collection via the DOI for increased discoverability and institutional archiving. For data communication purposes, the R package pkgdown is ideal. Without any web development experience, the package allows competent R practitioners to prepare a visually appealing website with R code snippets showing exploratory data analysis examples.
 
-We invest in this process at the data collection point long before preparing a scientific article. The process actively promotes rigorous research data management practices to our BSc, MSc, and PhD students and senior research staff, who follow best practices for transparency and open scholarship without being fully aware. Researchers use the published R data package to prepare a scientific article citing the repository and complying with any journal's policies for data availability statements and external long-term archiving.  
+We invest in this process at the data collection point long before preparing a scientific article. The process actively promotes rigorous research data management practices among our students and senior staff, who follow best practices for transparency and open scholarship as part of their daily practice rather than in an ad-hoc fashion at the end of the project. Researchers can then use the published R data package to prepare a scientific article and cite the repository. In doing so, they can comply with the journal’s data availability statements and long-term archiving policies.
 
-In our talk and the following discussion, we will argue that implementing these practices was only feasible by hiring a full-time data steward / open science specialist. We will discuss how invested financial resources will pay off as publishers of high-quality journals will increasingly reject article submissions that do not comply with data and code transparency, the foundation of computational reproducibility.
+Implementing these practices was only feasible by hiring a full-time data steward. We will discuss how invested financial resources will pay off as publishers of high-quality journals will increasingly require that article submissions comply with data and code transparency, the foundation of computational reproducibility.
 
