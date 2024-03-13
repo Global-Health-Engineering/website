@@ -6,6 +6,7 @@ author:
     url: https://lse.de/
     affiliation: Global Health Engineering, ETH Zurich
     affiliation-url: https://ghe.ethz.ch
+format: gfm
 date: today
 draft: true
 ---
