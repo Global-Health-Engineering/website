@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Lars Schöbitz">
-<meta name="dcterms.date" content="2023-06-12">
 
-<title>Global Health Engineering - open by default</title>
+<title>Global Health Engineering - GHE blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -41,8 +41,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,11 +68,69 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-description','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script defer="" data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
-</head>
+<link rel="alternate" type="application/rss+xml" title="Global Health Engineering" href="index.xml" data-external="1"></head>
 
 <body class="nav-fixed">
 
@@ -113,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -125,68 +181,26 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#project" id="toc-project" class="nav-link active" data-scroll-target="#project">Project</a>
-  <ul class="collapse">
-  <li><a href="#my-role---open-science-specialist" id="toc-my-role---open-science-specialist" class="nav-link" data-scroll-target="#my-role---open-science-specialist">My role - <strong>Open Science Specialist</strong></a></li>
-  <li><a href="#data-management-strategy" id="toc-data-management-strategy" class="nav-link" data-scroll-target="#data-management-strategy">Data Management Strategy</a></li>
-  </ul></li>
-  <li><a href="#characteristics" id="toc-characteristics" class="nav-link" data-scroll-target="#characteristics">Characteristics</a>
-  <ul class="collapse">
-  <li><a href="#data-at-global-health-engineering" id="toc-data-at-global-health-engineering" class="nav-link" data-scroll-target="#data-at-global-health-engineering">Data at Global Health Engineering</a></li>
-  </ul></li>
-  <li><a href="#pain-points" id="toc-pain-points" class="nav-link" data-scroll-target="#pain-points">Pain Points</a>
-  <ul class="collapse">
-  <li><a href="#lost-and-overwhelmed" id="toc-lost-and-overwhelmed" class="nav-link" data-scroll-target="#lost-and-overwhelmed">Lost and overwhelmed</a></li>
-  <li><a href="#computational-tools" id="toc-computational-tools" class="nav-link" data-scroll-target="#computational-tools">Computational tools</a></li>
-  <li><a href="#scientist-as-a-lone-ranger" id="toc-scientist-as-a-lone-ranger" class="nav-link" data-scroll-target="#scientist-as-a-lone-ranger">Scientist as a lone ranger</a></li>
-  </ul></li>
-  <li><a href="#dmp" id="toc-dmp" class="nav-link" data-scroll-target="#dmp">DMP? <i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="collaboration">collaboration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="decolonization">decolonization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="learning">learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="metrics">metrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="open data">open data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="open science">open science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="peer-review">peer-review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="publishing">publishing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="qualitative data">qualitative data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="transcripts">transcripts <span class="quarto-category-count">(1)</span></div><div class="category" data-category="transparency">transparency <span class="quarto-category-count">(1)</span></div><div class="category" data-category="travel">travel <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">open by default</h1>
-<p class="subtitle lead">a data management strategy</p>
+<h1 class="title">GHE blog</h1>
+<p class="subtitle lead">A monthly blog published on ghe.ethz.ch</p>
 </div>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
-  <div class="quarto-title-meta-heading">Affiliation</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Lars Schöbitz <a href="mailto:lschoebitz@ethz.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            <a href="https://ghe.ethz.ch/">
-            Global Health Engineering - ETH Zurich
-            </a>
-          </p>
-      </div>
-  </div>
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
-      
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 12, 2023</p>
-    </div>
-  </div>
+    
   
     
   </div>
@@ -196,74 +210,172 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project" class="level1" data-background-color="#0F4C81">
-<h1 data-background-color="#0F4C81">Project</h1>
-<section id="my-role---open-science-specialist" class="level2">
-<h2 class="anchored" data-anchor-id="my-role---open-science-specialist">My role - <strong>Open Science Specialist</strong></h2>
-<ul>
-<li>research data management</li>
-<li>reproducible workflows</li>
-<li>mindset for Open Science</li>
-<li>research communication</li>
-<li>teaching data science tools</li>
-<li>proposal writing</li>
-</ul>
-<p><a href="https://github.com/Global-Health-Engineering/job-descriptions/tree/main/open-science-specialist">Open Science Specialist - Job Description</a></p>
-</section>
-<section id="data-management-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="data-management-strategy">Data Management Strategy</h2>
-<p><img src="img/ghe-rdm-workflow.jpg" class="img-fluid" style="width:60.0%"></p>
-</section>
-</section>
-<section id="characteristics" class="level1">
-<h1>Characteristics</h1>
-<section id="data-at-global-health-engineering" class="level2">
-<h2 class="anchored" data-anchor-id="data-at-global-health-engineering">Data at Global Health Engineering</h2>
-<ul>
-<li>small (few MBs)</li>
-<li>tabular</li>
-<li>non-sensitive</li>
-<li>topics (waste management, sanitation, air quality, etc.)</li>
-</ul>
-</section>
-</section>
-<section id="pain-points" class="level1">
-<h1>Pain Points</h1>
-<section id="lost-and-overwhelmed" class="level2">
-<h2 class="anchored" data-anchor-id="lost-and-overwhelmed">Lost and overwhelmed</h2>
-<ul>
-<li>terminology (underlying data, raw data, processed data, metadata, open sources, open access, …)</li>
-<li>licensing (CC-BY, MIT, public domain, code, data)</li>
-<li>security &amp; privacy (phone numbers, GPS locations of houses)</li>
-<li>repositories (documentation, upload, maintenance)</li>
-</ul>
-</section>
-<section id="computational-tools" class="level2">
-<h2 class="anchored" data-anchor-id="computational-tools">Computational tools</h2>
-<ul>
-<li>intimidating</li>
-<li>hard</li>
-<li>not everyone’s business</li>
-</ul>
-</section>
-<section id="scientist-as-a-lone-ranger" class="level2">
-<h2 class="anchored" data-anchor-id="scientist-as-a-lone-ranger">Scientist as a lone ranger</h2>
-<ul>
-<li>acts alone (until becoming a manager/professor)</li>
-<li>exposure to tools (100s throughout research career at different institutions)</li>
-<li>own stack of tools (builds their own individual worksflows -&gt; not team oriented)</li>
-<li>the way to do it (doesn’t have time to learn what would be most effective for a team)</li>
-</ul>
-</section>
-</section>
-<section id="dmp" class="level1">
-<h1>DMP? <i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></h1>
-<p><a href="https://github.com/Global-Health-Engineering/dmp-sor4d" data-preview-link="true">https://github.com/Global-Health-Engineering/dmp-sor4d</a></p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1717365600000" data-listing-file-modified-sort="1717409959686" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="399">
+<div class="thumbnail">
+<p><a href="../blog/posts/2024-02-27-swissrn-award/index.html" class="no-external"></a></p><a href="../blog/posts/2024-02-27-swissrn-award/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/2024-02-27-swissrn-award/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2024-02-27-swissrn-award/index.html" class="no-external">Motivation for Team Award</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../blog/posts/2024-02-27-swissrn-award/index.html" class="no-external">Swiss Reproducibility Award 2024</a>
+</div>
+<div class="listing-description">
+<a href="../blog/posts/2024-02-27-swissrn-award/index.html" class="no-external">This motivation was written in response to the call for nominations for the Swiss Reproducibility Award 2024. The motivation was written by Lars Schöbitz, a team member at…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2024-02-27-swissrn-award/index.html" class="no-external">
+<div class="listing-date">
+Jun 3, 2024
+</div>
+<div class="listing-author">
+Lars Schöbitz
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="open science,open data,metrics" data-listing-date-sort="1707778800000" data-listing-file-modified-sort="1709199816734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="907">
+<div class="thumbnail">
+<p><a href="../blog/posts/2024-02-13-data-steward/index.html" class="no-external"></a></p><a href="../blog/posts/2024-02-13-data-steward/index.html" class="no-external">
+<p><img src="../blog/posts/2024-02-13-data-steward/dalle-overworked-prof.webp" class="thumbnail-image" alt="In a university setting, a woman professor and a man professor, are depicted in a dynamic and detailed scene that embodies the multifaceted nature of academic life. The woman is seen sitting at a cluttered desk, surrounded by piles of papers and books, grading assignments and looking exasperated. Beside her, a laptop displays an email about another meeting. The man is standing, holding a stack of documents, looking at a poster on the wall that explains the FAIR principles (Findable, Accessible, Interoperable, and Reusable) for making research data public. The background is filled with elements that suggest a busy academic environment: a chalkboard filled with notes, a clock showing a late hour, and a door slightly ajar with a &amp;#039;Data Steward Needed' sign hanging on it. The scene conveys the overwhelming workload and the additional pressure of adhering to new research data policies, highlighting the need for support in the academic community. Created with DALL-E by OpenAI."></p>
+</a><p><a href="../blog/posts/2024-02-13-data-steward/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2024-02-13-data-steward/index.html" class="no-external">Attention, Prof: You need a data steward for your team.</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../blog/posts/2024-02-13-data-steward/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../blog/posts/2024-02-13-data-steward/index.html" class="no-external">You are a professor. You’re working long hours; you’re working weekends; you’re sitting in committees, and stuck in meetings that could have been emails; you’re teaching, grading, supervising, and mentoring. And now, on top of all that, you are supposed to make all your research data public, by applying FAIR principles. You need a data steward. </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2024-02-13-data-steward/index.html" class="no-external">
+<div class="listing-date">
+Feb 13, 2024
+</div>
+<div class="listing-author">
+Lars Schöbitz
+</div>
+<div class="listing-reading-time">
+5 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="decolonization,publishing,peer-review" data-listing-date-sort="1699916400000" data-listing-file-modified-sort="1700129306017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1148">
+<div class="thumbnail">
+<p><a href="../blog/posts/2023-11-14-change-publishing/index.html" class="no-external"></a></p><a href="../blog/posts/2023-11-14-change-publishing/index.html" class="no-external">
+<p><img src="../blog/posts/2023-11-14-change-publishing/dalle-scientific-article.png" class="thumbnail-image" alt="A surreal depiction of publishing a scientific article without any people. Imagine an ethereal landscape where a giant, glowing book with scientific symbols and equations on its pages floats above a scenic landscape. Below the book, a stream of ink flows from a large, antique fountain pen, weaving through the scenery like a river. The background is filled with floating abstract shapes and mathematical formulas, creating an otherworldly atmosphere that symbolizes the journey of scientific discovery and publication. Drawing created by DALL-E"></p>
+</a><p><a href="../blog/posts/2023-11-14-change-publishing/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2023-11-14-change-publishing/index.html" class="no-external">We can’t decolonize research until we fix publishing</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../blog/posts/2023-11-14-change-publishing/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../blog/posts/2023-11-14-change-publishing/index.html" class="no-external">Academic publishing needs a complete overhaul to make it less elite and biased. But until we see a revolution at a grand scale, we must focus on the power we have as ethical reviewers to revolutionize a system that is no longer fit for purpose. </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2023-11-14-change-publishing/index.html" class="no-external">
+<div class="listing-date">
+Nov 14, 2023
+</div>
+<div class="listing-author">
+Elizabeth Tilley
+</div>
+<div class="listing-reading-time">
+6 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="collaboration,travel,learning" data-listing-date-sort="1696888800000" data-listing-file-modified-sort="1696937974869" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="553">
+<div class="thumbnail">
+<p><a href="../blog/posts/2023-10-10-collaboration-kenya/index.html" class="no-external"></a></p><a href="../blog/posts/2023-10-10-collaboration-kenya/index.html" class="no-external">
+<p><img src="../blog/posts/2023-10-10-collaboration-kenya/biogas-digesters-drawing.png" class="thumbnail-image" alt="African landscape with earthy colours and small biogas digesters attached to homes in the scenery. Drawing. Created by DALL-E 3."></p>
+</a><p><a href="../blog/posts/2023-10-10-collaboration-kenya/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2023-10-10-collaboration-kenya/index.html" class="no-external">Creating collaboration on the ground: Reflecting on my first visit to Kenya</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../blog/posts/2023-10-10-collaboration-kenya/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../blog/posts/2023-10-10-collaboration-kenya/index.html" class="no-external">Work in higher education is about learning. Is there a better way to learn than travel? </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2023-10-10-collaboration-kenya/index.html" class="no-external">
+<div class="listing-date">
+Oct 10, 2023
+</div>
+<div class="listing-author">
+Jakub Tkaczuk
+</div>
+<div class="listing-reading-time">
+3 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="qualitative data,transparency,transcripts" data-listing-date-sort="1687298400000" data-listing-file-modified-sort="1700129306016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="873">
+<div class="thumbnail">
+<p><a href="../blog/posts/2023-09-04-qualitative-data/index.html" class="no-external"></a></p><a href="../blog/posts/2023-09-04-qualitative-data/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/2023-09-04-qualitative-data/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2023-09-04-qualitative-data/index.html" class="no-external">In an era of open science, how is ‘transparency’ shifting within qualitative research</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../blog/posts/2023-09-04-qualitative-data/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../blog/posts/2023-09-04-qualitative-data/index.html" class="no-external">Within the social sciences, researchers value transparency to assess the scientific rigour of qualitative research. Although transparency in data production and analysis are increasingly commonplace, data access lags behind other disciplines. At GHE we are working to make our qualitative research more transparent, while developing standards for open access that will not be exclusionary for scholars in low-resource contexts. </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2023-09-04-qualitative-data/index.html" class="no-external">
+<div class="listing-date">
+Jun 21, 2023
+</div>
+<div class="listing-author">
+Marc Kalina
+</div>
+<div class="listing-reading-time">
+5 min
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,0 +1,76 @@
+---
+title: "SwissRN"
+subtitle: "Data Stewardship"
+author: 
+  - name: Lars Schöbitz
+    email: lschoebitz@ethz.ch
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+date: 2024-06-10
+date-format: long
+footer: "[{{< fa link >}} global-health-engineering.github.io/website/1-slides/](https://global-health-engineering.github.io/website/1-slides/)"
+format: 
+  pptx:
+    slide-number: true
+  revealjs: 
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+editor: source
+editor_options: 
+  chunk_output_type: console
+execute:
+  freeze: auto
+bibliography: ["references.bib"]
+---
+
+## Hands-up
+
+-   Who has an ORCID iD?
+-   Who has published a scientific article in a journal?
+-   Who has published data separately from a scientific article with a separate unique id (DOI)?
+
+## I am a data steward
+
+-   I am a data steward working in a research group of about 10 people
+    -   Profile
+        -   What I have
+            -   10+ years work experience (5 in research)
+            -   empathy, compassion, patience, persistance
+            -   an affinity for IT
+        -   What I do not have
+            -   a doctoral degree
+            -   a qualification in IT related disciplines
+            -   ...
+
+## Your turn
+
+-   For my example role of a data steward,
+    -   Who do you think should pay for this resource?
+    -   How do you think the data steward should be rewarded scientifically?
+        -   included as an author on publications?
+    -   Which career paths are there for data stewards with my profile?
+
+## Three stages of data
+
+## (Research) Data Management {.smaller}
+
+| term                                                     | folder    | explanation                                                                                                                                                                                | file format                     |
+|------------------|------------------|---------------------------------------------------------|-----------------------------------------------------------------------|
+| unprocessed [raw]{.highlight-yellow} data                | raw       | data that is not processed and [remains in its original form and file]{.highlight-yellow}                                                                                                  | often XLSX, also CSV and others |
+| [processed]{.highlight-yellow} analysis-ready data       | processed | data that is processed to [prepare for an analysis]{.highlight-yellow} and is exported in its new form as a new file                                                                       | CSV                             |
+| [final]{.highlight-yellow} data underlying a publication | final     | data that is the [result of an analysis]{.highlight-yellow} (e.g descriptive statistics or data visualization) and shown in a report, but then also exported in its new form as a new file | CSV                             |
+
+: Examples of terms used when managing data. {.striped .hover tbl-colwidths="\[20, 10, 50, 20\]"}
+
+## Data Management Strategy {background-color="#0F4C81" .center-align}
+
+##  {background-image="img/ghe-rdm-workflow-v2.drawio.png" background-size="1400px"}
+
+
+
+## GHE est. 2021
+
+-   committees
+-   proposals

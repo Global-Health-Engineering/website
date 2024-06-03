@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lars Schöbitz">
-<meta name="dcterms.date" content="2023-06-12">
+<meta name="dcterms.date" content="2024-06-03">
 
-<title>Global Health Engineering - open by default</title>
+<title>Global Health Engineering - Plan for tomorrow today: why you need a data steward</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script defer="" data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -83,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Global Health Engineering</span>
     </a>
   </div>
@@ -94,11 +92,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../slides/index.html"> 
+    <a class="nav-link" href="../../../slides/index.html"> 
 <span class="menu-text">Slides</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -107,13 +105,13 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-tutorials">    
         <li>
-    <a class="dropdown-item" href="../tutorials/data-package.html">
+    <a class="dropdown-item" href="../../../tutorials/data-package.html">
  <span class="dropdown-text">R data package - the GHE way</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link" href="../../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -133,22 +131,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project" id="toc-project" class="nav-link active" data-scroll-target="#project">Project</a>
+  <li><a href="#conference-info" id="toc-conference-info" class="nav-link active" data-scroll-target="#conference-info">Conference info</a>
   <ul class="collapse">
-  <li><a href="#my-role---open-science-specialist" id="toc-my-role---open-science-specialist" class="nav-link" data-scroll-target="#my-role---open-science-specialist">My role - <strong>Open Science Specialist</strong></a></li>
-  <li><a href="#data-management-strategy" id="toc-data-management-strategy" class="nav-link" data-scroll-target="#data-management-strategy">Data Management Strategy</a></li>
+  <li><a href="#selected-topic-transparency-and-open-scholarship" id="toc-selected-topic-transparency-and-open-scholarship" class="nav-link" data-scroll-target="#selected-topic-transparency-and-open-scholarship">Selected Topic: Transparency and Open Scholarship</a></li>
+  <li><a href="#conference-goals" id="toc-conference-goals" class="nav-link" data-scroll-target="#conference-goals">Conference Goals</a></li>
+  <li><a href="#opportunities-and-exposure" id="toc-opportunities-and-exposure" class="nav-link" data-scroll-target="#opportunities-and-exposure">Opportunities and Exposure:</a></li>
   </ul></li>
-  <li><a href="#characteristics" id="toc-characteristics" class="nav-link" data-scroll-target="#characteristics">Characteristics</a>
-  <ul class="collapse">
-  <li><a href="#data-at-global-health-engineering" id="toc-data-at-global-health-engineering" class="nav-link" data-scroll-target="#data-at-global-health-engineering">Data at Global Health Engineering</a></li>
-  </ul></li>
-  <li><a href="#pain-points" id="toc-pain-points" class="nav-link" data-scroll-target="#pain-points">Pain Points</a>
-  <ul class="collapse">
-  <li><a href="#lost-and-overwhelmed" id="toc-lost-and-overwhelmed" class="nav-link" data-scroll-target="#lost-and-overwhelmed">Lost and overwhelmed</a></li>
-  <li><a href="#computational-tools" id="toc-computational-tools" class="nav-link" data-scroll-target="#computational-tools">Computational tools</a></li>
-  <li><a href="#scientist-as-a-lone-ranger" id="toc-scientist-as-a-lone-ranger" class="nav-link" data-scroll-target="#scientist-as-a-lone-ranger">Scientist as a lone ranger</a></li>
-  </ul></li>
-  <li><a href="#dmp" id="toc-dmp" class="nav-link" data-scroll-target="#dmp">DMP? <i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></a></li>
+  <li><a href="#title-plan-for-tomorrow-today-why-you-need-a-data-stewar-10-40-words" id="toc-title-plan-for-tomorrow-today-why-you-need-a-data-stewar-10-40-words" class="nav-link" data-scroll-target="#title-plan-for-tomorrow-today-why-you-need-a-data-stewar-10-40-words">Title: “Plan for tomorrow today: why you need a data stewar” (10 / 40 words)</a></li>
+  <li><a href="#abstract-350350-words" id="toc-abstract-350350-words" class="nav-link" data-scroll-target="#abstract-350350-words">Abstract (350/350 words)</a></li>
   </ul>
 </nav>
     </div>
@@ -157,8 +147,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">open by default</h1>
-<p class="subtitle lead">a data management strategy</p>
+<h1 class="title">Plan for tomorrow today: why you need a data steward</h1>
+<p class="subtitle lead">Abstract for submission to Swiss Reproducibility conference 2024</p>
 </div>
 
 
@@ -167,12 +157,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Lars Schöbitz <a href="mailto:lschoebitz@ethz.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+    <p class="author"><a href="https://lse.de/">Lars Schöbitz</a> </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            <a href="https://ghe.ethz.ch/">
-            Global Health Engineering - ETH Zurich
+            <a href="https://ghe.ethz.ch">
+            Global Health Engineering, ETH Zurich
             </a>
           </p>
       </div>
@@ -184,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 12, 2023</p>
+      <p class="date">June 3, 2024</p>
     </div>
   </div>
   
@@ -196,69 +186,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project" class="level1" data-background-color="#0F4C81">
-<h1 data-background-color="#0F4C81">Project</h1>
-<section id="my-role---open-science-specialist" class="level2">
-<h2 class="anchored" data-anchor-id="my-role---open-science-specialist">My role - <strong>Open Science Specialist</strong></h2>
+<section id="conference-info" class="level1">
+<h1>Conference info</h1>
+<section id="selected-topic-transparency-and-open-scholarship" class="level2">
+<h2 class="anchored" data-anchor-id="selected-topic-transparency-and-open-scholarship">Selected Topic: Transparency and Open Scholarship</h2>
+<p>Explore the transformative wave of open scholarship, emphasizing the importance of transparency in the research lifecycle. From pre-registration and registered reports to open access publications, research data, and code—this session illuminates the pivotal role of open practices in fostering trust and collaboration in the scientific community.</p>
+</section>
+<section id="conference-goals" class="level2">
+<h2 class="anchored" data-anchor-id="conference-goals">Conference Goals</h2>
 <ul>
-<li>research data management</li>
-<li>reproducible workflows</li>
-<li>mindset for Open Science</li>
-<li>research communication</li>
-<li>teaching data science tools</li>
-<li>proposal writing</li>
+<li>Engage with researchers to make their research rigorous, transparent and reproducible</li>
+<li>Promote RTR research practices</li>
+<li>Disseminate ways to improve research quality</li>
 </ul>
-<p><a href="https://github.com/Global-Health-Engineering/job-descriptions/tree/main/open-science-specialist">Open Science Specialist - Job Description</a></p>
 </section>
-<section id="data-management-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="data-management-strategy">Data Management Strategy</h2>
-<p><img src="img/ghe-rdm-workflow.jpg" class="img-fluid" style="width:60.0%"></p>
-</section>
-</section>
-<section id="characteristics" class="level1">
-<h1>Characteristics</h1>
-<section id="data-at-global-health-engineering" class="level2">
-<h2 class="anchored" data-anchor-id="data-at-global-health-engineering">Data at Global Health Engineering</h2>
+<section id="opportunities-and-exposure" class="level2">
+<h2 class="anchored" data-anchor-id="opportunities-and-exposure">Opportunities and Exposure:</h2>
 <ul>
-<li>small (few MBs)</li>
-<li>tabular</li>
-<li>non-sensitive</li>
-<li>topics (waste management, sanitation, air quality, etc.)</li>
+<li>Foster scientific exchange across all disciplines in Switzerland</li>
+<li>Provide the research community with a unique exposure to resources, expertise, and approaches in reproducible research</li>
 </ul>
 </section>
 </section>
-<section id="pain-points" class="level1">
-<h1>Pain Points</h1>
-<section id="lost-and-overwhelmed" class="level2">
-<h2 class="anchored" data-anchor-id="lost-and-overwhelmed">Lost and overwhelmed</h2>
-<ul>
-<li>terminology (underlying data, raw data, processed data, metadata, open sources, open access, …)</li>
-<li>licensing (CC-BY, MIT, public domain, code, data)</li>
-<li>security &amp; privacy (phone numbers, GPS locations of houses)</li>
-<li>repositories (documentation, upload, maintenance)</li>
-</ul>
+<section id="title-plan-for-tomorrow-today-why-you-need-a-data-stewar-10-40-words" class="level1">
+<h1>Title: “Plan for tomorrow today: why you need a data stewar” (10 / 40 words)</h1>
 </section>
-<section id="computational-tools" class="level2">
-<h2 class="anchored" data-anchor-id="computational-tools">Computational tools</h2>
-<ul>
-<li>intimidating</li>
-<li>hard</li>
-<li>not everyone’s business</li>
-</ul>
-</section>
-<section id="scientist-as-a-lone-ranger" class="level2">
-<h2 class="anchored" data-anchor-id="scientist-as-a-lone-ranger">Scientist as a lone ranger</h2>
-<ul>
-<li>acts alone (until becoming a manager/professor)</li>
-<li>exposure to tools (100s throughout research career at different institutions)</li>
-<li>own stack of tools (builds their own individual worksflows -&gt; not team oriented)</li>
-<li>the way to do it (doesn’t have time to learn what would be most effective for a team)</li>
-</ul>
-</section>
-</section>
-<section id="dmp" class="level1">
-<h1>DMP? <i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></h1>
-<p><a href="https://github.com/Global-Health-Engineering/dmp-sor4d" data-preview-link="true">https://github.com/Global-Health-Engineering/dmp-sor4d</a></p>
+<section id="abstract-350350-words" class="level1">
+<h1>Abstract (350/350 words)</h1>
+<p>This talk will promote the RTR research practices we have applied to research at the Chair of Global Health Engineering (ETH Zurich) and the scientific community. Using our group as a case study example, we will highlight our approach to producing open data and code as individual research products and explain how they are separate from and sometimes more valuable than the scientific articles derived from them.</p>
+<p>The R package development environment allows researchers to keep an audit trail from unprocessed raw data to analysis-ready data. Data is stored in a git repository on GitHub with the code for data processing, rich metadata and documentation, following FAIR data sharing principles. The repository contains a citation file format (.cff) file that records each contributor’s ORCID ID and a permissive CC-BY license. The GitHub to Zenodo integration allows for the automated generation of a digital object identifier (DOI) and ensures long-term archiving, following internationally recommended best practices by funding agencies. Once published, the entry is imported to the ETH Research Collection via the DOI for increased discoverability and institutional archiving. For data communication purposes, the R package pkgdown is ideal. Without any web development experience, the package allows competent R practitioners to prepare a visually appealing website with R code snippets showing exploratory data analysis examples.</p>
+<p>We invest in this process at the data collection point long before preparing a scientific article. The process actively promotes rigorous research data management practices among our students and senior staff, who follow best practices for transparency and open scholarship as part of their daily practice rather than in an ad-hoc fashion at the end of the project. Researchers can then use the published R data package to prepare a scientific article and cite the repository. In doing so, they can comply with the journal’s data availability statements and long-term archiving policies.</p>
+<p>Implementing these practices was only feasible by hiring a full-time data steward. We will discuss how invested financial resources will pay off as publishers of high-quality journals will increasingly require that article submissions comply with data and code transparency, the foundation of computational reproducibility.</p>
 
 
 </section>

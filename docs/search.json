@@ -1,269 +1,255 @@
 [
   {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#lars",
-    "href": "1-slides/d04-sst-workshop-basel.html#lars",
-    "title": "SST Educational Workshop",
-    "section": "Lars",
-    "text": "Lars\n\n\n\n\n\n\n\n\n Environmental Engineer\n\n Open Science Specialist at ETH Zurich\n\n RStudio certified instructor for Data Science with R"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#the-vision",
-    "href": "1-slides/d04-sst-workshop-basel.html#the-vision",
-    "title": "SST Educational Workshop",
-    "section": "The Vision?",
-    "text": "The Vision?\nAn active community that applies FAIR principles (Wilkinson et al. 2016) to data generated in the greater sector of the Swiss Society of Toxicology.\n\n\nFindable\nAccessible\nInteroperable\nReusable\n\nA set of technical principles that can be applied to data."
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#journal-articles",
-    "href": "1-slides/d04-sst-workshop-basel.html#journal-articles",
-    "title": "SST Educational Workshop",
-    "section": "Journal Articles",
-    "text": "Journal Articles\n\n\nScreenshot from Greene et al. (2021)"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#hands-up",
-    "href": "1-slides/d04-sst-workshop-basel.html#hands-up",
-    "title": "SST Educational Workshop",
-    "section": " hands up ",
-    "text": "hands up \n\nWho has published a scientific article in a journal?"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#hands-up-1",
-    "href": "1-slides/d04-sst-workshop-basel.html#hands-up-1",
-    "title": "SST Educational Workshop",
-    "section": " hands up ",
-    "text": "hands up \n\nWho has published data as supplemental material?"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#journal-articles-1",
-    "href": "1-slides/d04-sst-workshop-basel.html#journal-articles-1",
-    "title": "SST Educational Workshop",
-    "section": "Journal Articles",
-    "text": "Journal Articles\n\n\nScreenshot from Greene et al. (2021)"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#journal-articles-2",
-    "href": "1-slides/d04-sst-workshop-basel.html#journal-articles-2",
-    "title": "SST Educational Workshop",
-    "section": "Journal Articles",
-    "text": "Journal Articles\n\n\nScreenshot from Greene et al. (2021)"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#pdf-reports",
-    "href": "1-slides/d04-sst-workshop-basel.html#pdf-reports",
-    "title": "SST Educational Workshop",
-    "section": "PDF reports",
-    "text": "PDF reports\n\n\nScreenshot from Soeters, Mukheibir, and Willetts (2021)"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#pdf-reports-1",
-    "href": "1-slides/d04-sst-workshop-basel.html#pdf-reports-1",
-    "title": "SST Educational Workshop",
-    "section": "PDF reports",
-    "text": "PDF reports\n\n\nScreenshot from Soeters, Mukheibir, and Willetts (2021)"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#pdf-reports-2",
-    "href": "1-slides/d04-sst-workshop-basel.html#pdf-reports-2",
-    "title": "SST Educational Workshop",
-    "section": "PDF reports",
-    "text": "PDF reports\n\n\nScreenshot from Soeters, Mukheibir, and Willetts (2021)"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#hands-up-2",
-    "href": "1-slides/d04-sst-workshop-basel.html#hands-up-2",
-    "title": "SST Educational Workshop",
-    "section": " hands up ",
-    "text": "hands up \n\nWho has published data, separate from an article/report, and assigned a unique DOI?"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#hands-up-3",
-    "href": "1-slides/d04-sst-workshop-basel.html#hands-up-3",
-    "title": "SST Educational Workshop",
-    "section": " hands up ",
-    "text": "hands up \n\nWho has an ORCID iD  (account on: https://orcid.org/)"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#technical-overhead",
-    "href": "1-slides/d04-sst-workshop-basel.html#technical-overhead",
-    "title": "SST Educational Workshop",
-    "section": "(Technical) Overhead",
-    "text": "(Technical) Overhead\n\nData management workflows\nTools for scientific computing (R, Python)\nVersion control system (Git)\nProject management tools (GitHub, GitLab)\nCommunication (Slack, Element)\nAuthoring (RMarkdown, Jupyter, Quarto)\nPublishing (Zenodo, Figshare, OSF)"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#funding---eth-ord-program",
-    "href": "1-slides/d04-sst-workshop-basel.html#funding---eth-ord-program",
-    "title": "SST Educational Workshop",
-    "section": "Funding - ETH ORD Program",
-    "text": "Funding - ETH ORD Program\n\nOpen Research Data Program of the ETH Board: https://ethrat.ch/en/eth-domain/open-research-data/\nORD 1st Explore (150k), our funded proposal: https://openwashdata.org/pages/gallery/proposal/\nORD 2nd Contribute (30k), our funded proposal: https://github.com/openwashdata-dev/proposal-eth-ord-scheme-contribute/blob/main/proposal-eth-ord-scheme-contribute.md\nORD 2nd Explore (150k) guidelines, due 29th February 2024: https://ethrat.ch/wp-content/uploads/2023/10/Application-Guidelines_TrackA_Explore_2nd_call_FINAL.pdf\nORD 6th Contribute (30k) guidelines, due 12th December 2023: https://ethrat.ch/wp-content/uploads/2023/10/Application-guidelines_TrackC-Contribute-projects-6th-call-FINAL.pdf"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#funding---eth-ord-program-1",
-    "href": "1-slides/d04-sst-workshop-basel.html#funding---eth-ord-program-1",
-    "title": "SST Educational Workshop",
-    "section": "Funding - ETH ORD Program",
-    "text": "Funding - ETH ORD Program\n\nWe draw your attention to the fact that the Contribute calls are suitable for young researchers (PhD and postdoc) who would like to add value to their data within their projects.\n\nOpen Science Working Group Email (2023-10-05)"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#learning---open-science-tools",
-    "href": "1-slides/d04-sst-workshop-basel.html#learning---open-science-tools",
-    "title": "SST Educational Workshop",
-    "section": "Learning - Open Science Tools",
-    "text": "Learning - Open Science Tools\n\nost-hs23.github.io/website/syllabus.html"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#a-job-at-roche",
-    "href": "1-slides/d04-sst-workshop-basel.html#a-job-at-roche",
-    "title": "SST Educational Workshop",
-    "section": "A job at Roche?",
-    "text": "A job at Roche?\n\ncareers.roche.com: FAIR Data Expert"
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#thanks",
-    "href": "1-slides/d04-sst-workshop-basel.html#thanks",
-    "title": "SST Educational Workshop",
-    "section": "Thanks 🌻",
-    "text": "Thanks 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub\nThis material is licensed under Creative Commons Attribution 4.0 International."
-  },
-  {
-    "objectID": "1-slides/d04-sst-workshop-basel.html#references",
-    "href": "1-slides/d04-sst-workshop-basel.html#references",
-    "title": "SST Educational Workshop",
-    "section": "References",
-    "text": "References\n\n\n\n global-health-engineering.github.io/website/1-slides/\n\n\n\n\nGreene, Nicola, Sarah Hennessy, Tate W. Rogers, Jocelyn Tsai, and Francis L. de los Reyes III. 2021. “The Role of Emptying Services in Provision of Safely Managed Sanitation: A Classification and Quantification of the Needs of LMICs.” Journal of Environmental Management 290 (July): 112612. https://doi.org/10.1016/j.jenvman.2021.112612.\n\n\nSoeters, S, P Mukheibir, and J Willetts. 2021. “Treatment Technologies in Practice: On-the-Ground Experiences of Faecal Sludge and Wastewater Treatment.”\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3 (1). https://doi.org/10.1038/sdata.2016.18."
-  },
-  {
-    "objectID": "1-slides/index.html",
-    "href": "1-slides/index.html",
-    "title": " Slides",
-    "section": "",
-    "text": "View slides in full screen | Download slides as PDF"
-  },
-  {
-    "objectID": "1-slides/index.html#swiss-toxicology-society---education-workshop",
-    "href": "1-slides/index.html#swiss-toxicology-society---education-workshop",
-    "title": " Slides",
-    "section": "",
-    "text": "View slides in full screen | Download slides as PDF"
-  },
-  {
-    "objectID": "1-slides/index.html#hubris-to-hope-hs23---reference-management-with-zotero",
-    "href": "1-slides/index.html#hubris-to-hope-hs23---reference-management-with-zotero",
-    "title": " Slides",
-    "section": "Hubris to Hope HS23 - Reference Management with Zotero",
-    "text": "Hubris to Hope HS23 - Reference Management with Zotero\nView slides in full screen | Download slides as PDF"
-  },
-  {
-    "objectID": "1-slides/index.html#eth-research-data-management-summer-school-2023",
-    "href": "1-slides/index.html#eth-research-data-management-summer-school-2023",
-    "title": " Slides",
-    "section": "ETH Research Data Management Summer School 2023",
-    "text": "ETH Research Data Management Summer School 2023\nView slides in full screen"
-  },
-  {
-    "objectID": "1-slides/index.html#eth-data-stewardship-network---kick-off-meeting",
-    "href": "1-slides/index.html#eth-data-stewardship-network---kick-off-meeting",
-    "title": " Slides",
-    "section": "ETH Data Stewardship Network - Kick-off Meeting",
-    "text": "ETH Data Stewardship Network - Kick-off Meeting\nView slides in full screen"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
-    "section": "",
-    "text": "We run a Blog, check out our posts.\nThis website also provides access to slides, tutorials, and other open educational material developed by the Global Health Engineering group at ETH Zurich."
-  },
-  {
-    "objectID": "3-blog/posts/2023-09-04-qualitative-data/index.html",
-    "href": "3-blog/posts/2023-09-04-qualitative-data/index.html",
-    "title": "In an era of open science, how is ‘transparency’ shifting within qualitative research",
-    "section": "",
-    "text": "Note: This blog post was published is a re-published version from the Global Health Engineering website. For attribution, please see the Citation information at the end of this post.\nQualitative research is inherently not reproducible or replicable, a fact those with a more positivist view of knowledge creation find hard to digest. Reproducibility means obtaining consistent results using the same protocol and data, while replicability entails obtaining the same results using the same methods but with different data or a different sample. When using interpretive qualitative methods (which rely on the co-creation of knowledge between researcher and respondent), both the study conditions and the results obtained can hinge on a variety of factors, not least of all, the positionality of the individual researcher. Simply put: when you ask someone a question, you are not guaranteed the same response I might receive.\nTherefore, within qualitative research it is more common to speak of transparency, rather than reproducibility or replicability, when evaluating the scientific rigour of a given piece of work. And, while the broader scientific community has moved towards increased openness with data and analysis, there has been a growing debate within qualitative research communities on how much transparency is necessary or possible within current praxis. Sebastian Karcher1 of the Qualitative Data Repository has helpfully distinguished between three three types of transparency most relevant in qualitative research.\nOf these forms, the first two have become increasingly de rigueur, with detailed methods sections becoming expected, and information on analysis, including codebooks, becoming increasingly common as supplementary submissions to articles. However, data transparency, including open use and access for qualitative material, especially within the social sciences, has lagged far behind other disciplines where open access is increasingly becoming the standard. There are practical reasons for this, because, as Sebastian Karcher notes, transparency within qualitative research is not a straightforward path, and is often fraught with ethical considerations and practical barriers. What are we doing at Global Health Engineering (GHE) to move this discussion forward and become more transparent in our own work?\nAt GHE we have made a pledge to embrace the full spectrum of transparency: to make all of our data, either quantitative or qualitative, open access under permissive licenses, and to publicly document how it has been produced and analysed2. This is, of course, important, so that the rigour of our research practice can be clearly evaluated, and so that our data can be accessible to other researchers, who may favour other modes of analysis, allowing the words of our respondents to resonate further and make an impact beyond what we may have foreseen.\nThrough our partnership with the openwashdata team we recently published our first open access qualitative dataset: a series of 61 semi-structured interviews with biogas plant owners in southern Malawi (Schöbitz et al. 2023). Moving forward, we intend to publish all of our work in similar fashion, but as a qualitative researcher going through this process for the first time, what did I learn from the experience?\nFirst, making our data open access necessitates a change in ethical practice, particularly in how we obtain consent and inform participants on how their responses will be utilised. Will participants be as willing to speak freely if they know their responses will be made public, albeit anonymously? Second, the preparation of qualitative material for open access is an important step– but is time and resource intensive. Even with an in-house ETH data steward who was able to automate some of these processes, the anonymisation and packaging of transcripts is time consuming. Although we were able to devote the time and resources towards publishing the data package, I am concerned about the feasibility for scholars in less-resourced institutional contexts of giving their work the same platform as standards for transparency shift.\nNonetheless, we are pleased with the results of our first effort, and invite engagement and feedback from the greater scientific community. Moving forward, what do we want to improve? First, we would like to be more timely with our outputs, with data packages being published soon after they are collected, ensuring their broader usefulness and to support our own published analyses. Second, to date, we have only published transcripts in English. In the future we will also publish transcripts in the language in which the data collection was conducted, so that the un-translated voices of our respondents can stand on their own. Finally, we intend to develop data management guidelines and open source tools to support data preparation processes so that scholars from low-resource contexts can pursue data publishing without regard to material constraints.\nThe future is hard to predict, but we are hopeful it will be more transparent."
-  },
-  {
-    "objectID": "3-blog/posts/2023-09-04-qualitative-data/index.html#footnotes",
-    "href": "3-blog/posts/2023-09-04-qualitative-data/index.html#footnotes",
-    "title": "In an era of open science, how is ‘transparency’ shifting within qualitative research",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis is a great blog post by Open Working summing up a presentation by Sebastian Karcher at TU Delft on the limits of reproducibility within qualitative research: https://openworking.wordpress.com/2019/02/11/what-does-reproducibility-mean-for-qualitative-research/↩︎\nLearn more about how we do this in this interview with Dr. Julian Dederke of the ETH Library: https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html↩︎"
-  },
-  {
-    "objectID": "3-blog/posts/2023-10-10-collaboration-kenya/index.html",
-    "href": "3-blog/posts/2023-10-10-collaboration-kenya/index.html",
-    "title": "Creating collaboration on the ground: Reflecting on my first visit to Kenya",
-    "section": "",
-    "text": "Note: This blog post was published is a re-published version from the Global Health Engineering website. For attribution, please see the Citation information at the end of this post.\nAs a freshly employed senior scientist at Global Health Engineering, part of my role is coordinating the multitude of student projects we offer each semester. Our students are engaged in a range of vital research projects related to human health across several African countries. For instance, over the past two years GHE students have partnered with Sistema Bio in Kenya to design and test the use of biogas for the thermal disinfection of wastewater. And, although as a mechanical engineer I have been able to evaluate and advise on this work, one problem remains - I have never been to Kenya and I’ve never personally engaged with the problems we are trying to help address. What’s the best way to address this professional shortcoming? Although we are all trying to reduce our personal carbon emissions, Zoom calls can only get you so far - sometimes you have to travel to learn.\nIn September 2023 I had the privilege to travel to Kenya with my supervisor Prof. Tilley to connect with our biogas project partners. My journey in Kenya allowed me to engage with a variety of individuals from diverse backgrounds who all enriched my own understanding of Kenya and its socio-​technical challenges. This included learners and educators at schools in Kiababu and Ikinu, a Meru University of Science and Technology professor1, and entrepreneurs in Kisumu2 made. The enthusiasm of students and educators was contagious; I was impressed by their dedication to learning. Apart from all the engaging and meaningful exchanges, I also stirred cubic meters of human waste for the first time in my life. Again, Zoom is a useful tool, but standing together and getting your hands dirty trying to solve a problem can bring the answer much quicker. With all of the partners in the same space, learning together, we were able to identify issues with the biogas installation, found clear paths for further development, and devised a sustainable plan for future collaboration to scale up our findings nationally.\nBy accident, at the same time as our stay in Kenya, the first Africa Climate Summit3 took place, bringing around 30 - 35 thousand visitors to Nairobi. I had a chance to exchange with the Summit’s participants. The opportunity was invaluable and provided additional context for framing my work. After the Covid-​19 pandemic, everyone got used to virtual meetings and remote working, but the trip reminded me that travel, and the experiences that come with it, can be invaluable. Although you may collaborate from a distance, in-​person interactions can provide immediate answers to problems which otherwise would take long days to understand through a chain of email exchanges. In retrospect, my first trip to Kenya was a rich and diverse experience, both professionally and personally. I departed with an intent to return, and a clearer vision of how I can support both my students and our Kenyan partners. Moreover, I left Kenya with a profound sense of appreciation for its culture, as well as hope for its future to be brighter. Although I may have returned to Zurich, to a calendar full of online meetings, I’m already thinking ahead to my next trip."
-  },
-  {
-    "objectID": "3-blog/posts/2023-10-10-collaboration-kenya/index.html#footnotes",
-    "href": "3-blog/posts/2023-10-10-collaboration-kenya/index.html#footnotes",
-    "title": "Creating collaboration on the ground: Reflecting on my first visit to Kenya",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://www.must.ac.ke/celebrating-excellence-dr-joy-riungu-receives-the-distinguished-alumni-award-2022-from-ihe-delft/↩︎\nhttps://www.opero-services.com/↩︎\nhttps://africaclimatesummit.org/↩︎"
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "Global Health Engineering",
-    "section": "",
-    "text": "Attribution 4.0 International\n=======================================================================\nCreative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\nUsing Creative Commons Public Licenses\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n Considerations for licensors: Our public licenses are\n intended for use by those authorized to give the public\n permission to use material in ways otherwise restricted by\n copyright and certain other rights. Our licenses are\n irrevocable. Licensors should read and understand the terms\n and conditions of the license they choose before applying it.\n Licensors should also secure all rights necessary before\n applying our licenses so that the public can reuse the\n material as expected. Licensors should clearly mark any\n material not subject to the license. This includes other CC-\n licensed material, or material used under an exception or\n limitation to copyright. More considerations for licensors:\nwiki.creativecommons.org/Considerations_for_licensors\n\n Considerations for the public: By using one of our public\n licenses, a licensor grants the public permission to use the\n licensed material under specified terms and conditions. If\n the licensor's permission is not necessary for any reason--for\n example, because of any applicable exception or limitation to\n copyright--then that use is not regulated by the license. Our\n licenses grant only permissions under copyright and certain\n other rights that a licensor has authority to grant. Use of\n the licensed material may still be restricted for other\n reasons, including because others have copyright or other\n rights in the material. A licensor may make special requests,\n such as asking that all changes be marked or described.\n Although not required by our licenses, you are encouraged to\n respect those requests where reasonable. More considerations\n for the public: \nwiki.creativecommons.org/Considerations_for_licensees\n=======================================================================\nCreative Commons Attribution 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\n\nreproduce and Share the Licensed Material, in whole or in part; and\nproduce, reproduce, and Share Adapted Material.\n\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)\n\nnever produces Adapted Material.\n\nDownstream recipients.\n\nOffer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nNo downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\n\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\n\nretain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nindicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nindicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\n\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\nIf You Share Adapted Material You produce, the Adapter’s License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\nTO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n=======================================================================\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
-  },
-  {
-    "objectID": "2-tutorials/data-package.html",
-    "href": "2-tutorials/data-package.html",
+    "objectID": "tutorials/data-package.html",
+    "href": "tutorials/data-package.html",
     "title": "R data package - the GHE way",
     "section": "",
     "text": "This tutorial was used as a workshop for team members of the Global Health Engineering group. It is part of a greater data management strategy and covers the aspired research data publication and archiving method.\nThe objectives are to:\n\nmake data cite-able\nappropriately document data\npublish analysis-ready data prior to scientific article\nreduce workload at the point of submission of a scientific article\nprovide opportunities for showcasing data\ngive credit to contributors that would not be a co-author of a scientific article\nenhance reproducibility of analysis-ready data (from unprocessed raw data to tidy data)\nallow for reproducibility of scientific article by providing data alongside code\nprovide opportunities for iterations on exploratory analysis and iterations\nincrease number of group relevant datasets that can be used for teaching computational tools\n…\n\nThe “Why?” is also covered in a talk prepared for the launch meeting of the data stewardship network at ETH Zurich. It can be accessed via the Slides page."
   },
   {
-    "objectID": "2-tutorials/data-package.html#why",
-    "href": "2-tutorials/data-package.html#why",
+    "objectID": "tutorials/data-package.html#why",
+    "href": "tutorials/data-package.html#why",
     "title": "R data package - the GHE way",
     "section": "",
     "text": "This tutorial was used as a workshop for team members of the Global Health Engineering group. It is part of a greater data management strategy and covers the aspired research data publication and archiving method.\nThe objectives are to:\n\nmake data cite-able\nappropriately document data\npublish analysis-ready data prior to scientific article\nreduce workload at the point of submission of a scientific article\nprovide opportunities for showcasing data\ngive credit to contributors that would not be a co-author of a scientific article\nenhance reproducibility of analysis-ready data (from unprocessed raw data to tidy data)\nallow for reproducibility of scientific article by providing data alongside code\nprovide opportunities for iterations on exploratory analysis and iterations\nincrease number of group relevant datasets that can be used for teaching computational tools\n…\n\nThe “Why?” is also covered in a talk prepared for the launch meeting of the data stewardship network at ETH Zurich. It can be accessed via the Slides page."
   },
   {
-    "objectID": "2-tutorials/data-package.html#part-1---create-github-repo",
-    "href": "2-tutorials/data-package.html#part-1---create-github-repo",
+    "objectID": "tutorials/data-package.html#part-1---create-github-repo",
+    "href": "tutorials/data-package.html#part-1---create-github-repo",
     "title": "R data package - the GHE way",
     "section": "Part 1 - Create GitHub repo",
     "text": "Part 1 - Create GitHub repo\n\nDecide on a name for the repository and corresponding R data package\n\nhave all small letters\nhave no spaces or dashes\nbe a combination of two to three words\nidentify location and/or theme/topic\n\nOpen https://github.com/ and start a new repo with the following settings\n\nPublic\nDo not add a README\nDo not add a .gitignore\nDo not add a LICENSE"
   },
   {
-    "objectID": "2-tutorials/data-package.html#part-2---write-the-package",
-    "href": "2-tutorials/data-package.html#part-2---write-the-package",
+    "objectID": "tutorials/data-package.html#part-2---write-the-package",
+    "href": "tutorials/data-package.html#part-2---write-the-package",
     "title": "R data package - the GHE way",
     "section": "Part 2 - Write the package",
     "text": "Part 2 - Write the package\n\nOpen RStudio IDE\nCreate a new project using the R Package devtools and the same name you used for the repository on GitHub\n\nFile -&gt; New Project -&gt; New Directory -&gt; R Package using devtools -&gt; Choose directory name and location of sub-directory\n\nAdd git version control to local directory\n\n```{r}\nusethis::use_git()\n```\n\nyes, commit\nyes, restart\n\n\nConnect local repo with remote repo\n\n\nopen your repository site on GitHub\ncopy the commands under “…or push an existing repository from the command line”\nopen the Terminal within RStudio IDE (tab next to Console)\npaste and execute the commands you copied from GitHub\n\n```{}         \ngit remote add origin URL\ngit branch -M main\ngit push -u origin main\n```\n\nAdd data-raw/directory to package\n\n```{r}\nusethis::use_data_raw()\n```\nThis will create a data-raw/ directory.\n\ncontains a DATASET.R\nrename to data_processing.R\n\n\nAdd, commit and push all changes to GitHub\nIf you have an external data donation, open issue 1 on the GitHub repository to communicate about raw data submission (example for issue template)\nIf you have the raw data available, add to the data-raw directory using your file management system\nPrepare initial import of and export of data in data_processing.R\n\n\nreplace dataset with a short name in small letters that describes your data\n\nif the package will consist of single dataset, chose the same as the name for your package\nif you will have several datasets in your package, chose a short name (one word) in small letters\n\n\n```{r}\n# description -------------------------------------------------------------\n\n# R script to process uploaded raw data into a tidy dataframe\n\n# load packages -----------------------------------------------------------\n\nlibrary(readr)\n\n# read data ---------------------------------------------------------------\n\ndataset &lt;- read_csv(\"data-raw/data.csv\")\n\n# tidy data ---------------------------------------------------------------\n\n## code to prepare a tidy, analysis-ready dataset goes here\n\n# write data --------------------------------------------------------------\n\nusethis::use_data(dataset, overwrite = TRUE)\n\n```\n\nAdd, commit and push all changes to GitHub\nPrepare data dictionary to document the variables of the exported dataset\n\n\ncreate a new text file named dictionary.csv\nadd the following columns as the first line of the file: directory, file_name, variable_name, variable_type, description\nin column variable_name list all variables of your dataset\nin column description provide a one line description for each variable\n\n\nOn GitHub, open issue to cross-check in with data donator for correct understanding of variables in dictionary.csv\nInstall openwashdata R package\n\n```{r}\ndevtools::install_github(\"openwashdata/openwashdata\")\n```\n\nInitiate documentation folder for writing up metadata and documentation for objects\n\n\nreplace dataset with the same name that you used for the object you exported with usethis::use_data() in data_processing.R\n\n```{r}\nusethis::use_r(\"dataset\")\n```\n\nopens a new R script\n\n\nAdd documentation from data dictionary to script as roxygen comments\n\n```{r}\nopenwashdata::generate_roxygen_docs(\"data-raw/dictionary.csv\", output_file_path = \"R/dataset.R\")\n```\n\nexample of durbanplasticwaste documentation:\n\n\nAdd, commit and push all changes to GitHub\nDocument the package run checks for errors, warnings, and notes\n\n```{r}\ndevtools::document() # keyboard shortcut: Cmd/Ctrl + Shift + D\ndevtools::check().   # keyboard shortcut: Cmd/Ctrl + Shift + E\n```\n\nmake sure all errors are fixed\nignore warnings for now\n\n\nOpen the DESCRIPTION to document the package\n\n\nedit title field (keep this short)\nedit description field (keep it short and to the point describing the data)\n\n\nAdd everyone that has contributed to the Authors@R field in DESCRIPTION\n\n\nensure you have the ORCID id of everyone (e.g. by opening an issue on GitHub and ask people to share their details)\n\nFor each person, replace details and run the following code in your Console:\n\n\nAdd CC-BY or CC0 license\nusethis::use_ccby_license()\nusethis::use_cc0_license()\n\nIn your Console, run:\n\nDocument the package run checks for errors, warnings, and notes\n\n```{r}\ndevtools::document() # keyboard shortcut: Cmd/Ctrl + Shift + D\ndevtools::check().   # keyboard shortcut: Cmd/Ctrl + Shift + E\n```\n\nAdd CITATION.cff file to repo\n\n```{r}\ncffr::cff_write()\n```\n\nAdd, commit and push all changes to GitHub\nCreate a rmd README for package\n\n```{r}\nusethis::use_readme_rmd()\n```\n\nremove everything starting from line 41 “What is special about using README.Rmd instead of …”\nadd table with variable descriptions\n\n```{r}\nreadr::read_csv(\"data-raw/dictionary.csv\") |&gt; \n  dplyr::select(variable_name:description) |&gt; \n  gt::gt()\n```\n\nadd the first ten rows of the data\n\n```{r}\ndataset |&gt; \n  head() |&gt; \n  gt::gt()\n```\n\nBuild the README.rmd to output README.md\n\n```{r}\ndevtools::build_readme()\n```\n\nAdd, commit and push all changes to GitHub\nCreate an examples article for the package\n\n```{r}\nusethis::use_article(\"examples\")\n```\n\nprepare some exploratory analysis (e.g. a plot, a map, a table)\n\n\nDocument the package run checks for errors, warnings, and notes\n\n```{r}\ndevtools::document() # keyboard shortcut: Cmd/Ctrl + Shift + D\ndevtools::check().   # keyboard shortcut: Cmd/Ctrl + Shift + E\n```"
   },
   {
-    "objectID": "2-tutorials/data-package.html#part-3---setup-pkgdown-website",
-    "href": "2-tutorials/data-package.html#part-3---setup-pkgdown-website",
+    "objectID": "tutorials/data-package.html#part-3---setup-pkgdown-website",
+    "href": "tutorials/data-package.html#part-3---setup-pkgdown-website",
     "title": "R data package - the GHE way",
     "section": "Part 3 - Setup pkgdown website",
     "text": "Part 3 - Setup pkgdown website\n\nSetup pkgdown configuration and github actions\n\n```{r}\nusethis::use_pkgdown()\n```\n\nRemove docs from .gitignore file\n\n```{r}\n.Rproj.user\n.Rhistory\n.Rdata\n.httr-oauth\n.DS_Store\n.quarto\n```\n\nBuild website with pkgdown\n\n```{r}\npkgdown::build_site()\n```\n\nAdd, commit and push all changes to GitHub"
   },
   {
-    "objectID": "2-tutorials/data-package.html#part-4---host-with-github-pages",
-    "href": "2-tutorials/data-package.html#part-4---host-with-github-pages",
+    "objectID": "tutorials/data-package.html#part-4---host-with-github-pages",
+    "href": "tutorials/data-package.html#part-4---host-with-github-pages",
     "title": "R data package - the GHE way",
     "section": "Part 4 - Host with GitHub Pages",
     "text": "Part 4 - Host with GitHub Pages\n\nDeploy to GitHub Pages\n\n\nopen your repository site on GitHub\nclick the Settings (gear icon) option\non the left sidebar under “Code and automation” click “Pages”\nunder “Build and deployment”, in “Branch” section\n\nselect “main” from Dropdown menu that states “None”\nselect “docs” from Dropdown menu that states “/ (root)”\nclick “Save” button\n\n\n\nEdit repository details\n\n\ngo back to your main page of your repository site on GitHub\non the right side, next to “About” click on the gear icon\nprovide a short description (e.g. the same as you have used for describing your dataset)\nclick the box next to “Use your GitHub Pages website”\nclick “Save changes” button"
   },
   {
-    "objectID": "2-tutorials/data-package.html#part-5---use-web-analytics",
-    "href": "2-tutorials/data-package.html#part-5---use-web-analytics",
+    "objectID": "tutorials/data-package.html#part-5---use-web-analytics",
+    "href": "tutorials/data-package.html#part-5---use-web-analytics",
     "title": "R data package - the GHE way",
     "section": "Part 5 - Use web analytics",
     "text": "Part 5 - Use web analytics\n\nAdd plausible.io script and website URL to _pkdown.yml\n\n\nopen your repository in RStudio IDE\nopen _pkgdown.yml file\ncopy the content below and replace the two instances of PACKAGENAME with the name of your package\n\n```{yaml}\nurl: https://global-health-engineering.github.io/PACKAGENAME/\n\ntemplate:\n  bootstrap: 5\n  includes:\n    in_header: |\n      &lt;script defer data-domain=\"global-health-engineering.github.io/PACKAGENAME\" src=\"https://plausible.io/js/script.js\"&gt;&lt;/script&gt;\n```\n\na more detailed example is available for the durbanplasticwaste package"
   },
   {
-    "objectID": "2-tutorials/data-package.html#part-6---publish",
-    "href": "2-tutorials/data-package.html#part-6---publish",
+    "objectID": "tutorials/data-package.html#part-6---publish",
+    "href": "tutorials/data-package.html#part-6---publish",
     "title": "R data package - the GHE way",
     "section": "Part 6 - Publish",
     "text": "Part 6 - Publish\nTODO\n\npublish to Zenodo\nadd DOI everywhere\nadd to research collection"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#lars",
+    "href": "slides/d04-sst-workshop-basel.html#lars",
+    "title": "SST Educational Workshop",
+    "section": "Lars",
+    "text": "Lars\n\n\n\n\n\n\n\n\n Environmental Engineer\n\n Open Science Specialist at ETH Zurich\n\n RStudio certified instructor for Data Science with R"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#the-vision",
+    "href": "slides/d04-sst-workshop-basel.html#the-vision",
+    "title": "SST Educational Workshop",
+    "section": "The Vision?",
+    "text": "The Vision?\nAn active community that applies FAIR principles (Wilkinson et al. 2016) to data generated in the greater sector of the Swiss Society of Toxicology.\n\n\nFindable\nAccessible\nInteroperable\nReusable\n\nA set of technical principles that can be applied to data."
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#journal-articles",
+    "href": "slides/d04-sst-workshop-basel.html#journal-articles",
+    "title": "SST Educational Workshop",
+    "section": "Journal Articles",
+    "text": "Journal Articles\n\n\nScreenshot from Greene et al. (2021)"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#hands-up",
+    "href": "slides/d04-sst-workshop-basel.html#hands-up",
+    "title": "SST Educational Workshop",
+    "section": " hands up ",
+    "text": "hands up \n\nWho has published a scientific article in a journal?"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#hands-up-1",
+    "href": "slides/d04-sst-workshop-basel.html#hands-up-1",
+    "title": "SST Educational Workshop",
+    "section": " hands up ",
+    "text": "hands up \n\nWho has published data as supplemental material?"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#journal-articles-1",
+    "href": "slides/d04-sst-workshop-basel.html#journal-articles-1",
+    "title": "SST Educational Workshop",
+    "section": "Journal Articles",
+    "text": "Journal Articles\n\n\nScreenshot from Greene et al. (2021)"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#journal-articles-2",
+    "href": "slides/d04-sst-workshop-basel.html#journal-articles-2",
+    "title": "SST Educational Workshop",
+    "section": "Journal Articles",
+    "text": "Journal Articles\n\n\nScreenshot from Greene et al. (2021)"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#pdf-reports",
+    "href": "slides/d04-sst-workshop-basel.html#pdf-reports",
+    "title": "SST Educational Workshop",
+    "section": "PDF reports",
+    "text": "PDF reports\n\n\nScreenshot from Soeters, Mukheibir, and Willetts (2021)"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#pdf-reports-1",
+    "href": "slides/d04-sst-workshop-basel.html#pdf-reports-1",
+    "title": "SST Educational Workshop",
+    "section": "PDF reports",
+    "text": "PDF reports\n\n\nScreenshot from Soeters, Mukheibir, and Willetts (2021)"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#pdf-reports-2",
+    "href": "slides/d04-sst-workshop-basel.html#pdf-reports-2",
+    "title": "SST Educational Workshop",
+    "section": "PDF reports",
+    "text": "PDF reports\n\n\nScreenshot from Soeters, Mukheibir, and Willetts (2021)"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#hands-up-2",
+    "href": "slides/d04-sst-workshop-basel.html#hands-up-2",
+    "title": "SST Educational Workshop",
+    "section": " hands up ",
+    "text": "hands up \n\nWho has published data, separate from an article/report, and assigned a unique DOI?"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#hands-up-3",
+    "href": "slides/d04-sst-workshop-basel.html#hands-up-3",
+    "title": "SST Educational Workshop",
+    "section": " hands up ",
+    "text": "hands up \n\nWho has an ORCID iD  (account on: https://orcid.org/)"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#technical-overhead",
+    "href": "slides/d04-sst-workshop-basel.html#technical-overhead",
+    "title": "SST Educational Workshop",
+    "section": "(Technical) Overhead",
+    "text": "(Technical) Overhead\n\nData management workflows\nTools for scientific computing (R, Python)\nVersion control system (Git)\nProject management tools (GitHub, GitLab)\nCommunication (Slack, Element)\nAuthoring (RMarkdown, Jupyter, Quarto)\nPublishing (Zenodo, Figshare, OSF)"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#funding---eth-ord-program",
+    "href": "slides/d04-sst-workshop-basel.html#funding---eth-ord-program",
+    "title": "SST Educational Workshop",
+    "section": "Funding - ETH ORD Program",
+    "text": "Funding - ETH ORD Program\n\nOpen Research Data Program of the ETH Board: https://ethrat.ch/en/eth-domain/open-research-data/\nORD 1st Explore (150k), our funded proposal: https://openwashdata.org/pages/gallery/proposal/\nORD 2nd Contribute (30k), our funded proposal: https://github.com/openwashdata-dev/proposal-eth-ord-scheme-contribute/blob/main/proposal-eth-ord-scheme-contribute.md\nORD 2nd Explore (150k) guidelines, due 29th February 2024: https://ethrat.ch/wp-content/uploads/2023/10/Application-Guidelines_TrackA_Explore_2nd_call_FINAL.pdf\nORD 6th Contribute (30k) guidelines, due 12th December 2023: https://ethrat.ch/wp-content/uploads/2023/10/Application-guidelines_TrackC-Contribute-projects-6th-call-FINAL.pdf"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#funding---eth-ord-program-1",
+    "href": "slides/d04-sst-workshop-basel.html#funding---eth-ord-program-1",
+    "title": "SST Educational Workshop",
+    "section": "Funding - ETH ORD Program",
+    "text": "Funding - ETH ORD Program\n\nWe draw your attention to the fact that the Contribute calls are suitable for young researchers (PhD and postdoc) who would like to add value to their data within their projects.\n\nOpen Science Working Group Email (2023-10-05)"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#learning---open-science-tools",
+    "href": "slides/d04-sst-workshop-basel.html#learning---open-science-tools",
+    "title": "SST Educational Workshop",
+    "section": "Learning - Open Science Tools",
+    "text": "Learning - Open Science Tools\n\nost-hs23.github.io/website/syllabus.html"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#a-job-at-roche",
+    "href": "slides/d04-sst-workshop-basel.html#a-job-at-roche",
+    "title": "SST Educational Workshop",
+    "section": "A job at Roche?",
+    "text": "A job at Roche?\n\ncareers.roche.com: FAIR Data Expert"
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#thanks",
+    "href": "slides/d04-sst-workshop-basel.html#thanks",
+    "title": "SST Educational Workshop",
+    "section": "Thanks 🌻",
+    "text": "Thanks 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess slides as PDF on GitHub\nThis material is licensed under Creative Commons Attribution 4.0 International."
+  },
+  {
+    "objectID": "slides/d04-sst-workshop-basel.html#references",
+    "href": "slides/d04-sst-workshop-basel.html#references",
+    "title": "SST Educational Workshop",
+    "section": "References",
+    "text": "References\n\n\n\n global-health-engineering.github.io/website/1-slides/\n\n\n\n\nGreene, Nicola, Sarah Hennessy, Tate W. Rogers, Jocelyn Tsai, and Francis L. de los Reyes III. 2021. “The Role of Emptying Services in Provision of Safely Managed Sanitation: A Classification and Quantification of the Needs of LMICs.” Journal of Environmental Management 290 (July): 112612. https://doi.org/10.1016/j.jenvman.2021.112612.\n\n\nSoeters, S, P Mukheibir, and J Willetts. 2021. “Treatment Technologies in Practice: On-the-Ground Experiences of Faecal Sludge and Wastewater Treatment.”\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3 (1). https://doi.org/10.1038/sdata.2016.18."
+  },
+  {
+    "objectID": "slides/index.html",
+    "href": "slides/index.html",
+    "title": " Slides",
+    "section": "",
+    "text": "View slides in full screen | Download slides as PDF"
+  },
+  {
+    "objectID": "slides/index.html#swiss-toxicology-society---education-workshop",
+    "href": "slides/index.html#swiss-toxicology-society---education-workshop",
+    "title": " Slides",
+    "section": "",
+    "text": "View slides in full screen | Download slides as PDF"
+  },
+  {
+    "objectID": "slides/index.html#hubris-to-hope-hs23---reference-management-with-zotero",
+    "href": "slides/index.html#hubris-to-hope-hs23---reference-management-with-zotero",
+    "title": " Slides",
+    "section": "Hubris to Hope HS23 - Reference Management with Zotero",
+    "text": "Hubris to Hope HS23 - Reference Management with Zotero\nView slides in full screen | Download slides as PDF"
+  },
+  {
+    "objectID": "slides/index.html#eth-research-data-management-summer-school-2023",
+    "href": "slides/index.html#eth-research-data-management-summer-school-2023",
+    "title": " Slides",
+    "section": "ETH Research Data Management Summer School 2023",
+    "text": "ETH Research Data Management Summer School 2023\nView slides in full screen"
+  },
+  {
+    "objectID": "slides/index.html#eth-data-stewardship-network---kick-off-meeting",
+    "href": "slides/index.html#eth-data-stewardship-network---kick-off-meeting",
+    "title": " Slides",
+    "section": "ETH Data Stewardship Network - Kick-off Meeting",
+    "text": "ETH Data Stewardship Network - Kick-off Meeting\nView slides in full screen"
+  },
+  {
+    "objectID": "blog/posts/2023-09-04-qualitative-data/index.html",
+    "href": "blog/posts/2023-09-04-qualitative-data/index.html",
+    "title": "In an era of open science, how is ‘transparency’ shifting within qualitative research",
+    "section": "",
+    "text": "Note: This blog post was published is a re-published version from the Global Health Engineering website. For attribution, please see the Citation information at the end of this post.\nQualitative research is inherently not reproducible or replicable, a fact those with a more positivist view of knowledge creation find hard to digest. Reproducibility means obtaining consistent results using the same protocol and data, while replicability entails obtaining the same results using the same methods but with different data or a different sample. When using interpretive qualitative methods (which rely on the co-creation of knowledge between researcher and respondent), both the study conditions and the results obtained can hinge on a variety of factors, not least of all, the positionality of the individual researcher. Simply put: when you ask someone a question, you are not guaranteed the same response I might receive.\nTherefore, within qualitative research it is more common to speak of transparency, rather than reproducibility or replicability, when evaluating the scientific rigour of a given piece of work. And, while the broader scientific community has moved towards increased openness with data and analysis, there has been a growing debate within qualitative research communities on how much transparency is necessary or possible within current praxis. Sebastian Karcher1 of the Qualitative Data Repository has helpfully distinguished between three three types of transparency most relevant in qualitative research.\nOf these forms, the first two have become increasingly de rigueur, with detailed methods sections becoming expected, and information on analysis, including codebooks, becoming increasingly common as supplementary submissions to articles. However, data transparency, including open use and access for qualitative material, especially within the social sciences, has lagged far behind other disciplines where open access is increasingly becoming the standard. There are practical reasons for this, because, as Sebastian Karcher notes, transparency within qualitative research is not a straightforward path, and is often fraught with ethical considerations and practical barriers. What are we doing at Global Health Engineering (GHE) to move this discussion forward and become more transparent in our own work?\nAt GHE we have made a pledge to embrace the full spectrum of transparency: to make all of our data, either quantitative or qualitative, open access under permissive licenses, and to publicly document how it has been produced and analysed2. This is, of course, important, so that the rigour of our research practice can be clearly evaluated, and so that our data can be accessible to other researchers, who may favour other modes of analysis, allowing the words of our respondents to resonate further and make an impact beyond what we may have foreseen.\nThrough our partnership with the openwashdata team we recently published our first open access qualitative dataset: a series of 61 semi-structured interviews with biogas plant owners in southern Malawi (Schöbitz et al. 2023). Moving forward, we intend to publish all of our work in similar fashion, but as a qualitative researcher going through this process for the first time, what did I learn from the experience?\nFirst, making our data open access necessitates a change in ethical practice, particularly in how we obtain consent and inform participants on how their responses will be utilised. Will participants be as willing to speak freely if they know their responses will be made public, albeit anonymously? Second, the preparation of qualitative material for open access is an important step– but is time and resource intensive. Even with an in-house ETH data steward who was able to automate some of these processes, the anonymisation and packaging of transcripts is time consuming. Although we were able to devote the time and resources towards publishing the data package, I am concerned about the feasibility for scholars in less-resourced institutional contexts of giving their work the same platform as standards for transparency shift.\nNonetheless, we are pleased with the results of our first effort, and invite engagement and feedback from the greater scientific community. Moving forward, what do we want to improve? First, we would like to be more timely with our outputs, with data packages being published soon after they are collected, ensuring their broader usefulness and to support our own published analyses. Second, to date, we have only published transcripts in English. In the future we will also publish transcripts in the language in which the data collection was conducted, so that the un-translated voices of our respondents can stand on their own. Finally, we intend to develop data management guidelines and open source tools to support data preparation processes so that scholars from low-resource contexts can pursue data publishing without regard to material constraints.\nThe future is hard to predict, but we are hopeful it will be more transparent."
+  },
+  {
+    "objectID": "blog/posts/2023-09-04-qualitative-data/index.html#footnotes",
+    "href": "blog/posts/2023-09-04-qualitative-data/index.html#footnotes",
+    "title": "In an era of open science, how is ‘transparency’ shifting within qualitative research",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is a great blog post by Open Working summing up a presentation by Sebastian Karcher at TU Delft on the limits of reproducibility within qualitative research: https://openworking.wordpress.com/2019/02/11/what-does-reproducibility-mean-for-qualitative-research/↩︎\nLearn more about how we do this in this interview with Dr. Julian Dederke of the ETH Library: https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html↩︎"
+  },
+  {
+    "objectID": "blog/posts/2023-10-10-collaboration-kenya/index.html",
+    "href": "blog/posts/2023-10-10-collaboration-kenya/index.html",
+    "title": "Creating collaboration on the ground: Reflecting on my first visit to Kenya",
+    "section": "",
+    "text": "Note: This blog post was published is a re-published version from the Global Health Engineering website. For attribution, please see the Citation information at the end of this post.\nAs a freshly employed senior scientist at Global Health Engineering, part of my role is coordinating the multitude of student projects we offer each semester. Our students are engaged in a range of vital research projects related to human health across several African countries. For instance, over the past two years GHE students have partnered with Sistema Bio in Kenya to design and test the use of biogas for the thermal disinfection of wastewater. And, although as a mechanical engineer I have been able to evaluate and advise on this work, one problem remains - I have never been to Kenya and I’ve never personally engaged with the problems we are trying to help address. What’s the best way to address this professional shortcoming? Although we are all trying to reduce our personal carbon emissions, Zoom calls can only get you so far - sometimes you have to travel to learn.\nIn September 2023 I had the privilege to travel to Kenya with my supervisor Prof. Tilley to connect with our biogas project partners. My journey in Kenya allowed me to engage with a variety of individuals from diverse backgrounds who all enriched my own understanding of Kenya and its socio-​technical challenges. This included learners and educators at schools in Kiababu and Ikinu, a Meru University of Science and Technology professor1, and entrepreneurs in Kisumu2 made. The enthusiasm of students and educators was contagious; I was impressed by their dedication to learning. Apart from all the engaging and meaningful exchanges, I also stirred cubic meters of human waste for the first time in my life. Again, Zoom is a useful tool, but standing together and getting your hands dirty trying to solve a problem can bring the answer much quicker. With all of the partners in the same space, learning together, we were able to identify issues with the biogas installation, found clear paths for further development, and devised a sustainable plan for future collaboration to scale up our findings nationally.\nBy accident, at the same time as our stay in Kenya, the first Africa Climate Summit3 took place, bringing around 30 - 35 thousand visitors to Nairobi. I had a chance to exchange with the Summit’s participants. The opportunity was invaluable and provided additional context for framing my work. After the Covid-​19 pandemic, everyone got used to virtual meetings and remote working, but the trip reminded me that travel, and the experiences that come with it, can be invaluable. Although you may collaborate from a distance, in-​person interactions can provide immediate answers to problems which otherwise would take long days to understand through a chain of email exchanges. In retrospect, my first trip to Kenya was a rich and diverse experience, both professionally and personally. I departed with an intent to return, and a clearer vision of how I can support both my students and our Kenyan partners. Moreover, I left Kenya with a profound sense of appreciation for its culture, as well as hope for its future to be brighter. Although I may have returned to Zurich, to a calendar full of online meetings, I’m already thinking ahead to my next trip."
+  },
+  {
+    "objectID": "blog/posts/2023-10-10-collaboration-kenya/index.html#footnotes",
+    "href": "blog/posts/2023-10-10-collaboration-kenya/index.html#footnotes",
+    "title": "Creating collaboration on the ground: Reflecting on my first visit to Kenya",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://www.must.ac.ke/celebrating-excellence-dr-joy-riungu-receives-the-distinguished-alumni-award-2022-from-ihe-delft/↩︎\nhttps://www.opero-services.com/↩︎\nhttps://africaclimatesummit.org/↩︎"
   },
   {
     "objectID": "factsheet/factsheet-eth-rdm-summer-2023.html",
@@ -308,353 +294,416 @@
     "text": "Scientist as a lone ranger\n\nacts alone (until becoming a manager/professor)\nexposure to tools (100s throughout research career at different institutions)\nown stack of tools (builds their own individual worksflows -&gt; not team oriented)\nthe way to do it (doesn’t have time to learn what would be most effective for a team)"
   },
   {
-    "objectID": "3-blog/posts/2023-11-14-change-publishing/index.html",
-    "href": "3-blog/posts/2023-11-14-change-publishing/index.html",
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "Global Health Engineering",
+    "section": "",
+    "text": "Attribution 4.0 International\n=======================================================================\nCreative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.\nUsing Creative Commons Public Licenses\nCreative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.\n Considerations for licensors: Our public licenses are\n intended for use by those authorized to give the public\n permission to use material in ways otherwise restricted by\n copyright and certain other rights. Our licenses are\n irrevocable. Licensors should read and understand the terms\n and conditions of the license they choose before applying it.\n Licensors should also secure all rights necessary before\n applying our licenses so that the public can reuse the\n material as expected. Licensors should clearly mark any\n material not subject to the license. This includes other CC-\n licensed material, or material used under an exception or\n limitation to copyright. More considerations for licensors:\nwiki.creativecommons.org/Considerations_for_licensors\n\n Considerations for the public: By using one of our public\n licenses, a licensor grants the public permission to use the\n licensed material under specified terms and conditions. If\n the licensor's permission is not necessary for any reason--for\n example, because of any applicable exception or limitation to\n copyright--then that use is not regulated by the license. Our\n licenses grant only permissions under copyright and certain\n other rights that a licensor has authority to grant. Use of\n the licensed material may still be restricted for other\n reasons, including because others have copyright or other\n rights in the material. A licensor may make special requests,\n such as asking that all changes be marked or described.\n Although not required by our licenses, you are encouraged to\n respect those requests where reasonable. More considerations\n for the public: \nwiki.creativecommons.org/Considerations_for_licensees\n=======================================================================\nCreative Commons Attribution 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\n\nreproduce and Share the Licensed Material, in whole or in part; and\nproduce, reproduce, and Share Adapted Material.\n\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)\n\nnever produces Adapted Material.\n\nDownstream recipients.\n\nOffer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nNo downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\n\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\n\nretain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nindicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nindicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\n\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\nIf You Share Adapted Material You produce, the Adapter’s License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material; and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\nTO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n=======================================================================\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "We run a Blog, check out our posts.\nThis website also provides access to slides, tutorials, and other open educational material developed by the Global Health Engineering group at ETH Zurich."
+  },
+  {
+    "objectID": "blog/posts/2023-11-14-change-publishing/index.html",
+    "href": "blog/posts/2023-11-14-change-publishing/index.html",
     "title": "We can’t decolonize research until we fix publishing",
     "section": "",
     "text": "Note: This blog post was published is a re-published version from the Global Health Engineering website. For attribution, please see the Citation information at the end of this post.\nIn the olden days, back before the internet, academic publishing was a laborious, but distinguished process. Authors would submit manuscripts to prestigious publishers, who would in turn, seek out the most renowned scientists in the field and solicit their commentary. The publisher would then type-set, print, and mail the bound paper journal to the few institutions that could afford the pricey, yet vital, subscription. Being an invited reviewer, or an editor was an honour, and the honour was deemed to be sufficient compensation for hours, if not days of work.\nBut things changed. On the one hand, “open-access” publishing has allowed millions (billions?) of people to read scientific papers without having to pay for a subscription; as of 2020, about 36% of articles have full open access 1. In 2021, The International Water Association (IWA), which publishes important WASH-sector journals like Water Science & Technology2, and my favourite, WASHDEV3, announced that 10 of their titles would be published completely open-access4 going forward and would allow authors from 103 countries to publish for free, or for an unlucky 33, a 50% discount5 (sorry, Nicaragua). These initiatives are part of “decolonizing research”, i.e. increasing access to those researchers and students without the means to subscribe, submit, or read papers behind unaffordable paywalls. Unfortunately, researchers from the Global South, are still publishing at rates far lower than their more funded colleagues, and even more worrisome, are still rarely included as authors about work done in their own countries: of the publications on Africa climate research, 58% (7232) included no African authors6. The measures in place are not enough, but there is growing recognition that more must be done to increase diversity and reduce bias within publishing, and fee waivers are a start.\nOn the other hand, for-profit publishing houses have become increasingly commercial and monopolistic, multiplying the mechanisms for making money from authors while expanding the need for unpaid reviewers and editors. Currently, academic publishing is dominated by 5 main houses: Elsevier, John Wiley & Sons, Taylor & Francis, Springer Nature, and SAGE who, combined, generate about 50% of the $19 billion in annual profit7. Elsevier, who manages 2928 different journals, reported £8.5 billion in revenue for 2022, and £2.6 billion in adjusted operating profit8. Meanwhile, few editors are paid for their service, and the hoards of reviewers, upon whom the entire industry rests, are kindly thanked (sometimes with a coupon).\nAs a response to what can only be called the greedy hyperaccumulation of wealth, some are pushing back. More than 40 scientists resigned from the editorial board of Elsevier’s journal Neuroimage9 and in 2019, The University of California (one of the largest academic institutions in the US) decided to not renew its $11 million a year subscription fee10 contract with Elsevier, after lengthy negotiations failed to ensure that all UC publications would be made open access. These bold actions are commendable and are adding cracks to an already eroded foundation of trust in traditional publishing. Transformation is underway and inevitable but requires action from everyone: not just big account holders. What, you may be wondering, can I do? Whether you are a first time reviewer or a seasoned pro, I’ve compiled a few, simple actions that you can take to help make publishing more fair, diverse, and efficient for everyone.\nActions for Reviewers who want to make an impact within the current system\nIn 2022, over 5 million papers were published11. For any given paper, an Editor may send out between 5 and 20 reviewer invitations to get 2-3 acceptable reviews that can be returned to, and actually help, the author. Editors don’t want to flood your inboxes with requests, but we are increasingly becoming desperate to find sufficient and suitable reviewers within a manageable time frame. The best thing you can do as a reviewer is to accept the invitation, write a great report, and submit it on time. This keeps the wheels of academia moving.\nIf you don’t have the time or expertise, the next best thing you can do is reject the invitation immediately. Typically, an editor will set a “respond-by” date: if the invited reviewer does not respond within say, 2 weeks, the editor will look for another. Waiting until the invitation expires means that the clock starts again, and the paper continues to languish, frustrating the author and editor alike. If you really can’t do the review, click the “reject” button and let the Editor get to work on finding a replacement.\nHowever, before blindly following my advice and rejecting every invitation that comes your way, consider your obligations to the system as well as your opportunities to change it. Go check your profile on Web of Science12: there, you can see your publications, your citations, and your review statistics. With a Peer Review to Publication ratio of 1.9:1, I am in the 95th percentile of reviewers who have a median of 0.3:1. In other words, I review almost 2 papers for every one I publish, which is at the low-end of what is needed to fully cover the reviews that I receive for my publications. For everyone else who is reviewing less than 1 paper for every 3 they publish, we need more from you. And if you haven’t been invited as a reviewer yet, send an email to the editor of your favourite journal asking them to add you to their database: they will be thrilled!\nAnd yes, asking for more is a big request; especially for junior faculty, women, and those already burdened with various types of unpaid labour. But you have choices: consider passing up requests from “top tier” journals and focus your limited time on providing feedback for first-time authors or manuscripts from less represented countries13. As long as the journal is indexed14, you get the same amount of credit for reviewing for a journal that is considered “less prestigious”, but your impact will be much greater. Importantly, you can also always decline to review if you see something you don’t like: refusing to take on a manuscript without an author from the country of study, sends a strong signal to the editor, and hopefully, in time, the journal.\nUntil we have a complete overhaul of the publishing industry that includes new models of reviewing15, funding16, and disseminating research17, we must do our best to exist within it. However, small, consistent, acts by millions of ethical academics will hasten the crumbling of a system that excludes too many and profits too few. What role will you play?\nElizabeth Tilley is currently an Associate Editor for WASHDEV18 and WaterSA19, and was formerly an Editor for Waste Management20 and The Malawi Medical Journal21."
   },
   {
-    "objectID": "3-blog/posts/2023-11-14-change-publishing/index.html#footnotes",
-    "href": "3-blog/posts/2023-11-14-change-publishing/index.html#footnotes",
+    "objectID": "blog/posts/2023-11-14-change-publishing/index.html#footnotes",
+    "href": "blog/posts/2023-11-14-change-publishing/index.html#footnotes",
     "title": "We can’t decolonize research until we fix publishing",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nhttps://wordsrated.com/academic-publishing-statistics/↩︎\nhttps://iwaponline.com/wst↩︎\nhttps://iwaponline.com/washdev↩︎\nhttps://iwa-network.org/news/iwap-open-access/↩︎\nhttps://iwaponline.com/open_access/pages/Research4Life↩︎\nhttps://doi.org/10.1016/j.envsci.2021.10.023↩︎\nhttps://wordsrated.com/academic-publishers-statistics/↩︎\nhttps://stories.relx.com/2022-relx-highlights/index.html↩︎\nhttps://t.co/0aamG7bemJ↩︎\nhttps://www.universityofcalifornia.edu/news/why-uc-split-publishing-giant-elsevier↩︎\nhttps://wordsrated.com/academic-publishing-statistics/↩︎\nhttps://www.webofscience.com↩︎\nhttps://www.ajol.info/index.php/ajol↩︎\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3354504/↩︎\nhttps://openreview.net/about↩︎\nhttps://doi.org/10.1186/s41073-021-00118-2↩︎\nhttps://zenodo.org/records/7974116↩︎\nhttps://iwaponline.com/washdev↩︎\nhttps://watersa.net/↩︎\nhttps://www.sciencedirect.com/journal/waste-management↩︎\nhttps://www.mmj.mw/↩︎"
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html",
+    "href": "blog/posts/2024-02-13-data-steward/index.html",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "",
     "text": "Note: This blog post was published is a re-published version from the Global Health Engineering website. For attribution, please see the Citation information at the end of this post."
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#lead",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#lead",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#lead",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#lead",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "Lead",
     "text": "Lead\nYou are a professor. You’re working long hours; you’re working weekends; you’re sitting in committees, and stuck in meetings that could have been emails; you’re teaching, grading, supervising, and mentoring. And now, on top of all that, you are supposed to make all your research data public, by applying FAIR principles. You need a data steward."
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#whats-a-data-steward",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#whats-a-data-steward",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#whats-a-data-steward",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#whats-a-data-steward",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "What’s a data steward?",
     "text": "What’s a data steward?\nIn simple terms and in the context of research, a data stewards are defined as “people who support the management of research data and reproducible data workflows in research groups, institutes and departments.”1"
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#what-profile-do-they-need",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#what-profile-do-they-need",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#what-profile-do-they-need",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#what-profile-do-they-need",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "What profile do they need?",
     "text": "What profile do they need?\nFew established programmes specifically qualify people to be a data steward (e.g. Postgraduate Center University of Vienna2). At the moment, it’s a skill that’s mostly learned on the job. Do not look for academic degrees (e.g. a PhD) or for someone on an academic career path (e.g. with a long list of publications). Look for someone who has an affinity for IT, has worked in various organizations (government, private sector, research) , and with different types of data (lab experiments, observations, quantitative & qualitative surveys). A Research Software Engineer, which is a more established term, could be a good fit, but there are other suitable profiles, too."
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#what-can-you-offer-them",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#what-can-you-offer-them",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#what-can-you-offer-them",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#what-can-you-offer-them",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "What can you offer them?",
     "text": "What can you offer them?\nWhether it’s data stewardship or research software engineering, both career paths still need to be fully recognized and established within the scientific community. However, at ETH Zurich, there is an attractive career path for someone without a PhD. It falls under the “administrative, technical, IT and laboratory staff” category. The assigned function code 4042 (System specialist / software engineering) offers an attractive salary for someone with &gt;5 years of experience, the yearly appraisal interview for mechanisms of a performance-bound annual increase, and also the potential for a permanent position."
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#what-are-the-tasks",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#what-are-the-tasks",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#what-are-the-tasks",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#what-are-the-tasks",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "What are the tasks?",
     "text": "What are the tasks?\nA data steward will support you in defining your strategy for Research Data Management (RDM). Ideally, this is a strategy that promotes the concepts of open research data and open code to support computational reproducibility, a practice that is increasingly important to make research more rigorous, transparent, and impactful. When we established our group in 2021, we defined this role more generally as “Open Science Specialist”, and you can find the published job description2 for your own use. Since then, we have established new projects and defined our RDM strategy and workflows3."
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#how-a-data-steward-supports-the-group",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#how-a-data-steward-supports-the-group",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#how-a-data-steward-supports-the-group",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#how-a-data-steward-supports-the-group",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "How a data steward supports the group",
     "text": "How a data steward supports the group\nOn a group level, a data steward hosts strategic meetings. They organize workshops to identify current file and data management practices within a group. They don’t prescribe one way of doing things but rather help determine the best practices for the group, allowing individual researchers to use the workflows and tools that suit them best to maintain scientific autonomy."
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#how-a-data-steward-supports-the-individual",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#how-a-data-steward-supports-the-individual",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#how-a-data-steward-supports-the-individual",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#how-a-data-steward-supports-the-individual",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "How a data steward supports the individual",
     "text": "How a data steward supports the individual\nOn an individual level, a data steward offers weekly RDM support. They become the bridge from abstract concepts like FAIR principles, version control, and literate programming to the actual intellectual work needed."
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#data-stewardship-in-practice",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#data-stewardship-in-practice",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#data-stewardship-in-practice",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#data-stewardship-in-practice",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "Data stewardship in practice",
     "text": "Data stewardship in practice\nAt Global Health Engineering, we aim to make all our research outputs reproducible and foster an Open Science culture. In our workflow (which starts with designing a research study and ends with the production of a scientific article), we categorize our data into three stages:\n\nStage 1: unprocessed raw data\nStage 2: processed analysis-ready data\nStage 3: data supporting publication results\n\nThe unique work required to manage the collected data is recognized in each of these stages. We assign a digital object identifier (DOI) to the code that transforms the unprocessed raw data from Stage 1 into processed analysis-ready data (Stage 2). Together, they form a data package, which is fully documented with relevant metadata, and is citeable and reusable by the research community. A data steward is uniquely positioned to support data cleaning and curation, so that the researcher can focus on applying their expertise to the data rather than on the data itself. The actual work that goes into authoring a manuscript, fine-tuning tables, and preparing figures and models rests with the researcher and is what we consider getting data from Stage 2 to Stage 3. The data steward remains available to support the researcher in applying best practices for data management. Still, the researcher is the one who is responsible for the analysis, discussion, and conclusions."
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#eth-library-data-stewardship-network",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#eth-library-data-stewardship-network",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#eth-library-data-stewardship-network",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#eth-library-data-stewardship-network",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "ETH Library Data Stewardship Network",
     "text": "ETH Library Data Stewardship Network\nThe ETH Library initiated a programme funded by swissuniversities to build a data stewardship network at ETH4. It has identified six people at ETH who already consider themselves to have this role and dedicate 20% of their time to data stewardship activities beyond the tasks they already perform for the research group. Through these activities, data stewards can further explore and develop their skills and competencies in data stewardship and, at the same time, support other researchers in applying best practices for data management and sharing5."
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#hire-now-discuss",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#hire-now-discuss",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#hire-now-discuss",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#hire-now-discuss",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "Hire now & discuss",
     "text": "Hire now & discuss\nHiring a data steward for your group who can connect and engage with other data stewards at ETH and beyond will significantly advance the impact of your research. If you are interested in speaking about hiring a data steward, please get in touch: &lt;ghe@mavt.ethz.ch&gt; or connect with us for a discussion on our open room on Matrix chat: https://matrix.to/#/#ghe-open:staffchat.ethz.ch"
   },
   {
-    "objectID": "3-blog/posts/2024-02-13-data-steward/index.html#footnotes",
-    "href": "3-blog/posts/2024-02-13-data-steward/index.html#footnotes",
+    "objectID": "blog/posts/2024-02-13-data-steward/index.html#footnotes",
+    "href": "blog/posts/2024-02-13-data-steward/index.html#footnotes",
     "title": "Attention, Prof: You need a data steward for your team.",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nhttps://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/data-stewardship.html↩︎\nhttps://github.com/Global-Health-Engineering/job-descriptions/blob/main/open-science-specialist/README.md↩︎\nhttps://ghe.ethz.ch/open-science.html↩︎\nhttps://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/data-stewardship.html↩︎\nhttps://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html↩︎"
   },
   {
-    "objectID": "1-slides/d01-eth-dsn-meeting.html#lars-schöbitz",
-    "href": "1-slides/d01-eth-dsn-meeting.html#lars-schöbitz",
+    "objectID": "blog/posts/2024-02-27-swissrn-award/index.html",
+    "href": "blog/posts/2024-02-27-swissrn-award/index.html",
+    "title": "Motivation for Team Award",
+    "section": "",
+    "text": "This motivation was written in response to the call for nominations for the Swiss Reproducibility Award 2024. The motivation was written by Lars Schöbitz, a team member at the Global Health Engineering group at ETH Zurich.\nThe result of the review process was announced on 8th May 2024 and this nomination has not been selected as the winner of the category.\n\nMotivation (word count: 347/350 words)\nWe are dedicated to rigorous, transparent, and reproducible research. We aim to make all our research outputs reproducible and foster an Open Science culture. For this purpose, we use public GitHub repositories for version control, collaboration, and integration with Zenodo for long-term archiving and generation of a Digital Object Identifier (DOI).\nWe categorize our data into three stages:\n\nStage 1: unprocessed raw data\nStage 2: processed analysis-ready data\nStage 3: data supporting publication results\n\nThe raw data’s value is relatively low, but the code transforming it into analysis-ready data is invaluable. This code enhances transparency, promotes reusability, and boosts efficiency. It streamlines data cleaning, a crucial but often overlooked task. Moreover, by packaging our code as functions, we enhance efficiency in data cleaning for similar future projects. We ensure a complete audit trail from raw to analysis-ready data by openly sharing both alongside the code within the same repository. In addition, we use a permissive CC-BY license, assign DOIs, and link ORCID IDs to acknowledge all contributors, including those often unrecognized in scientific outputs (e.g. surveyors and lab technicians). Finally, our data is published as an R data package, enhancing accessibility and usability.\nIn Stage 2, we use the above R data package to prepare a reproducible manuscript. We utilize a literate programming tool to integrate narrative and code. The manuscript is stored and managed in another git repository. It receives a separate DOI, highlighting the differences between data cleaning and curation activities, which is performed by a data steward supporting the group, and the actual work that goes into authoring a manuscript, fine-tuning tables, figures and models, which rests with the scientists.\nIn Stage 3, we produce CSV files for the data supporting the publication results (e.g. tables, figures, models), allowing others to use our results quickly.\nOur team has an Open Science Specialist who mentors our staff and students in applying open science principles, which unifies our team, aligning everyone with our vision and mission. Our team deserves this award to recognize our efforts to make science more rigorous, transparent, and reproducible."
+  },
+  {
+    "objectID": "slides/d01-eth-dsn-meeting.html#lars-schöbitz",
+    "href": "slides/d01-eth-dsn-meeting.html#lars-schöbitz",
     "title": "DSN Kick-off",
     "section": "Lars Schöbitz",
     "text": "Lars Schöbitz\n\n\n\n\n\n\n\n\n\nEnvironmental Engineer\n\nOpen Science Specialist at Global Health Engineering\nRStudio certified instructor for Data Science with R\nTwitter: @larnsce"
   },
   {
-    "objectID": "1-slides/d01-eth-dsn-meeting.html#my-role---open-science-specialist",
-    "href": "1-slides/d01-eth-dsn-meeting.html#my-role---open-science-specialist",
+    "objectID": "slides/d01-eth-dsn-meeting.html#my-role---open-science-specialist",
+    "href": "slides/d01-eth-dsn-meeting.html#my-role---open-science-specialist",
     "title": "DSN Kick-off",
     "section": "My role - Open Science Specialist",
     "text": "My role - Open Science Specialist\n\nresearch data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing\n\n\nJob Description: Open Science Specialist"
   },
   {
-    "objectID": "1-slides/d01-eth-dsn-meeting.html#data-at-global-health-engineering",
-    "href": "1-slides/d01-eth-dsn-meeting.html#data-at-global-health-engineering",
+    "objectID": "slides/d01-eth-dsn-meeting.html#data-at-global-health-engineering",
+    "href": "slides/d01-eth-dsn-meeting.html#data-at-global-health-engineering",
     "title": "DSN Kick-off",
     "section": "Data at Global Health Engineering",
     "text": "Data at Global Health Engineering\n\n\n\nsmall (few MBs)\ntabular\nnon-sensitive\ntopics\n\nwaste management\nsanitation\nair quality\netc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhoto: Kiteezi Landfill, Kampala, Uganda"
   },
   {
-    "objectID": "1-slides/d01-eth-dsn-meeting.html#problem-statement",
-    "href": "1-slides/d01-eth-dsn-meeting.html#problem-statement",
+    "objectID": "slides/d01-eth-dsn-meeting.html#problem-statement",
+    "href": "slides/d01-eth-dsn-meeting.html#problem-statement",
     "title": "DSN Kick-off",
     "section": "Problem statement",
     "text": "Problem statement\n\n\nScreenshot from Greene et al. (2021)"
   },
   {
-    "objectID": "1-slides/d01-eth-dsn-meeting.html#problem-statement-1",
-    "href": "1-slides/d01-eth-dsn-meeting.html#problem-statement-1",
+    "objectID": "slides/d01-eth-dsn-meeting.html#problem-statement-1",
+    "href": "slides/d01-eth-dsn-meeting.html#problem-statement-1",
     "title": "DSN Kick-off",
     "section": "Problem statement",
     "text": "Problem statement\n\n\nScreenshot from Greene et al. (2021)"
   },
   {
-    "objectID": "1-slides/d01-eth-dsn-meeting.html#open-research-data-ord-funding-programmes",
-    "href": "1-slides/d01-eth-dsn-meeting.html#open-research-data-ord-funding-programmes",
+    "objectID": "slides/d01-eth-dsn-meeting.html#open-research-data-ord-funding-programmes",
+    "href": "slides/d01-eth-dsn-meeting.html#open-research-data-ord-funding-programmes",
     "title": "DSN Kick-off",
     "section": "Open Research Data (ORD) funding programmes",
     "text": "Open Research Data (ORD) funding programmes\n\nExplore project (150k): https://openwashdata.org/pages/proposal/\nContribute project (30k): https://github.com/openwashdata/proposal-eth-ord-scheme-contribute/blob/main/proposal-eth-ord-scheme-contribute.md"
   },
   {
-    "objectID": "1-slides/d01-eth-dsn-meeting.html#upcoming-funding-opportunities",
-    "href": "1-slides/d01-eth-dsn-meeting.html#upcoming-funding-opportunities",
+    "objectID": "slides/d01-eth-dsn-meeting.html#upcoming-funding-opportunities",
+    "href": "slides/d01-eth-dsn-meeting.html#upcoming-funding-opportunities",
     "title": "DSN Kick-off",
     "section": "Upcoming funding opportunities",
     "text": "Upcoming funding opportunities\n\n\nForthcoming submission dates (ORD calls ETH Domain and Swissuniversities) © Office of Research"
   },
   {
-    "objectID": "1-slides/d01-eth-dsn-meeting.html#data-stewardship-activities",
-    "href": "1-slides/d01-eth-dsn-meeting.html#data-stewardship-activities",
+    "objectID": "slides/d01-eth-dsn-meeting.html#data-stewardship-activities",
+    "href": "slides/d01-eth-dsn-meeting.html#data-stewardship-activities",
     "title": "DSN Kick-off",
     "section": "Data stewardship activities",
     "text": "Data stewardship activities\n\nETH4D data management support\nETH4D skills course (HS 2023) - 0.5 ECTS: Open Research Data - Tools and a workflow for the modern researcher"
   },
   {
-    "objectID": "1-slides/d01-eth-dsn-meeting.html#thanks-1",
-    "href": "1-slides/d01-eth-dsn-meeting.html#thanks-1",
+    "objectID": "slides/d01-eth-dsn-meeting.html#thanks-1",
+    "href": "slides/d01-eth-dsn-meeting.html#thanks-1",
     "title": "DSN Kick-off",
     "section": "Thanks",
     "text": "Thanks\n\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nAccess: Source code of slides on GitHub\nDownload: Slides as PDF\n\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International."
   },
   {
-    "objectID": "1-slides/d01-eth-dsn-meeting.html#references",
-    "href": "1-slides/d01-eth-dsn-meeting.html#references",
+    "objectID": "slides/d01-eth-dsn-meeting.html#references",
+    "href": "slides/d01-eth-dsn-meeting.html#references",
     "title": "DSN Kick-off",
     "section": "References",
     "text": "References\n\n\n\nhttps://global-health-engineering.github.io/website/1-slides/\n\n\n\n\nGreene, Nicola, Sarah Hennessy, Tate W. Rogers, Jocelyn Tsai, and Francis L. de los Reyes III. 2021. “The Role of Emptying Services in Provision of Safely Managed Sanitation: A Classification and Quantification of the Needs of LMICs.” Journal of Environmental Management 290 (July): 112612. https://doi.org/10.1016/j.jenvman.2021.112612."
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#lars-schöbitz",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#lars-schöbitz",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#lars-schöbitz",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#lars-schöbitz",
     "title": "Reference Management with Zotero",
     "section": "Lars Schöbitz",
     "text": "Lars Schöbitz\n\n\n\n\n\n\n\n\n\nEnvironmental Engineer\n\nOpen Science Specialist at Global Health Engineering\nRStudio certified instructor for Data Science with R"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#my-role---open-science-specialist",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#my-role---open-science-specialist",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#my-role---open-science-specialist",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#my-role---open-science-specialist",
     "title": "Reference Management with Zotero",
     "section": "My role - Open Science Specialist",
     "text": "My role - Open Science Specialist\n\nresearch data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#section",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#section",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#section",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#section",
     "title": "Reference Management with Zotero",
     "section": "",
     "text": "Who has published a report, thesis, scientific article, or similar?"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#section-1",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#section-1",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#section-1",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#section-1",
     "title": "Reference Management with Zotero",
     "section": "",
     "text": "Who already uses a reference management tool? (e.g. Mendeley, EndNote, Zotero)"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#four-terms",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#four-terms",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#four-terms",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#four-terms",
     "title": "Reference Management with Zotero",
     "section": "Four terms",
     "text": "Four terms\n\nCitation\nReference\nBibliography\nCitation Style Language (CSL)"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#whats-a-citation",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#whats-a-citation",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#whats-a-citation",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#whats-a-citation",
     "title": "Reference Management with Zotero",
     "section": "What’s a Citation?",
     "text": "What’s a Citation?\n\n\nInequality underpins waste management systems, structuring who can or cannot access services (Kalina et al., 2023).\nMany visitors still expect a personal pick-up, despite the availability of taxi services (Tilley & Kalina, 2021).\nIn Tilley & Kalina (2021), the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.\n\n\n\nExplanation A citation is a reference to the source of information used in your research. Any time you directly quote, paraphrase, or summarize the essential elements of someone else’s idea in your work, an in-text citation should follow. For example, in APA style, a citation might look like this: (Tilley and Kalina, 2021).\nAnalogy Think of a citation as a signpost on a road trip. It tells you where the information came from and points you in the direction of the full details (the destination), which can be found in the reference list."
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#whats-a-citation-1",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#whats-a-citation-1",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#whats-a-citation-1",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#whats-a-citation-1",
     "title": "Reference Management with Zotero",
     "section": "What’s a Citation?",
     "text": "What’s a Citation?\n\nInequality underpins waste management systems, structuring who can or cannot access services (Kalina et al., 2023).\nMany visitors still expect a personal pick-up, despite the availability of taxi services (Tilley & Kalina, 2021).\nIn Tilley & Kalina (2021), the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.\n\n\n\n\n\n\n\nImportant: The period is after the citation."
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#whats-a-reference",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#whats-a-reference",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#whats-a-reference",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#whats-a-reference",
     "title": "Reference Management with Zotero",
     "section": "What’s a Reference?",
     "text": "What’s a Reference?\n\ndetailed description of the source of information\nauthor’s name, title, year of publication, publisher, DOI, etc.\n\nTilley, E., & Kalina, M. (2021). “My flight arrives at 5 am, can you pick me up?”: The gatekeeping burden of the african academic. Journal of African Cultural Studies, 33(4), 538–548. https://doi.org/10.3929/ethz-b-000493677\n\nExplanation\nA reference is a detailed description of the source of information that you want to give credit to via a citation. In APA style, a reference provides comprehensive details about a source, including the author’s name, the title of the source, the year of publication, and the publisher or URL.\nAnalogy\nA reference is like a detailed map at the end of your road trip (paper). It provides all the details about the source (destination) that the citation (signpost) pointed to."
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#whats-a-bibliography",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#whats-a-bibliography",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#whats-a-bibliography",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#whats-a-bibliography",
     "title": "Reference Management with Zotero",
     "section": "What’s a Bibliography?",
     "text": "What’s a Bibliography?\n\n\nlist of references in a research paper or project\nincludes all sources used, whether they were directly quoted or not\nlisted alphabetically by the author’s last name in the reference list\n\n\nReferences\n\n\nKalina, M., Makwetu, N., & Tilley, E. (2023). “The rich will always be able to dispose of their waste”: A view from the frontlines of municipal failure in Makhanda, South Africa. Environment, Development and Sustainability. https://doi.org/10.1007/s10668-023-03363-1\n\n\nTilley, E., & Kalina, M. (2021). “My flight arrives at 5 am, can you pick me up?”: The gatekeeping burden of the african academic. Journal of African Cultural Studies, 33(4), 538–548. https://doi.org/10.3929/ethz-b-000493677"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#whats-the-citation-style-language-csl",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#whats-the-citation-style-language-csl",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#whats-the-citation-style-language-csl",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#whats-the-citation-style-language-csl",
     "title": "Reference Management with Zotero",
     "section": "What’s the Citation Style Language (CSL)?",
     "text": "What’s the Citation Style Language (CSL)?\n\nIt’s what your citation and generated bibliography look like\nAPA (American Psychological Association) Style, Chicago Style, IEEE Style, Vancouver Style, etc. (over 10,000 styles in Zotero Style Repository)\n\n\nThe Citation Style Language (CSL) describes the formatting of citations, notes, and bibliographies. It was created to provide an open format that can be used by any application"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#whats-the-citation-style-language-csl-1",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#whats-the-citation-style-language-csl-1",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#whats-the-citation-style-language-csl-1",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#whats-the-citation-style-language-csl-1",
     "title": "Reference Management with Zotero",
     "section": "What’s the Citation Style Language (CSL)?",
     "text": "What’s the Citation Style Language (CSL)?\nauthor-date: Many visitors still expect a personal pick-up, despite the availability of taxi services (Tilley & Kalina, 2021).\nnumeric Many visitors still expect a personal pick-up, despite the availability of taxi services [1]."
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#why-do-we-care-about-citations",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#why-do-we-care-about-citations",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#why-do-we-care-about-citations",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#why-do-we-care-about-citations",
     "title": "Reference Management with Zotero",
     "section": "Why do we care about citations?",
     "text": "Why do we care about citations?\n\nresearch integrity: give credit to the original author\nplagiarism: don’t claim someone else’s work as your own\noriginal source: allow readers to find the original source\nbut also: $$$"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#citations---the-currency-of-science",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#citations---the-currency-of-science",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#citations---the-currency-of-science",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#citations---the-currency-of-science",
     "title": "Reference Management with Zotero",
     "section": "Citations - the currency of science",
     "text": "Citations - the currency of science\n\n\n\n\n\n\nGoogle Scholar page of Elizabeth Tilley taken on 2023-10-11"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#why-use-a-reference-management-tool",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#why-use-a-reference-management-tool",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#why-use-a-reference-management-tool",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#why-use-a-reference-management-tool",
     "title": "Reference Management with Zotero",
     "section": "Why use a reference management tool?",
     "text": "Why use a reference management tool?\n\n\nManaging references manually:\n\nis a lot of work\nis prone to mistakes\nmakes you lose track\n\n\n\n\n\n\nPhoto by Christian Erfurt on unsplash.com"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#why-use-zotero",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#why-use-zotero",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#why-use-zotero",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#why-use-zotero",
     "title": "Reference Management with Zotero",
     "section": "Why use Zotero?",
     "text": "Why use Zotero?\n\n\n\nfree\nopen source: developed in public\ntransparent about access to your own data\ncross-platform (Windows, Mac, Linux)\ncollaboration in groups\nintegration with word processors\n\n\n\n\n\n\nPhoto by Sincerely Media on unsplash.com\n\n\nMendeley\n\nMendeley is owned by Elsevier.\nIt encrypts your database and makes money with your data\nYou can only collaborate with 3 people on one project.\n\nEndNote\n\nEndNote doesn’t come free, you need to buy a license.\nThey also used a prioprietary citation style files that could only be opened by EndNote."
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#how-to-use-zotero-with-ms-word",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#how-to-use-zotero-with-ms-word",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#how-to-use-zotero-with-ms-word",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#how-to-use-zotero-with-ms-word",
     "title": "Reference Management with Zotero",
     "section": "How to use Zotero with MS Word",
     "text": "How to use Zotero with MS Word\n\n\nLive demonstration exercise\n\nLearners open their laptops\nInstructor demonstrates and narrates out loud\nIntstructor explains elements and principles that are\nLearners join by following along\nLearners “code-along” with the instructor"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#open-science-tools",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#open-science-tools",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#open-science-tools",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#open-science-tools",
     "title": "Reference Management with Zotero",
     "section": "Open Science Tools",
     "text": "Open Science Tools\nKeen to learn how to use this within a computational authoring environment?\nCheck out: ost-hs23.github.io/website/\n\nDay 1: 17th October 2023 - 08:30 am to 12:30 pm CET\nDay 2: 24th October 2023 - 08:30 am to 12:30 pm CET\nECTS: 0.5"
   },
   {
-    "objectID": "1-slides/d03-hubris-to-hope-reference-management.html#thanks",
-    "href": "1-slides/d03-hubris-to-hope-reference-management.html#thanks",
+    "objectID": "slides/d03-hubris-to-hope-reference-management.html#thanks",
+    "href": "slides/d03-hubris-to-hope-reference-management.html#thanks",
     "title": "Reference Management with Zotero",
     "section": "Thanks 🌻",
     "text": "Thanks 🌻\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nSource code: GitHub\nAccess: HTML\nDownload: PDF\nThis material is licensed under Creative Commons Attribution 4.0 International.\n\n\n\n global-health-engineering.github.io/website/1-slides/"
   },
   {
-    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
-    "href": "1-slides/d02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
+    "href": "slides/d02-eth-rdm-summer-2023.html#my-role---open-science-specialist",
     "title": "open by default",
     "section": "My role - Open Science Specialist",
     "text": "My role - Open Science Specialist\n\nresearch data management\nreproducible workflows\nmindset for Open Science\nresearch communication\nteaching data science tools\nproposal writing\n\n\nOpen Science Specialist - Job Description"
   },
   {
-    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#data-management-strategy",
-    "href": "1-slides/d02-eth-rdm-summer-2023.html#data-management-strategy",
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#data-management-strategy",
+    "href": "slides/d02-eth-rdm-summer-2023.html#data-management-strategy",
     "title": "open by default",
     "section": "Data Management Strategy",
     "text": "Data Management Strategy"
   },
   {
-    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
-    "href": "1-slides/d02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
+    "href": "slides/d02-eth-rdm-summer-2023.html#data-at-global-health-engineering",
     "title": "open by default",
     "section": "Data at Global Health Engineering",
     "text": "Data at Global Health Engineering\n\n\n\nsmall (few MBs)\ntabular\nnon-sensitive\ntopics\n\nwaste management\nsanitation\nair quality\netc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhoto: Kiteezi Landfill, Kampala, Uganda"
   },
   {
-    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
-    "href": "1-slides/d02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
+    "href": "slides/d02-eth-rdm-summer-2023.html#lost-and-overwhelmed",
     "title": "open by default",
     "section": "Lost and overwhelmed",
     "text": "Lost and overwhelmed\n\n\n\nterminology\nlicensing\nsecurity\nrepositories\n\n\n\n\n\n\nPhoto by Christian Erfurt on unsplash.com\n\n\n\nterminology (underlying data, raw data, processed data, metadata, open sources, open access, …)\nlicensing (CC-BY, MIT, public domain, code, data)\nsecurity & privacy (phone numbers, GPS locations of houses)\nrepositories (documentation, upload, maintenance)"
   },
   {
-    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#computational-tools",
-    "href": "1-slides/d02-eth-rdm-summer-2023.html#computational-tools",
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#computational-tools",
+    "href": "slides/d02-eth-rdm-summer-2023.html#computational-tools",
     "title": "open by default",
     "section": "Computational tools",
     "text": "Computational tools\n\n\n\nintimidating\nhard\nnot everyone’s business\n\n\n\n\n\n\n\njupyter notebooks\nopen file formats\nversion control systems\n\n\n\n\nPhoto by Amza Andrei on unsplash.com"
   },
   {
-    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
-    "href": "1-slides/d02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
+    "href": "slides/d02-eth-rdm-summer-2023.html#scientist-as-a-lone-ranger",
     "title": "open by default",
     "section": "Scientist as a lone ranger",
     "text": "Scientist as a lone ranger\n\n\n\nacts alone\nexposure to tools\nown stack of tools\nthe way to do it\n\n\n\n\n\n\nPhoto by Jeffrey Hamilton on unsplash.com\n\n\n\nacts alone (until becoming a manager/professor)\nexposure to tools (100s throughout research career at different institutions)\nown stack of tools (builds their own individual worksflows -&gt; not team oriented)\nthe way to do it (doesn’t have time to learn what would be most effective for a team)"
   },
   {
-    "objectID": "1-slides/d02-eth-rdm-summer-2023.html#thanks-1",
-    "href": "1-slides/d02-eth-rdm-summer-2023.html#thanks-1",
+    "objectID": "slides/d02-eth-rdm-summer-2023.html#thanks-1",
+    "href": "slides/d02-eth-rdm-summer-2023.html#thanks-1",
     "title": "open by default",
     "section": "Thanks",
     "text": "Thanks\nSlides created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nSource code: GitHub\nAccess: HTML\nDownload: PDF\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International.\n\n\n\nhttps://global-health-engineering.github.io/website/1-slides/"
   },
   {
-    "objectID": "3-blog/posts/2024-02-27-swissrn-award/index.html",
-    "href": "3-blog/posts/2024-02-27-swissrn-award/index.html",
-    "title": "Motivation for Team Award",
-    "section": "",
-    "text": "This motivation was written in response to the call for nominations for the Swiss Reproducibility Award 2024. The motivation was written by Lars Schöbitz, a team member at the Global Health Engineering group at ETH Zurich.\nThe result of the review process was announced on 8th May 2024 and this nomination has not been selected as the winner of the category.\n\nMotivation (word count: 347/350 words)\nWe are dedicated to rigorous, transparent, and reproducible research. We aim to make all our research outputs reproducible and foster an Open Science culture. For this purpose, we use public GitHub repositories for version control, collaboration, and integration with Zenodo for long-term archiving and generation of a Digital Object Identifier (DOI).\nWe categorize our data into three stages:\n\nStage 1: unprocessed raw data\nStage 2: processed analysis-ready data\nStage 3: data supporting publication results\n\nThe raw data’s value is relatively low, but the code transforming it into analysis-ready data is invaluable. This code enhances transparency, promotes reusability, and boosts efficiency. It streamlines data cleaning, a crucial but often overlooked task. Moreover, by packaging our code as functions, we enhance efficiency in data cleaning for similar future projects. We ensure a complete audit trail from raw to analysis-ready data by openly sharing both alongside the code within the same repository. In addition, we use a permissive CC-BY license, assign DOIs, and link ORCID IDs to acknowledge all contributors, including those often unrecognized in scientific outputs (e.g. surveyors and lab technicians). Finally, our data is published as an R data package, enhancing accessibility and usability.\nIn Stage 2, we use the above R data package to prepare a reproducible manuscript. We utilize a literate programming tool to integrate narrative and code. The manuscript is stored and managed in another git repository. It receives a separate DOI, highlighting the differences between data cleaning and curation activities, which is performed by a data steward supporting the group, and the actual work that goes into authoring a manuscript, fine-tuning tables, figures and models, which rests with the scientists.\nIn Stage 3, we produce CSV files for the data supporting the publication results (e.g. tables, figures, models), allowing others to use our results quickly.\nOur team has an Open Science Specialist who mentors our staff and students in applying open science principles, which unifies our team, aligning everyone with our vision and mission. Our team deserves this award to recognize our efforts to make science more rigorous, transparent, and reproducible."
+    "objectID": "slides/swissrn.html#hands-up",
+    "href": "slides/swissrn.html#hands-up",
+    "title": "SwissRN",
+    "section": "Hands-up",
+    "text": "Hands-up\n\nWho has an ORCID iD?\nWho has published a scientific article in a journal?\nWho has published data separately from a scientific article with a separate unique id (DOI)?"
+  },
+  {
+    "objectID": "slides/swissrn.html#i-am-a-data-steward",
+    "href": "slides/swissrn.html#i-am-a-data-steward",
+    "title": "SwissRN",
+    "section": "I am a data steward",
+    "text": "I am a data steward\n\nI am a data steward working in a research group of about 10 people\n\nProfile\n\nWhat I have\n\n10+ years work experience (5 in research)\nempathy, compassion, patience, persistance\nan affinity for IT\n\nWhat I do not have\n\na doctoral degree\na qualification in IT related disciplines\n…"
+  },
+  {
+    "objectID": "slides/swissrn.html#your-turn",
+    "href": "slides/swissrn.html#your-turn",
+    "title": "SwissRN",
+    "section": "Your turn",
+    "text": "Your turn\n\nFor my example role of a data steward,\n\nWho do you think should pay for this resource?\nHow do you think the data steward should be rewarded scientifically?\n\nincluded as an author on publications?\n\nWhich career paths are there for data stewards with my profile?"
+  },
+  {
+    "objectID": "slides/swissrn.html#three-stages-of-data",
+    "href": "slides/swissrn.html#three-stages-of-data",
+    "title": "SwissRN",
+    "section": "Three stages of data",
+    "text": "Three stages of data"
+  },
+  {
+    "objectID": "slides/swissrn.html#research-data-management",
+    "href": "slides/swissrn.html#research-data-management",
+    "title": "SwissRN",
+    "section": "(Research) Data Management",
+    "text": "(Research) Data Management\n\nExamples of terms used when managing data.\n\n\n\n\n\n\n\n\nterm\nfolder\nexplanation\nfile format\n\n\n\n\nunprocessed raw data\nraw\ndata that is not processed and remains in its original form and file\noften XLSX, also CSV and others\n\n\nprocessed analysis-ready data\nprocessed\ndata that is processed to prepare for an analysis and is exported in its new form as a new file\nCSV\n\n\nfinal data underlying a publication\nfinal\ndata that is the result of an analysis (e.g descriptive statistics or data visualization) and shown in a report, but then also exported in its new form as a new file\nCSV"
+  },
+  {
+    "objectID": "slides/swissrn.html#data-management-strategy",
+    "href": "slides/swissrn.html#data-management-strategy",
+    "title": "SwissRN",
+    "section": "Data Management Strategy",
+    "text": "Data Management Strategy"
+  },
+  {
+    "objectID": "slides/swissrn.html#ghe-est.-2021",
+    "href": "slides/swissrn.html#ghe-est.-2021",
+    "title": "SwissRN",
+    "section": "GHE est. 2021",
+    "text": "GHE est. 2021\n\ncommittees\nproposals\n\n\n\n\n global-health-engineering.github.io/website/1-slides/"
   }
 ]

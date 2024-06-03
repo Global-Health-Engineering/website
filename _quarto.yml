@@ -14,12 +14,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: 1-slides/index.qmd
+      - href: slides/index.qmd
         text: Slides
       - text: Tutorials
         menu: 
-          - 2-tutorials/data-package.qmd
-      - href: 3-blog/index.qmd
+          - tutorials/data-package.qmd
+      - href: blog/index.qmd
         text: Blog
         
       
