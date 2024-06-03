@@ -6,14 +6,15 @@ author:
     url: https://lse.de/
     affiliation: Global Health Engineering, ETH Zurich
     affiliation-url: https://ghe.ethz.ch
-date: "2024-02-27"
-draft: true
-format: pdf
+date: today
+draft: false
 ---
 
-This motivation was written in response to the call for nominations for the Swiss Reproducibility Award 2024. The motivation was written by Lars Schöbitz, a team member at the Global Health Engineering group at ETH Zurich.
+This motivation was written in response to the call for nominations for the Swiss Reproducibility Award 2024. The motivation was written by Lars Schöbitz, a team member at the Global Health Engineering group at ETH Zurich. 
 
-# Motivation (word count: 347 words)
+The result of the review process was announced on 8th May 2024 and this nomination has not been selected as the winner of the category.
+
+# Motivation (word count: 347/350 words)
 
 We are dedicated to rigorous, transparent, and reproducible research. We aim to make all our research outputs reproducible and foster an Open Science culture. For this purpose, we use public GitHub repositories for version control, collaboration, and integration with Zenodo for long-term archiving and generation of a Digital Object Identifier (DOI).
 
@@ -30,3 +31,4 @@ In Stage 2, we use the above R data package to prepare a reproducible manuscript
 In Stage 3, we produce CSV files for the data supporting the publication results (e.g. tables, figures, models), allowing others to use our results quickly.
 
 Our team has an Open Science Specialist who mentors our staff and students in applying open science principles, which unifies our team, aligning everyone with our vision and mission. Our team deserves this award to recognize our efforts to make science more rigorous, transparent, and reproducible.
+
