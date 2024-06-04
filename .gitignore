@@ -3,7 +3,9 @@
 .RData
 .Ruserdata
 
+# quarto site
 /.quarto/
+/_site/
 
 .DS_Store
 .Rdata
