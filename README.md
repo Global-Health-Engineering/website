@@ -8,6 +8,6 @@
 
 <!-- badges: end -->
 
-Open Science website of the [Global Health Engineering group at ETH Zurich](https://ghe.ethz.ch/). 
+Open Science website of the [Global Health Engineering group at ETH Zurich](https://ghe.ethz.ch/).
 
 This website documents a blog, provides access to slides, tutorials, and other open educational material developed by the Global Health Engineering group at ETH Zurich.
