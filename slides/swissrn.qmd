@@ -9,14 +9,13 @@ author:
           url: https://ghe.ethz.ch/
 date: 2024-06-10
 date-format: long
-footer: "[{{< fa link >}} global-health-engineering.github.io/website/1-slides/](https://global-health-engineering.github.io/website/1-slides/)"
 format: 
-  pptx:
-    slide-number: true
   revealjs: 
     theme: slides.scss
     transition: fade
     slide-number: true
+    width: 960
+    height: 540
 editor: source
 editor_options: 
   chunk_output_type: console
@@ -68,7 +67,11 @@ bibliography: ["references.bib"]
 
 ##  {background-image="img/ghe-rdm-workflow-v2.drawio.png" background-size="1400px"}
 
+##  {background-image="img/ghe-rdm-workflow-v2.drawio.svg" background-size="960px 540px"}
 
+::: footer
+
+:::
 
 ## GHE est. 2021
 
