@@ -33,8 +33,9 @@ bibliography: ["references.bib"]
 
 ## {{< fa hand >}} hands up {{< fa hand >}} {.center-align auto-animate="true"}
 
+```{=html}
 <script defer data-domain="ghe-open.ch" src="https://plausible.io/js/script.js"></script>
-
+```
 ::: {style="margin-top: 50px; font-size: 1.5em"}
 Who has an ORCID iD?
 :::
@@ -96,27 +97,27 @@ For 1 minute, think about these two questions and take some notes for later:
 
 ## Three terms for three stages {.smaller}
 
-| term                                      | explanation                                                                               | file format                     |
-|----------------|------------------|------------------------|
+| term                                   | explanation                                                                                 | file format                     |
+|--------------------|-----------------------|------------------------------|
 | unprocessed [raw]{.highlight-red} data | data that is not processed and [remains in its original form and file type]{.highlight-red} | often XLSX, also CSV and others |
 
 : {.striped tbl-colwidths="\[20, 60, 20\]"}
 
 ## Three terms for three stages {.smaller}
 
-| term                                               | explanation                                                                                                          | file format                     |
-|----------------|------------------|------------------------|
-| unprocessed [raw]{.highlight-red} data          | data that is not processed and [remains in its original form and file]{.highlight-red}                            | often XLSX, also CSV and others |
-| [processed]{.highlight-red} analysis-ready data | data that is processed to [prepare for an analysis]{.highlight-red} and is exported in its new form as a new file | CSV                             |
+| term                                            | explanation                                                                                                       | file format                     |
+|--------------------|-----------------------|------------------------------|
+| unprocessed [raw]{.highlight-red} data          | data that is not processed and [remains in its original form and file type]{.highlight-red}     | often XLSX, also CSV and others |
+| [processed]{.highlight-red} analysis-ready data | data that is processed to [prepare for an analysis]{.highlight-red} and is exported in its new form as a new file | CSV, R data package             |
 
 : {.striped tbl-colwidths="\[20, 60, 20\]"}
 
 ## Three terms for three stages {.smaller}
 
-| term                                                     | explanation                                                                                                                                                                                     | file format                     |
-|----------------|------------------|------------------------|
-| unprocessed [raw]{.highlight-red} data                | data that is not processed and [remains in its original form and file]{.highlight-red}                                                                                                       | often XLSX, also CSV and others |
-| [processed]{.highlight-red} analysis-ready data       | data that is processed to [prepare for an analysis]{.highlight-red} and is exported in its new form as a new file                                                                            | CSV, R data packages            |
+| term                                                  | explanation                                                                                                                                                                                  | file format                     |
+|--------------------|-----------------------|------------------------------|
+| unprocessed [raw]{.highlight-red} data                | data that is not processed and [remains in its original form and file type]{.highlight-red}                                                                                | often XLSX, also CSV and others |
+| [processed]{.highlight-red} analysis-ready data       | data that is processed to [prepare for an analysis]{.highlight-red} and is exported in its new form as a new file                                                                            | CSV, R data package             |
 | [final]{.highlight-red} data underlying a publication | data that is the [result of an analysis]{.highlight-red} (e.g descriptive statistics or data visualization) and shown in a publication, but then also exported in its new form as a new file | CSV                             |
 
 : {.striped tbl-colwidths="\[20, 60, 20\]"}
@@ -157,7 +158,7 @@ Self-nomination for Swiss Reproducibility Award 2024: <https://ghe-open.ch/blog/
 
 ::: footer
 Diagram at: <https://github.com/Global-Health-Engineering/concept-maps>
-::: 
+:::
 
 # Invest now! {background-color="#0F4C81"}
 
@@ -165,19 +166,19 @@ Diagram at: <https://github.com/Global-Health-Engineering/concept-maps>
 
 **swissuniversities**
 
-- 2021 - 2024: swissuniversities - Open Science I  
-- 2025 - 2028: swissuniversities - Open Science II (CHF 30 million requested)
-- [Watch:]{.highlight-yellow} Measure B5.2 - Professionalisation of ORD specialists and related services
-- Newsletter sign-up: <https://sympa.ethz.ch/sympa/subscribe/isci>
+-   2021 - 2024: swissuniversities - Open Science I\
+-   2025 - 2028: swissuniversities - Open Science II (CHF 30 million requested)
+-   [Watch:]{.highlight-yellow} Measure B5.2 - Professionalisation of ORD specialists and related services
+-   Newsletter sign-up: <https://sympa.ethz.ch/sympa/subscribe/isci>
 
 ## Funding schemes
 
 **ETH Board**
 
-- 2021 - 2024: ~ 100 projects funded (~ CHF 10 million in total)
-- ORD 8th Contribute [(30k)]{.highlight-yellow} guidelines, expected due date in August 2024 
-- motivates early career scientists to prepare proposals
-- Newsletter sign-up: <https://open-research-data-portal.ch/> (bottom of page)
+-   2021 - 2024: \~ 100 projects funded (\~ CHF 10 million in total)
+-   ORD 8th Contribute [(30k)]{.highlight-yellow} guidelines, expected due date in August 2024
+-   motivates early career scientists to prepare proposals
+-   Newsletter sign-up: <https://open-research-data-portal.ch/> (bottom of page)
 
 ## Thanks `r emo::ji("sunflower")` {.smaller}
 
@@ -187,7 +188,7 @@ Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/r
 
 Source code of slides on GitHub: <https://github.com/Global-Health-Engineering/website/blob/main/slides/swissrn.qmd>
 
-This material is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). 
+This material is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 
 # Additional slides
 
