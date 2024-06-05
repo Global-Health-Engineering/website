@@ -1,0 +1,10 @@
+---
+format: revealjs
+---
+
+
+
+{{< qrcode https://ghe-open.ch/blog/posts/2024-03-08-swissrn-abstract/ width=210 height=210 >}}
+
+slides at:   
+ghe-open.ch

@@ -1,9 +1,12 @@
 ---
-title: "SwissRN"
-subtitle: "Data Stewardship"
+title: "Swiss Reproducibility Conference"
+subtitle: "Plan for tomorrow today: why you need a data steward"
 author: 
   - name: Lars Schöbitz
-    email: lschoebitz@ethz.ch
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+  - name: Prof. Elizabeth Tilley
     affiliations:
         - name: Global Health Engineering - ETH Zurich
           url: https://ghe.ethz.ch/
@@ -16,6 +19,10 @@ format:
     slide-number: true
     width: 960
     height: 540
+    title-slide-attributes:
+      data-background-image: "img/qr-ghe-open.png"
+      data-background-size: contain
+      data-background-opacity: "1"
 editor: source
 editor_options: 
   chunk_output_type: console
@@ -24,54 +31,16 @@ execute:
 bibliography: ["references.bib"]
 ---
 
-## Hands-up
+## {{< fa hand >}} hands up {{< fa hand >}} {.center-align auto-animate="true"}
 
--   Who has an ORCID iD?
--   Who has published a scientific article in a journal?
--   Who has published data separately from a scientific article with a separate unique id (DOI)?
-
-## Meet a Prof
-
-::: columns
-::: {.column width="50%"}
-```{r}
-knitr::include_graphics(here::here("blog/posts/2024-02-13-data-steward/dalle-overworked-prof.webp"))
-```
+::: {style="margin-top: 50px; font-size: 1.5em"}
+Who has an ORCID iD?
 :::
 
-::: {.column width="50%"}
--   working long hours
--   sitting in committees
--   stuck in meetings
--   teaching, grading, supervising & mentoring
-:::
-:::
+## {{< fa hand >}} hands up {{< fa hand >}} {.center-align auto-animate="true"}
 
-::: footer
-TODO
-:::
-
-## Meet a Prof {.smaller}
-
-::: columns
-::: {.column width="50%"}
-```{r}
-knitr::include_graphics(here::here("blog/posts/2024-02-13-data-steward/dalle-overworked-prof.webp"))
-```
-:::
-
-::: {.column width="50%"}
--   working long hours
--   sitting in committees
--   stuck in meetings
--   teaching, grading, supervising & mentoring
-
-> *"We decided that you now need to share your data, following FAIR principles, and also publish your code for reproducibility."* - the funding agency, the publisher
-:::
-:::
-
-::: footer
-TODO
+::: {style="margin-top: 50px; font-size: 1.5em"}
+Who has published a scientific article in a journal?
 :::
 
 ## Meet a data steward
@@ -118,10 +87,10 @@ For 1 minute, think about these two questions and take some notes for later:
 ::: task
 1.  How should I be rewarded scientifically?
 
-2.  Which career paths are there for data stewards with my profile?
+2.  Which career paths are there for data stewards?
 :::
 
-# Research Data Management {.center-align background-color="#0F4C81"}
+# Research Data Management {background-color="#0F4C81"}
 
 ## Three terms for three stages {.smaller}
 
@@ -131,7 +100,7 @@ For 1 minute, think about these two questions and take some notes for later:
 
 : {.striped tbl-colwidths="\[20, 60, 20\]"}
 
-## Three stages of data {.smaller}
+## Three terms for three stages {.smaller}
 
 | term                                               | explanation                                                                                                          | file format                     |
 |----------------|------------------|------------------------|
@@ -140,7 +109,7 @@ For 1 minute, think about these two questions and take some notes for later:
 
 : {.striped tbl-colwidths="\[20, 60, 20\]"}
 
-## Three stages of data {.smaller}
+## Three terms for three stages {.smaller}
 
 | term                                                     | explanation                                                                                                                                                                                     | file format                     |
 |----------------|------------------|------------------------|
@@ -150,7 +119,11 @@ For 1 minute, think about these two questions and take some notes for later:
 
 : {.striped tbl-colwidths="\[20, 60, 20\]"}
 
-# Data Management Strategy {.center-align background-color="#0F4C81"}
+::: footer
+Self-nomination for Swiss Reproducibility Award 2024: <https://ghe-open.ch/blog/posts/2024-02-27-swissrn-award/>
+:::
+
+# Data Management Strategy {background-color="#0F4C81"}
 
 ##  {background-image="img/ghe-rdm-workflow-v2-01.drawio.svg" background-size="960px 540px"}
 
@@ -180,7 +153,82 @@ For 1 minute, think about these two questions and take some notes for later:
 
 ##  {background-image="img/ghe-rdm-workflow-v2-14.drawio.svg" background-size="960px 540px"}
 
-## GHE est. 2021
+::: footer
+Diagram at: <https://github.com/Global-Health-Engineering/concept-maps>
+::: 
 
--   committees
--   proposals
+# Invest now! {background-color="#0F4C81"}
+
+## Funding schemes
+
+**swissuniversities**
+
+- 2021 - 2024: swissuniversities - Open Science I  
+- 2025 - 2028: swissuniversities - Open Science II (CHF 30 million requested)
+- [Watch:]{.highlight-yellow} Measure B5.2 - Professionalisation of ORD specialists and related services
+- Newsletter sign-up: <https://sympa.ethz.ch/sympa/subscribe/isci>
+
+## Funding schemes
+
+**ETH Board**
+
+- 2021 - 2024: ~ 100 projects funded (~ CHF 10 million in total)
+- ORD 8th Contribute [(30k)]{.highlight-yellow} guidelines, expected due date in August 2024 
+- motivates early career scientists to prepare proposals
+- Newsletter sign-up: <https://open-research-data-portal.ch/> (bottom of page)
+
+## Thanks `r emo::ji("sunflower")` {.smaller}
+
+![](img/qr-ghe-open-sml.png){fig-alt="Headshot of Lars Schöbitz" fig-align="left"}
+
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/>
+
+Source code of slides on GitHub: <https://github.com/Global-Health-Engineering/website/blob/main/slides/swissrn.qmd>
+
+This material is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). 
+
+# Additional slides
+
+## Meet a Prof
+
+::: columns
+::: {.column width="50%"}
+```{r}
+knitr::include_graphics(here::here("blog/posts/2024-02-13-data-steward/dalle-overworked-prof.webp"))
+```
+:::
+
+::: {.column width="50%"}
+-   working long hours
+-   sitting in committees
+-   stuck in meetings
+-   teaching, grading, supervising & mentoring
+:::
+:::
+
+::: footer
+TODO
+:::
+
+## Meet a Prof {.smaller}
+
+::: columns
+::: {.column width="50%"}
+```{r}
+knitr::include_graphics(here::here("blog/posts/2024-02-13-data-steward/dalle-overworked-prof.webp"))
+```
+:::
+
+::: {.column width="50%"}
+-   working long hours
+-   sitting in committees
+-   stuck in meetings
+-   teaching, grading, supervising & mentoring
+
+> *"We decided that you now need to share your data, following FAIR principles, and also publish your code for reproducibility."* - the funding agency, the publisher
+:::
+:::
+
+::: footer
+TODO
+:::

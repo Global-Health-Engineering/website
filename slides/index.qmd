@@ -2,9 +2,17 @@
 title: "{{< fa display >}} Slides"
 ---
 
+## Swiss Reproducibility Conference 2024
+
+[View slides in full screen](swissrn.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/slides/swiss-rn.pdf)
+
+```{=html}
+<iframe class="slide-deck" src="swissrn.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## Swiss Toxicology Society - Education Workshop
 
-[View slides in full screen](d04-sst-workshop-basel.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/1-slides/d04-sst-workshop-basel.pdf)
+[View slides in full screen](d04-sst-workshop-basel.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/slides/d04-sst-workshop-basel.pdf)
 
 ```{=html}
 <iframe class="slide-deck" src="d04-sst-workshop-basel.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
@@ -12,7 +20,7 @@ title: "{{< fa display >}} Slides"
 
 ## Hubris to Hope HS23 - Reference Management with Zotero
 
-[View slides in full screen](d03-hubris-to-hope-reference-management.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/1-slides/d03-hubris-to-hope-reference-management.pdf)
+[View slides in full screen](d03-hubris-to-hope-reference-management.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/slides/d03-hubris-to-hope-reference-management.pdf)
 
 ```{=html}
 <iframe class="slide-deck" src="d03-hubris-to-hope-reference-management.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
