@@ -33,7 +33,7 @@ format:
     code-overflow: wrap
     include-in-header: 
         - text: |
-            <script defer data-domain="global-health-engineering.github.io/website" src="https://plausible.io/js/script.js"></script>
+            <script defer data-domain="ghe-open.ch" src="https://plausible.io/js/script.js"></script>
 
 execute: 
   freeze: auto

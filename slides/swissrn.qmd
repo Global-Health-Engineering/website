@@ -30,48 +30,155 @@ bibliography: ["references.bib"]
 -   Who has published a scientific article in a journal?
 -   Who has published data separately from a scientific article with a separate unique id (DOI)?
 
-## I am a data steward
+## Meet a Prof
 
--   I am a data steward working in a research group of about 10 people
-    -   Profile
-        -   What I have
-            -   10+ years work experience (5 in research)
-            -   empathy, compassion, patience, persistance
-            -   an affinity for IT
-        -   What I do not have
-            -   a doctoral degree
-            -   a qualification in IT related disciplines
-            -   ...
+::: columns
+::: {.column width="50%"}
+```{r}
+knitr::include_graphics(here::here("blog/posts/2024-02-13-data-steward/dalle-overworked-prof.webp"))
+```
+:::
 
-## Your turn
-
--   For my example role of a data steward,
-    -   Who do you think should pay for this resource?
-    -   How do you think the data steward should be rewarded scientifically?
-        -   included as an author on publications?
-    -   Which career paths are there for data stewards with my profile?
-
-## Three stages of data
-
-## (Research) Data Management {.smaller}
-
-| term                                                     | folder    | explanation                                                                                                                                                                                | file format                     |
-|------------------|------------------|---------------------------------------------------------|-----------------------------------------------------------------------|
-| unprocessed [raw]{.highlight-yellow} data                | raw       | data that is not processed and [remains in its original form and file]{.highlight-yellow}                                                                                                  | often XLSX, also CSV and others |
-| [processed]{.highlight-yellow} analysis-ready data       | processed | data that is processed to [prepare for an analysis]{.highlight-yellow} and is exported in its new form as a new file                                                                       | CSV                             |
-| [final]{.highlight-yellow} data underlying a publication | final     | data that is the [result of an analysis]{.highlight-yellow} (e.g descriptive statistics or data visualization) and shown in a report, but then also exported in its new form as a new file | CSV                             |
-
-: Examples of terms used when managing data. {.striped .hover tbl-colwidths="\[20, 10, 50, 20\]"}
-
-## Data Management Strategy {background-color="#0F4C81" .center-align}
-
-##  {background-image="img/ghe-rdm-workflow-v2.drawio.png" background-size="1400px"}
-
-##  {background-image="img/ghe-rdm-workflow-v2.drawio.svg" background-size="960px 540px"}
+::: {.column width="50%"}
+-   working long hours
+-   sitting in committees
+-   stuck in meetings
+-   teaching, grading, supervising & mentoring
+:::
+:::
 
 ::: footer
-
+TODO
 :::
+
+## Meet a Prof {.smaller}
+
+::: columns
+::: {.column width="50%"}
+```{r}
+knitr::include_graphics(here::here("blog/posts/2024-02-13-data-steward/dalle-overworked-prof.webp"))
+```
+:::
+
+::: {.column width="50%"}
+-   working long hours
+-   sitting in committees
+-   stuck in meetings
+-   teaching, grading, supervising & mentoring
+
+> *"We decided that you now need to share your data, following FAIR principles, and also publish your code for reproducibility."* - the funding agency, the publisher
+:::
+:::
+
+::: footer
+TODO
+:::
+
+## Meet a data steward
+
+::: columns
+::: {.column width="50%"}
+**I have:**
+
+-   10+ years work experience (5 in research)
+-   empathy, compassion, patience, persistance
+-   an affinity for IT
+-   teaching experience
+:::
+
+::: {.column width="50%"}
+**I don't have:**
+
+-   a doctoral degree
+-   a qualification in computer science
+-   a qualification in statistics
+-   a lot of time
+:::
+:::
+
+::: footer
+Job Description: [Open Science Specialist](https://github.com/Global-Health-Engineering/job-descriptions/blob/main/open-science-specialist/README.md)
+:::
+
+::: notes
+My role - **Open Science Specialist**
+
+-   research data management
+-   reproducible workflows
+-   mindset for Open Science
+-   research communication
+-   teaching data science tools
+-   proposal writing
+:::
+
+## Your turn: Think & Note
+
+For 1 minute, think about these two questions and take some notes for later:
+
+::: task
+1.  How should I be rewarded scientifically?
+
+2.  Which career paths are there for data stewards with my profile?
+:::
+
+# Research Data Management {.center-align background-color="#0F4C81"}
+
+## Three terms for three stages {.smaller}
+
+| term                                      | explanation                                                                               | file format                     |
+|----------------|------------------|------------------------|
+| unprocessed [raw]{.highlight-red} data | data that is not processed and [remains in its original form and file type]{.highlight-red} | often XLSX, also CSV and others |
+
+: {.striped tbl-colwidths="\[20, 60, 20\]"}
+
+## Three stages of data {.smaller}
+
+| term                                               | explanation                                                                                                          | file format                     |
+|----------------|------------------|------------------------|
+| unprocessed [raw]{.highlight-red} data          | data that is not processed and [remains in its original form and file]{.highlight-red}                            | often XLSX, also CSV and others |
+| [processed]{.highlight-red} analysis-ready data | data that is processed to [prepare for an analysis]{.highlight-red} and is exported in its new form as a new file | CSV                             |
+
+: {.striped tbl-colwidths="\[20, 60, 20\]"}
+
+## Three stages of data {.smaller}
+
+| term                                                     | explanation                                                                                                                                                                                     | file format                     |
+|----------------|------------------|------------------------|
+| unprocessed [raw]{.highlight-red} data                | data that is not processed and [remains in its original form and file]{.highlight-red}                                                                                                       | often XLSX, also CSV and others |
+| [processed]{.highlight-red} analysis-ready data       | data that is processed to [prepare for an analysis]{.highlight-red} and is exported in its new form as a new file                                                                            | CSV, R data packages            |
+| [final]{.highlight-red} data underlying a publication | data that is the [result of an analysis]{.highlight-red} (e.g descriptive statistics or data visualization) and shown in a publication, but then also exported in its new form as a new file | CSV                             |
+
+: {.striped tbl-colwidths="\[20, 60, 20\]"}
+
+# Data Management Strategy {.center-align background-color="#0F4C81"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-01.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-02.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-03.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-04.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-05.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-06.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-07.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-08.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-09.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-10.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-11.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-12.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-13.drawio.svg" background-size="960px 540px"}
+
+##  {background-image="img/ghe-rdm-workflow-v2-14.drawio.svg" background-size="960px 540px"}
 
 ## GHE est. 2021
 
