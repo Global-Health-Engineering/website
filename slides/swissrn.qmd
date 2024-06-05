@@ -33,6 +33,8 @@ bibliography: ["references.bib"]
 
 ## {{< fa hand >}} hands up {{< fa hand >}} {.center-align auto-animate="true"}
 
+<script defer data-domain="ghe-open.ch" src="https://plausible.io/js/script.js"></script>
+
 ::: {style="margin-top: 50px; font-size: 1.5em"}
 Who has an ORCID iD?
 :::
