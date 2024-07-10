@@ -23,7 +23,6 @@ execute:
   echo: false
 date: "2024-07-16"
 draft: false
-image-alt: ""
 google-scholar: true
 ---
 
