@@ -39,7 +39,7 @@ Black carbon is an air pollutant: a component of fine particulate matter that is
 ```{r}
 #| fig-cap: "Black carbon, a sooty particulate matter in emission plumes. Photo by [Thijs Stoop](https://unsplash.com/photos/white-smoke-A_AQxGz9z5I) on [Unsplash](https://unsplash.com/)."
 #| 
-knitr::include_graphics("img/thijs-stoop-A_AQxGz9z5I-unsplash.jpg")
+knitr::include_graphics(here::here("blog/posts/2024-07-16-black-carbon/img/thijs-stoop-A_AQxGz9z5I-unsplash.jpg"))
 ```
 
 ## The Case for Regulation
@@ -67,7 +67,7 @@ Even PM~2.5~, which was declared a regulatory pollutant in 1997 in the U.S., is 
 #| fig-width: 3
 #| fig-cap: A screenshot from OpenAQ illustrating the global distribution of PM2.5 monitoring stations. 
 
-knitr::include_graphics("img/screenshot-openaq.png")
+knitr::include_graphics(here::here("blog/posts/2024-07-16-black-carbon/img/screenshot-openaq.png"))
 
 ```
 
@@ -80,7 +80,7 @@ Research efforts are crucial to developing affordable monitoring technology, par
 ```{r}
 #| fig-cap: Saloni Vijay, the author of this blog (right), and Hope Kelvin Chilunga (left), a collaborator of the GHE group, setting up an experiment to monitor black carbon emissions from cooking with solid biofuels in Blantyre, Malawi. Photo by Saloni Vijay, [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en) license.
 
-knitr::include_graphics("img/measuring-air-quality.jpg")
+knitr::include_graphics(here::here("blog/posts/2024-07-16-black-carbon/img/measuring-air-quality.jpg"))
 
 ```
 
