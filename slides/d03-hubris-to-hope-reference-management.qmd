@@ -34,7 +34,7 @@ options(width = 65)
 library(countdown)
 ```
 
-# Hello! `r emo::ji("wave")` {background-color="#5b195b"}
+# Hello! {background-color="#5b195b"}
 
 ## Lars Schöbitz
 
@@ -276,7 +276,7 @@ Check out: [ost-hs23.github.io/website/](https://ost-hs23.github.io/website/)
 - Day 2: 24th October 2023 - 08:30 am to 12:30 pm CET
 - ECTS: 0.5
 
-## Thanks `r emo::ji("sunflower")` {.center-align} 
+## Thanks {.center-align} 
 
 Slides created via **revealjs** and **Quarto**: [https://quarto.org/docs/presentations/revealjs/](https://quarto.org/docs/presentations/revealjs/)
 
