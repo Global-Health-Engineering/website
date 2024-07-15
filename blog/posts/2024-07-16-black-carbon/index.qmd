@@ -19,8 +19,6 @@ citation:
   doi: "10.5281/zenodo.12705811"
   url: https://ghe.ethz.ch/ghe-blog-news.html
 toc: true
-execute:
-  echo: false
 date: "2024-07-16"
 draft: false
 google-scholar: true

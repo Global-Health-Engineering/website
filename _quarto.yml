@@ -35,6 +35,7 @@ format:
         - text: |
             <script defer data-domain="ghe-open.ch" src="https://plausible.io/js/script.js"></script>
 
-
+execute: 
+  freeze: auto
 
 
