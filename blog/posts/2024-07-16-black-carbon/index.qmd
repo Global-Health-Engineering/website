@@ -13,6 +13,18 @@ author:
     url: https://www.linkedin.com/in/saloni-vijay-9b9a51a7/
     affiliation: Global Health Engineering, ETH Zurich
     affiliation-url: https://ghe.ethz.ch
+  - name: Mian Zhong
+    email: mzhong@ethz.ch
+    orcid: 0009-0009-4546-7214
+    affiliation: Global Health Engineering, ETH Zurich
+    affiliation-url: https://ghe.ethz.ch
+  - name: Elizabeth Tilley
+    email: tilleye@ethz.ch
+    orcid: https://orcid.org/0000-0002-2095-9724
+    affiliation: Global Health Engineering, ETH Zurich
+    affiliation-url: https://ghe.ethz.ch
+execute:
+  echo: false
 citation:
   type: post
   container-title: "From Smoke to Solution: Advancing Black Carbon as a Regulatory Pollutant"

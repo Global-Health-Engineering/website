@@ -19,8 +19,6 @@ editor_options:
   chunk_output_type: console
 bibliography: hubris-to-hope.bib
 csl: apa.csl
-execute:
-  freeze: auto
 ---
 
 ```{r}
