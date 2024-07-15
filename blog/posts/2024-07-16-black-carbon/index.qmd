@@ -62,7 +62,7 @@ Due to its significant climate and health impacts, as well as its traceability t
 
 **Source Identification:** One reason why black carbon would be easier to regulate than other pollutants is our ability to [pinpoint the source.](https://iris.who.int/bitstream/handle/10665/352615/9789289002653-eng.pdf?sequence=1) Black carbon from fossil fuels and biomass can be distinguished by their optical properties, allowing for targeted reduction strategies. This capability enhances the effectiveness of emission reduction efforts, enabling evidence-based decisions to address the predominant sources.
 
-### **Gaps in Global Monitoring: The case of Africa**
+## Gaps in Global Monitoring: The case of Africa
 
 Despite the significant climate and health impacts of black carbon, global monitoring efforts remain inadequate. While ambient black carbon monitoring is [increasing in European countries](https://www.clarity.io/blog/air-quality-measurements-series-black-carbon), the United States, [India](https://mausam.imd.gov.in/imd_latest/contents/environmental-monitoring-services.php) and [China](https://www.mdpi.com/2073-4433/11/7/684), but Africa lags behind. Only a few countries, such as [Ghana](https://www.sciencedirect.com/science/article/pii/S0048969723011981), [Kenya](https://www.nature.com/articles/s43247-022-00400-1), and [Rwanda](https://www.sciencedirect.com/science/article/abs/pii/S2212095522002309#:~:text=Only%20two%20studies%20of%20BC,et%20al.%2C%202020).), have some ambient black carbon data, with the high cost of monitors being a major barrier to more extensive data collection.
 
