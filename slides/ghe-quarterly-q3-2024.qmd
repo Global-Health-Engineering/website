@@ -1,0 +1,115 @@
+---
+title: "Global Health Engineering - Quarterly Meeting Q3 2024"
+subtitle: "Benefits of using a chat tool for distributed teams"
+author: 
+  - name: Lars Schöbitz
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+date: 2024-07-23
+date-format: long
+format: 
+  revealjs: 
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+editor: source
+editor_options: 
+  chunk_output_type: console
+execute:
+  freeze: auto
+bibliography: ["references.bib"]
+---
+
+# Chat 
+
+## Instant messaging tools
+
+-   Slack
+-   Microsoft Teams
+-   Element
+-   Others (Discord, Mattermost, Rocket.Chat)
+
+## Instant messaging tools - daily users
+
+-   Slack (32 mio)
+-   Microsoft Teams (300 mio)
+-   Element (0.25 mio)
+
+::: footer
+Sources for statistics: <https://www.perplexity.ai/search/provide-me-with-some-statistic-g48bTLR6QSKnoD8fiq_kIw>
+:::
+
+## Instant messaging tools - organizations
+
+-   Slack (\> 100'000)
+-   Microsoft Teams (\> 1 million)
+-   Element (not available, but access to 43 million users on the Matrix network)[^1]
+
+[^1]: Used by organisations like UN, NATO, Swedish Social Insurance Agency, German Healthcare System, the French government, and other organisations in need for secure communication
+
+::: footer
+Sources for statistics: <https://www.perplexity.ai/search/provide-me-with-some-statistic-g48bTLR6QSKnoD8fiq_kIw>
+:::
+
+## Differences between Slack, Microsoft Teams, and Element
+
+-  Slack and Microsoft Teams are proprietary
+-  Element is open-source, and free to use
+-  Element is based on the Matrix protocol
+
+# Benefits (Element, in general)
+
+## Increased Collaboration
+
+- Secure, decentralized platform for team communication
+- Freedom to structure discussion spaces and customize chat rooms
+- Enables open collaboration across organizations and teams
+- Fosters team spirit and cohesion, especially for remote teams
+
+## Efficiency through Direct Communication
+
+- Real-time messaging for quick problem-solving and decision-making
+- Reduces email overload and streamlines communication
+- Customizable notifications to minimize distractions
+- Mobile access for sharing knowledge on-the-go
+
+## Organized Discussions with Threads
+
+- Keep conversations focused and easy to follow
+- Improve context retention and reduce information overload
+
+## Enhancing Engagement with Reactions
+
+- Quick and way to acknowledge messages without cluttering the chat
+- Emoji reactions for expressing emotions and feedback
+- Boosts team morale and creates a positive communication environment
+- Encourages informal and spontaneous interactions, which can help build stronger relationships among team members (especially remote)
+- Reduces unnecessary back-and-forth responses
+
+## Seamless Content Sharing
+
+- Built-in file sharing capabilities for easy document exchange
+- Integration with other tools to centralize information sharing
+- Searchable chat history for access to shared content- 
+
+## Community building
+
+- [Focused Interactions]{.highlight-yellow}: Element allows for more meaningful, topic-specific discussions within customizable chat rooms, unlike the broad and often superficial interactions on X or LinkedIn
+- [Personalized Spaces]{.highlight-yellow}: Users can create and join communities that align with their specific interests and goals, fostering deeper connections
+- [Data Sovereignty]{.highlight-yellow}: Unlike X and LinkedIn, Element allows for self-hosting and full control over data, providing a secure and private communication space
+
+# Benefits (for GHE)
+
+## Why for us?
+
+- Removes need for Signal, WhatsApp, etc. (tools not designed or appropriate for work communication)
+- Access through ETH username (no additional account required)
+- All BSc & MSc students can access with their username
+- Building capacity for work environments that require such tools 
+
+# How to use it?
+
+This is a live demonstration.
+
+

@@ -2,6 +2,14 @@
 title: "{{< fa display >}} Slides"
 ---
 
+## GHE Quarterly Q3 2024
+
+[View slides in full screen](ghe-quarterly-q3-2024.html) 
+
+```{=html}
+<iframe class="slide-deck" src="ghe-quarterly-q3-2024.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## Swiss Reproducibility Conference 2024
 
 [View slides in full screen](swissrn.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/slides/swiss-rn.pdf)
