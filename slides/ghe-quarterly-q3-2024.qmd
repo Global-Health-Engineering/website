@@ -21,6 +21,12 @@ execute:
 bibliography: ["references.bib"]
 ---
 
+# Background
+
+## Communication at GHE
+
+- Survey at Quarterly Q1 2024: https://docs.google.com/forms/d/1JMz01u4R1oDxjfTauJlnruECG9thmVFxJD3Msk7hZp8/edit#responses
+
 # Chat 
 
 ## Instant messaging tools
