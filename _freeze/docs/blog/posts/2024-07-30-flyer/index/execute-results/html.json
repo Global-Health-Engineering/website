@@ -1,0 +1,15 @@
+{
+  "hash": "20f7781ab5fa1f5c46a593922d84c4e9",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"QR codes for SWWW flyer\"\n---\n\n\n\n## Page 1\n\nhttps://ghe.ethz.ch/\n\n\n{{< qrcode https://ghe.ethz.ch/ >}}\n\n\n::: {.cell}\n\n:::\n\n\n\n## Page 2 - Research Projects\n\nhttps://ghe.ethz.ch/research/anthropogenic-waste/black-carbon-from-open-waste-burning.html\n\n\n{{< qrcode https://ghe.ethz.ch/research/anthropogenic-waste/black-carbon-from-open-waste-burning.html >}}\n\n\n\n## https://ghe.ethz.ch/research/anthropogenic-waste/closed-loop-plastic-recycling.html\n\n\n{{< qrcode https://ghe.ethz.ch/research/anthropogenic-waste/closed-loop-plastic-recycling.html >}}\n\n\n\n## https://openwashdata.org/pages/events/2024-08-29-swww/?ref=swww-flyer\n\nHosted by GHE\n\n\n{{< qrcode https://openwashdata.org/pages/events/2024-08-29-swww/?ref=swww-flyer >}}\n\n\n\n## https://docs.google.com/forms/d/e/1FAIpQLScis4koBfXRkM2SG3mvq7qya9ibLVr2yzN-_7fKHsmfVNeM2g/viewform\n\nSign up for a 10-week free data science program\n\n\n{{< qrcode https://docs.google.com/forms/d/e/1FAIpQLScis4koBfXRkM2SG3mvq7qya9ibLVr2yzN-_7fKHsmfVNeM2g/viewform >}}\n\n\n\n## https://ghe-open.ch/blog/posts/2024-03-08-swissrn-abstract/?ref=flyer\n\n\n{{< qrcode https://ghe-open.ch/blog/posts/2024-03-08-swissrn-abstract/?ref=flyer >}}\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

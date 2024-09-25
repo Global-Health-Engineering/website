@@ -1,0 +1,70 @@
+---
+title: "Data Stewardship at Global Health Engineering"
+author: 
+  - name: Lars Schöbitz
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+date: 2024-09-26
+date-format: long
+format: 
+  revealjs: 
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    width: 960
+    height: 540
+    title-slide-attributes:
+      data-background-image: "img/qr-ghe-open.png"
+      data-background-size: contain
+      data-background-opacity: "1"
+editor: source
+editor_options: 
+  chunk_output_type: console
+execute:
+  freeze: auto
+---
+
+
+## Data steward: Lars Schöbitz {.smaller}
+
+::: columns
+::: {.column width="75%"}
+#### I have:
+
+-   an Environmental Engineering degree (Dipl. Ing FH, Germany)
+-   10+ years work experience (5 years as Scientific Assistant at Eawag, Duebendorf)
+-   [experience working as a data steward at Global Health Engineering, ETH Zurich since 2021](https://library.ethz.ch/en/news-and-courses/news/news-articles/2023/03/interview-eine-vision-fuer-open-science-and-data-stewardship-an-der-eth-zuerich.html) (focus on FAIR data/code sharing & computational reproducibility) 
+-   empathy, compassion, patience, persistance
+-   an affinity for IT
+-   [RStudio certified instructor](https://education.rstudio.com/trainers/)
+:::
+
+::: {.column width="25%"}
+#### I don't have:
+
+-   a doctoral degree
+-   a qualification in computer science
+-   a qualification in statistics
+:::
+:::
+
+## Data Stewardship activities (during project) {.smallest}
+
+#### Teaching
+
+- 4 ECTS course on data science with data management aspects: <https://rbtl-fs24.github.io/website/>
+- 0.5 ECTS (2 x 4-hour) Open Science Tools course: <https://ost-hs23.github.io/website/>
+- 2 x 2-hour workshop on Quarto for scientific writing & publishing: <https://quarto-ambition.github.io/website/>
+- 2-hour workshop at RDM Summer School on Quarto for scientific writing & publishing: <https://quarto-rdmss-24.github.io/website/>
+
+#### Consulting
+
+- Support in preparation of Explore proposal to ETH Board Open Research Data program (funded): <https://fairqual.org/>
+- Respond to a range of smaller requests from people at ETH in need for advice on data management matters
+
+
+## Data Stewardship activities (currently and planning)
+
+- currently: none
+- planning: none that are not already covered in ongoing ETH ORD projects: <https://openwashdata.org/>
