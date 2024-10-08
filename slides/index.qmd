@@ -2,6 +2,14 @@
 title: "{{< fa display >}} Slides"
 ---
 
+## Swiss Research Data Day 2024
+
+[View slides in full screen](srdd2024.html) 
+  
+```{=html}
+<iframe class="slide-deck" src="srdd2024.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## Data Stewardship at the UZH and ETH
 
 [View slides in full screen](data-steward-lschoebitz.html) 
