@@ -10,10 +10,10 @@ author:
     affiliations:
         - name: Global Health Engineering - ETH Zurich
           url: https://ghe.ethz.ch/
-date: 2024-10-21
+date: 2024-11-21
 date-format: long
 format: 
-  revealjs: 
+  revealjs:
     theme: slides.scss
     transition: fade
     slide-number: true
@@ -125,7 +125,7 @@ tbl_supp_type <- washdev_supp_file_type_n |>
 
 # Meet a data steward {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
-## Meet a data steward
+## Meet a data steward {.smaller}
 
 ::: incremental
 
@@ -728,8 +728,6 @@ Slide background image taken from [Danielle Navarro](https://djnavarro.net/)
 Access slides as [PDF on GitHub](https://github.com/global-health-engineering/website/raw/main/slides/eth-kolloquium.pdf)
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
-
-## References  {background-color="#ede8d0"}
 
 
 

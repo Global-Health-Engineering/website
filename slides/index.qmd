@@ -2,6 +2,16 @@
 title: "{{< fa display >}} Slides"
 ---
 
+## ETH 17:15 Kolloquium 
+
+Info about the event: <https://library.ethz.ch/news-und-kurse/veranstaltungen/17-15-kolloquium-der-eth-bibliothek/data-stewardship.html>
+
+[View slides in full screen](eth-kolloquium.html) 
+  
+```{=html}
+<iframe class="slide-deck" src="eth-kolloquium.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## Swiss Research Data Day 2024
 
 [View slides in full screen](srdd2024.html) 
