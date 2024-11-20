@@ -133,7 +133,7 @@ tbl_supp_type <- washdev_supp_file_type_n |>
 You are a professor. You’re working long hours; you’re working weekends; you’re sitting in committees, and stuck in meetings that could have been emails; you’re writing proposals, teaching, grading, supervising, and mentoring. 
 :::
 
-## The Modern Academic's Challenges
+## The Modern Academic's Challenges 
 
 ::: columns
 ::: {.column width="50%"}
@@ -231,7 +231,7 @@ Article accessible at: <https://www.nature.com/articles/sdata201618>
 :::
 :::
 
-# #3 Data management is project management
+# #3 Data management is project management {background-color="#ede8d0"}
 
 ## Rising students numbers
 
@@ -351,7 +351,7 @@ Transparent grading practices and clear expectations offer several advantages:
 Our [Grading rubrics](https://unlimited.ethz.ch/spaces/ghestudents/pages/182077233/Grading+rubrics)
 :::
 
-# #4 Predictability wins
+# #4 Predictability wins {background-color="#ede8d0"}
 
 ## Naming conventions & structure
 
@@ -364,7 +364,7 @@ A unqiue identifier for each student that is used in several places.
 ![](img/eth-kolloquium/naming-conventions.png)
 
 
-# #5: Low IT affinity is not a lack of aptitude
+# #5: Low IT affinity is not a lack of aptitude {background-color="#ede8d0"}
 
 ## Safe learning enviroments 
 
@@ -422,7 +422,7 @@ From: https://teachtogether.tech/en/index.html#s:motivation
 Course website FS25: <https://rbtl-fs25.github.io/website/>
 :::
 
-# #6: Data management requires staff
+# #6: Data management requires staff {background-color="#ede8d0"}
 
 ## But, who supports all of that?
 
@@ -527,7 +527,7 @@ For 1 more minute, pair with your neighbour and discuss.
 Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/110829077@N08/15704065265/in/album-72157649056083306/)
 :::
 
-# #7 Data != Data
+# #7 Data != Data {background-color="#ede8d0"}
 
 
 ## Three terms for three stages {.smaller}
@@ -561,7 +561,7 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 Self-nomination for Swiss Reproducibility Award 2024: <https://ghe-open.ch/blog/posts/2024-02-27-swissrn-award/>
 :::
 
-# #8 Data management is a process, not a checkbox
+# #8 Data management is a process, not a checkbox {background-color="#ede8d0"}
 
 ##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-01.drawio.svg" data-background-size="contain" data-background-position="center"}
 
@@ -591,11 +591,7 @@ Self-nomination for Swiss Reproducibility Award 2024: <https://ghe-open.ch/blog/
 
 ##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-14.drawio.svg" data-background-size="contain" data-background-position="center"}
 
-# #9 Findable: Publish for humans and computers
-
-
-- title
-- data availability statement
+# #9 Findable: Publish for humans and computers {background-color="#ede8d0"}
 
 ## {background-image="img/eth-kolloquium/01-ghe-article.png" data-background-size="contain" data-background-position="center"}
 
@@ -658,8 +654,7 @@ Self-nomination for Swiss Reproducibility Award 2024: <https://ghe-open.ch/blog/
 <https://global-health-engineering.github.io/bcsa/>
 :::
 
-
-# #10 Move faster as community
+# #10 Move faster as a community {background-color="#ede8d0"}
 
 ## 
 
@@ -770,6 +765,12 @@ From: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/gal
 
 :::
 
+## Data publication
+
+Looks familiar?
+
+![](img/watercostaccra-screenshot.png)
+
 ## data science for openwashdata 001 {.smaller}
 
 - free, live, online, 10-week programme
@@ -785,60 +786,48 @@ From: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/gal
 Learn more: [ds4owd-001.github.io/website/](https://ds4owd-001.github.io/website/)
 :::
 
-## openwashdata publishing {background-color="#5b195b"}
+## `washr` R package for data publication {.smaller}
 
-::: {.notes}
-We are doing this through our openwashdata publishing arm, for which we developed a workflow that uses data donated by WASH professionals or available online, and re-publishes it following FAIR principles for data sharing
+::: columns
+::: {.column width="50%"}
+- Peer-reviewed and published on CRAN (Comprehensive R Archive Network)
+- Streamlines the process of publishing data
+- Fully transferable to GHE workflows
 :::
 
-## 
+::: {.column width="50%"}
 
-::: learn-more
-[openwashdata.github.io/fsmglobal/](https://openwashdata.github.io/fsmglobal/)
 
-```{=html}
-<iframe src="https://openwashdata.github.io/fsmglobal/" width="100%" height="500" style="border:2px solid #123233;" title="Website of fsmglobal R package documentation homepage"></iframe>
-```
+![](img/washr-r-package.png)
+
+:::
 :::
 
 ::: footer
-[fsmglobal documenation website](https://openwashdata.github.io/fsmglobal/) by @greene2023fsmglobal built with [pkgdown R package](https://pkgdown.r-lib.org/)
+Learn more: <https://openwashdata.github.io/washr/>
 :::
 
-::: {.notes}
-- The product is an R package published as a website for each dataset. We assign a digital object identifier that enables the tracking of citations of the data package and list all contributors with their ORCID iD, so that contributions and citations are linked.
+# #11 Funding for open research data exists {background-color="#ede8d0"}
 
-- Data is documented in a way where all variables/columns are described in detail.
+## Funding schemes
 
-- And for those who do not use R, we also share the data as a CSV and XLSX file.
+**swissuniversities**
 
-- To date, we have published 12 datasets following this workflow.
+-   2021 - 2024: swissuniversities - Open Science I\
+-   2025 - 2028: swissuniversities - Open Science II (CHF 10 million)
+-   [Watch:]{.highlight-yellow} Measure B5.2 - Professionalisation of ORD specialists and related services
+-   Newsletter sign-up: <https://sympa.ethz.ch/sympa/subscribe/isci>
 
-:::
+## Funding schemes
 
+**ETH Board**
 
-# openwashdata academy {background-color="#5b195b"}
+-   Global Health Engineering was awarded 2 Contribute and 3 Explore projects worth 500'000 CHF
+-   2021 - 2024: \~ 100 projects funded (\~ CHF 10 million in total)
+-   Newsletter sign-up: <https://open-research-data-portal.ch/> (bottom of page)
 
-::: {.notes}
-- We also established the openwashdata academy through which we provide training to anyone interested in the greater WASH sector.
-:::
+# #12 Statement: 9 to 5 is possible
 
-
-## data science for openwashdata 001 {.smaller}
-
-- free, live, online, 10-week programme
-- 200 registrations
-- 100 show-ups
-- 40 graduates
-- next iteration: September/October 2024, sign-up: <https://forms.gle/MP5rNYZagBdfG2ZRA>
-
-::: learn-more
-[ds4owd-001.github.io/website/](https://ds4owd-001.github.io/website/)
-
-```{=html}
-<iframe src="https://ds4owd-001.github.io/website/" width="100%" height="300" style="border:2px solid #123233;" title="Website of data science for openwashdata coursew"></iframe>
-```
-:::
-
+![](img/eth-kolloquium/dalle-prof-happy.webp)
 
 # References
