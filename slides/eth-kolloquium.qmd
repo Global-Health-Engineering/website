@@ -125,6 +125,10 @@ tbl_supp_type <- washdev_supp_file_type_n |>
 
 # Meet a data steward {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
+```{=html}
+<script defer data-domain="ghe-open.ch" src="https://plausible.io/js/script.js"></script>
+```
+
 ## Meet a data steward {.smaller}
 
 ::: incremental
