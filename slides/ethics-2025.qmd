@@ -1,0 +1,137 @@
+---
+title: "Ethics and Scientific Integrity for Doctoral Students of D-MAVT"
+subtitle: "Research Data Management"
+author: 
+  - name: Prof. Elizabeth Tilley
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+date: 2025-03-19
+date-format: long
+format: 
+  revealjs:
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    width: 960
+    height: 540
+editor: source
+editor_options: 
+  chunk_output_type: console
+execute:
+  freeze: auto
+bibliography: ["references.bib"]
+---
+
+```{r}
+library(ghedata)
+library(ggthemes)
+library(tidyverse)
+library(washopenresearch)
+library(ggtext)
+library(gt)
+```
+
+
+# ETH RDM Guidelines
+
+## ETH RDM Guidelines
+
+![](img/eth-kolloquium/eth-rdm-guidelines-01.png){.absolute}
+
+::: fragment
+
+![](img/eth-kolloquium/eth-rdm-guidelines-02.png){.absolute}
+::: 
+
+::: fragment
+
+![](img/eth-kolloquium/eth-rdm-guidelines-03.png){.absolute}
+::: 
+
+::: footer
+ETH RDM Guidelines: <https://rechtssammlung.sp.ethz.ch/Dokumente/414.2en.pdf>
+:::
+
+
+## FAIR data sharing principles
+
+![](img/eth-kolloquium/fair-data.png){.absolute}
+
+::: footer
+Article accessible at: <https://www.nature.com/articles/sdata201618>
+:::
+
+# Data: Definitions
+
+## Three terms for three stages {.smaller}
+
+| term                                   | explanation                                                                                 | file format                     |
+|--------------------|-----------------------|------------------------------|
+| unprocessed [raw]{.highlight-red} data | data that is not processed and [remains in its original form and file type]{.highlight-red} | often XLSX, also CSV and others |
+
+: {.striped tbl-colwidths="\[20, 60, 20\]"}
+
+## Three terms for three stages {.smaller}
+
+| term                                            | explanation                                                                                                       | file format                     |
+|--------------------|-----------------------|------------------------------|
+| unprocessed [raw]{.highlight-red} data          | data that is not processed and [remains in its original form and file type]{.highlight-red}     | often XLSX, also CSV and others |
+| [processed]{.highlight-red} analysis-ready data | data that is processed to [prepare for an analysis]{.highlight-red} and is exported in its new form as a new file | CSV, R data package             |
+
+: {.striped tbl-colwidths="\[20, 60, 20\]"}
+
+## Three terms for three stages {.smaller}
+
+| term                                                  | explanation                                                                                                                                                                                  | file format                     |
+|--------------------|-----------------------|------------------------------|
+| unprocessed [raw]{.highlight-red} data                | data that is not processed and [remains in its original form and file type]{.highlight-red}                                                                                | often XLSX, also CSV and others |
+| [processed]{.highlight-red} analysis-ready data       | data that is processed to [prepare for an analysis]{.highlight-red} and is exported in its new form as a new file                                                                            | CSV, R data package             |
+| [final]{.highlight-red} data underlying a publication | data that is the [result of an analysis]{.highlight-red} (e.g descriptive statistics or data visualization) and shown in a publication, but then also exported in its new form as a new file | CSV                             |
+
+: {.striped tbl-colwidths="\[20, 60, 20\]"}
+
+::: footer
+[Self-nomination for Swiss Reproducibility Award 2024](https://ghe-open.ch/blog/posts/2024-02-27-swissrn-award/)
+:::
+
+# Data Management Strategy
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-01.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-02.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-03.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-04.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-05.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-06.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-07.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-08.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-09.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-10.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-11.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-12.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-13.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-14.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+## Thanks! `r emo::ji("sunflower")` 
+
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
+
+Access slides as [PDF on GitHub](https://github.com/global-health-engineering/website/raw/main/slides/ethics-2025.pdf)
+
+All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+
+
+

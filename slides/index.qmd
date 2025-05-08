@@ -2,6 +2,14 @@
 title: "{{< fa display >}} Slides"
 ---
 
+## ETH ORD Programme - Metadata
+
+[View slides in full screen](eth-ord-data.html) 
+  
+```{=html}
+<iframe class="slide-deck" src="eth-ord-data.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## ETH 17:15 Kolloquium 
 
 Info about the event: <https://library.ethz.ch/news-und-kurse/veranstaltungen/17-15-kolloquium-der-eth-bibliothek/data-stewardship.html>

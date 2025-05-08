@@ -1,0 +1,184 @@
+---
+title: "Open Research Data Program of the ETH Board"
+subtitle: "proposal for an open metadata dataset"
+author: 
+  - name: Lars Schöbitz
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+date: 2025-05-12
+date-format: long
+format: 
+  revealjs:
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    width: 960
+    height: 540
+editor: source
+editor_options: 
+  chunk_output_type: console
+execute:
+  freeze: auto
+---
+
+## Measure 1: Calls for Field-Specific Actions
+
+- 11 calls for proposals
+- X projects (A Contribute, B Explore, C Establish)
+- X.X million CHF in funding
+
+## Program evaluation {.scrollable .smaller}
+
+::: incremental
+
+- Who are the researchers?
+- Which institutions are they employed at?
+- Which disciplines do they represent?
+- What is their scientific role (e.g. Professor, Post Doc, PhD, etc.)?
+- How many publications are derived from these projects?
+- How many ORD datasets have been published?
+- How where budgets distributed among their cost categories?
+- How many proposals were submitted to each call? And how many received funding?
+
+:::
+
+## Problem statement
+
+A metadata dataset that brings together all the information from the ETH ORD programme is currently not available. 
+
+## Proposed solution
+
+Project relevant internal data sources (e.g. submitted proposals, final scientific reports, MS Excel files) will be used to prepare a set of metadata datasets. 
+
+## Make it Open and FAIR
+
+In the spirit of ORD, the metadata datasets will be shared as open research data, following FAIR principles for data sharing.
+
+- permissive license (CC0)
+- assigned DOIs
+- rich documentation
+- various formats (e.g. CSV, XLSX, R data package)
+- curated (stand-alone website)
+- etc.
+
+::: speaker-notes
+- Findable
+  - unique identifiers (e.g. DOIs)
+  - metadata
+  - persistent URLs
+- Accessible
+  - open access
+  - no login required
+  - no restrictions on use
+- Interoperable
+  - machine-readable
+  - standard formats (e.g. CSV, JSON, XML)
+  - standard vocabularies (e.g. schema.org)
+- Reusable
+  - clear usage rights
+  - clear provenance
+  - clear licensing
+  - clear attribution
+:::
+
+## SNFS Grants database
+
+Not FAIR, but open: 
+
+::: learn-more
+[data.snf.ch/stories/snsf-open-data-who-gets-funding-en.html](https://data.snf.ch/stories/snsf-open-data-who-gets-funding-en.html)
+
+```{=html}
+<iframe src="https://data.snf.ch/stories/snsf-open-data-who-gets-funding-en.html" width="100%" height="500" style="border:2px solid #123233;" title="SNSF Grants database"></iframe>
+```
+:::
+
+# Datasets
+
+At minimum, the following datasets are suggested, which can be combined by unique identifier (proposal_id):
+
+## Dataset: `proposals` {.scrollable .smaller}
+
+- call_id
+- call_category
+- proposal_id
+- proposal_url (if proposal is public somehere)
+- acronym
+- title
+- abstract
+- funding_requested
+- funding_received
+- panel_score_excellence_reviewer1
+- panel_score_implementation_reviewer1
+- panel_score_impact_reviewer1
+- panel_score_excellence_reviewer2
+- panel_score_implementation_reviewer2
+- panel_score_impact_reviewer2
+- acceptance (yes/no)
+- main_applicant_name (if too for rejected proposals, remove from ORD data, but keep internal resource)
+- main_applicant_institution_name
+- main_applicant_department_name
+- main_applicant_lab_name
+- co_applicant_name (if too for rejected proposals, remove from ORD data, but keep internal resource)
+- co_applicant_institution_name
+- co_applicant_department_name
+- co_applicant_lab_name
+
+## Dataset: `proposals` - Sources
+
+- Project proposals (accepted & rejected)
+- Internal MS Excel files for scores
+
+**Note:** If access to rejected proposals is not possible, a fourth dataset `calls` is suggested.
+ 
+## Dataset: `projects` {.scrollable .smaller}
+ 
+- proposal_id
+- project_start
+- project_end
+- no_cost_extension
+- project_website
+- budget_cost_category_senior_staff
+- budget_cost_category_postdocs
+- budget_cost_category_students
+- budget_cost_category_other
+- budget_cost_category_publications
+- budget_cost_category_conferences_workshops
+- budget_cost_category_other
+- budget_sub_contracting_costs
+- etc.
+
+## Dataset: `projects` - Sources
+
+- Project proposals
+- Scientific reports
+
+## Dataset: `outputs` {.scrollable .smaller}
+
+- proposal_id
+- category (e.g. website, publication, dataset, software, etc.)
+- repository_catalogue
+- etc.
+
+## Dataset: `outputs` - Sources
+
+- Scientific reports, list of outputs
+
+## Dataset: `calls` {.scrollable .smaller}
+
+A summary table:
+
+- call_id
+- call_category
+- outcome_total (e.g. accepted, rejected)
+- value
+
+## Thanks! 
+
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
+
+Slide background image taken from [Danielle Navarro](https://djnavarro.net/)
+
+Access slides as [PDF on GitHub](https://github.com/global-health-engineering/website/raw/main/slides/eth-ord-data.pdf)
+

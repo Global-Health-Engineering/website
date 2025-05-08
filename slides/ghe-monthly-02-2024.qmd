@@ -1,0 +1,64 @@
+---
+title: "Global Health Engineering - Monthly"
+subtitle: "Why Analytics?"
+author: 
+  - name: Lars Schöbitz
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+date: 2025-02-10
+date-format: long
+format: 
+  revealjs: 
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+editor: source
+editor_options: 
+  chunk_output_type: console
+execute:
+  freeze: auto
+bibliography: ["references.bib"]
+---
+
+## Web Analytics
+
+> Web analytics involves collecting, measuring, and analyzing website data to understand user behavior and optimize performance
+
+## Relevance for Research Groups
+
+- Tracks online engagement with datasets and publications.
+- Provides insights into audience demographics and behavior patterns.
+- Helps identify effective communication strategies.
+
+## Example: Plausible Analytics 
+
+- openwashdata.org
+- <https://plausible.io/openwashdata.org?period=12mo&keybindHint=L>
+
+## Example: Plausible Analytics 
+
+- openwashdata dataset websites
+- <https://plausible.io/openwashdata.org?period=12mo&keybindHint=L>
+
+## Example: ETH Research Collection
+
+- <https://www.research-collection.ethz.ch/handle/20.500.11850/666386>
+
+## Zenodo
+
+- <https://www.research-collection.ethz.ch/handle/20.500.11850/666386Y>
+
+# Dashboards
+
+## GHE Analytics Dashboard
+
+### Steps
+
+- Pull all data sources together into one place (ideally automated)
+- Define a set of metrics from the available data
+- Create visualizations that help you understand the data
+- Share the dashboard with the team and public
+
+## Yash's work: openwashdata analytics
+
