@@ -84,7 +84,8 @@ data |>
              size = 3) +
   coord_flip() +
   labs(
-    title = "Funded projects at ETH institutions",
+    title = "Open Research Data Program of the ETH Board",
+    subtitle = "Number of funded projects per institution and project category",
     y = "Number of projects",
     x = NULL,
     fill ="Project category:"
