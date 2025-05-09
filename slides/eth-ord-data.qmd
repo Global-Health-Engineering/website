@@ -22,24 +22,97 @@ execute:
   freeze: auto
 ---
 
+```{r}
+library(tidyverse)
+library(ggthemes)
+```
+
+```{r}
+data <- read_csv("https://raw.githubusercontent.com/openwashdata/ordmetadata/refs/heads/main/data/data.csv") |> 
+  janitor::clean_names()
+```
+
+```{r}
+df_category <- data |> 
+  count(category)
+
+n_projects <- sum(df_category$n)
+
+n_contribute <-  filter(df_category, category == "Contribute")$n
+n_explore <-  filter(df_category, category == "Explore")$n
+n_establish <-  filter(df_category, category == "Establish")$n
+```
+
 ## Measure 1: Calls for Field-Specific Actions
 
 - 11 calls for proposals
-- X projects (A Contribute, B Explore, C Establish)
+- `r n_projects` funded projects (`r n_contribute` Contribute, `r n_explore` Explore, `r n_establish` Establish)
 - X.X million CHF in funding
+
+::: footer
+Data from: 
+:::
 
 ## Program evaluation {.scrollable .smaller}
 
 ::: incremental
 
-- Who are the researchers?
-- Which institutions are they employed at?
-- Which disciplines do they represent?
-- What is their scientific role (e.g. Professor, Post Doc, PhD, etc.)?
-- How many publications are derived from these projects?
-- How many ORD datasets have been published?
-- How where budgets distributed among their cost categories?
-- How many proposals were submitted to each call? And how many received funding?
+- Who are the researchers that received funding? {{< fa thumbs-up >}} 
+- Which institutions are they employed at? {{< fa thumbs-up >}}
+- Which disciplines do they represent? {{< fa thumbs-up >}} **kind of**
+
+:::
+
+##
+
+```{r}
+#| out-width: "100%"
+#| fig-width: 10
+#| fig-height: 5
+
+data |> 
+  count(institutions, category) |> 
+  ggplot(aes(x = reorder(institutions, n), 
+             y = n,
+             fill = category)) +
+  geom_col(position = "dodge") +
+  geom_label(aes(label = n),
+             position = position_dodge(width = 0.9),
+             show.legend = FALSE,
+             color = "white",
+             fontface = "bold",
+             size = 3) +
+  coord_flip() +
+  labs(
+    title = "Funded projects at ETH institutions",
+    y = "Number of projects",
+    x = NULL,
+    fill ="Project category:"
+  ) +
+  scale_fill_colorblind() +
+  statR::theme_stat(base_size = 10) +
+  theme(panel.grid = element_blank(),
+        axis.text.y = element_text(size = 8)) 
+
+```
+
+## 
+
+
+
+## Program evaluation {.scrollable .smaller}
+
+::: incremental
+
+- Who are the researchers that received funding? {{< fa thumbs-up >}} 
+- Which institutions are they employed at? {{< fa thumbs-up >}}
+- Which disciplines/fields do they represent?  {{< fa thumbs-up >}} **kind of**
+- What is their scientific role (e.g. Professor, Post Doc, PhD, etc.)? {{< fa thumbs-down >}}
+- How many publications are derived from these projects? {{< fa thumbs-down >}}
+- How many ORD datasets have been published? {{< fa thumbs-down >}}
+- How where budgets distributed among their cost categories? {{< fa thumbs-down >}}
+- How many proposals were submitted to each call? And how many received funding? {{< fa thumbs-down >}}
+- etc.
 
 :::
 
@@ -49,7 +122,7 @@ A metadata dataset that brings together all the information from the ETH ORD pro
 
 ## Proposed solution
 
-Project relevant internal data sources (e.g. submitted proposals, final scientific reports, MS Excel files) will be used to prepare a set of metadata datasets. 
+Project relevant internal data sources (e.g. submitted proposals, final scientific reports, MS Excel files, Email exchange, online research) will be used to prepare a set of metadata datasets. 
 
 ## Make it Open and FAIR
 
@@ -64,22 +137,22 @@ In the spirit of ORD, the metadata datasets will be shared as open research data
 
 ::: speaker-notes
 - Findable
-  - unique identifiers (e.g. DOIs)
-  - metadata
-  - persistent URLs
+- unique identifiers (e.g. DOIs)
+- metadata
+- persistent URLs
 - Accessible
-  - open access
-  - no login required
-  - no restrictions on use
+- open access
+- no login required
+- no restrictions on use
 - Interoperable
-  - machine-readable
-  - standard formats (e.g. CSV, JSON, XML)
-  - standard vocabularies (e.g. schema.org)
+- machine-readable
+- standard formats (e.g. CSV, JSON, XML)
+- standard vocabularies (e.g. schema.org)
 - Reusable
-  - clear usage rights
-  - clear provenance
-  - clear licensing
-  - clear attribution
+- clear usage rights
+- clear provenance
+- clear licensing
+- clear attribution
 :::
 
 ## SNFS Grants database
@@ -129,11 +202,13 @@ At minimum, the following datasets are suggested, which can be combined by uniqu
 
 - Project proposals (accepted & rejected)
 - Internal MS Excel files for scores
+- Email exchange
+- Online research
 
 **Note:** If access to rejected proposals is not possible, a fourth dataset `calls` is suggested.
- 
+
 ## Dataset: `projects` {.scrollable .smaller}
- 
+
 - proposal_id
 - project_start
 - project_end
@@ -164,6 +239,7 @@ At minimum, the following datasets are suggested, which can be combined by uniqu
 ## Dataset: `outputs` - Sources
 
 - Scientific reports, list of outputs
+- Email exchange
 
 ## Dataset: `calls` {.scrollable .smaller}
 
@@ -178,7 +254,7 @@ A summary table:
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
 
-Slide background image taken from [Danielle Navarro](https://djnavarro.net/)
+Data available at: 
 
 Access slides as [PDF on GitHub](https://github.com/global-health-engineering/website/raw/main/slides/eth-ord-data.pdf)
 
