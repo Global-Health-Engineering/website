@@ -28,7 +28,7 @@ library(ggthemes)
 ```
 
 ```{r}
-data <- read_csv("https://raw.githubusercontent.com/openwashdata/ordmetadata/refs/heads/main/data/data.csv") |> 
+data <- read_csv("https://raw.githubusercontent.com/Global-Health-Engineering/ethord/refs/heads/main/data/data.csv") |> 
   janitor::clean_names()
 ```
 
@@ -96,6 +96,12 @@ data |>
         axis.text.y = element_text(size = 8)) 
 
 ```
+
+::: footer
+
+Data from: <https://raw.githubusercontent.com/Global-Health-Engineering/ethord/refs/heads/main/data/data.csv>
+
+:::
 
 ## 
 
@@ -255,7 +261,7 @@ A summary table:
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
 
-Data available at: 
+Data ([Nicoló Massari](https://github.com/massarin)) available at: <https://raw.githubusercontent.com/Global-Health-Engineering/ethord/refs/heads/main/data/data.csv>
 
 Access slides as [PDF on GitHub](https://github.com/global-health-engineering/website/raw/main/slides/eth-ord-data.pdf)
 
