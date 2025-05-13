@@ -2,6 +2,14 @@
 title: "{{< fa display >}} Slides"
 ---
 
+## Brown Bags Lunch - D-USYS Transdiciplinary Lab
+
+[View slides in full screen](bbl-tdlab.html) 
+  
+```{=html}
+<iframe class="slide-deck" src="bbl-tdlab.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## ETH ORD Programme - Metadata
 
 [View slides in full screen](eth-ord-data.html) 
