@@ -293,7 +293,7 @@ Article accessible at: <https://www.nature.com/articles/sdata201618>
 
 undergrad_students <- people |> 
   filter(b_m_student == "yes") |>
-  filter(!is.na(project_id)) 
+  filter(!is.na(title)) 
 
 undergrad_students |> 
   count(degree, year) |> 
@@ -327,7 +327,7 @@ undergrad_students |>
 :::
 
 ::: footer
-Access anonymised data from [`ghedata`](https://unlimited.ethz.ch/spaces/ghestudents/pages/182077233/Grading+rubrics)
+Access anonymised data from [`ghedata`](https://global-health-engineering.github.io/ghedata/)
 :::
 
 ## GHE Student Wiki ([public](https://unlimited.ethz.ch/spaces/ghestudents/pages/182075673/GHE+students+Wiki))
