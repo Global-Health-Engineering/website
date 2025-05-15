@@ -1,0 +1,739 @@
+---
+title: "SwissRN - Computational Reproducibiliy Seminar"
+subtitle: "Plan for tomorrow today: a model for data stewardship"
+author: 
+  - name: Lars Schöbitz
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+  - name: Prof. Elizabeth Tilley
+    affiliations:
+        - name: Global Health Engineering - ETH Zurich
+          url: https://ghe.ethz.ch/
+date: 2025-05-15
+date-format: long
+format: 
+  revealjs:
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    width: 960
+    height: 540
+    link-external-icon: true
+    title-slide-attributes:
+      data-background-image: "img/qr-ghe-open.png"
+      data-background-size: contain
+      data-background-opacity: "1"
+editor: source
+editor_options: 
+  chunk_output_type: console
+execute:
+  freeze: auto
+bibliography: ["references.bib"]
+---
+
+```{r}
+library(ghedata)
+library(ggthemes)
+library(tidyverse)
+library(washopenresearch)
+library(ggtext)
+library(gt)
+```
+
+
+```{r}
+
+# data preparation
+
+washdev_das_type <- washdev |> 
+    mutate(das_policy = case_when(
+        published_year < 2020 ~ "pre-2020",
+        TRUE ~ "2020 or later"
+    )) |> 
+    mutate(das_type = case_when(
+        das_type == "in paper" ~ "available in paper",
+        das_type == "on request" ~ "available on request",
+        TRUE ~ das_type
+    ))  |>     
+    mutate(das_type = case_when(
+        is.na(das_type) ~ "missing",
+        TRUE ~ das_type
+    )) 
+```
+
+
+```{r}
+
+## summary for data availability statement (DAS) type and policy year
+
+washdev_das_type_n <- washdev_das_type |> 
+    count(das_policy, das_type) 
+
+
+fig_das_type <- washdev_das_type_n |> 
+    ggplot(aes(x = reorder(das_type, n), y = n, fill = das_policy)) +
+    geom_col(position = position_dodge(), width = 0.6) +
+    geom_text(aes(label = n), 
+              vjust = 0.5, 
+              hjust = -0.5,  
+              size = 3,
+              position = position_dodge(width = 0.5)
+    ) +
+    coord_flip() +
+    annotate("text", 
+             x = 3.77, 
+             y = 150, 
+             size = 3, 
+             label = "after introducing policy\nfor data availability statement", 
+             color = "gray20") +
+    geom_curve(aes(x = 3.95, y = 142, xend = 3.95, yend = 70), 
+               curvature = 0.5, 
+               arrow = arrow(type = "closed", length = unit(0.1, "inches")),
+               color = "gray20") +
+    labs(
+        title = "Data availability statement",
+        subtitle = "Analysis of 924 articles in Journal of Water, Sanitation & Hygiene for Development (2011 to 2023)",
+        fill = "published year",
+        y = "number of publications",
+        x = "data availability statement") +
+    scale_y_continuous(breaks = seq(0, 600, 100), limits = c(0,600)) +
+    scale_fill_colorblind() 
+# https://www.iwapublishing.com/news/iwa-publishing-2020-annual-review
+```
+
+```{r}
+## summary for data availability statement (DAS) type and supp file type
+
+washdev_supp_file_type_n <- washdev_das_type |> 
+    filter(das_policy == "2020 or later") |> 
+    select(paperid, das_type, supp_file_type) |> 
+    unnest(supp_file_type) |> 
+    mutate(supp_file_type = case_when(
+        is.na(supp_file_type) ~ "missing",
+        TRUE ~ supp_file_type
+    )) |>
+    count(das_type, supp_file_type) 
+
+tbl_supp_type <- washdev_supp_file_type_n |> 
+    group_by(supp_file_type) |> 
+    summarise(n = sum(n)) |> 
+    arrange(desc(n)) |> 
+    mutate(perc = n / sum(n) * 100) 
+
+```
+
+
+# Meet a data steward {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
+
+```{=html}
+<script defer data-domain="ghe-open.ch" src="https://plausible.io/js/script.js"></script>
+```
+
+## Meet a data steward {.smaller}
+
+::: incremental
+
+::: columns
+::: {.column width="50%"}
+**I have:**
+
+-   10+ years work experience (5 in research)
+-   empathy, compassion, patience, persistance
+-   an affinity for IT
+-   teaching experience
+-   learned how people learn
+:::
+
+::: {.column width="50%"}
+**I don't have:**
+
+-   a doctoral degree
+-   a qualification in computer science
+-   a qualification in statistics
+-   a lot of time
+:::
+:::
+
+:::
+
+::: footer
+Job Description: [Open Science Specialist](https://github.com/Global-Health-Engineering/job-descriptions/blob/main/open-science-specialist/README.md)
+:::
+
+::: notes
+My role - **Open Science Specialist**
+
+-   research data management
+-   reproducible workflows
+-   mindset for Open Science
+-   research communication
+-   teaching data science tools
+-   proposal writing
+:::
+
+# 10 learnings from 3 years {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
+
+# #1 Technology is not on our side {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
+
+## Meet a Professor
+
+![](img/eth-kolloquium/dalle-overworked-prof.png) 
+
+::: notes
+You are a professor. 
+You’re working long hours; 
+you’re working weekends; 
+you’re sitting in committees, 
+and stuck in meetings that could have been emails; 
+you’re writing proposals, teaching, grading, supervising, and mentoring. 
+:::
+
+::: notes
+[Blog: Attention, Prof: You need a data steward for your team.](https://ghe.ethz.ch/ghe-blog-news/2024/02/blog-attention-prof-you-need-a-data-steward-for-your-team.html)
+:::
+
+## The Modern Academic's Challenges 
+
+::: columns
+::: {.column width="50%"}
+- Overflowing email inboxes
+- Browsers with hundreds of tabs
+- Files on stored on Desktops
+- MS Teams, Slack, Element, NAS, Google Drive, ...
+- Credentials, Passwords, OTPs, 2FAs, PATs, ... 
+:::
+
+::: {.column width="50%"}
+
+::: fragment
+
+![](img/eth-kolloquium/brian-j-tromp-X8ejw0g0C_g-unsplash.jpg){.absolute top=50 right=50 width="350" height="300"}
+
+:::
+
+::: fragment
+
+![](img/eth-kolloquium/browser-tabs.png){.absolute top=50 right=50 width="450" height="250"}
+
+:::
+
+::: fragment
+
+![](img/eth-kolloquium/d8ehbkp-47844146-2f0f-4df6-a131-386407e163d1.jpg){.absolute bottom=0 right=50 width="400" height="300"}
+::: 
+
+::: fragment
+
+![](img/eth-kolloquium/element.png){.absolute bottom=0 right=50 width="450" height="300"}
+::: 
+
+:::
+:::
+
+# #2 ETH wants reproducibility {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
+
+## ETH RDM Guidelines
+
+![](img/eth-kolloquium/eth-rdm-guidelines-01.png){.absolute}
+
+::: fragment
+
+![](img/eth-kolloquium/eth-rdm-guidelines-02.png){.absolute}
+::: 
+
+::: fragment
+
+![](img/eth-kolloquium/eth-rdm-guidelines-03.png){.absolute}
+::: 
+
+::: footer
+ETH RDM Guidelines: <https://rechtssammlung.sp.ethz.ch/Dokumente/414.2en.pdf>
+:::
+
+
+## FAIR data sharing principles
+
+![](img/eth-kolloquium/fair-data.png){.absolute}
+
+::: footer
+Article accessible at: <https://www.nature.com/articles/sdata201618>
+:::
+
+## {style="text-align: center;"}
+
+![](img/eth-kolloquium/giphy-excited-cooky-monster.webp) 
+
+## FAIR data sharing principles
+
+::: columns
+::: {.column width="50%"}
+- Technical in nature
+- Require data management strategy to establish workflows
+- Not a checkbox, but a process
+:::
+::: {.column width="50%"}
+
+
+:::{.large}
+`F`indable  
+`A`ccessible  
+`I`nteroperable  
+`R`eusable
+:::
+:::
+:::
+
+# #3 Data management is project management {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
+
+## 
+
+```{r}
+#| out-width: "100%"
+
+undergrad_students <- people |> 
+  filter(b_m_student == "yes") |>
+  filter(!is.na(title)) 
+
+undergrad_students |> 
+  count(degree, year) |> 
+  mutate(degree = case_when(
+    degree == "bsc" ~ "BSc thesis",
+    degree == "msc" ~ "MSc thesis"
+  )) |>
+  ggplot(aes(x = year, y = n, label = n, fill = degree)) +
+  geom_col(position = "dodge") +
+  geom_label(position = position_dodge(width = 0.9),
+            show.legend = FALSE,
+            color = "white",
+            fontface = "bold",
+            size = 6) +
+  labs(x = "",
+       y = "Number of thesis projects", 
+       fill = "Project:") +
+  scale_fill_colorblind() +
+  scale_color_colorblind() +
+  theme(panel.grid = element_blank(),
+        axis.text.y = element_blank()) +
+  statR::theme_stat(base_size = 16) 
+  
+
+```
+
+::: notes
+- 36 students this year
+- Essentially managed by one senior scientist and a professort, who makes the effort to see students regularly, in person
+- This requires project management
+:::
+
+::: footer
+Access anonymised data from [`ghedata`](https://global-health-engineering.github.io/ghedata/)
+:::
+
+## GHE Student Wiki ([public](https://unlimited.ethz.ch/spaces/ghestudents/pages/182075673/GHE+students+Wiki))
+
+::: columns
+::: {.column width="55%"}
+
+- Grading criteria
+- Communication expectations
+- Data storage and data management guidelines
+- Presentation standards
+- Proposal and thesis writing requirements
+
+:::
+
+::: {.column width="45%"}
+
+```{r}
+knitr::include_graphics(here::here("slides/img/eth-kolloquium/ghe-student-wiki.png"))
+```
+
+:::
+:::
+
+::: footer
+[Blog: Empowering Students: The Role of Transparency at Global Health Engineering](https://ghe.ethz.ch/ghe-blog-news/2024/10/blog-empowering-students-the-role-of-transparency-at-global-health-engineering.html)
+:::
+
+::: footer
+Transparent grading practices and clear expectations offer several advantages:
+
+1. Improved student performance: When students understand what is expected of them, they are better equipped to meet those expectations.
+
+2. Reduced anxiety: Clear guidelines help alleviate student stress and uncertainty about assignments and evaluations.
+
+3. Fairness: Transparent grading criteria ensure that all students are evaluated consistently and equitably.
+
+4. Enhanced learning: Students can focus on learning objectives rather than guessing what the supervisor wants.
+:::
+
+## Grading rubric & data publication {.smaller}
+
+::: columns
+::: {.column width="40%"}
+
+**Four areas of evaluation with 31 sub-areas**
+
+- 40/100: Research competence
+- 40/100: Thesis report
+- 10/100: Colloquium
+- 10/100: Examination
+
+:::
+
+::: {.column width="60%"}
+
+::: fragment
+
+**'Data Management' under 'Research Competence'**
+
+> 6: Data is fully documented, organized, easy to reproduce, and publication ready. Everything is stored on Google Drive.
+
+
+:::
+
+::: fragment
+
+**But, data publication requirement**
+
+> Obtaining a 6 from all sub-areas but not publishing the data in the form of a repository will result in a maximum allowed grade of 5.75.
+
+:::
+:::
+:::
+
+::: footer
+Our [Grading rubrics](https://unlimited.ethz.ch/spaces/ghestudents/pages/182077233/Grading+rubrics)
+:::
+
+## ETH Board Open Research Data position
+
+![](img/eth-kolloquium/01-ord-position-eth-domain.png){.absolute}
+
+::: footer
+Access [Open Research Data Position of the ETH Domain](https://ethrat.ch/wp-content/uploads/2021/09/ORD_Position_ETH_Domain.pdf)
+:::
+
+## ETH Board Open Research Data position
+
+![](img/eth-kolloquium/02-ord-position-eth-domain.png){.absolute}
+
+::: footer
+Access [Open Research Data Position of the ETH Domain](https://ethrat.ch/wp-content/uploads/2021/09/ORD_Position_ETH_Domain.pdf)
+:::
+
+# #4 Predictability wins {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
+
+## Structure & naming conventions {.smaller}
+
+::: columns
+::: {.column width="55%"}
+
+GHE Google Shared Drive
+
+- ghe-supervision
+  - archive 
+  - bachelors
+  - [masters]{.highlight-yellow}
+      - msc-sem-proj
+      - [msc-thesis]{.highlight-yellow}
+          - [2024-msc-thesis-lschoebitz]{.highlight-yellow}
+  - phds
+:::
+
+::: {.column width="45%"}
+
+Convention
+
+- `YYYY-degree-type-ethzid`
+
+A unqiue identifier for each student (and staff) that is used in several places.
+
+![](img/eth-kolloquium/naming-conventions.png)
+
+:::
+:::
+
+::: footer
+Access anonymised data from [`ghedata`](https://unlimited.ethz.ch/spaces/ghestudents/pages/182077233/Grading+rubrics)
+:::
+
+# #5 Low IT affinity is not a lack of aptitude {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
+
+## Safe learning environments 
+
+::: columns
+::: {.column width="50%"}
+
+**Growth-mindset for better learning outcomes**
+
+-  **Fixed mindset**: 'I'm not good'
+-  **Growth mindset**: 'I can learn'
+
+:::
+
+::: {.column width="50%"}
+
+::: fragment
+
+**Create safe learner environments**
+
+- Regular 1:1 research data management meetings
+- Bi-monthly half day team events
+- Yearly retreat 
+
+:::
+
+:::
+:::
+
+::: footer
+Access our [Strategy & Planning](https://ghe.ethz.ch/open-science/strategy-and-planning.html)
+:::
+
+::: notes
+
+If people believe that competence in some area is intrinsic (i.e. that you either “have the gene” for it or you don’t), everyone does worse, including the supposedly advantaged. The reason is that if someone doesn’t do well at first, they assume that they lack that aptitude, which biases their future performance.
+
+From: https://teachtogether.tech/en/index.html#s:motivation
+
+:::
+
+## {background-image="img/eth-kolloquium/rbtl-fs25-website.png" data-background-size="contain" data-background-position="center"}
+
+::: notes
+
+- 4 ECTS
+- Offered to BSc / MSc / PhD students
+- Best practices for data management
+- Best practices for survey based research
+- Data Science tools: R, Git, GitHub, Quarto
+- Transferable skills
+- Independent of ETHZ infrastructure
+
+:::
+
+::: footer
+Course website FS25: <https://rbtl-fs25.github.io/website/>
+:::
+
+# #6 Data != Data {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
+
+## Disclaimer: Data at GHE {.smaller}
+
+::: columns
+::: {.column width="40%"}
+-   small (few MBs)
+-   tabular
+-   non-sensitive
+-   topics
+    -   waste management
+    -   sanitation
+    -   air quality
+    -   etc.
+:::
+
+::: {.column width="60%"}
+
+![](img/eth-kolloquium/15704065265_6bd8ac7613_c.jpg)
+
+:::
+:::
+
+::: footer
+Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/110829077@N08/15704065265/in/album-72157649056083306/)
+:::
+
+## Three terms for three stages {.smaller}
+
+## Three terms for three stages {.smaller}
+
+| term                                   | explanation                                                                                 | file format                     |
+|--------------------|-----------------------|------------------------------|
+| unprocessed [raw]{.highlight-red} data | data that is not processed and [remains in its original form and file type]{.highlight-red} | often XLSX, also CSV and others |
+
+: {.striped tbl-colwidths="\[20, 60, 20\]"}
+
+## Three terms for three stages {.smaller}
+
+| term                                            | explanation                                                                                                       | file format                     |
+|--------------------|-----------------------|------------------------------|
+| unprocessed [raw]{.highlight-red} data          | data that is not processed and [remains in its original form and file type]{.highlight-red}     | often XLSX, also CSV and others |
+| [processed]{.highlight-red} analysis-ready data | data that is processed to [prepare for an analysis]{.highlight-red} and is exported in its new form as a new file | CSV, R data package             |
+
+: {.striped tbl-colwidths="\[20, 60, 20\]"}
+
+## Three terms for three stages {.smaller}
+
+| term                                                  | explanation                                                                                                                                                                                  | file format                     |
+|--------------------|-----------------------|------------------------------|
+| unprocessed [raw]{.highlight-red} data                | data that is not processed and [remains in its original form and file type]{.highlight-red}                                                                                | often XLSX, also CSV and others |
+| [processed]{.highlight-red} analysis-ready data       | data that is processed to [prepare for an analysis]{.highlight-red} and is exported in its new form as a new file                                                                            | CSV, R data package             |
+| [final]{.highlight-red} data underlying a publication | data that is the [result of an analysis]{.highlight-red} (e.g descriptive statistics or data visualization) and shown in a publication, but then also exported in its new form as a new file | CSV                             |
+
+: {.striped tbl-colwidths="\[20, 60, 20\]"}
+
+::: footer
+[Self-nomination for Swiss Reproducibility Award 2024](https://ghe-open.ch/blog/posts/2024-02-27-swissrn-award/)
+:::
+
+# #7 Data management is a process, not a checkbox {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-01.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-02.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-03.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-04.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-05.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-06.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-07.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-08.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-09.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-10.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-11.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-12.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-13.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-14.drawio.svg" data-background-size="contain" data-background-position="center"}
+
+# #8 Findable: Publish for humans and computers {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
+
+## {background-image="img/eth-kolloquium/01-ghe-article.png" data-background-size="contain" data-background-position="center"}
+
+::: footer
+<https://doi.org/10.4209/aaqr.240095>
+:::
+
+## {background-image="img/eth-kolloquium/02-ghe-article-data-statement.png" data-background-size="contain" data-background-position="center"}
+
+::: footer
+<https://doi.org/10.4209/aaqr.240095>
+:::
+
+## {background-image="img/eth-kolloquium/01-findable-ghe-publications-data.png" data-background-size="contain" data-background-position="center"}
+
+[Automation from ETH Research Collection]{style="position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%) rotate(-15deg); padding: 20px; background-color: #ede8d0; opacity: 0.7; display: inline-block;"}
+
+
+
+## {background-image="img/eth-kolloquium/02-findable-eth-resesearch-collection.png" data-background-size="contain" data-background-position="center"}
+
+[Automation from Zenodo]{style="position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%) rotate(-15deg); padding: 20px; background-color: #ede8d0; opacity: 0.9; display: inline-block;"}
+
+::: footer
+<https://www.research-collection.ethz.ch/handle/20.500.11850/666386>
+:::
+
+## {background-image="img/eth-kolloquium/03-findable-zenodo.png" data-background-size="contain" data-background-position="center"}
+
+[Automation from GitHub]{style="position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%) rotate(-15deg); padding: 20px; background-color: #ede8d0; opacity: 0.9; display: inline-block;"}
+
+::: footer
+<https://zenodo.org/records/12685803>
+:::
+
+## {background-image="img/eth-kolloquium/04-findable-github.png" data-background-size="contain" data-background-position="center"}
+
+[Open Source]{style="position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%) rotate(-15deg); padding: 20px; background-color: #ede8d0; opacity: 0.9; display: inline-block;"}
+
+::: fragment
+
+[made for collaboration]{style="position: absolute; top: 65%; left: 35%; transform: translate(-50%, -50%) rotate(-15deg); padding: 20px; background-color: #0F4C81; opacity: 0.9; display: inline-block; color: #e0e0e0;"}
+
+:::
+
+::: footer
+<https://github.com/Global-Health-Engineering/bcsa>
+:::
+
+## {background-image="img/eth-kolloquium/05-findable-website.png" data-background-size="contain" data-background-position="center"}
+
+[Automation from GitHub]{style="position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%) rotate(-15deg); padding: 20px; background-color: #ede8d0; opacity: 0.9; display: inline-block;"}
+
+::: fragment
+
+[made for humans]{style="position: absolute; top: 65%; left: 35%; transform: translate(-50%, -50%) rotate(-15deg); padding: 20px; background-color: #0F4C81; opacity: 0.9; display: inline-block; color: #e0e0e0;"}
+
+:::
+::: footer
+<https://global-health-engineering.github.io/bcsa/>
+:::
+
+
+# #9 9 to 5 is possible {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
+
+## Meet a professor
+
+::: columns
+::: {.column width="50%"}
+- Plans for 'tomorrow'
+- Is ready for increasing requirements
+- Dedicates financial resources to data stewardship
+:::
+::: {.column width="50%"}
+![](img/eth-kolloquium/dalle-prof-happy.webp)
+
+:::
+:::
+
+# #10 Funding for Open Research Data ~~exists~~ existed {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
+
+## Funding schemes
+
+**swissuniversities**
+
+-   2021 - 2024: swissuniversities - Open Science I
+-   2025 - ~~2028~~ 2026: swissuniversities - Open Science II 
+-   [Watch: Action Line B5.2]{.highlight-yellow} - [Professionalisation of ORD specialists and related services](https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Calls/B5.3_Application_Guidelines.pdf)
+-   Newsletter sign-up: <https://sympa.ethz.ch/sympa/subscribe/isci>
+
+## Funding schemes
+
+**[Open Research Data Program of the ETH Board](https://ethrat.ch/en/eth-domain/open-research-data/)**
+
+-   2021 - 2024: \~ 96 projects funded (\~ CHF 15 million budget in total)
+-   Global Health Engineering was awarded 2 Contribute and 3 Explore projects worth 500'000 CHF
+-   2021 - 2024: \~ 100 projects funded (\~ CHF 10 million in total)
+-   All 96 projects and newsletter sign-up: <https://open-research-data-portal.ch/> (bottom of page)
+
+::: notes
+[swissuniversities Action Plan](https://www.swissuniversities.ch/en/topics/open-science/open-science-programme/ord-projects)
+:::
+
+## 10 take-aways from 30 minutes {.smaller}
+
+- #1 Technology is not on our side
+- #2 ETH wants reproducibility
+- #3 Data management is project management
+- #4 Predictability wins
+- #5 Low IT affinity is not a lack of aptitude
+- #6 Data != Data
+- #7 Data management is a process, not a checkbox
+- #8 Findable: Publish for humans and computers
+- #9: 9 to 5 is possible
+- #10 Funding for Open Research Data ~~exists~~ existed 
+
+## Thanks! `r emo::ji("sunflower")` 
+
+Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
+
+Slide background image taken from [Danielle Navarro](https://djnavarro.net/)
+
+Access slides as [PDF on GitHub](https://github.com/global-health-engineering/website/raw/main/slides/swissrn-reproducibility.pdf)
+
+All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+
+
+

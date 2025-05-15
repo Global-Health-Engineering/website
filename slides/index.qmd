@@ -2,6 +2,15 @@
 title: "{{< fa display >}} Slides"
 ---
 
+## SwissRN - Computational Reproducibiliy Seminar
+
+[View slides in full screen](swissrn-reproducibility.html) |  [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/swissrn-reproducibility.pdf)
+  
+```{=html}
+<iframe class="slide-deck" src="swissrn-reproducibility.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
+
 ## Brown Bags Lunch - D-USYS Transdiciplinary Lab
 
 [View slides in full screen](bbl-tdlab.html) |  [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/bbl-tdlab.pdf)
