@@ -10,7 +10,7 @@ author:
     affiliations:
         - name: Global Health Engineering - ETH Zurich
           url: https://ghe.ethz.ch/
-date: 2025-11-21
+date: 2025-06-17
 date-format: long
 format: 
   revealjs:
@@ -28,7 +28,7 @@ editor_options:
   chunk_output_type: console
 execute:
   freeze: auto
-bibliography: ["references.bib"]
+bibliography: ["references.bib", "ghe.bib"]
 ---
 
 ```{r}
@@ -37,13 +37,10 @@ library(ggthemes)
 library(tidyverse)
 library(ggtext)
 library(gt)
+library(ethord)
 ```
 
 # Meet a data steward {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
-
-```{=html}
-<script defer data-domain="ghe-open.ch" src="https://plausible.io/js/script.js"></script>
-```
 
 ## Meet a data steward {.smaller}
 
@@ -305,58 +302,6 @@ Transparent grading practices and clear expectations offer several advantages:
 Our [Grading rubrics](https://unlimited.ethz.ch/spaces/ghestudents/pages/182077233/Grading+rubrics)
 :::
 
-## ETH Board Open Research Data position
-
-![](img/eth-kolloquium/01-ord-position-eth-domain.png){.absolute}
-
-::: footer
-Access [Open Research Data Position of the ETH Domain](https://ethrat.ch/wp-content/uploads/2021/09/ORD_Position_ETH_Domain.pdf)
-:::
-
-## ETH Board Open Research Data position
-
-![](img/eth-kolloquium/02-ord-position-eth-domain.png){.absolute}
-
-::: footer
-Access [Open Research Data Position of the ETH Domain](https://ethrat.ch/wp-content/uploads/2021/09/ORD_Position_ETH_Domain.pdf)
-:::
-
-# #4 Predictability wins {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
-
-## Structure & naming conventions {.smaller}
-
-::: columns
-::: {.column width="55%"}
-
-GHE Google Shared Drive
-
-- ghe-supervision
-  - archive 
-  - bachelors
-  - [masters]{.highlight-yellow}
-      - msc-sem-proj
-      - [msc-thesis]{.highlight-yellow}
-          - [2024-msc-thesis-lschoebitz]{.highlight-yellow}
-  - phds
-:::
-
-::: {.column width="45%"}
-
-Convention
-
-- `YYYY-degree-type-ethzid`
-
-A unqiue identifier for each student (and staff) that is used in several places.
-
-![](img/eth-kolloquium/naming-conventions.png)
-
-:::
-:::
-
-::: footer
-Access anonymised data from [`ghedata`](https://unlimited.ethz.ch/spaces/ghestudents/pages/182077233/Grading+rubrics)
-:::
-
 # #5 Low IT affinity is not a lack of aptitude {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
 
 ## Safe learning environments 
@@ -472,10 +417,6 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 
 : {.striped tbl-colwidths="\[20, 60, 20\]"}
 
-::: footer
-[Self-nomination for Swiss Reproducibility Award 2024](https://ghe-open.ch/blog/posts/2024-02-27-swissrn-award/)
-:::
-
 # #7 Data management is a process, not a checkbox {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
 
 ##  {background-image="img/eth-kolloquium/ghe-rdm-workflow-01.drawio.svg" data-background-size="contain" data-background-position="center"}
@@ -569,23 +510,6 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 <https://global-health-engineering.github.io/bcsa/>
 :::
 
-
-# #9 9 to 5 is possible {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
-
-## Meet a professor
-
-::: columns
-::: {.column width="50%"}
-- Plans for 'tomorrow'
-- Is ready for increasing requirements
-- Dedicates financial resources to data stewardship
-:::
-::: {.column width="50%"}
-![](img/eth-kolloquium/dalle-prof-happy.webp)
-
-:::
-:::
-
 # #10 Funding for Open Research Data ~~exists~~ existed {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
 ## Funding schemes
@@ -597,17 +521,50 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 -   [Watch: Action Line B5.2]{.highlight-yellow} - [Professionalisation of ORD specialists and related services](https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Calls/B5.3_Application_Guidelines.pdf)
 -   Newsletter sign-up: <https://sympa.ethz.ch/sympa/subscribe/isci>
 
-## Funding schemes
+## 
 
-**[Open Research Data Program of the ETH Board](https://ethrat.ch/en/eth-domain/open-research-data/)**
+```{r}
+#| out-width: "100%"
+#| fig-width: 10
+#| fig-height: 5
 
--   2021 - 2024: \~ 96 projects funded (\~ CHF 15 million budget in total)
--   Global Health Engineering was awarded 2 Contribute and 3 Explore projects worth 500'000 CHF
--   2021 - 2024: \~ 100 projects funded (\~ CHF 10 million in total)
--   All 96 projects and newsletter sign-up: <https://open-research-data-portal.ch/> (bottom of page)
+portal |> 
+  count(institutions, category) |> 
+  ggplot(aes(x = reorder(institutions, n), 
+             y = n,
+             fill = category)) +
+  geom_col(position = "dodge") +
+  geom_label(aes(label = n),
+             position = position_dodge(width = 0.9),
+             show.legend = FALSE,
+             color = "white",
+             fontface = "bold",
+             size = 3) +
+  coord_flip() +
+  labs(
+    title = "Open Research Data Program of the ETH Board",
+    subtitle = "Number of funded projects per institution and project category",
+    y = "Number of projects",
+    x = NULL,
+    fill ="Project category:"
+  ) +
+  scale_fill_colorblind() +
+  statR::theme_stat(base_size = 10) +
+  theme(panel.grid = element_blank(),
+        axis.text.y = element_text(size = 8)) 
+
+```
+
+::: footer
+Data from: @Massari_ethord_ETH_Board_2025
+:::
+
+
 
 ::: notes
 [swissuniversities Action Plan](https://www.swissuniversities.ch/en/topics/open-science/open-science-programme/ord-projects)
+-   2021 - 2024: \~ 96 projects funded (\~ CHF 15 million budget in total)
+-   Global Health Engineering was awarded 2 Contribute and 3 Explore projects worth 500'000 CHF
 :::
 
 ## 10 take-aways from 30 minutes {.smaller}
@@ -633,6 +590,7 @@ Access slides as [PDF on GitHub](https://github.com/global-health-engineering/we
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
+## References
 
 
 
