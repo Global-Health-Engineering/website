@@ -35,93 +35,9 @@ bibliography: ["references.bib"]
 library(ghedata)
 library(ggthemes)
 library(tidyverse)
-library(washopenresearch)
 library(ggtext)
 library(gt)
 ```
-
-
-```{r}
-
-# data preparation
-
-washdev_das_type <- washdev |> 
-    mutate(das_policy = case_when(
-        published_year < 2020 ~ "pre-2020",
-        TRUE ~ "2020 or later"
-    )) |> 
-    mutate(das_type = case_when(
-        das_type == "in paper" ~ "available in paper",
-        das_type == "on request" ~ "available on request",
-        TRUE ~ das_type
-    ))  |>     
-    mutate(das_type = case_when(
-        is.na(das_type) ~ "missing",
-        TRUE ~ das_type
-    )) 
-```
-
-
-```{r}
-
-## summary for data availability statement (DAS) type and policy year
-
-washdev_das_type_n <- washdev_das_type |> 
-    count(das_policy, das_type) 
-
-
-fig_das_type <- washdev_das_type_n |> 
-    ggplot(aes(x = reorder(das_type, n), y = n, fill = das_policy)) +
-    geom_col(position = position_dodge(), width = 0.6) +
-    geom_text(aes(label = n), 
-              vjust = 0.5, 
-              hjust = -0.5,  
-              size = 3,
-              position = position_dodge(width = 0.5)
-    ) +
-    coord_flip() +
-    annotate("text", 
-             x = 3.77, 
-             y = 150, 
-             size = 3, 
-             label = "after introducing policy\nfor data availability statement", 
-             color = "gray20") +
-    geom_curve(aes(x = 3.95, y = 142, xend = 3.95, yend = 70), 
-               curvature = 0.5, 
-               arrow = arrow(type = "closed", length = unit(0.1, "inches")),
-               color = "gray20") +
-    labs(
-        title = "Data availability statement",
-        subtitle = "Analysis of 924 articles in Journal of Water, Sanitation & Hygiene for Development (2011 to 2023)",
-        fill = "published year",
-        y = "number of publications",
-        x = "data availability statement") +
-    scale_y_continuous(breaks = seq(0, 600, 100), limits = c(0,600)) +
-    scale_fill_colorblind() 
-# https://www.iwapublishing.com/news/iwa-publishing-2020-annual-review
-```
-
-```{r}
-## summary for data availability statement (DAS) type and supp file type
-
-washdev_supp_file_type_n <- washdev_das_type |> 
-    filter(das_policy == "2020 or later") |> 
-    select(paperid, das_type, supp_file_type) |> 
-    unnest(supp_file_type) |> 
-    mutate(supp_file_type = case_when(
-        is.na(supp_file_type) ~ "missing",
-        TRUE ~ supp_file_type
-    )) |>
-    count(das_type, supp_file_type) 
-
-tbl_supp_type <- washdev_supp_file_type_n |> 
-    group_by(supp_file_type) |> 
-    summarise(n = sum(n)) |> 
-    arrange(desc(n)) |> 
-    mutate(perc = n / sum(n) * 100) 
-
-```
-
 
 # Meet a data steward {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
@@ -171,7 +87,7 @@ My role - **Open Science Specialist**
 -   proposal writing
 :::
 
-# 10 learnings from 3 years {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
+# 10 learnings from 4 years {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"} 
 
 # #1 Technology is not on our side {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
@@ -303,7 +219,7 @@ undergrad_students |>
 ```
 
 ::: notes
-- 36 students this year
+- already  students this year
 - Essentially managed by one senior scientist and a professort, who makes the effort to see students regularly, in person
 - This requires project management
 :::
