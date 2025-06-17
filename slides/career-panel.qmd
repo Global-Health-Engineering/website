@@ -19,10 +19,6 @@ format:
     slide-number: true
     width: 960
     height: 540
-    title-slide-attributes:
-      data-background-image: "img/qr-ghe-open.png"
-      data-background-size: contain
-      data-background-opacity: "1"
 editor: source
 editor_options: 
   chunk_output_type: console
@@ -521,6 +517,14 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 -   [Watch: Action Line B5.2]{.highlight-yellow} - [Professionalisation of ORD specialists and related services](https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Hochschulpolitik/ORD/Calls/B5.3_Application_Guidelines.pdf)
 -   Newsletter sign-up: <https://sympa.ethz.ch/sympa/subscribe/isci>
 
+## Funding schemes
+
+**[Open Research Data Program of the ETH Board](https://ethrat.ch/en/eth-domain/open-research-data/)**
+
+-   2021 - 2024: \~ 96 projects funded (\~ CHF 15 million budget in total)
+-   Global Health Engineering was awarded 2 Contribute and 3 Explore projects worth 500'000 CHF
+-   All 96 projects and newsletter sign-up: <https://open-research-data-portal.ch/> (bottom of page)
+
 ## 
 
 ```{r}
@@ -529,6 +533,15 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 #| fig-height: 5
 
 portal |> 
+  mutate(category = case_when(
+    category == "Contribute" ~ "Contribute (30k)",
+    category == "Explore" ~ "Explore (150k)",
+    category == "Establish" ~ "Establish (1.5m)"
+  )) |>
+  mutate(category = factor(category, 
+                                levels = c("Contribute (30k)", 
+                                           "Explore (150k)", 
+                                           "Establish (1.5m)"))) |>
   count(institutions, category) |> 
   ggplot(aes(x = reorder(institutions, n), 
              y = n,
@@ -550,21 +563,13 @@ portal |>
   ) +
   scale_fill_colorblind() +
   statR::theme_stat(base_size = 10) +
-  theme(panel.grid = element_blank(),
+  theme(panel.grid.major.y = element_blank(),
         axis.text.y = element_text(size = 8)) 
 
 ```
 
 ::: footer
 Data from: @Massari_ethord_ETH_Board_2025
-:::
-
-
-
-::: notes
-[swissuniversities Action Plan](https://www.swissuniversities.ch/en/topics/open-science/open-science-programme/ord-projects)
--   2021 - 2024: \~ 96 projects funded (\~ CHF 15 million budget in total)
--   Global Health Engineering was awarded 2 Contribute and 3 Explore projects worth 500'000 CHF
 :::
 
 ## 8 take-aways from 30 minutes {.smaller}
@@ -578,13 +583,15 @@ Data from: @Massari_ethord_ETH_Board_2025
 - #7 Findable: Publish for humans and computers
 - #8 Funding for Open Research Data ~~exists~~ existed 
 
-## Thanks! `r emo::ji("sunflower")` 
+## Thanks! `r emo::ji("sunflower")`  {.smaller}
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
 
 Slide background image taken from [Danielle Navarro](https://djnavarro.net/)
 
-Access slides as [PDF on GitHub](https://github.com/global-health-engineering/website/raw/main/slides/career-panel.pdf)
+Access slides as [PDF on GitHub](https://github.com/global-health-engineering/website/raw/main/slides/career-panel.pdf) or on <https://ghe-open.ch/slides/>
+
+![](img/qr-ghe-open.png)
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
