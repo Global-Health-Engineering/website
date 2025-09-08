@@ -591,8 +591,6 @@ Slide background image taken from [Danielle Navarro](https://djnavarro.net/)
 
 Access slides as [PDF on GitHub](https://github.com/global-health-engineering/website/raw/main/slides/career-panel.pdf) or on <https://ghe-open.ch/slides/>
 
-![](img/qr-ghe-open.png)
-
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## References

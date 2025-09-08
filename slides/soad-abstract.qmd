@@ -1,0 +1,14 @@
+---
+title: "Publishing Open Metadata for Open Research Data Projects of the ETH Domain"
+format: html
+---
+
+In 2020, the ETH Domain institutions outlined their vision for Open Research Data (ORD): to foster a research environment that supports and values ORD. From 2022 to 2024, CHF 15 million was invested in five measures. The ORD Strategy and Action Plan were jointly developed by swissuniversities, the ETH Domain, the SNSF, and the Swiss Academies of Arts and Sciences.
+
+Under "Measure 1: Calls for Field-Specific Actions," 11 calls for proposals resulted in 96 funded projects across three categories: 60 Contribute projects (up to CHF 30,000 each), 34 Explore projects (up to CHF 150,000 each), and 2 Establish projects (up to CHF 1.5 million each). A website (https://open-research-data-portal.ch/) was created to access project titles, abstracts, institutions, and applicant names. Explore and Establish projects must submit intermediate and final scientific reports, while Contribute projects submit only a final report.
+
+However, this information is not available as structured, machine-readable data. Currently, only reviewers can access this metadata. Despite funding 96 projects, limited public information is available about the projects and their outputs, hindering the measure's impact assessment. Making this information public would help evaluate and reach the goal of Measure 1: helping researchers become ORD leaders in their field.
+
+This talk introduces a metadata dataset derived from project proposals and scientific reports, published as open source under a permissive license, with a DOI, and following FAIR data sharing principles. The dataset contains several tables, with enriched information on applicants (e.g. ORCID ID, department), on projects (e.g. funding, project start/end, proposal scoring), and a list of outputs (e.g. websites, datasets).
+
+We will discuss the benefits of publishing administrative data as Open Academic Data and advocate for adopting open data policies already used by Swiss government agencies, but not yet by higher education institutions.

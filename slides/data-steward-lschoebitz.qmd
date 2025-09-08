@@ -14,10 +14,6 @@ format:
     slide-number: true
     width: 960
     height: 540
-    title-slide-attributes:
-      data-background-image: "img/qr-ghe-open.png"
-      data-background-size: contain
-      data-background-opacity: "1"
 editor: source
 editor_options: 
   chunk_output_type: console
