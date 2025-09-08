@@ -2,6 +2,8 @@
 title: "{{< fa display >}} Slides"
 ---
 
+## SOAD
+
 ## Research Software Engineering and Data Stewardship Career Talk
 
 [View slides in full screen](career-panel.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/career-panel.pdf)

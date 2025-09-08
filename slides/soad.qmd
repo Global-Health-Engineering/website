@@ -1,19 +1,26 @@
 ---
-title: "Publishing Open Metadata for Open Research Data Projects"
-subtitle: "Learning from Swiss Open Government Data Policies"
+title: "ethord"
+subtitle: |
+  Publishing Open Metadata for Open Research Data Projects of the ETH Domain
+  
+  • Swiss Open Academic Data (SOAD) Day •
 author: 
   - name: Lars Schöbitz
+    orcid: 0000-0003-2196-5015
     affiliations:
-        - name: Global Health Engineering - ETH Zurich
-          url: https://ghe.ethz.ch/
+        - ref: ghe
   - name: Nicoló Massari
+    orcid: 0009-0006-8421-930X
     affiliations:
-        - name: Global Health Engineering - ETH Zurich
-          url: https://ghe.ethz.ch/
+        - ref: ghe
   - name: Prof. Elizabeth Tilley
+    orcid: 0000-0002-2095-9724
     affiliations:
-        - name: Global Health Engineering - ETH Zurich
-          url: https://ghe.ethz.ch/
+        - ref: ghe
+affiliations:
+  - id: ghe
+    name: Global Health Engineering - ETH Zurich
+    url: https://ghe.ethz.ch/
 date: 2025-09-10
 date-format: long
 format: 
@@ -70,16 +77,21 @@ Who has heard of the ETH Domain Open Research Data Program?
 
 ## Metadata: ORD portal {.dark-slide .center .smaller}
 
-TODO: make text and image pull-left and pull-right.
-**Information Gap**
+::: {.columns}
+::: {.column width="50%"}
 
 - Portal shows titles, abstracts, institutions, applicant names
 - No structured bulk data or programmatic access
 - Limited visibility of reports and outputs
 - No systematic tracking of project outcomes
+:::
 
-![](img/soad/ord-portal-highlights.png)
-## {.dark-slide .center}
+::: {.column width="50%"}
+![](img/soad/ord-portal-highlights.png){width="100%"}
+:::
+:::
+
+## 
 
 ```{r}
 #| out-width: "100%"
@@ -130,12 +142,12 @@ portal |>
 Data from: @massari_2025
 :::
 
-# Metdata (not public) {.center background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
+# Metadata (not public) {.center background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
 ## Proposals & Reports & List of Outputs {.dark-slide .center}
 
 - What is their scientific role (e.g. Professor, Post Doc, PhD, etc.)?
-- How where budgets distributed among their cost categories? 
+- How were budgets distributed among their cost categories? 
 - How many publications are derived from these projects?
 - How many ORD datasets have been published? 
 - etc.
@@ -145,7 +157,7 @@ Data from: @massari_2025
 - proposals, scientific reports, and lists of outputs are not available as
   - open
   - structured
-  - machine-readible
+  - machine-readable
   - data
 
 ## The Real Limitation {.dark-slide .center}
@@ -165,7 +177,7 @@ Data from: @massari_2025
 
 - Ask all applicants for permission to extract metadata from project documentation
 - We are experts in FAIR data sharing principles, so let's do it!
-- Publish FAIR-compliant, DOI-assigned metadata dataset [@ethord_metadata] 
+- Publish FAIR-compliant, DOI-assigned metadata dataset
 
 # ethord R data package {.center background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
@@ -197,7 +209,7 @@ dictionary_table |>
   
 ```
 
-## Question: How much money was spend in each cost category? {.center .smallest}
+## Question: How much money was spent in each cost category? {.center .smallest}
 
 ```{r}
 #| output-location: slide
@@ -264,13 +276,29 @@ docs_proposal_long |>
   )
 ```
 
+::: footer
+Data from: @massari_2025
+:::
+
 ## Product: A public website {.dark-slide .center}
 
 ![](img/soad/ethord-website.png){width="100%"}
 
-# Future {.center background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
+::: footer
+<https://global-health-engineering.github.io/ethord/>
+:::
 
-## {.dark-slide .center .large}
+## Product: Documentation for each dataset {.dark-slide .center}
+
+![](img/soad/ethord-website-ref.png){width="100%"}
+
+::: footer
+<https://global-health-engineering.github.io/ethord/reference/>
+:::
+
+# Future Possibilities {.center background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
+
+## {.dark-slide .center}
 
 How could we make such administrative data "open by default" in the future?
 
@@ -291,7 +319,7 @@ How could we make such administrative data "open by default" in the future?
 Speaker notes: Switzerland is unique in having legally mandated open by default - not just policy recommendations. This creates accountability and consistency across agencies. The FAIR alignment shows how government OGD principles directly apply to research data contexts.
 :::
 
-## Thanks! 
+## Thanks! {.dark-slide .center}
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
 
