@@ -2,7 +2,13 @@
 title: "{{< fa display >}} Slides"
 ---
 
-## SOAD
+## Swiss Open Academic Data (SOAD) 2025
+
+[View slides in full screen](soad.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/soad-schoebitz.pdf)
+  
+```{=html}
+<iframe class="slide-deck" src="soad.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
 
 ## Research Software Engineering and Data Stewardship Career Talk
 
