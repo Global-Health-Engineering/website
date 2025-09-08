@@ -169,7 +169,7 @@ Data from: @massari_2025
 
 # ethord R data package {.center background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
-## ethord
+## ethord {.dark-slide .center}
 
 - <https://global-health-engineering.github.io/ethord/> [@massari_2025]
 - R data package with four tables
@@ -177,7 +177,7 @@ Data from: @massari_2025
 - permissive license (CC-BY)
 - assigned DOI (Zenodo)
 
-## Resource: `docs_proposal` {.dark-slide .center .smallest}
+## Resource: `docs_proposal` {.center .smallest}
 
 ```{r}
 # Filter dictionary for the current dataset
@@ -197,7 +197,7 @@ dictionary_table |>
   
 ```
 
-## Question: How much money was spend in each cost category? {.dark-slide .center .smallest}
+## Question: How much money was spend in each cost category? {.center .smallest}
 
 ```{r}
 #| output-location: slide
