@@ -58,6 +58,12 @@ $presentation-font-size-root: 36px !default;
   padding: 0.0em 0.1em;
 }
 
+.highlight-gold {
+  background-color: #FFD700;
+  color: #4c443c;
+  padding: 0.0em 0.1em;
+}
+
 .reveal .slide .task {
   font-size: 0.80em;
   padding-right: 10px;
@@ -102,4 +108,40 @@ $presentation-font-size-root: 36px !default;
 
 .embolden{
   font-weight: bold;
+}
+
+/* Dark slide with centered text */
+.reveal .dark-slide {
+  background-color: #4c443c;
+  color: #ffffdd;
+}
+
+.reveal .dark-slide h1,
+.reveal .dark-slide h2,
+.reveal .dark-slide h3 {
+  color: #ffffdd;
+}
+
+.reveal .dark-slide.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.reveal .dark-slide .quote-text {
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: center;
+  font-style: italic;
+  max-width: 80%;
+  margin: auto;
+  padding: 2em;
+  color: #ffffdd;
+}
+
+/* Center class for general use */
+.reveal .center {
+  text-align: center;
 }
