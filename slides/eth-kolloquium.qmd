@@ -287,8 +287,7 @@ Article accessible at: <https://www.nature.com/articles/sdata201618>
 #| out-width: "100%"
 
 undergrad_students <- people |> 
-  filter(b_m_student == "yes") |>
-  filter(!is.na(project_id)) 
+  filter(b_m_student == "yes") 
 
 undergrad_students |> 
   count(degree, year) |> 
