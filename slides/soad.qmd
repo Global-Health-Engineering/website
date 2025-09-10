@@ -4,6 +4,8 @@ subtitle: |
   Publishing Open Metadata for Open Research Data Projects of the ETH Domain
   
   • Swiss Open Academic Data (SOAD) Day •
+  
+  • [ghe-open.ch/slides](https://ghe-open.ch/slides/) • 
 author: 
   - name: Lars Schöbitz
     orcid: 0000-0003-2196-5015
@@ -39,7 +41,6 @@ bibliography: ["soad-references.bib"]
 ---
 
 ```{r}
-library(ghedata)
 library(ggthemes)
 library(tidyverse)
 library(ggtext)
@@ -282,18 +283,16 @@ Data from: @massari_2025
 
 ## Product: A public website {.dark-slide .center}
 
-![](img/soad/ethord-website.png){width="100%"}
+::: learn-more
+[global-health-engineering.github.io/ethord/](https://global-health-engineering.github.io/ethord/)
+:::
+
+```{=html}
+<iframe src="https://global-health-engineering.github.io/ethord/" width="100%" height="500" style="border:2px solid #123233;" title="ethord data package website"></iframe>
+```
 
 ::: footer
 <https://global-health-engineering.github.io/ethord/>
-:::
-
-## Product: Documentation for each dataset {.dark-slide .center}
-
-![](img/soad/ethord-website-ref.png){width="100%"}
-
-::: footer
-<https://global-health-engineering.github.io/ethord/reference/>
 :::
 
 # Future Possibilities {.center background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
@@ -319,7 +318,13 @@ How could we make such administrative data "open by default" in the future?
 Speaker notes: Switzerland is unique in having legally mandated open by default - not just policy recommendations. This creates accountability and consistency across agencies. The FAIR alignment shows how government OGD principles directly apply to research data contexts.
 :::
 
-## Thanks! {.dark-slide .center}
+## Thanks! {.center}
+
+Slides at: 
+
+::: learn-more
+[[ghe-open.ch/slides/](https://ghe-open.ch/slides/)]{.highlight-gold}
+:::
 
 Slides created via revealjs and Quarto: <https://quarto.org/docs/presentations/revealjs/> 
 
