@@ -24,6 +24,7 @@ editor_options:
   chunk_output_type: console
 execute:
   freeze: auto
+  echo: false
 bibliography: ["references.bib", "ghe.bib"]
 ---
 
