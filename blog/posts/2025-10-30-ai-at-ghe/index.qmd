@@ -1,0 +1,82 @@
+---
+title: "Building AI Literacy Together at GHE"
+format: docx
+---
+
+## "Ice cream, now!" - Embracing AI as Scientists in an Inclusive Way
+
+We have just concluded a 3-day conference that was a part of our openwashdata conference. Day 2 was dedicated to Claude Code assisted hackathon for which we not only invited the project team members, but the entire Global Health Engineering team. In the end, we were 12 participants: 6 openwashdata members, 5 GHE team members, and an openwashdata alumni, because we love to invite our alumnis.
+
+## Our Context: AI as Interdisciplinary Researchers
+
+As an interdisciplinary group with backgrounds in Economics, Environmental Engineering, Biology, Social Sciences, Mechanical Engineering, Computer Science, Physics, and more, we embrace the use of AI. We recommend our students to use it in their assignments and exams (also the coding exams), we host regular half day events during which we introduce new tools to each other, and we talk quite a lot about potential implications.
+
+[Show figure about prior experiences in different tools from pre-survey]
+
+## The Claude Code Discovery
+
+When I discovered Claude Code on May 30th, 2025, through [Greg Wilson's blog post about rewriting a synthetic data generator](https://third-bit.com/2025/03/29/tooling-for-snailz/), I lifted off my chair. I got so much work done in the first four hours that I not only had time for an ice cream, but actually really needed to see my team members to talk to them about this. It was the first time that AI completely disrupted my workflows in a way that I could see what I read about when people talk about the implications it will have.
+
+## The Hackathon Day
+
+So, we decided to give everyone a month on Claude Max subscription at 100 CHF to explore and use it together during our conference. Everyone was invited and we were a diverse group. At the beginning of the day, we did a 1:1 check-in and asked people to share their expectations and fears for the day with another person. We identified that people are nervous about the cost, that people are nervous about how intimidating it might feel.
+
+We had regular breaks and worked on reflections in a shared Google Doc. At the end of the day, we concluded with a round of everyone showing what they created. 5 minutes per person. What we built:
+
+- A conversion of DOCX to LaTeX for editing in Overleaf
+
+- A conversion of LaTeX to markdown for sharing in a web native format
+
+- Slash commands for reviews of R data packages
+
+- A conversion of scientific papers into slides
+
+- A quiz from a research proposal and a set of slides
+
+- Dashboards and interactive data applications
+
+- A grading agent for a class with essays. A grading comparison analysis between the agent's and our own grades.
+
+- ...
+
+## Discussions and Critical Questions
+
+The discussions were short, yet brought up a lot of material for further conversations:
+
+- What about the experience you take away from people learning to grade exams that now could be done by an AI?
+
+- How would you verify, cross-check and test that the text and numbers on your slides are identical to the content of the scientific manuscripts?
+
+- How much context does Claude Code add from its LLMs itself when working on content? Is it possible to tell Claude Code to not do that at all?
+
+- How did it treat placeholders for credentials and API keys in the GitHub Actions it has drafted? Did it use best practices for security?
+
+## Team Cohesion Through Shared Tools
+
+The conversations continued on Day 3. One of the key points we have noted from this experience is that it has brought our team closer together, because we all used the same tool. We all looked at a Terminal. We all used plain language prompts to instruct Claude Code to do something for us. And we realized that this brought us closer together. In teams, where those that are already highly proficient in programming tools may benefit the most (at first sight) there is a danger that those less proficient in computational tools not only feel left out or left behind, but get demoralized because it appears like only a few get to be more productive.
+
+## Continuing the Journey: AI Playgrounds
+
+Following the success of our hackathon day, we decided to make AI exploration a regular part of our team culture. Since the conference, we have hosted two "AI Playgrounds" - coworking sessions designed to lower the barrier to AI adoption and foster continuous learning.
+
+The format is simple yet effective: participants choose any AI tool they want to work with and any task they need to accomplish. This flexibility means everyone can explore at their own pace and according to their own needs. Whether it's Claude Code, ChatGPT, Copilot, or any other tool, the focus is on hands-on experimentation and practical application.
+
+Each AI Playground session follows a similar structure to our hackathon day. We dedicate the bulk of the time to focused work, then come together for 1 to 1.5 hours at the end. During this time, everyone showcases what they've been working on - sharing not just successes, but also challenges, unexpected discoveries, and questions that emerged during the process.
+
+To support ongoing learning and resource sharing, we established a dedicated channel on our Element Chat platform. This has become a valuable space where team members share:
+
+- Interesting prompts and techniques
+- New tools and features they've discovered
+- Articles and discussions about AI developments
+- Questions and tips for troubleshooting
+- Links to relevant documentation and resources
+
+This continuous engagement has helped maintain momentum beyond individual events, creating a culture where AI literacy is built collectively rather than in isolation.
+
+## Reflections on Time and Cognitive Engagement
+
+A last point that has been bugging me is the challenge to use the potential extra time that I would have available because I can get significantly more done, to not do even more, but rather engage in activities that keep my brain active and learning, so I don't lose my mind when strange studies come out that claim my brain isn't working anymore because I used AI.
+
+## Looking Forward
+
+How do you approach this new wave of tools in your teams?
