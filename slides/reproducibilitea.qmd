@@ -591,11 +591,6 @@ Data: <https://github.com/Global-Health-Engineering/ghedata-code/tree/main/githu
 - Data stewards belong [inside research groups]{.highlight-yellow}, not only in central services
 - Cultural shift toward research that is open, transparent, and reproducible
 - Designing [metrics for the value of data stewardship services]{.highlight-yellow}
-- Talk at RDC 2026 (Swiss Research Data Support Network): "Embedded data stewardship and research intelligence: five years of practice at a research group at ETH Zurich"
-
-::: footer
-Abstract: <https://github.com/larnsce/rdc-2026/blob/main/abstract-talk.md>
-:::
 
 ## 8 take-aways {.smaller}
 
