@@ -2,6 +2,14 @@
 title: "{{< fa display >}} Slides"
 ---
 
+## ReproducibiliTea Journal Club 2026 - University of Zurich
+
+[View slides in full screen](reproducibilitea.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/reproducibilitea.pdf)
+
+```{=html}
+<iframe class="slide-deck" src="reproducibilitea.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## Swiss Open Academic Data (SOAD) 2025
 
 [View slides in full screen](soad.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/soad-schoebitz.pdf) | [Access Abstract](soad-abstract.html)
