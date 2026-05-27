@@ -19,3 +19,4 @@ CLAUDE.md
 slides/soad-standalone.qmd
 slides/soad-standalone.html
 _site/slides/soad-standalone.html
+**/*.quarto_ipynb
