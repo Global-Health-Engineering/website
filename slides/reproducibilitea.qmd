@@ -175,30 +175,12 @@ Article accessible at: <https://www.nature.com/articles/sdata201618>
 
 ## ETH FAIR Coalition [(2025)]{.highlight-yellow}
 
-::: columns
-::: {.column width="55%"}
-
 **Newly established institution-wide initiative**
 
-- Launched by the Vice Presidents for Research and Infrastructure
-- Goal: accelerate FAIR for code, data, notes, metadata, images
+- Launched by the VPs for Research and Infrastructure
 - Coalition Charter open for researchers and staff to sign
 - Research units invited to formally join in spring 2026
-- Four initiatives launching summer 2026, including embedding FAIR in research units and a FAIR summit
-
-:::
-
-::: {.column width="45%"}
-
-:::{.large}
-`F`indable
-`A`ccessible
-`I`nteroperable
-`R`eusable
-:::
-
-:::
-:::
+- FAIR summit and three further initiatives launching summer 2026
 
 ::: footer
 ETH FAIR Coalition: <https://ethz.ch/en/research/open-science/FAIR-Coalition.html>
@@ -473,7 +455,6 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 [Automation from ETH Research Collection]{style="position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%) rotate(-15deg); padding: 20px; background-color: #ede8d0; opacity: 0.7; display: inline-block;"}
 
 
-
 ## {background-image="img/eth-kolloquium/02-findable-eth-research-collection.png" data-background-size="contain" data-background-position="center"}
 
 [Automation from Zenodo]{style="position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%) rotate(-15deg); padding: 20px; background-color: #ede8d0; opacity: 0.9; display: inline-block;"}
@@ -562,8 +543,10 @@ ghe_repos <- readr::read_csv(
 )
 
 ghe_repos |>
-  dplyr::count(created_year, publication_type) |>
-  ggplot(aes(x = factor(created_year), y = n, fill = publication_type)) +
+  dplyr::mutate(license = dplyr::if_else(is.na(license), "No license", license)) |>
+  dplyr::count(created_year, license) |>
+  dplyr::mutate(license = forcats::fct_reorder(license, n, .fun = sum)) |>
+  ggplot(aes(x = factor(created_year), y = n, fill = license)) +
   geom_col() +
   geom_text(aes(label = n),
             position = position_stack(vjust = 0.5),
@@ -572,10 +555,10 @@ ghe_repos |>
             size = 4) +
   labs(
     title = "Public GitHub repositories at Global Health Engineering",
-    subtitle = "Open code, open data, open publications, by year created",
+    subtitle = "Growth by year created, coloured by license",
     x = NULL,
     y = "Number of public repositories",
-    fill = "Repository type:"
+    fill = "License:"
   ) +
   scale_fill_colorblind() +
   statR::theme_stat(base_size = 12) +
