@@ -6,6 +6,10 @@ author:
     affiliations:
         - name: Global Health Engineering - ETH Zurich
           url: https://ghe.ethz.ch/
+        - name: SwissRN Local Node ETH Zurich
+          url: https://www.swissrn.org/contents/community/nodes/#local-node-leaders
+        - name: "Slides: ghe-open.ch/slides/"
+          url: https://ghe-open.ch/slides/
 date: 2026-05-28
 date-format: long
 format:
@@ -141,7 +145,7 @@ ETH RDM Guidelines (2022): <https://rechtssammlung.sp.ethz.ch/Dokumente/414.2en.
 :::
 
 
-## FAIR data sharing principles
+## FAIR data sharing principles [(2016)]{.highlight-yellow}
 
 ![](img/eth-kolloquium/fair-data.png){.absolute}
 
@@ -149,9 +153,9 @@ ETH RDM Guidelines (2022): <https://rechtssammlung.sp.ethz.ch/Dokumente/414.2en.
 Article accessible at: <https://www.nature.com/articles/sdata201618>
 :::
 
-## {style="text-align: center;"}
+## Me [(2022)]{.highlight-yellow} {.center-align}
 
-![](img/eth-kolloquium/giphy-excited-cooky-monster.webp) 
+![](img/eth-kolloquium/giphy-excited-cooky-monster.webp){fig-align="center"}
 
 ## FAIR data sharing principles
 
@@ -165,7 +169,7 @@ Article accessible at: <https://www.nature.com/articles/sdata201618>
 
 
 :::{.large}
-`F`indable
+`F`indable  
 `A`ccessible
 `I`nteroperable
 `R`eusable
@@ -454,6 +458,9 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 
 [Automation from ETH Research Collection]{style="position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%) rotate(-15deg); padding: 20px; background-color: #ede8d0; opacity: 0.7; display: inline-block;"}
 
+::: footer
+<https://ghe.ethz.ch/publications/data.html>
+:::
 
 ## {background-image="img/eth-kolloquium/02-findable-eth-research-collection.png" data-background-size="contain" data-background-position="center"}
 
@@ -500,12 +507,14 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 
 # #8 Research intelligence with `ghedata` {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
-## Making our own work visible
+## Making our own work visible {.smaller}
 
 ::: columns
 ::: {.column width="55%"}
 
 **`ghedata`: an R data package**
+
+::: incremental
 
 - Openly shared collection of GHE's operational data
 - Supervision table, LinkedIn statistics, Zenodo metadata, GitHub usage
@@ -513,27 +522,37 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 
 :::
 
+:::
+
 ::: {.column width="45%"}
 
+::: fragment
+
 **Why?**
+
+::: incremental
 
 - Measure the impact of embedded data stewardship
 - Inform strategic decisions
 - Practice what we preach: open by default
 
 :::
+
+:::
+
+:::
 :::
 
 ::: footer
-Package: <https://global-health-engineering.github.io/ghedata/> Code: <https://github.com/Global-Health-Engineering/ghedata-code>
+[Package](https://global-health-engineering.github.io/ghedata/) | [Code](https://github.com/Global-Health-Engineering/ghedata-code)
 :::
 
-## Open work at GHE
+## {.small-title}
 
 ```{r}
 #| out-width: "100%"
-#| fig-width: 10
-#| fig-height: 5
+#| fig-width: 12
+#| fig-height: 6.2
 #| message: false
 #| warning: false
 
@@ -562,7 +581,7 @@ ghe_repos |>
   geom_col() +
   geom_text(aes(label = n),
             position = position_stack(vjust = 0.5),
-            color = "white",
+            color = "grey20",
             fontface = "bold",
             size = 4) +
   labs(
@@ -574,16 +593,20 @@ ghe_repos |>
   ) +
   scale_fill_brewer(palette = "Set3", na.value = "grey60") +
   guides(fill = guide_legend(nrow = 1, reverse = TRUE)) +
-  statR::theme_stat(base_size = 12) +
+  statR::theme_stat(base_size = 13) +
   theme(
     panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(size = 12),
-    legend.position = "bottom"
+    axis.text.x = element_text(size = 13),
+    legend.position = "bottom",
+    legend.text = element_text(size = 10),
+    legend.title = element_text(size = 10),
+    legend.key.size = grid::unit(0.8, "lines"),
+    plot.margin = ggplot2::margin(2, 8, 2, 2)
   )
 ```
 
 ::: footer
-Data: <https://github.com/Global-Health-Engineering/ghedata-code/tree/main/github>
+Data: <https://github.com/Global-Health-Engineering/ghedata-code/blob/main/github/clean-data/github_repos_public.csv>
 :::
 
 ## What we are building toward
@@ -612,8 +635,4 @@ Slide background image taken from [Danielle Navarro](https://djnavarro.net/)
 Access slides as [PDF on GitHub](https://github.com/global-health-engineering/website/raw/main/slides/reproducibilitea.pdf) or on <https://ghe-open.ch/slides/>
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
-
-## References
-
-
 

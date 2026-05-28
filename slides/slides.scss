@@ -9,7 +9,7 @@
 $font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
 $font-family-monospace: "Source Code Pro", monospace;
 $body-bg: #fff;
-$link-color: #888075;
+$link-color: #0F4C81;
 $presentation-heading-color: #5c5751;
 $code-color: #ED6D37; 
 $code-bg: #F5F5F5;
@@ -22,6 +22,16 @@ $presentation-font-size-root: 36px !default;
 
 #title-slide .title {
   font-size: 1.5em;
+}
+
+#title-slide a {
+  color: #0F4C81;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+#title-slide a:hover {
+  color: #ED6D37;
 }
 
 .reveal .slide blockquote {
@@ -144,4 +154,20 @@ $presentation-font-size-root: 36px !default;
 /* Center class for general use */
 .reveal .center {
   text-align: center;
+}
+
+/* Compact slide title to free vertical space for content */
+.reveal .small-title h2 {
+  font-size: 0.8em;
+  margin-bottom: 0.2em;
+}
+
+/* Stronger hyperlink styling for legibility */
+.reveal a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.reveal a:hover {
+  color: #ED6D37;
 }
