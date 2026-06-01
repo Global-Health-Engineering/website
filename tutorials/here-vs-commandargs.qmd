@@ -1,0 +1,135 @@
+---
+title: "Saving files to the right place: `here::here()` vs. `commandArgs()`"
+subtitle: "A short explainer for novices who code with AI"
+format: html
+---
+
+## Why this exists
+
+If you write code with an AI assistant, you will sometimes get back something that *works*, but you have no idea what it does. That feels fine until the day it stops working, or it writes a file to the wrong folder, or you move the script and everything breaks.
+
+This page walks through one small, real example: two ways to tell R where to save a plot. One way looks clever. The other way is the boring, idiomatic choice that experienced R users reach for. Once you understand why the boring one wins, you have a small piece of judgement you can reuse forever.
+
+## The setup
+
+Imagine you have an R script that makes a chart and saves it as a PNG. The script lives in a project folder:
+
+```
+my-project/
+├── my-project.Rproj
+├── scripts/
+│   └── make-plot.R          <- the script
+└── img/
+    └── plot.png             <- where the PNG should land
+```
+
+You want `make-plot.R` to save its output into `img/plot.png`. The question is: how do you write the path?
+
+## Version 1: the clever AI answer
+
+This is roughly what an AI assistant produced for me when I did not steer it:
+
+```r
+script_path <- tryCatch(
+  {
+    args <- commandArgs(trailingOnly = FALSE)
+    file_arg <- sub("^--file=", "", args[grep("^--file=", args)])
+    if (length(file_arg) > 0) normalizePath(file_arg[1]) else NA_character_
+  },
+  error = function(e) NA_character_
+)
+
+script_dir <- if (!is.na(script_path)) dirname(script_path) else getwd()
+out <- file.path(script_dir, "img", "plot.png")
+
+ggsave(out, plot = p)
+```
+
+Let's translate that into plain English, line by line, because that is what you should always do with AI code you do not understand.
+
+1.  `commandArgs(trailingOnly = FALSE)` asks R: "what arguments was I started with?" When you run `Rscript scripts/make-plot.R`, R secretly receives an argument that looks like `--file=scripts/make-plot.R`. The code is fishing that out.
+2.  `sub("^--file=", "", ...)` strips off the `--file=` prefix to leave just the path to the script.
+3.  `normalizePath()` turns that into a full, absolute path.
+4.  `tryCatch(...)` wraps everything in a safety net in case anything goes wrong.
+5.  `if (!is.na(script_path)) dirname(script_path) else getwd()` says: "if we found the script's path, use the folder it lives in; otherwise, fall back to the current working directory."
+6.  `file.path(script_dir, "img", "plot.png")` builds the final output path.
+
+It works. It is also nine lines of code to answer a one-line question.
+
+## Version 2: the boring, correct answer
+
+```r
+library(here)
+
+out <- here::here("img", "plot.png")
+
+ggsave(out, plot = p)
+```
+
+That's it. `here::here("img", "plot.png")` says: "give me the path `img/plot.png`, starting from the root of my project."
+
+## What `here::here()` actually does
+
+When you call `here::here()`, the `here` package walks **up** the folder tree from wherever it is until it finds a marker that says "this is the project root". The most common markers are:
+
+-   an RStudio project file (`*.Rproj`)
+-   a `.here` file (an empty file you can drop in yourself)
+-   a Git repository root (`.git/`)
+-   a few others (DESCRIPTION, .projectile, etc.)
+
+Once it finds the root, every path you ask for is built **from that root**, no matter where you happen to be running the code from.
+
+So `here::here("img", "plot.png")` always means *the `img/plot.png` file at the top of my project*. Not "relative to wherever I happened to open R from". Not "relative to where the script file lives". Relative to the project. That is almost always what you actually want.
+
+## Why the boring version is better
+
+Three reasons, in order of importance.
+
+### 1. It says what you mean
+
+Read the boring version out loud: "save the plot at `img/plot.png` inside this project." That is the actual goal. The clever version reads like: "figure out where this script file lives on disk, then assume `img/` sits next to it, and also have a backup plan in case the first trick fails." That is not the goal. That is one possible way to achieve the goal, and the reader has to reverse-engineer your intent.
+
+Good code reads like the problem you are solving.
+
+### 2. It behaves the same everywhere
+
+There are at least four ways you might run an R script:
+
+-   `Rscript scripts/make-plot.R` from the terminal
+-   Clicking the "Source" button in RStudio
+-   Running `source("scripts/make-plot.R")` from the R console
+-   Running the lines interactively, one block at a time
+
+The clever version (`commandArgs`) only finds the script's location reliably in the first case. In the other three, it silently falls back to `getwd()`, which is the working directory, which is whatever folder R happened to open in. So depending on how you ran the script, your PNG might land in `img/`, or in your home directory, or in `Documents/`, or somewhere else entirely.
+
+The boring version always lands in the same place: `<project root>/img/plot.png`. You can run it any way you like.
+
+### 3. You can read it in six months
+
+This is the one nobody tells you. The code you write today is read by future-you, who has forgotten everything. Future-you can read `here::here("img", "plot.png")` in two seconds. Future-you takes ten minutes to remember what `commandArgs(trailingOnly = FALSE)` does and why the `tryCatch` is there.
+
+Optimise for future-you.
+
+## When the clever version is fine
+
+To be fair: if you have a single script sitting in `/tmp` or your Desktop, with no project around it, `here::here()` cannot find a project root and will complain. The `commandArgs` trick *will* work in that case. So for truly one-off, standalone scripts that live nowhere in particular, it is a defensible choice.
+
+But the moment your script lives inside a project, in a Git repo, in an RStudio project, or anywhere with a sensible structure, `here::here()` is the right tool and the `commandArgs` dance is overkill.
+
+## The general lesson
+
+AI assistants are trained on a huge amount of code, including a lot of clever code written for hard cases. They will sometimes hand you the clever version even when your case is easy. That is not because the AI is wrong; it is because the AI does not know whether your case is easy or hard. You do.
+
+When you get AI code that you do not fully understand, do three things:
+
+1.  **Translate it into English, line by line.** If you cannot, ask the AI to explain it.
+2.  **Ask: is there a simpler idiomatic version?** Often there is a one-line package function for what the AI just wrote in nine lines.
+3.  **Look at your context.** Is this a one-off script in `/tmp`? Or is it inside a project with a clear structure? The answer changes which version is "right".
+
+For R work inside a project (which is almost all R work worth keeping), the answer to "how do I refer to a file in my project?" is `here::here()`. Once you internalise that, you will spot the clever versions for what they are: well-meaning, but unnecessary.
+
+## Further reading
+
+-   [`here` package documentation](https://here.r-lib.org/)
+-   Jenny Bryan, [Ode to the here package](https://github.com/jennybc/here_here), the original explainer
+-   Jenny Bryan, ["Project-oriented workflow"](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/), the broader case for not hard-coding paths
