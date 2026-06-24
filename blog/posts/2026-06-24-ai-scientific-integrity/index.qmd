@@ -27,7 +27,7 @@ In practice that means:
 
 Every folder now carries a track record of the work done by a human and by the machine. This is exactly the traceability that Art. 4 and Art. 17 ask for, produced as a side effect of how I work rather than as an afterthought. And the next time a journal asks for a statement on the use of AI, you can point them to your public repository instead of reconstructing the answer from memory.
 
-As an example: this blog post was written entirely by a human first. It was then added to a folder alongside a copy of the ETH guidelines. Claude Code was used to open the folder, read the guidelines, and edit the prose. The first draft is the initial commit, documented as my contribution. The edits are attributed to Claude. You can read the whole history, prompts included, in the [repository](https://github.com/global-health-engineering/website).
+As an example: this blog post was written entirely by a human first. It was then added to a folder alongside a copy of the ETH guidelines. Claude Code was used to open the folder, read the guidelines, and edit the prose. The first draft is the initial commit, documented as my contribution. The edits are attributed to Claude. You can read the whole history in the [repository](https://github.com/Global-Health-Engineering/website), and the exact prompts that produced these edits are archived, verbatim, in the [`prompts/` folder](https://github.com/Global-Health-Engineering/website/tree/main/prompts).
 
 So, before your next manuscript, your next grant application, or your next exam: who wrote it, and could you prove it?
 
