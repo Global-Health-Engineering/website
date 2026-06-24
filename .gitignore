@@ -20,3 +20,6 @@ slides/soad-standalone.qmd
 slides/soad-standalone.html
 _site/slides/soad-standalone.html
 **/*.quarto_ipynb
+
+# individual files
+414en.pdf

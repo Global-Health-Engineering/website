@@ -1,0 +1,22 @@
+
+
+Scientific Integrity in the age of AI - How do you deal with it? 
+
+ETH Zurich and every other academic institution have clear guidelines for scientific integrity. The use of AI tools makes many of the rules blurry (highlight those that are particularly impacted). When AI tools write code to analyse data, write the prose from literature collections compiled by AI, and setup the methods and tools for data collection, what is left to do that qualifies us uniquely placed as scientists doing scientific work?
+
+This statement is not a criticisim nor a call to not use AI tools. Everyone, many people rely heavily on them and already cannot imagine working without them. The bigger question is how we treat scientific integrity and which policies should be established for researchers to declare their use of AI tools.
+
+In my daily practice, I have come to the conclusion that using agentic coding tools (Claude Code) in combination with Git / GitHub and open-source reproducible notebooks (Quarto) provide me with a unique opportunity to document exactly which parts of a project, may it be data driven, prose driven, or developing teaching material, are written clearly by me and which are written (or assisted by) an agentic tool.
+
+In practice that means:
+
+- Claude Code uses a SKILL.md to write every commit message. The commit message provides a detailed overview of all changes that were made to a set of files and who has made them.
+- The user decided whether the prompts that were used as part of the work in that commit are documented in a prompts/ folder at root.
+- Claude Code uses a SKILL.md to open a Pull Request.
+- The user reviews the PR, adds comments, links in people, and merges once ready.
+
+Every folder now has a track record on the work that was done by a human and by the machine. And next time a journal asks for a statement on the use of AI, you can point them to your public repository.
+
+And as an example: This draft blog post was written entirely by a human first. It was then added to a folder alongside a local copy of the [ETH Zurich Guidelines on Scientific Integrity](https://ethz.ch/en/research/ethics-and-animal-welfare/research-integrity.html). Claude Code was used to open the folder, scan the PDF and edit the prose. This text was the initial commit documented as my contribution, the edits are attributed to Claude.
+
+Reference: [ETH Zurich Guidelines on Scientific Integrity (RSETHZ 414, PDF)](https://ethz.ch/content/dam/ethz/main/eth-zurich/organisation/rechtssammlung/414en.pdf)
