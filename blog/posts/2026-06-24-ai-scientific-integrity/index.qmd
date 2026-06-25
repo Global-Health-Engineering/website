@@ -8,15 +8,45 @@ date: "2026-06-24"
 draft: true
 ---
 
-ETH Zurich, and every other academic institution, has clear guidelines for scientific integrity. The [ETH Zurich Guidelines on Scientific Integrity](https://ethz.ch/en/research/ethics-and-animal-welfare/research-integrity.html) (RSETHZ 414) rest on four basic principles: reliability, honesty, respect, and responsibility (Art. 4). Reliability is explicitly defined to include "transparency and traceability". The use of AI tools does not make those principles blurry. It makes them harder to honour.
+ETH Zurich, and every other academic institution, has clear
+guidelines for scientific integrity. The [ETH Zurich Guidelines on
+Scientific Integrity](https://ethz.ch/en/research/ethics-and-animal-welfare/research-integrity.html)
+(RSETHZ 414) rest on four basic principles: reliability, honesty,
+respect, and responsibility (Art. 4). Reliability is explicitly
+defined to include "transparency and traceability". The use of AI
+tools does not make those principles blurry. It makes them harder to
+honour.
 
-When AI tools write the code to analyse the data, draft the prose from a literature collection that AI compiled, and set up the methods and tools for data collection, what is left that qualifies us uniquely as scientists doing scientific work? And who, exactly, is the author?
+When AI tools write the code to analyse the data, draft the prose
+from a literature collection that AI compiled, and set up the methods
+and tools for data collection, what is left that qualifies us
+uniquely as scientists doing scientific work? And who, exactly, is
+the author?
 
-This is not a criticism, nor a call to stop using AI tools. Many of us rely heavily on them and can no longer imagine working without them. The bigger question is how we keep faith with scientific integrity, and which policies we should establish for researchers to declare their use of AI tools.
+This is not a criticism, nor a call to stop using AI tools. Many of
+us rely heavily on them and can no longer imagine working without
+them. The bigger question is how we keep faith with scientific
+integrity, and which policies we should establish for researchers to
+declare their use of AI tools.
 
-The guidelines already give us the test. An author must make "a significant scientific contribution to the planning, execution, control or evaluation of the research through personal work" (Art. 14). Honorary authorship is "not permissible". The contributions of individual authors "should be declared as transparently as possible" (Art. 15). Sources must be "clearly identifiable, comprehensible and traceable" (Art. 17). These rules were written before a tool arrived that can do significant parts of the work, cannot be listed as an author, and leaves no trace unless you choose to keep one. The standard has not changed. The thing we now have to be transparent and traceable about has.
+The guidelines already give us the test. An author must make "a
+significant scientific contribution to the planning, execution,
+control or evaluation of the research through personal work"
+(Art. 14). Honorary authorship is "not permissible". The
+contributions of individual authors "should be declared as
+transparently as possible" (Art. 15). Sources must be "clearly
+identifiable, comprehensible and traceable" (Art. 17). These rules
+were written before a tool arrived that can do significant parts of
+the work, cannot be listed as an author, and leaves no trace unless
+you choose to keep one. The standard has not changed. The thing we
+now have to be transparent and traceable about has.
 
-In my daily practice, I have come to the conclusion that agentic coding tools (Claude Code), combined with Git and GitHub and open-source reproducible notebooks (Quarto), give me a way to document exactly which parts of a project, be it data driven, prose driven, or teaching material, are written by me and which are written or assisted by an agentic tool.
+In my daily practice, I have come to the conclusion that agentic
+coding tools (Claude Code), combined with Git and GitHub and
+open-source reproducible notebooks (Quarto), give me a way to
+document exactly which parts of a project, be it data driven, prose
+driven, or teaching material, are written by me and which are written
+or assisted by an agentic tool.
 
 In practice that means:
 
@@ -25,17 +55,35 @@ In practice that means:
 - Claude Code uses a `SKILL.md` to open a pull request.
 - I review the pull request, add comments, link in people, and merge once it is ready.
 
-Every folder now carries a track record of the work done by a human and by the machine. This is exactly the traceability that Art. 4 and Art. 17 ask for, produced as a side effect of how I work rather than as an afterthought. And the next time a journal asks for a statement on the use of AI, you can point them to your public repository instead of reconstructing the answer from memory.
+Every folder now carries a track record of the work done by a human
+and by the machine. This is exactly the traceability that Art. 4 and
+Art. 17 ask for, produced as a side effect of how I work rather than
+as an afterthought. And the next time a journal asks for a statement
+on the use of AI, you can point them to your public repository
+instead of reconstructing the answer from memory.
 
-As an example: this blog post was written entirely by a human first. It was then added to a folder alongside a copy of the ETH guidelines. Claude Code was used to open the folder, read the guidelines, and edit the prose. The first draft is the initial commit, documented as my contribution. The edits are attributed to Claude. You can read the whole history in the [repository](https://github.com/Global-Health-Engineering/website), and the exact prompts that produced these edits are archived, verbatim, in the [`prompts/` folder](https://github.com/Global-Health-Engineering/website/tree/main/prompts).
+As an example: this blog post was written entirely by a human first.
+It was then added to a folder alongside a copy of the ETH guidelines.
+Claude Code was used to open the folder, read the guidelines, and edit
+the prose. The first draft is the initial commit, documented as my
+contribution. The edits are attributed to Claude. You can read the
+whole history in the
+[repository](https://github.com/Global-Health-Engineering/website),
+and the exact prompts that produced these edits are archived,
+verbatim, in the
+[`prompts/` folder](https://github.com/Global-Health-Engineering/website/tree/main/prompts).
 
-So, before your next manuscript, your next grant application, or your next exam: who wrote it, and could you prove it?
+So, before your next manuscript, your next grant application, or your
+next exam: who wrote it, and could you prove it?
 
 ## Want to try this yourself?
 
 <!-- PLACEHOLDER: workshop series description. Add what the series covers, who it is for, dates/format, and what participants will build. -->
 
-I run a workshop series on this way of working: agentic coding for research, with a traceable record of human and machine contributions from the first commit to the final pull request. [TODO: one or two sentences on what the series covers and who it is for.]
+I run a workshop series on this way of working: agentic coding for
+research, with a traceable record of human and machine contributions
+from the first commit to the final pull request. [TODO: one or two
+sentences on what the series covers and who it is for.]
 
 Sign up and find the schedule at [github.com/agentsforsci](https://github.com/agentsforsci).
 
