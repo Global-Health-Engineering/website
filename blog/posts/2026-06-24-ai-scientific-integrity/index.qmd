@@ -12,7 +12,6 @@ abstract: |
   standard but an old one, and shows how agentic coding, Git, and Quarto
   turn transparency into a side effect of how you work.
 draft: true
-format: docx
 ---
 
 ETH Zurich, and every other academic institution, has clear
