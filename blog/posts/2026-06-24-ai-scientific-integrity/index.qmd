@@ -5,7 +5,14 @@ author:
     affiliation: Global Health Engineering, ETH Zurich
     affiliation-url: https://ghe.ethz.ch
 date: "2026-06-24"
+abstract: |
+  When an agent writes your code, drafts your prose, and compiles your
+  literature, who is the author, and could you prove it? This post makes
+  the case that scientific integrity in the age of AI is not a new
+  standard but an old one, and shows how agentic coding, Git, and Quarto
+  turn transparency into a side effect of how you work.
 draft: true
+format: docx
 ---
 
 ETH Zurich, and every other academic institution, has clear
@@ -78,13 +85,39 @@ next exam: who wrote it, and could you prove it?
 
 ## Want to try this yourself?
 
-<!-- PLACEHOLDER: workshop series description. Add what the series covers, who it is for, dates/format, and what participants will build. -->
+I run a two-part workshop series, *Agents for Scientists*, on this way
+of working: Git, GitHub, and agentic coding for research, with a
+traceable record of human and machine contributions from the first
+commit to the final pull request. It is aimed at researchers who want
+to use AI tools without losing sight of who did what, and each part is
+capped at 20 participants. The two workshops are designed to be taken
+together, with the first as a prerequisite for the second.
 
-I run a workshop series on this way of working: agentic coding for
-research, with a traceable record of human and machine contributions
-from the first commit to the final pull request. [TODO: one or two
-sentences on what the series covers and who it is for.]
+- **Workshop 1: Git and GitHub for Collaboration in Scientific Work.**
+  15 July 2026, 09:30–14:30, at the
+  [ETH Zurich CLD Building](https://ghe.ethz.ch/about/how-to-find-us.html).
+  A hands-on introduction using the RStudio interface and the terminal
+  with local installations. Details in the
+  [workshop repository](https://github.com/gitforsci-ghe).
+- **Workshop 2: Agentic Coding for Collaboration and Scientific Work.**
+  September 2026, 08:30–17:00, at
+  [Villa Hatt](https://ethz.ch/en/campus/access/region-zurich/villa-hatt.html),
+  ETH Zurich. A critical, hands-on day on agentic coding tools:
+  risk assessment, security concerns, handling of personal data, and
+  treating agents as fully versioned and reviewable collaborators.
 
-Sign up and find the schedule at [github.com/agentsforsci](https://github.com/agentsforsci).
+Over the two days you build the exact workflow described above: issues
+that document each agent task, every agent change committed for review
+and reversion, agent-written commit messages that record the
+decisions, and a `prompts/` folder that archives every prompt with
+timestamps and links to the commits it produced.
+
+The series is funded by the Swiss Reproducibility Network (ETH Zurich
+node), the Data Stewardship Network at ETH Zurich, the swissuniversities
+Open Science Programme, and the Global Health Engineering group at
+ETH Zurich.
+
+[Sign up for both workshops](https://forms.gle/Zf5fPsPJqUxEoLgKA), and
+find more at [github.com/agentsforsci](https://github.com/agentsforsci).
 
 Reference: [ETH Zurich Guidelines on Scientific Integrity (RSETHZ 414, PDF)](https://ethz.ch/content/dam/ethz/main/eth-zurich/organisation/rechtssammlung/414en.pdf)
