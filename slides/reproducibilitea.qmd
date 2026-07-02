@@ -556,6 +556,7 @@ Photo: [Kiteezi Landfill, Kampala, Uganda](https://www.flickr.com/photos/1108290
 #| fig-height: 6.2
 #| message: false
 #| warning: false
+#| fig-alt: "Stacked bar chart titled 'Public GitHub repositories at Global Health Engineering' with subtitle 'Growth by year created, coloured by license'. Bars show the number of public repositories created each year from 2021 to 2026, broken down by license. Totals per year: 2021 has 1 repo (1 CC-BY-4.0). 2022 has 6 (1 CC-BY-4.0, 2 No license, 2 Other, 1 CC-BY-SA-4.0). 2023 has 10 (6 CC-BY-4.0, 4 No license). 2024 has 19 (14 CC-BY-4.0, 4 No license, 1 MIT). 2025 has 28 and is the largest year (9 CC-BY-4.0, 12 No license, 4 MIT, 1 GPL-3.0, 1 CERN-OHL-P-2.0, 1 Apache-2.0). 2026 has 10 (2 CC-BY-4.0, 6 No license, 1 MIT, 1 CERN-OHL-S-2.0). Overall, 28 of 74 public repositories (38%) have no license, making 'No license' the second-largest category after CC-BY-4.0."
 
 ghe_repos <- readr::read_csv(
   "https://raw.githubusercontent.com/Global-Health-Engineering/ghedata-code/main/github/clean-data/github_repos_public.csv",

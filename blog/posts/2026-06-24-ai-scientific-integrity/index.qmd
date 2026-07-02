@@ -1,0 +1,122 @@
+---
+title: "Who wrote this? Scientific integrity at ETH Zurich in the age of AI"
+author:
+  - name: Lars Schöbitz
+    affiliation: Global Health Engineering, ETH Zurich
+    affiliation-url: https://ghe.ethz.ch
+date: "2026-06-24"
+abstract: |
+  When an agent writes your code, drafts your prose, and compiles your
+  literature, who is the author, and could you prove it? This post makes
+  the case that scientific integrity in the age of AI is not a new
+  standard but an old one, and shows how agentic coding, Git, and Quarto
+  turn transparency into a side effect of how you work.
+draft: true
+---
+
+ETH Zurich, and every other academic institution, has clear
+guidelines for scientific integrity. The [ETH Zurich Guidelines on
+Scientific Integrity](https://ethz.ch/en/research/ethics-and-animal-welfare/research-integrity.html)
+(RSETHZ 414) rest on four basic principles: reliability, honesty,
+respect, and responsibility (Art. 4). Reliability is explicitly
+defined to include "transparency and traceability". The use of AI
+tools does not make those principles blurry. It makes them harder to
+honour.
+
+When AI tools write the code to analyse the data, draft the prose
+from a literature collection that AI compiled, and set up the methods
+and tools for data collection, what is left that qualifies us
+uniquely as scientists doing scientific work? And who, exactly, is
+the author?
+
+This is not a criticism, nor a call to stop using AI tools. Many of
+us rely heavily on them and can no longer imagine working without
+them. The bigger question is how we keep faith with scientific
+integrity, and which policies we should establish for researchers to
+declare their use of AI tools.
+
+The guidelines already give us the test. An author must make "a
+significant scientific contribution to the planning, execution,
+control or evaluation of the research through personal work"
+(Art. 14). Honorary authorship is "not permissible". The
+contributions of individual authors "should be declared as
+transparently as possible" (Art. 15). Sources must be "clearly
+identifiable, comprehensible and traceable" (Art. 17). These rules
+were written before a tool arrived that can do significant parts of
+the work, cannot be listed as an author, and leaves no trace unless
+you choose to keep one. The standard has not changed. The thing we
+now have to be transparent and traceable about has.
+
+In my daily practice, I have come to the conclusion that agentic
+coding tools (Claude Code), combined with Git and GitHub and
+open-source reproducible notebooks (Quarto), give me a way to
+document exactly which parts of a project, be it data driven, prose
+driven, or teaching material, are written by me and which are written
+or assisted by an agentic tool.
+
+In practice that means:
+
+- Claude Code uses a `SKILL.md` to write every commit message. The message gives a detailed overview of all changes made to a set of files, and who made them.
+- I decide whether the prompts used for the work in that commit are documented in a `prompts/` folder at the root of the repository.
+- Claude Code uses a `SKILL.md` to open a pull request.
+- I review the pull request, add comments, link in people, and merge once it is ready.
+
+Every folder now carries a track record of the work done by a human
+and by the machine. This is exactly the traceability that Art. 4 and
+Art. 17 ask for, produced as a side effect of how I work rather than
+as an afterthought. And the next time a journal asks for a statement
+on the use of AI, you can point them to your public repository
+instead of reconstructing the answer from memory.
+
+As an example: this blog post was written entirely by a human first.
+It was then added to a folder alongside a copy of the ETH guidelines.
+Claude Code was used to open the folder, read the guidelines, and edit
+the prose. The first draft is the initial commit, documented as my
+contribution. The edits are attributed to Claude. You can read the
+whole history in the
+[repository](https://github.com/Global-Health-Engineering/website),
+and the exact prompts that produced these edits are archived,
+verbatim, in the
+[`prompts/` folder](https://github.com/Global-Health-Engineering/website/tree/main/prompts).
+
+So, before your next manuscript, your next grant application, or your
+next exam: who wrote it, and could you prove it?
+
+## Want to try this yourself?
+
+I run a two-part workshop series, *Agents for Scientists*, on this way
+of working: Git, GitHub, and agentic coding for research, with a
+traceable record of human and machine contributions from the first
+commit to the final pull request. It is aimed at researchers who want
+to use AI tools without losing sight of who did what, and each part is
+capped at 20 participants. The two workshops are designed to be taken
+together, with the first as a prerequisite for the second.
+
+- **Workshop 1: Git and GitHub for Collaboration in Scientific Work.**
+  15 July 2026, 09:30–14:30, at the
+  [ETH Zurich CLD Building](https://ghe.ethz.ch/about/how-to-find-us.html).
+  A hands-on introduction using the RStudio interface and the terminal
+  with local installations. Details in the
+  [workshop repository](https://github.com/gitforsci-ghe).
+- **Workshop 2: Agentic Coding for Collaboration and Scientific Work.**
+  September 2026, 08:30–17:00, at
+  [Villa Hatt](https://ethz.ch/en/campus/access/region-zurich/villa-hatt.html),
+  ETH Zurich. A critical, hands-on day on agentic coding tools:
+  risk assessment, security concerns, handling of personal data, and
+  treating agents as fully versioned and reviewable collaborators.
+
+Over the two days you build the exact workflow described above: issues
+that document each agent task, every agent change committed for review
+and reversion, agent-written commit messages that record the
+decisions, and a `prompts/` folder that archives every prompt with
+timestamps and links to the commits it produced.
+
+The series is funded by the Swiss Reproducibility Network (ETH Zurich
+node), the Data Stewardship Network at ETH Zurich, the swissuniversities
+Open Science Programme, and the Global Health Engineering group at
+ETH Zurich.
+
+[Sign up for both workshops](https://forms.gle/Zf5fPsPJqUxEoLgKA), and
+find more at [github.com/agentsforsci](https://github.com/agentsforsci).
+
+Reference: [ETH Zurich Guidelines on Scientific Integrity (RSETHZ 414, PDF)](https://ethz.ch/content/dam/ethz/main/eth-zurich/organisation/rechtssammlung/414en.pdf)

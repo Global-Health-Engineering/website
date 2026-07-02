@@ -32,7 +32,7 @@ p <- ghe_repos |>
             position = position_stack(vjust = 0.5),
             color = "grey20",
             fontface = "bold",
-            size = 2) +
+            size = 3) +
   labs(
     title = "Public GitHub repositories at Global Health Engineering",
     subtitle = "Growth by year created, coloured by license",
@@ -41,7 +41,7 @@ p <- ghe_repos |>
     fill = "License:"
   ) +
   scale_fill_brewer(palette = "Set3", na.value = "grey60") +
-  guides(fill = guide_legend(nrow = 1, reverse = TRUE)) +
+  guides(fill = guide_legend(nrow = 2, reverse = TRUE)) +
   statR::theme_stat(base_size = 13) +
   theme(
     panel.grid.major.x = element_blank(),
