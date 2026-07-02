@@ -71,10 +71,10 @@ instead of reconstructing the answer from memory.
 As an example: this blog post was written entirely by a human first.
 It was then added to a folder alongside a copy of the ETH guidelines.
 Claude Code was used to open the folder, read the guidelines, and edit
-the prose. The first draft is the initial commit, documented as my
-contribution. The edits are attributed to Claude. You can read the
+the prose. The first draft is the [initial commit](https://github.com/Global-Health-Engineering/website/commit/0d259bdf79a515796cead43eef90b5a23edad9de), documented as my
+contribution. The edits are [attributed to Claude](https://github.com/Global-Health-Engineering/website/commit/8b3099e42e03b597e2367ff573665c0d28f22b74). You can read the
 whole history in the
-[repository](https://github.com/Global-Health-Engineering/website),
+[pull request](https://github.com/Global-Health-Engineering/website/pull/4),
 and the exact prompts that produced these edits are archived,
 verbatim, in the
 [`prompts/` folder](https://github.com/Global-Health-Engineering/website/tree/main/prompts).
@@ -88,9 +88,12 @@ I run a two-part workshop series, *Agents for Scientists*, on this way
 of working: Git, GitHub, and agentic coding for research, with a
 traceable record of human and machine contributions from the first
 commit to the final pull request. It is aimed at researchers who want
-to use AI tools without losing sight of who did what, and each part is
-capped at 20 participants. The two workshops are designed to be taken
+to use AI tools without losing sight of who did what. The two workshops are designed to be taken
 together, with the first as a prerequisite for the second.
+
+Sign up for both workshops at: <https://forms.gle/Zf5fPsPJqUxEoLgKA> 
+
+Find out more at [github.com/agentsforsci](https://github.com/agentsforsci).
 
 - **Workshop 1: Git and GitHub for Collaboration in Scientific Work.**
   15 July 2026, 09:30–14:30, at the
@@ -105,18 +108,4 @@ together, with the first as a prerequisite for the second.
   risk assessment, security concerns, handling of personal data, and
   treating agents as fully versioned and reviewable collaborators.
 
-Over the two days you build the exact workflow described above: issues
-that document each agent task, every agent change committed for review
-and reversion, agent-written commit messages that record the
-decisions, and a `prompts/` folder that archives every prompt with
-timestamps and links to the commits it produced.
-
-The series is funded by the Swiss Reproducibility Network (ETH Zurich
-node), the Data Stewardship Network at ETH Zurich, the swissuniversities
-Open Science Programme, and the Global Health Engineering group at
-ETH Zurich.
-
-[Sign up for both workshops](https://forms.gle/Zf5fPsPJqUxEoLgKA), and
-find more at [github.com/agentsforsci](https://github.com/agentsforsci).
-
-Reference: [ETH Zurich Guidelines on Scientific Integrity (RSETHZ 414, PDF)](https://ethz.ch/content/dam/ethz/main/eth-zurich/organisation/rechtssammlung/414en.pdf)
+The series is funded by the [Swiss Reproducibility Network (SwissRN)](https://www.swissrn.org/contents/community/nodes/) local node at ETH Zurich & [Data Stewardship Network at ETH Zurich](https://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/data-stewardship.html), funded by the [swissuniversities Open Science Programme](https://www.swissuniversities.ch/en/topics/open-science/open-science-programme) & [Global Health Engineering group at ETH Zurich](https://ghe.ethz.ch/)
