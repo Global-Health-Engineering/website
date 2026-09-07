@@ -1,0 +1,64 @@
+---
+title: "dsn"
+format: html
+---
+
+# Poll - hands up
+
+- Has AI touched a document you touch this month?
+- Could you show which paragraph, code, figures?
+
+# Researchers reality
+
+- Knowing Git or not, must researchers reality is that manuscripts sit in DOCX and track changes
+- Git stay with the coders, because the overhead was too much to ask
+
+# Open science culture
+
+- Open sciene is a way of working, it's not a tick box of whether or not your content is open
+- Look at this figure, it's overwhelming, and doesn't cover essence
+- Open science is about a culture of openessess, sharing the process of doing research, rather than end product, being transparent and making oneself vulnerable 
+
+# Agents have made it cheap, but also insecure
+
+- 2023: a non-forgiving terminal,  clone, branch, stage, message, push, PR text, conflicts
+- 2026: say what you want, read what was done, comment on it, and integrate 
+- Agents do the mechanics, Humans the important parts: validation, correction, approval 
+- And with Git, all tracked and documented.
+- Left to teach: reading a diff, reviewing a PR, and most importantly knowing what never enters a repository
+- Not using Git made data security issues invisible, but it was never easier to paste sensitive, personal content into a chat windows, which has made data security training one of the most important aspects
+
+
+# Line
+
+> "Every PhD should be forced to learn Git" - Research Software Engineer at DSN comminuty event in Month Year
+
+# Agreement
+
+- I have agreed then, but would have used a different approach than force. Sadly, force might have been the only way. Luckily, that has changed now. We can finally sell it.
+- Code and reproducibility is one aspect, but the reality is that this is the only record now that can tell their work from the machine's
+
+# Complication with AI
+
+- 30 minute papers, fake papers mined from open data
+- journals asking for proof of human work, which is a step up from declaring use of AI, and a good one
+
+# Declare vs. prove
+
+- The current developments on AI declaration are going towards tick boxes, filled from memory. I think that's counterproductive. 
+- Show screenshot of 18 boxes.
+- The research papers I write, tick all boxes today. I cannot claim anymore that AI hasn't influenced my idea generation.
+- Doesn't it matter more that I show my workflow, dated commits, prompts, human drafts, literature notes, compounded knowledge base (aka LLM Wiki) and am public and transparent by sharing those artifacts alongside the papers?
+
+# FAIR by doing
+
+- We have submitted a proposal to train 15 researchers and in parallel use those 12 months as an experimental setup for researching AI declaration or declarition on the involvement of the human
+- Interest to participate can be expressed here:
+
+# GFRN AI Working
+
+- I am working with the Global ... to submit to the online for the next roun
+- As the Data Stewardship Network, we have an opportunity to submit as a collective voice. I would love to host a meeting where we discuss a combined submission. 
+
+
+
