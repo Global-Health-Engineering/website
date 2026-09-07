@@ -42,6 +42,43 @@ say slide 9 while slide 8 is up, then drop the 2023 column detail.
 Lines marked TODO need a fact or a file before the talk.
 -->
 
+<!--
+Trial run at the GHE weekly, 2026-09-07 (vault voice note 38, wiki page
+wiki/teaching/dsn-autumn-2026-talk). Given from this outline before the
+images existed. The talk proper ran 11:16 against the 8 minute target.
+
+Timing by slide, planned / actual:
+  intro before the polls        0:00 / 0:33   (host introduces at DSN, cut)
+  two polls                     0:40 / 0:41
+  researchers' reality          0:20 / 0:26
+  open science culture          1:00 / 0:58
+  agents made it cheap          0:40 / 0:58
+  humans keep the important     0:30 / 0:47
+  left to teach, data security  0:40 / 1:29   (grew into a guardrails talk)
+  the line                      0:20 / 0:38   (stalled on "not worked out yet")
+  the only record               0:20 / 0:27
+  declaration boxes, said early 0:00 / 0:31   (then said again on declare or prove)
+  the 30 minute paper           1:00 / 0:56   (no number given)
+  declare or prove              1:00 / 0:58
+  FAIR by doing                 0:30 / 0:37
+  GFRN and the DSN ask          0:30 / 1:06   (aside about the previous week)
+
+Learnings for the next version:
+- The one idea, "a declaration says what the AI did, an audit trail
+  proves what the human did", was said five times. Build outward from it.
+- Write a script and rehearse it; mostly images, far fewer words.
+- Replace the second poll with the four level scale of proof: from
+  memory, from the artifacts, from the record, public and per prompt.
+  All hands stayed up on the yes/no version.
+- Keep the line said on the day: "letting others watch you while you're
+  doing it, because you make decisions differently".
+- Put one number on the paper mill slide (4 a year to 190 in 2024).
+- Say the open data answer aloud: data stays open, the repository
+  records how it is used.
+- Make the declaration point once, on the declare or prove slide.
+- Cut the intro and the aside in the close. Plan to 7:30, timer at 6:30.
+-->
+
 ## Poll
 
 Has AI touched a document you sent this month?
