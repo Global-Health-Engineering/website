@@ -2,6 +2,14 @@
 title: "{{< fa display >}} Slides"
 ---
 
+## Data Stewardship Network Autumn Community Meeting 2026 - ETH Zurich
+
+[View slides in full screen](dsn-autumn-2026.html)
+
+```{=html}
+<iframe class="slide-deck" src="dsn-autumn-2026.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## ReproducibiliTea Journal Club 2026 - University of Zurich
 
 [View slides in full screen](reproducibilitea.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/reproducibilitea.pdf)
