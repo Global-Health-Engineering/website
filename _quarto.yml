@@ -28,7 +28,7 @@ format:
       light: [litera, theme.scss]
     css: styles.css
     toc: true
-    mainfont: "Atkinson Hyperlegible"
+    mainfont: "Atkinson Hyperlegible Next"
     code-copy: true
     code-overflow: wrap
     include-in-header: 
