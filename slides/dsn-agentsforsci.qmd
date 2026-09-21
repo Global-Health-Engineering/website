@@ -1,18 +1,5 @@
 ---
-title: "Git for Scientists"
-subtitle: "So that we can still prove what is human"
-author:
-  - name: Lars Schöbitz
-    affiliations:
-        - name: Global Health Engineering - ETH Zurich
-          url: https://ghe.ethz.ch/
-        - name: SwissRN Local Node ETH Zurich
-          url: https://www.swissrn.org/contents/community/nodes/#local-node-leaders
-        - name: "Slides: ghe-open.ch/slides/"
-          url: https://ghe-open.ch/slides/
-        - name: "Data Stewardship Network Autumn Community Meeting, ETH Zurich, 22 September 2026"
-date: 2026-09-22
-date-format: long
+pagetitle: "Git for Scientists"
 format:
   revealjs:
     theme: slides.scss
@@ -33,7 +20,29 @@ execute:
 bibliography: ["dsn-autumn-2026.bib", "references.bib"]
 ---
 
-# 2023 
+## {#title}
+
+::: {.kicker}
+Data Stewardship Network Autumn Community Meeting, ETH Zurich, 22 September 2026
+:::
+
+::: {.display}
+Git for Scientists
+:::
+
+::: {.topic}
+So that we can still [prove what is human]{.accent} when working with AI in research.
+:::
+
+::: {.foot}
+Lars Schöbitz, Global Health Engineering, ETH Zurich, and SwissRN local node ETH Zurich. Slides: [ghe-open.ch/slides](https://ghe-open.ch/slides/)
+:::
+
+::: notes
+Git for Scientists, so that we can still prove what is human.
+:::
+
+# 2023 {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
 ::: notes
 Git for Scientists, so that we can prove what is human. Remember 2023. This is what working on a computer felt like: set back to the stone age.
@@ -49,12 +58,12 @@ Git for Scientists, so that we can prove what is human. Remember 2023. This is w
 :::
 
 ::: {.column width="50%"}
-![](img/dsn-2026/stone-age-vasnetsov.jpg){fig-align="center" height="330"}
+![](img/dsn-2026/stone-age-vasnetsov.jpg){fig-align="center" height="360"}
+:::
+:::
 
-::: {.smallest}
-Viktor Vasnetsov, Stone Age (detail). Public domain, via Wikimedia Commons.
-:::
-:::
+::: footer
+Image: Viktor Vasnetsov, Stone Age (detail), public domain, via Wikimedia Commons
 :::
 
 ::: notes
@@ -97,7 +106,7 @@ Ask yourself:
 - the fourth is where the human shows: comments on issues and pull requests, reviews, drafts, sessions over time. Which traces prove the human? That is the question for the discussion.
 :::
 
-# 2026
+# 2026 {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
 ::: notes
 Fast forward to 2026. Three years that feel like light years for scientific workflows.
@@ -117,11 +126,11 @@ AI makes Git easier to use, and more necessary.
 
 ::: {.column width="45%"}
 ![](img/dsn-2026/clawd.gif){fig-align="center" height="330"}
+:::
+:::
 
-::: {.smallest}
-Clawd icon: [cleverhack.com/img/clawd.gif](https://cleverhack.com/img/clawd.gif) (copy in img/dsn-2026/clawd.gif).
-:::
-:::
+::: footer
+Image: Clawd icon, [cleverhack.com/img/clawd.gif](https://cleverhack.com/img/clawd.gif)
 :::
 
 ::: notes
@@ -130,9 +139,11 @@ AI makes Git easier to use, and more necessary. One thing has changed: interacti
 
 ## Declaration of AI
 
-International Science Council. AI disclosure in research: towards a global reporting standard.
-
 ![](img/dsn-2026/wcri-18-boxes.png){fig-align="center" width="100%"}
+
+::: footer
+Image: International Science Council, AI disclosure in research: towards a global reporting standard, round 2 preparatory reading
+:::
 
 ::: notes
 With reward, I mean the possibility to declare what is human, rather than the use of AI. These are the 18 boxes proposed for the next standard on declaring AI use in research. What I miss is turning it around. I cannot claim that AI hasn't touched all 18 areas of a paper I write. So it becomes ticking boxes, and not ticking one sends a different signal than the one we hope for.
@@ -152,6 +163,10 @@ With reward, I mean the possibility to declare what is human, rather than the us
 :::
 :::
 
+::: footer
+Image: Barnett and Spick, LSE Impact blog, 17 March 2026, [blogs.lse.ac.uk/impactofsocialsciences](https://blogs.lse.ac.uk/impactofsocialsciences/2026/03/17/research-integrity-is-locked-into-an-arms-race-with-agentic-ai-slop/)
+:::
+
 ::: notes
 An AI can now produce a paper from open data in 30 minutes. It has been tried, and it works: single-factor papers from the NHANES database went from about 4 a year to 190 in 2024. The things we have promoted for years, well documented open data, make paper mills possible. Say the answer once: the data stays open, and the repository records how it is used, by whom, and where. What is left for us, and how do we prove what we did? We can track every change to every file in a folder. We can show what we wrote, and what the agent wrote. The declaration becomes simple and automated: the history documents every change, and the issues document the tasks we planned for the AI and commented on. This is our opportunity.
 :::
@@ -160,11 +175,11 @@ An AI can now produce a paper from open data in 30 minutes. It has been tried, a
 
 So that we can prove what is human when working with AI in research.
 
-::: incremental TODO: each term in brackets () highlight yellow
-- Read the tracked changes between two versions of a files (a diff) 
-- Understand how to experiment safely (a branch)
-- Review what has gone into a set of changes (a pull request)
-- Know what should never enter a repository, or an AI tool (data security)
+::: incremental
+- Read the tracked changes between two versions of a file [(a diff)]{.highlight-yellow}
+- Understand how to experiment safely [(a branch)]{.highlight-yellow}
+- Review what has gone into a set of changes [(a pull request)]{.highlight-yellow}
+- Know what should never enter a repository, or an AI tool [(data security)]{.highlight-yellow}
 :::
 
 ::: notes
@@ -177,12 +192,16 @@ So that we can prove what is human when working with AI in research.
 ::: {.column width="55%"}
 - Handbook for how to set up and run the workshop
 - Open, CC BY, for any data steward or RSE to teach
-- [gitforsci.github.io/website](gitforsci.github.io/website)
+- [gitforsci.github.io/website](https://gitforsci.github.io/website)
 :::
 
 ::: {.column width="45%"}
 ![](img/dsn-2026/qr-gitforsci-handbook.png){fig-align="center" height="330"}
 :::
+:::
+
+::: footer
+Image: QR code to [gitforsci.github.io/website](https://gitforsci.github.io/website)
 :::
 
 ::: notes
@@ -204,17 +223,21 @@ Our GitHub organisation carries the handbook for how we teach these workshops, s
 :::
 :::
 
+::: footer
+Image: RDC 2026 session page, [conftool.pro/rdc2026](https://www.conftool.pro/rdc2026/index.php?page=browseSessions&form_date=2026-11-20&form_session=25&mode=table&presentations=hide)
+:::
+
 ::: notes
 [In November the workshop goes to the Research Data Conference in Bern: a 120-minute hands-on session, taught from the learner's seat and pitched to educators who want to teach it themselves.]
 :::
 
-# Agents for Scientists
+# Agents for Scientists {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
 ## Agents for Scientists
 
 Handing the need to know over to the AI
 
-- **Work safely**: Git lets you revert (TODO: need better class for bold, not visible here)
+- **Work safely**: Git lets you revert
 - **Experiment freely**: agentic AI opens endless possibilities
 - **Track AI use**: prompts and resulting changes are recorded 
 
@@ -241,25 +264,37 @@ Express interest here:
 :::
 :::
 
+::: footer
+Image: QR code to the expression of interest form, [forms.gle/zx1eG7XSy8SAcenH8](https://forms.gle/zx1eG7XSy8SAcenH8)
+:::
+
 ::: notes
 [FAIR by doing is a 12 month programme with five workshops on Git, GitHub, FAIR data publishing, and agentic AI.] After the basics, participants get a full day with Greg Wilson on Organizational Change for Open Science. Anyone at ETH is welcome, especially qualitative researchers and people from non-IT backgrounds: they would start using these tools last, and can benefit just as much now. Express interest through the QR, and pass it on to the researchers you support. Decision by early December, then we pick up the conversation. The programme starts in February 2027.
 :::
 
-# Declaration of AI use
+# Declaration of AI use {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
 ## A prompts folder in every repository
 
 ![](img/dsn-2026/prompts-folder.png){fig-align="center" height="360"}
 
-- every prompt is recorded; one markdown file per prompt; folder of these slides
+- Every prompt recorded, one Markdown file each. This is the prompts folder of these slides.
 
+::: footer
+Image: the prompts folder of [github.com/Global-Health-Engineering/website](https://github.com/Global-Health-Engineering/website/tree/main/prompts)
+:::
 
 ::: notes
 I have experimented with the idea of documenting the process of creation for a while now. Since about May 2026, I record every prompt to Claude Code alongside the files in a repository. This is the prompts folder for the repository where these slides are stored.
 :::
 
 ## One file per prompt
+
 ![](img/dsn-2026/prompt-file.png){fig-align="center" height="360"}
+
+::: footer
+Image: prompts/2026-09-21-005-worked-through-the-slides-left-todos-and-links.md in the same repository
+:::
 
 ::: notes
 - An id and a timestamp
@@ -268,9 +303,13 @@ I have experimented with the idea of documenting the process of creation for a w
 - The prompt itself, verbatim, at the bottom
 :::
 
-## A commit skill (TODO image large)
+## A commit skill {.small-title}
 
-![](img/dsn-2026/commit-with-prompts.png){fig-align="center" height="360"}
+![](img/dsn-2026/commit-with-prompts.png){fig-align="center" height="470"}
+
+::: footer
+Image: [github.com/Global-Health-Engineering/website/commit/754eb73](https://github.com/Global-Health-Engineering/website/commit/754eb73)
+:::
 
 ::: notes
 - Claude Code makes the commit in a standard way
@@ -288,6 +327,7 @@ I can now prompt: use the traces of commits, prompt folders, and pull requests t
 
 ## Thanks [{{< fa sun >}}]{.accent} {#thanks}
 
+::: {.thanks}
 ::: {.columns}
 ::: {.column width="47%"}
 
@@ -296,9 +336,9 @@ References
 :::
 
 - **These slides:** [download as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/dsn-agentsforsci.pdf)
-- **Built with Quarto and reveal.js:** [quarto.org/docs/presentations/revealjs](https://quarto.org/docs/presentations/revealjs/)
+- Built with [Quarto](https://quarto.org/docs/presentations/revealjs/) and reveal.js
 
-**Funding and support:** [Swiss Reproducibility Network (SwissRN)](https://www.swissrn.org/contents/community/nodes/) local node at ETH Zurich & [Data Stewardship Network at ETH Zurich](https://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/data-stewardship.html), funded by the [swissuniversities Open Science Programme](https://www.swissuniversities.ch/en/topics/open-science/open-science-programme) & [Global Health Engineering group at ETH Zurich](https://ghe.ethz.ch/)
+**Funding and support:** [SwissRN](https://www.swissrn.org/contents/community/nodes/) local node ETH Zurich and the [Data Stewardship Network](https://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/data-stewardship.html) at ETH Zurich, funded by the [swissuniversities Open Science Programme](https://www.swissuniversities.ch/en/topics/open-science/open-science-programme), and [Global Health Engineering](https://ghe.ethz.ch/), ETH Zurich
 
 :::
 ::: {.column width="53%"}
@@ -307,16 +347,17 @@ References
 Resources
 :::
 
-- Git for Scientists Handbook: https://gitforsci.github.io/website
-- Agents for Scientists: https://github.com/agentsforsci
-- FAIR by doing proposal: https://github.com/Global-Health-Engineering/fair-training
-- FAIR by doing expression of interest form: https://forms.gle/zx1eG7XSy8SAcenH8
+- [Git for Scientists handbook](https://gitforsci.github.io/website)
+- [Agents for Scientists](https://github.com/agentsforsci)
+- [FAIR by doing proposal](https://github.com/Global-Health-Engineering/fair-training)
+- [FAIR by doing: expression of interest form](https://forms.gle/zx1eG7XSy8SAcenH8)
 
 :::
 :::
 
 ::: {.foot}
-All material is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+All material licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+:::
 :::
 
 ::: notes
