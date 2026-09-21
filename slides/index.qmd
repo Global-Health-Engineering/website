@@ -4,10 +4,12 @@ title: "{{< fa display >}} Slides"
 
 ## Data Stewardship Network Autumn Community Meeting 2026 - ETH Zurich
 
-[View slides in full screen](dsn-autumn-2026.html)
+Git for Scientists, so that we can still prove what is human when working with AI in research. 22 September 2026.
+
+[View slides in full screen](dsn-agentsforsci.html) | [Declaration of AI use](dsn-agentsforsci-ai-declaration.html) | [Trial run version of 7 September](dsn-autumn-2026.html)
 
 ```{=html}
-<iframe class="slide-deck" src="dsn-autumn-2026.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" src="dsn-agentsforsci.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## ReproducibiliTea Journal Club 2026 - University of Zurich

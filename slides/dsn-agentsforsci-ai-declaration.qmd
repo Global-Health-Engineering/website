@@ -1,0 +1,216 @@
+---
+title: "Declaration of AI use for the talk Git for Scientists"
+subtitle: "Data Stewardship Network Autumn Community Meeting, ETH Zurich, 22 September 2026"
+author: Lars Schöbitz
+date: 2026-09-21
+date-format: long
+toc: true
+---
+
+## Declaration
+
+The author, Lars Schöbitz, used the AI tool Claude Code with the model claude-fable-5-1 (Anthropic) to prepare the slide deck "Git for Scientists" for the Data Stewardship Network Autumn Community Meeting at ETH Zurich on 22 September 2026. He used the tool on 21 September 2026 between 09:45 and 13:24 to turn his outline and his recorded talk into slides and speaker notes, to tighten the speaker notes, to place the images and their source lines, to write the commit messages, to generate two QR code images, and to style the deck. He wrote the outline, gave and recorded the talk twice, gathered the images, entered the references, and decided on every proposed text change. He remains responsible for all content of the deck. The deck cites no AI output as a source, and no AI is named as an author.
+
+The author also used the same tool on 7 September 2026 for the earlier version of the deck, which he gave as a trial run. The record of that version is listed under lineage below.
+
+## How this page was made
+
+Claude Code generated this page on 21 September 2026 with the model claude-fable-5-1. The prompt is the one quoted on the slide "Let the AI declare your AI use" in the deck. The tool read only this repository. It used the following sources:
+
+- the prompt files in the prompts folder,
+- the git history of the deck, including the trailers in the commit messages,
+- the git blame of the deck file, which names the last commit that touched each line,
+- the images folder of the deck,
+- the pull requests of the repository,
+- the deck file itself, including its speaker notes.
+
+The page checks the record against two documents:
+
+- ETH Zurich, Information Security and Artificial Intelligence (AI), Guide for Users of AI at ETH Zurich, 24 July 2025 ([PDF](https://ethz.ch/content/dam/ethz/associates/services/News/service-news/2025/09/250923-ki-leitfaden/ETH-InfoSec-AI-Guide-EN.pdf)), called the AI guide below.
+- ETH Library, Zitierleitfaden der ETH Zürich, section "Generative künstliche Intelligenz", last updated 17 February 2025 ([PDF](https://ethz.ch/content/dam/ethz/associates/ethlibrary-dam/documents/ETH-Zuerich_Zitierleitfaden.pdf)), called the citation guide below.
+
+The author reviewed the page before committing it. The prompt that produced the page is added to the prompts folder at commit, so the generation of the declaration is itself part of the record.
+
+## What the page covers
+
+The page covers the file `slides/dsn-agentsforsci.qmd` at commit 643d506 of 21 September 2026, 13:45, plus the edits in the working tree at the time of generation. The uncommitted edits change seven lines. They replace two "TODO" markers with hand icons on the poll slides, rename one slide title, and put the full prompt on the slide "Let the AI declare your AI use". No prompt file covers the uncommitted edits.
+
+The deck replaced an earlier deck, `slides/dsn-autumn-2026.qmd`, which the author gave as a trial run at the Global Health Engineering weekly on 7 September 2026. The two decks share the reference file `slides/dsn-autumn-2026.bib`.
+
+## The record
+
+### Tool and model
+
+The record names one AI tool and one model.
+
+- The tool is Claude Code by Anthropic, run in the terminal. The deck names it on the slide "Agents for Scientists" and on the slide "A commit skill". The version of Claude Code is not recorded in the repository.
+- The model is claude-fable-5-1. Every prompt file records it in the field `model`, and every assisted commit records it in the trailer `Assisted-by: Claude claude-fable-5-1`.
+
+### Prompts
+
+Ten prompt files cover the deck. Each file holds an id, a timestamp, the model, the files the session touched, and the prompt as typed. The prompts hold 672 words in total.
+
+| Id | Time | What the author asked |
+|---|---|---|
+| 2026-09-21-001 | 09:45 | Start the new deck from the revised outline, transcribe the recorded talk, put the transcript in a draft first |
+| 2026-09-21-002 | 09:56 | Rework the slides along the transcript and build the transcript into the speaker notes |
+| 2026-09-21-003 | 10:10 | Commit, then tighten the speaker notes, fix transcription errors, and present the changes for review |
+| 2026-09-21-004 | 10:17 | Review decisions for 12 proposed changes to the notes, 11 accepted and 1 edited |
+| 2026-09-21-005 | 10:50 | Work in the author's edits, three image sources, and the removal of clock times from the notes, then commit |
+| 2026-09-21-006 | 11:41 | Transcribe the recording of the talk given at the weekly, document the questions, and propose improvements |
+| 2026-09-21-007 | 12:40 | Apply the nine improvements |
+| 2026-09-21-008 | 12:58 | Integrate three screenshots for the new section and move the author's text to the speaker notes |
+| 2026-09-21-009 | 13:17 | Commit, then six styling items and the open TODOs, presented for review |
+| 2026-09-21-010 | 13:23 | Review decisions for 14 proposed changes, all accepted |
+
+Two prompts carried a pasted image, prompt 001 and prompt 009. The prompt files do not keep the images. Prompt 001 says the image was for the slide with the AI taxonomy, which is the screenshot of the 18 boxes.
+
+Prompts 004 and 010 are the author's decisions from two rounds of review. Across both rounds the author decided 26 units of text, accepted 25 as proposed, and edited 1.
+
+### Commits
+
+Eleven commits touch the deck. All are on the branch dev, all are authored by larnsce (Lars Schöbitz), and all date from 21 September 2026.
+
+| Commit | Time | Subject | Trailer | Prompt files |
+|---|---|---|---|---|
+| f58a0b4 | 09:35 | initial commit of new outline | none | none |
+| 65d7526 | 10:12 | docs(slides): DSN deck from outline and recording | Assisted-by | 001, 002 |
+| b9b94fe | 10:18 | docs(slides): tighten the DSN speaker notes | Assisted-by | 003, 004 |
+| be09676 | 10:50 | edit slides, add comments | none | none |
+| 276b698 | 11:40 | docs(slides): wire in images and RDC 2026 facts | Assisted-by | 005 |
+| 4d65e74 | 12:41 | revise slides | none | none |
+| 754eb73 | 12:45 | docs(slides): improvements from the GHE weekly run | Assisted-by | 006, 007 |
+| 756ff56 | 13:18 | docs(slides): declaration of AI use section | Assisted-by | 008 |
+| 8d84e46 | 13:24 | docs(slides): opening slide, dark sections, footers, font | Assisted-by | 009, 010 |
+| 29162eb | 13:36 | minor slide revisions | none | none |
+| 643d506 | 13:45 | improve Digital research slide | none | none |
+
+Six commits carry the trailer `Assisted-by: Claude claude-fable-5-1` and a `Prompts:` list. Their messages describe what the tool changed and what the author contributed. Five commits carry no trailer and no prompt file. They were made without the commit skill, and their messages are the author's own short lines. The record shows no AI use for the five commits. It cannot prove that there was none.
+
+No commit names the AI as a co-author. The AI appears in the `Assisted-by` trailer only, and no commit carries a `Co-Authored-By` trailer.
+
+### Pull requests
+
+The repository has four merged pull requests, all from dev into main, opened by the author. The last one was merged on 2 July 2026. None of them covers the deck. At the time of generation the eleven commits sit on dev, which is 30 commits ahead of main, and the last four commits are not yet pushed to origin. So there is no pull request and no review comment for the deck yet.
+
+### Lines of the deck by last commit
+
+The git blame names the last commit that touched each line of the deck. The table counts the lines that are not blank.
+
+| Last commit | Lines | Share |
+|---|---|---|
+| A commit with the Assisted-by trailer | 221 | 78% |
+| A commit with no trailer | 55 | 20% |
+| Uncommitted edits | 6 | 2% |
+| Total | 282 | 100% |
+
+The share of assisted lines is an upper bound of what the AI wrote, for two reasons. First, the message of commit 65d7526 says that the tool turned the author's outline into the deck. The outline came from commit f58a0b4 and had 147 lines, so lines the author wrote now show the assisted commit that reformatted them. Second, the message of commit 756ff56 says that the author's typed text became the speaker notes and that the diff carries both the tool's section build and the author's own revisions. Blame cannot separate the two.
+
+The deck file holds 2,087 words, of which 1,050 are speaker notes.
+
+### What the AI did
+
+The commit messages and the prompts record the following contributions of the tool.
+
+- It turned the author's outline and the transcript of the author's recorded run through into a reveal.js deck with speaker notes (commit 65d7526).
+- It tightened the speaker notes from 937 to 744 words. The author accepted or edited each change (commit b9b94fe).
+- It placed the images the author had gathered, added their source lines, and entered the event facts of the Research Data Conference 2026 from the ConfTool page (commit 276b698).
+- It applied nine changes the author asked for after the talk at the weekly (commit 754eb73).
+- It built the section "Declaration of AI use" from the author's outline and screenshots (commit 756ff56).
+- It styled the opening slide, the four section slides, the footers, and the closing slide, and moved the site and the deck to the font Atkinson Hyperlegible Next. The commit also touched `_quarto.yml`, `theme.scss`, and `slides/slides.scss` (commit 8d84e46).
+- It generated the two QR code images (commit 65d7526). The method is not recorded.
+- It corrected one URL in the reference file, using the URL the author supplied in prompt 005 (commit 276b698).
+- It wrote the messages of the six assisted commits.
+- It transcribed two recordings of the author's talk. The commit messages call them vault voice notes 47 and 48. The recordings and transcripts are kept outside the repository.
+
+### What the author did
+
+The record shows the following contributions of the author.
+
+- He wrote the outline of the deck (commit f58a0b4, 147 lines, no AI use recorded).
+- He gave and recorded the talk twice, on 7 September 2026 as a trial run (commit 4087b5a) and on 21 September 2026 at the weekly (commit 754eb73), and asked for changes based on the recordings.
+- He decided on all 26 proposed text changes in the two rounds of review (prompt files 004 and 010).
+- He made five commits with no AI use recorded, the outline (f58a0b4) and four rounds of edits by hand (be09676, 4d65e74, 29162eb, 643d506), and he made the uncommitted edits.
+- He gathered the screenshots, the painting file, the icon, and the terminal recording (commits 276b698 and 756ff56).
+- He entered the six references in the reference file (commit 66547a5 of 7 September 2026, no AI use recorded).
+- He wrote the ten prompts.
+
+### Images
+
+| File | Slide | Source | Who made or gathered it | Licence in the record |
+|---|---|---|---|---|
+| stone-age-vasnetsov.jpg | Digital Research in 2023 | Viktor Vasnetsov, Stone Age (detail), Wikimedia Commons | The author gathered it (commit 276b698) | Public domain, named in the slide footer |
+| clawd.gif | (Digital) Research in 2026 | cleverhack.com/img/clawd.gif | The author gathered it (commit 276b698) | Not recorded |
+| wcri-18-boxes.png | Declaration of AI | Screenshot of the International Science Council consultation document | The author gathered it and pasted it into prompt 001 (commit 65d7526) | Third party document, cited in the slide footer |
+| lse-arms-race.png | Declaration of human | Screenshot of the LSE Impact blog post | The author gathered it (commit 276b698) | Third party page, cited in the slide footer |
+| qr-gitforsci-handbook.png | Git for Scientists: open educational resource | QR code to the handbook site | The tool generated it (commit 65d7526) | None needed |
+| rdc-2026-bern.png | Git for Scientists: RDC 2026, Bern | Screenshot of the ConfTool session page | The author gathered it (commit 276b698) | Third party page, cited in the slide footer |
+| qr-fair-by-doing.png | FAIR by doing | QR code to the expression of interest form | The tool generated it (commit 65d7526) | None needed |
+| prompts-folder.png | A prompts folder in every repository | The author's screenshot of the prompts folder | The author (commit 756ff56) | The author's own |
+| prompt-file.png | One file per prompt | The author's screenshot of one prompt file | The author (commit 756ff56) | The author's own |
+| commit-with-prompts.png | A commit skill | The author's screenshot of commit 754eb73 on GitHub | The author (commit 756ff56) | The author's own |
+| eth-kolloquium/silhouette.jpg | The four section slides | Background reused from the ETH Library colloquium deck in the same folder | Committed on 20 November 2024, before any AI use recorded in the repository | Not recorded in the deck |
+| claude-code-terminal.gif | Not used in the deck | The author's own terminal recording | The author (commit 276b698) | The author's own |
+
+No image in the deck was generated by an image model. The two QR codes are the only files the tool produced.
+
+### Facts entered through assisted commits
+
+The AI guide asks users to review all results of the AI for accuracy before they use them in a presentation. The following facts entered the deck through assisted commits. The author is responsible for checking them against the named source.
+
+- The Research Data Conference 2026 takes place on 19 and 20 November 2026 on the Gurten in Bern. The workshop runs on Friday 20 November from 9:30 to 11:30 and lasts 120 minutes. The commit message names the ConfTool session page as the source (commit 276b698).
+- Single factor papers from the NHANES database went from about 4 a year to 190 in 2024. The commit message attributes the count to Suchak et al. (commit 754eb73). The reference file holds the entry suchak2025explosion, which the author entered, but the deck does not cite it, so the count stands in the speaker notes without a reference.
+- The speaker notes went from 937 to 744 words (commit b9b94fe).
+
+The claim of a paper in 30 minutes and the other slide content came from the author's outline and talk, and the two works the deck cites, spick2026thirtyminute and barnett2026armsrace, are entries the author entered in the reference file.
+
+## Check against the AI guide
+
+| What the guide asks | What the record shows | Status |
+|---|---|---|
+| Authorized use is use within the law and the ETH guidelines. At most information classified as "confidential" may go into an approved external cloud service. Information classified as "strictly confidential" may never go into one (page 2). | The repository is public on GitHub and licensed CC BY 4.0. All prompts, files, and images are public. The record holds no confidential information. | Met for the material in the repository |
+| AI systems count as external cloud services. ETH keeps a list of approved services. Occasional use of a service that is not on the list is the responsibility of the user, and no sensitive personal data and no confidential data may go into such a service (pages 2 and 3). | Claude Code is an external cloud service. Whether it is on the ETH list is not recorded in the repository. The conditions for use of a service outside the list are met, see the next row. | Not recorded |
+| Responsible use means use without any personal data, without any particularly sensitive personal data, and without information that identifies ETH or third parties (page 4). | The prompts hold the author's own name, his ETH affiliation, and one local file path with his username. They hold no data about other people. Named people are authors of cited works and a named workshop leader, all in their public roles. The recording of 21 September included questions from colleagues at the weekly. The recordings and the transcripts are not in the repository, and the deck carries no names from them. | Met for the material in the repository. Not verifiable for the recordings |
+| Write meaningful prompts, give context, and provide only the information the AI needs (page 5). | The ten prompt files show instructions with context, e.g. the source URLs for three images. No data files were passed. | Met |
+| Delete the interaction history, disable data collection for product improvement, and prefer services with local processing or strong data protection (pages 5, 6, and 8). | Not recorded. The only Claude Code setting in the repository is a list of permissions. | Not recorded |
+| Review all results of the AI for accuracy and factual correctness before official use, including presentations (page 6). | The author decided 26 units of text in two rounds of review, revised the deck by hand four times after assisted commits, and rehearsed the talk twice from the deck. The facts that entered through assisted commits are listed above for the author to check. | Evidenced |
+| Do not rely blindly on AI results. Watch for incoherence, semantic errors, repetition, and invented references (page 7). | The author entered all six references in a commit with no AI use recorded. The tool added no reference. It corrected one URL the author supplied. | Met for the references. The text review is evidenced in the row above |
+| Consider copyright when using AI generated content. Content created with AI is the academic responsibility of the user and may be subject to copyright (pages 6 and 8). | The tool drafted slide text and speaker notes. The author publishes the deck under CC BY 4.0 in his own name. No image was generated by an image model. The sources of all images are listed above. The licence of the Clawd icon is not recorded. | Met, with one licence not recorded |
+| Do not share confidential information or personal data with AI systems (page 6). | See the first and third rows. | Met for the material in the repository |
+| Follow the Federal Act on Data Protection, including transparency and data minimisation (page 9). | The prompts folder and the commit trailers make the AI use transparent. The prompts pass instructions and links, not data. | Met |
+| Follow export control rules for controlled data (pages 9 and 10). | The repository holds teaching material and no controlled data. | Not applicable |
+
+## Check against the citation guide
+
+| What the guide asks | What the record shows | Status |
+|---|---|---|
+| Output of generative AI cannot be assigned an authorship. | The author of the deck is Lars Schöbitz. The AI appears only in the `Assisted-by` trailer, and no commit carries a `Co-Authored-By` trailer. The citation file of the repository lists three people. | Met |
+| Output of generative AI is not a citable source, because it is not reproducible and not reliable. | The deck cites two works from the reference file, both entered by the author. It cites no AI output. | Met |
+| Tools based on AI must be declared transparently and made recognisable. A missing declaration is a form of ghostwriting. | The deck carries its own section "Declaration of AI use". Six of eleven commits carry the `Assisted-by` trailer. Ten prompt files record what was asked. This page is the declaration. | Met |
+| For a Bachelor, Master, or doctoral thesis, the declaration of originality states whether generative AI tools were used, and the agreement with the supervisors governs. | The deck is a conference talk, not a thesis. No agreement is recorded. | Not applicable |
+| Good scientific practice makes the author's own contribution distinguishable from the contribution of others. | The record separates commits with recorded AI use from commits without, and the prompt files show what the author asked for. The line count by last commit gives an upper bound of what the AI wrote. | Met, with the limits listed below |
+
+## What the record does not show
+
+- The recordings and transcripts of the talk, called vault voice notes 38, 47, and 48 in the commit messages, are kept outside the repository.
+- The version of Claude Code and its settings, including the interaction history and the training opt out, are not in the repository.
+- Whether Claude Code is on the ETH list of approved external cloud services is not in the repository.
+- The method used to generate the two QR codes is not recorded.
+- The images pasted into prompts 001 and 009 are not kept.
+- The prompt files of 7 September 2026 carry approximate timestamps, as their frontmatter says.
+- Five commits and the uncommitted edits carry no trailer and no prompt file. The record shows no AI use for them and cannot prove there was none.
+- Inside an assisted commit, blame cannot separate the tool's text from the author's edits.
+- The time the author and the tool spent is not recorded.
+
+## Lineage: the earlier deck of 7 September 2026
+
+The earlier deck, `slides/dsn-autumn-2026.qmd`, was given as a trial run at the Global Health Engineering weekly on 7 September 2026. Its record has eleven prompt files and four commits. The prompt timestamps are approximate, as their frontmatter says.
+
+| Commit | Time | Subject | Trailer | Prompt files |
+|---|---|---|---|---|
+| a7a8b2e | 10:24 | prepare slides outline for DSN event | none | none |
+| 66547a5 | 10:24 | add literature for DSN talk | none | none |
+| 4087b5a | 13:07 | docs(slides): DSN 2026 deck as used in trial run | Human-authored and Assisted-by | 001 to 010 |
+| f08c1bc | 13:07 | docs(slides): record trial run learnings in the deck | Assisted-by | 011 |
+
+The tool prepared three outlines from the author's notes, worked the author's own outline into a deck with image placeholders, completed the header, and after the trial run wrote the timing and the learnings into a source comment of the file. The commit 4087b5a carries both trailers because the diff held the tool's work and the author's own edits. The author's reference file from commit 66547a5 is the one the current deck uses.
