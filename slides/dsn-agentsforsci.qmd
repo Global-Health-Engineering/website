@@ -1,6 +1,6 @@
 ---
 title: "Git for Scientists"
-subtitle: "Data Stewardship Network Autumn Community Meeting, ETH Zurich"
+subtitle: "So that we can still prove what is human"
 author:
   - name: Lars Schöbitz
     affiliations:
@@ -10,6 +10,7 @@ author:
           url: https://www.swissrn.org/contents/community/nodes/#local-node-leaders
         - name: "Slides: ghe-open.ch/slides/"
           url: https://ghe-open.ch/slides/
+        - name: "Data Stewardship Network Autumn Community Meeting, ETH Zurich, 22 September 2026"
 date: 2026-09-22
 date-format: long
 format:
@@ -44,7 +45,7 @@ Git for Scientists, so that we can prove what is human. Remember 2023. This is w
 ::: {.column width="50%"}
 - Git was hard
 - Manuscripts live in DOCX
-- Track changes record who did what, and disappear
+- Track changes was the only record of who did what, and it vanishes on accept
 :::
 
 ::: {.column width="50%"}
@@ -59,12 +60,12 @@ Viktor Vasnetsov, Stone Age (detail). Public domain, via Wikimedia Commons.
 ::: notes
 Compare the workflows of 2023 with today, working with data, working with code, scientific workflows: almost everything has changed. What I want to say is that 2023 was a tough time to work with Git. We had the terminal window, maybe some graphical user interfaces with buttons. But for the average scientist who is not from IT, there was not enough time, resources, or motivation for these tools. The overhead was too large for the benefit that IT specialists, research software engineers, and data stewards kept promising.
 
-[Whether a researcher knows Git or not, the manuscript sits in DOCX and the collaboration runs on track changes, which record who did what until someone clicks accept.]
+[This is about how change was recorded, not about the format journals ask for. Track changes was the only record of who did what among collaborators, and it vanishes when someone clicks accept. Git pins every change to a point in history.]
 :::
 
 ## Poll
 
-Who has sent a document where AI was used?
+Has AI written part of a document you produced this month?
 
 Hands up for yes.
 
@@ -87,11 +88,13 @@ Ask yourself:
 1. From memory?
 2. Self documented?
 3. Automated?
+4. From the traces you leave?
 
 ::: notes
 - the first is hard
 - the second cumbersome
 - how could we do the third?
+- the fourth is where the human shows: comments on issues and pull requests, reviews, drafts, sessions over time. Which traces prove the human? That is the question for the discussion.
 :::
 
 # 2026
@@ -101,6 +104,8 @@ Fast forward to 2026. Three years that feel like light years for scientific work
 :::
 
 ## Digital Research
+
+AI makes Git easier to use, and more necessary.
 
 ::: columns
 ::: {.column width="55%"}
@@ -120,7 +125,7 @@ Clawd icon: [cleverhack.com/img/clawd.gif](https://cleverhack.com/img/clawd.gif)
 :::
 
 ::: notes
-We are in the midst of a transformation, and most of us don't know where it's heading. We don't have the answers yet. But one thing has changed: interacting with Git no longer needs an IT background. You use plain language prompts, just as with any other language. As we've seen, many of you have already sent documents that AI touched. So we have no excuse anymore not to teach everyone the principles of Git, and then reward them for using it in day-to-day scientific practice.
+AI makes Git easier to use, and more necessary. One thing has changed: interacting with Git no longer needs an IT background. You use plain language: tell Git to make the commits, open a pull request, write issues. As the human you stay in the loop, and Git records what was done. As we've seen, AI has already written parts of your documents. So we have no excuse anymore not to teach everyone the principles of Git, and then reward them for using it in day-to-day scientific practice.
 :::
 
 ## Declaration of AI
@@ -138,6 +143,7 @@ With reward, I mean the possibility to declare what is human, rather than the us
 ::: columns
 ::: {.column width="55%"}
 - A paper in 30 minutes [@spick2026thirtyminute]
+- Single-factor papers from one open dataset: about 4 a year, then 190 in 2024 [@suchak2025explosion]
 - Well documented open data makes it possible
 - How do we prove our work? [@barnett2026armsrace]
 :::
@@ -148,12 +154,14 @@ With reward, I mean the possibility to declare what is human, rather than the us
 :::
 
 ::: notes
-An AI can now produce a paper from open data in 30 minutes. It has been tried, and it works. What is left for us, and how do we prove what we did? We can track every change to every file in a folder. We can show what we wrote, and what the agent wrote. The declaration becomes simple and automated: the history documents every change, and the issues document the tasks we planned for the AI and commented on. This is our opportunity.
+An AI can now produce a paper from open data in 30 minutes. It has been tried, and it works: single-factor papers from the NHANES database went from about 4 a year to 190 in 2024. The things we have promoted for years, well documented open data, make paper mills possible. Say the answer once: the data stays open, and the repository records how it is used, by whom, and where. What is left for us, and how do we prove what we did? We can track every change to every file in a folder. We can show what we wrote, and what the agent wrote. The declaration becomes simple and automated: the history documents every change, and the issues document the tasks we planned for the AI and commented on. This is our opportunity.
 :::
 
 ## Git for Scientists: teaching the need to know
 
 So that we can prove what is human when working with AI in research.
+
+> "Every PhD should be forced to learn Git." A research software engineer, first DSN community meeting, 2023.
 
 - Read the tracked changes between two files (a diff)
 - Understand how to experiment safely (a branch)
@@ -161,7 +169,7 @@ So that we can prove what is human when working with AI in research.
 - Know what should never enter a repository, or an AI tool
 
 ::: notes
-[What is left to teach after the agent took the overhead fits a day: read a diff, review a pull request, know what never enters a repository. The third matters most. It has never been easier to paste personal data into a chat window.]
+[Three years ago, at the first DSN community meeting, a research software engineer said every PhD should be forced to learn Git, and we had a lively discussion. I agreed then and would have chosen a different approach than force. Force is no longer needed: the overhead is gone. What is left to teach after the agent took the overhead fits a day: read a diff, review a pull request, know what never enters a repository. The third matters most. It has never been easier to paste personal data into a chat window.]
 :::
 
 ## Git for Scientists: open educational resource
@@ -210,10 +218,7 @@ Handing the need to know over to the AI
 - First full-day workshop on 29 September
 
 ::: notes
-Next week, on 29 September, we host our first full-day Agents
-for Scientists workshop, with Claude Code.
-
-Documenting the use of AI to produce scientific outputs is a cross-theme of the workshop.
+The mechanical work goes to the agent: make a commit, open a pull request, work on this branch, integrate someone else's changes. Work safely: the agent's changes can be reverted, which a chat cannot do. Experiment freely. Next week, on 29 September, we host our first full-day Agents for Scientists workshop, with Claude Code. Documenting the use of AI to produce scientific outputs is a cross-theme of the workshop. [Do not repeat "a language prompt away" here; it belongs to the 2026 slide.]
 :::
 
 ## FAIR by doing
@@ -233,7 +238,7 @@ Documenting the use of AI to produce scientific outputs is a cross-theme of the 
 :::
 
 ::: notes
-[FAIR by doing is a 12 month programme with five workshops on Git, GitHub, FAIR data publishing, and agentic AI.] After the basics, participants get a full day with Greg Wilson on Organizational Change for Open Science. If anyone in your groups could be interested, or aspiring data stewards and research software engineers who want to join this conversation on AI in research, they can express interest on this form. [Anyone is welcome, especially qualitative researchers and people from non-IT backgrounds.] We expect a decision by end of November or early December, then we pick up the conversation and see who joins. The programme starts in February 2027.
+[FAIR by doing is a 12 month programme with five workshops on Git, GitHub, FAIR data publishing, and agentic AI.] After the basics, participants get a full day with Greg Wilson on Organizational Change for Open Science. Anyone at ETH is welcome, especially qualitative researchers and people from non-IT backgrounds: they would start using these tools last, and can benefit just as much now. Express interest through the QR, and pass it on to the researchers you support. Decision by early December, then we pick up the conversation. The programme starts in February 2027.
 :::
 
 ## Thanks [{{< fa sun >}}]{.accent} {#thanks}
