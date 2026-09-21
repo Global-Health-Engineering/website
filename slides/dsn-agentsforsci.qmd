@@ -393,6 +393,7 @@ References
 - **These slides:** [download as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/dsn-agentsforsci.pdf)
 - **AI use:** [declaration from the record](https://ghe-open.ch/slides/dsn-agentsforsci-ai-declaration.html)
 - Built with [Quarto](https://quarto.org/docs/presentations/revealjs/) and reveal.js
+- **Section backgrounds:** image taken from [Danielle Navarro](https://djnavarro.net/)
 
 **Funding and support:** [SwissRN](https://www.swissrn.org/contents/community/nodes/) local node ETH Zurich and the [Data Stewardship Network](https://library.ethz.ch/en/researching-and-publishing/data-management-and-policies/research-data-management/data-stewardship.html) at ETH Zurich, funded by the [swissuniversities Open Science Programme](https://www.swissuniversities.ch/en/topics/open-science/open-science-programme), and [Global Health Engineering](https://ghe.ethz.ch/), ETH Zurich
 
