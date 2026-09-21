@@ -33,7 +33,7 @@ execute:
 bibliography: ["dsn-autumn-2026.bib", "references.bib"]
 ---
 
-# 2023
+# 2023 
 
 ::: notes
 Git for Scientists, so that we can prove what is human. Remember 2023. This is what working on a computer felt like: set back to the stone age.
@@ -143,7 +143,6 @@ With reward, I mean the possibility to declare what is human, rather than the us
 ::: columns
 ::: {.column width="55%"}
 - A paper in 30 minutes [@spick2026thirtyminute]
-- Single-factor papers from one open dataset: about 4 a year, then 190 in 2024 [@suchak2025explosion]
 - Well documented open data makes it possible
 - How do we prove our work? [@barnett2026armsrace]
 :::
@@ -161,12 +160,12 @@ An AI can now produce a paper from open data in 30 minutes. It has been tried, a
 
 So that we can prove what is human when working with AI in research.
 
-> "Every PhD should be forced to learn Git." A research software engineer, first DSN community meeting, 2023.
-
-- Read the tracked changes between two files (a diff)
+::: incremental TODO: each term in brackets () highlight yellow
+- Read the tracked changes between two versions of a files (a diff) 
 - Understand how to experiment safely (a branch)
-- Review what has gone into a set of changes (pull request)
-- Know what should never enter a repository, or an AI tool
+- Review what has gone into a set of changes (a pull request)
+- Know what should never enter a repository, or an AI tool (data security)
+:::
 
 ::: notes
 [Three years ago, at the first DSN community meeting, a research software engineer said every PhD should be forced to learn Git, and we had a lively discussion. I agreed then and would have chosen a different approach than force. Force is no longer needed: the overhead is gone. What is left to teach after the agent took the overhead fits a day: read a diff, review a pull request, know what never enters a repository. The third matters most. It has never been easier to paste personal data into a chat window.]
@@ -177,7 +176,7 @@ So that we can prove what is human when working with AI in research.
 ::: columns
 ::: {.column width="55%"}
 - Handbook for how to set up and run the workshop
-- Open, CC BY, for any steward to teach
+- Open, CC BY, for any data steward or RSE to teach
 - [gitforsci.github.io/website](gitforsci.github.io/website)
 :::
 
@@ -209,13 +208,17 @@ Our GitHub organisation carries the handbook for how we teach these workshops, s
 [In November the workshop goes to the Research Data Conference in Bern: a 120-minute hands-on session, taught from the learner's seat and pitched to educators who want to teach it themselves.]
 :::
 
+# Agents for Scientists
+
 ## Agents for Scientists
 
 Handing the need to know over to the AI
 
-- Work safely: Git lets you revert
-- Experiment freely: agentic AI opens endless possibilities
-- First full-day workshop on 29 September
+- **Work safely**: Git lets you revert (TODO: need better class for bold, not visible here)
+- **Experiment freely**: agentic AI opens endless possibilities
+- **Track AI use**: prompts and resulting changes are recorded 
+
+First full-day workshop on 29 September.
 
 ::: notes
 The mechanical work goes to the agent: make a commit, open a pull request, work on this branch, integrate someone else's changes. Work safely: the agent's changes can be reverted, which a chat cannot do. Experiment freely. Next week, on 29 September, we host our first full-day Agents for Scientists workshop, with Claude Code. Documenting the use of AI to produce scientific outputs is a cross-theme of the workshop. [Do not repeat "a language prompt away" here; it belongs to the 2026 slide.]
@@ -227,18 +230,60 @@ The mechanical work goes to the agent: make a commit, open a pull request, work 
 ::: {.column width="55%"}
 - 15 participants, 12 months, 5 workshops
 - Git, GitHub, FAIR data publishing, agentic AI
-- One day with Greg Wilson: Organizational Change for Open Science
+- One day with Greg Wilson: [Organizational Change for Open Science](https://third-bit.com/change/)
 - Anyone is welcome, especially qualitative researchers and people from non-IT backgrounds
-- Express interest here
+
 :::
 
 ::: {.column width="45%"}
+Express interest here:
 ![](img/dsn-2026/qr-fair-by-doing.png){fig-align="center" height="330"}
 :::
 :::
 
 ::: notes
 [FAIR by doing is a 12 month programme with five workshops on Git, GitHub, FAIR data publishing, and agentic AI.] After the basics, participants get a full day with Greg Wilson on Organizational Change for Open Science. Anyone at ETH is welcome, especially qualitative researchers and people from non-IT backgrounds: they would start using these tools last, and can benefit just as much now. Express interest through the QR, and pass it on to the researchers you support. Decision by early December, then we pick up the conversation. The programme starts in February 2027.
+:::
+
+# Declaration of AI use
+
+## A prompts folder in every repository
+
+![](img/dsn-2026/prompts-folder.png){fig-align="center" height="360"}
+
+- every prompt is recorded; one markdown file per prompt; folder of these slides
+
+
+::: notes
+I have experimented with the idea of documenting the process of creation for a while now. Since about May 2026, I record every prompt to Claude Code alongside the files in a repository. This is the prompts folder for the repository where these slides are stored.
+:::
+
+## One file per prompt
+![](img/dsn-2026/prompt-file.png){fig-align="center" height="360"}
+
+::: notes
+- An id and a timestamp
+- The model that was used
+- The files in the repository that were touched
+- The prompt itself, verbatim, at the bottom
+:::
+
+## A commit skill (TODO image large)
+
+![](img/dsn-2026/commit-with-prompts.png){fig-align="center" height="360"}
+
+::: notes
+- Claude Code makes the commit in a standard way
+- The commit message names the prompt files behind it
+- And the model that assisted
+:::
+
+## Let the AI declare
+
+> "Use the traces of commits, prompt folders, and pull requests to declare the use of AI against the ETH guidelines for the declaration of AI."
+
+::: notes
+I can now prompt: use the traces of commits, prompt folders, and pull requests to declare the use of AI against the ETH guidelines for the declaration of AI. The declaration is generated from the record, not written from memory.
 :::
 
 ## Thanks [{{< fa sun >}}]{.accent} {#thanks}
