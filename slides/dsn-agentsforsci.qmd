@@ -170,6 +170,7 @@ An AI can now produce a paper from open data in 30 minutes. It has been tried, a
 
 ## Git for Scientists: teaching the need to know
 
+::: {.small}
 So that we can prove what is human when working with AI in research.
 
 ::: incremental
@@ -177,6 +178,7 @@ So that we can prove what is human when working with AI in research.
 - Understand how to experiment safely [(a branch)]{.highlight-yellow}
 - Review what has gone into a set of changes [(a pull request)]{.highlight-yellow}
 - Know what should never enter a repository, or an AI tool [(data security)]{.highlight-yellow}
+:::
 :::
 
 ::: notes
@@ -209,10 +211,12 @@ Our GitHub organisation carries the handbook for how we teach these workshops, s
 
 ::: columns
 ::: {.column width="50%"}
+::: {.small}
 - Research Data Conference, 19 and 20 November 2026, Gurten, Bern
 - 120-minute hands-on workshop, taught from the learner's seat and pitched to educators
 - Friday 20 November, 9:30 to 11:30
 - [Abstract](https://github.com/larnsce/rdc-2026/blob/main/abstract-workshop.md) and [ConfTool session](https://www.conftool.pro/rdc2026/index.php?page=browseSessions&form_date=2026-11-20&form_session=25&mode=table&presentations=hide)
+:::
 :::
 
 ::: {.column width="50%"}
@@ -248,11 +252,12 @@ The mechanical work goes to the agent: make a commit, open a pull request, work 
 
 ::: columns
 ::: {.column width="55%"}
+::: {.small}
 - 15 participants, 12 months, 5 workshops
 - Git, GitHub, FAIR data publishing, agentic AI
 - One day with Greg Wilson: [Organizational Change for Open Science](https://third-bit.com/change/)
 - Anyone is welcome, especially qualitative researchers and people from non-IT backgrounds
-
+:::
 :::
 
 ::: {.column width="45%"}
@@ -271,11 +276,13 @@ Image: QR code to the expression of interest form, [forms.gle/zx1eG7XSy8SAcenH8]
 
 # Declaration of AI use {background-image="img/eth-kolloquium/silhouette.jpg" background-color="#000000"}
 
-## A prompts folder in every repository
+## A prompts folder in every repository {.tight}
 
-![](img/dsn-2026/prompts-folder.png){fig-align="center" height="360"}
+![](img/dsn-2026/prompts-folder.png){fig-align="center" height="260"}
 
+::: {.small}
 Every prompt recorded, one Markdown file each. This is the prompts folder of these slides.
+:::
 
 ::: footer
 Image: the prompts folder of [github.com/Global-Health-Engineering/website](https://github.com/Global-Health-Engineering/website/tree/main/prompts)
@@ -285,15 +292,17 @@ Image: the prompts folder of [github.com/Global-Health-Engineering/website](http
 I have experimented with the idea of documenting the process of creation for a while now. Since about May 2026, I record every prompt to Claude Code alongside the files in a repository. This is the prompts folder for the repository where these slides are stored.
 :::
 
-## One file per prompt
+## One file per prompt {.tight}
 
-![](img/dsn-2026/prompt-file.png){fig-align="center" height="360"}
+![](img/dsn-2026/prompt-file.png){fig-align="center" height="320"}
 
 ::: footer
-Image: prompts/2026-09-21-005-worked-through-the-slides-left-todos-and-links.md in the same repository
+Image: prompts/2026-09-21-005-worked-through-the-slides-left-todos-and-links.md
 :::
 
+::: {.small}
 An id and timestamp. The used AI model. The files that were touched.
+:::
 
 ::: notes
 - An id and a timestamp

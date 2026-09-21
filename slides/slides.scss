@@ -162,6 +162,24 @@ $presentation-font-size-root: 36px !default;
   margin-bottom: 0.2em;
 }
 
+// Tight figure slides: a screenshot with the text right below it. Drops the
+// stacked margins of image, paragraph, and figure that otherwise add ~100 px.
+.reveal .tight .quarto-figure {
+  margin-bottom: 0.2em;
+}
+
+.reveal .tight figure {
+  margin: 0;
+}
+
+.reveal .tight figure p {
+  margin: 0;
+}
+
+.reveal .tight figure img {
+  margin: 0.2em 0;
+}
+
 /* Stronger hyperlink styling for legibility */
 .reveal a {
   text-decoration: underline;
