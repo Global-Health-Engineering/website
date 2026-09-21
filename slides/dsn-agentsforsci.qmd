@@ -60,8 +60,7 @@ TODO: the RDC 2026 Bern event name and date.
 # 2023
 
 ::: notes
-0:00. Remember the year 2023. This is what it felt like to work on a
-computer: set back to the stone age.
+0:00. Git for Scientists, so that we can prove what is human. Remember 2023. This is what working on a computer felt like: set back to the stone age.
 :::
 
 ## Digital Research
@@ -79,20 +78,9 @@ computer: set back to the stone age.
 :::
 
 ::: notes
-0:10. Comparing the workflows of 2023 to today, working with data,
-working with code, scientific workflows: almost everything has changed.
-Change and transformation is taking place in many places. What I want
-to say is that 2023 was a tough time to work with Git. We had the
-terminal window, we maybe had some graphical user interfaces with
-buttons. But for the average scientist who is not from IT, there was
-not enough time, resources, or motivation to work with these tools. The
-overhead was too large to invest the time for the potential benefit
-that any IT specialist, research software engineer, or data steward
-tries to convince scientists of.
+0:10. Compare the workflows of 2023 with today, working with data, working with code, scientific workflows: almost everything has changed. What I want to say is that 2023 was a tough time to work with Git. We had the terminal window, maybe some graphical user interfaces with buttons. But for the average scientist who is not from IT, there was not enough time, resources, or motivation for these tools. The overhead was too large for the benefit that IT specialists, research software engineers, and data stewards kept promising.
 
-[Whether a researcher knows Git or not, the manuscript sits in DOCX and
-the collaboration runs on track changes, which record who did what and
-then disappear on accept.]
+[Whether a researcher knows Git or not, the manuscript sits in DOCX and the collaboration runs on track changes, which record who did what until someone clicks accept.]
 :::
 
 ## Poll
@@ -129,8 +117,7 @@ in one sentence: that gap is what this talk is about.]
 # 2026
 
 ::: notes
-2:10. Fast forward to 2026. Three years that feel like light years when
-it comes to scientific workflows.
+2:10. Fast forward to 2026. Three years that feel like light years for scientific workflows.
 :::
 
 ## Digital Research
@@ -149,16 +136,7 @@ it comes to scientific workflows.
 :::
 
 ::: notes
-2:20. We are in the midst of a transformation where many of us don't
-really know where it's heading. We don't have the answers yet, and it's
-difficult to have answers. But one thing has changed: interacting with
-Git has significantly lowered the barrier for anyone who is not from an
-IT background. You can now use simple language prompts to interact with
-Git, just as you can with any other coding language or with writing. As
-we've seen, many of you have already touched documents you've sent,
-with AI. Now we have no excuse anymore not to teach everyone the
-underlying principles of Git, and then reward them for using it in
-day-to-day scientific practice.
+2:20. We are in the midst of a transformation, and most of us don't know where it's heading. We don't have the answers yet. But one thing has changed: interacting with Git no longer needs an IT background. You use plain language prompts, just as with any other language. As we've seen, many of you have already sent documents that AI touched. So we have no excuse anymore not to teach everyone the principles of Git, and then reward them for using it in day-to-day scientific practice.
 :::
 
 ## Declaration of AI
@@ -166,14 +144,7 @@ day-to-day scientific practice.
 ![](img/dsn-2026/wcri-18-boxes.png){fig-align="center" width="100%"}
 
 ::: notes
-3:20. With reward, I'm referring to the possibility to declare what is
-human, not to declare the use of AI in scientific writing. When I look
-at these 18 boxes proposed for the next standard on the declaration of
-AI in scientific research, what I'm missing is turning it around. I
-cannot claim that when I write a scientific paper, AI hasn't
-significantly touched all of these 18 areas. Then it just becomes an
-activity of checking a box. And not checking it sends a different
-signal than what we're hoping for.
+3:20. With reward, I mean the possibility to declare what is human, rather than the use of AI. These are the 18 boxes proposed for the next standard on declaring AI use in research. What I miss is turning it around. I cannot claim that AI hasn't touched all 18 areas of a paper I write. So it becomes ticking boxes, and not ticking one sends a different signal than the one we hope for.
 :::
 
 ## Declaration of human
@@ -191,17 +162,7 @@ signal than what we're hoping for.
 :::
 
 ::: notes
-4:10. An AI can now produce papers based on open data within 30
-minutes. That is doable and feasible, it has been trialled. What is
-left for us, and how do we prove what we've done and grab this
-opportunity? We can track every single change that was made to
-different files within a folder. We can show what was written by us,
-and we can show what was written by an AI tool, an AI harness, an
-agent. The declaration itself becomes rather simple and automated,
-because now all changes are documented in history, and potentially
-even in issues, which can be used to plan the tasks that the AI
-supports us with, and which we might have significantly commented on.
-For me, this is our opportunity: to use AI agents in this way.
+4:10. An AI can now produce a paper from open data in 30 minutes. It has been tried, and it works. What is left for us, and how do we prove what we did? We can track every change to every file in a folder. We can show what we wrote, and what the agent wrote. The declaration becomes simple and automated: the history documents every change, and the issues document the tasks we planned for the AI and commented on. This is our opportunity.
 :::
 
 ## Git for Scientists: teaching the need to know
@@ -211,10 +172,7 @@ For me, this is our opportunity: to use AI agents in this way.
 - Know what never enters a repository
 
 ::: notes
-5:10. [What remains to teach after the agent took the overhead fits a
-day: read a diff, review a pull request, and know what never enters a
-repository. The third one matters most, because it has never been
-easier to paste personal data into a chat window.]
+5:10. [What is left to teach after the agent took the overhead fits a day: read a diff, review a pull request, know what never enters a repository. The third matters most. It has never been easier to paste personal data into a chat window.]
 :::
 
 ## Git for Scientists: open educational resource
@@ -232,8 +190,7 @@ easier to paste personal data into a chat window.]
 :::
 
 ::: notes
-5:40. Our GitHub organisation carries the handbook that shows how we go
-about teaching these workshops, so that anyone can build on them.
+5:40. Our GitHub organisation carries the handbook for how we teach these workshops, so that anyone can build on them.
 :::
 
 ## Git for Scientists: RDC 2026, Bern
@@ -256,12 +213,9 @@ Handing the need to know over to the AI
 - First full-day workshop on 29 September
 
 ::: notes
-6:20. This month, on 29 September, we host our first full-day Agents
-for Scientists workshop, where we use Claude Code. [The need to know
-is handed over to the AI: work safely, because Git lets you revert,
-and experiment freely.] I'm also part of the Global Federation of
-Reproducibility Networks' AI working group. [Spoken in the recording,
-no slide: keep or cut.]
+6:20. Next week, on 29 September, we host our first full-day Agents
+for Scientists workshop, with Claude Code. I am also part of the
+Global Federation of Reproducibility Networks' AI working group.
 :::
 
 ## FAIR by doing
@@ -281,17 +235,7 @@ no slide: keep or cut.]
 :::
 
 ::: notes
-6:50. [FAIR by doing is a 12 month programme with five workshops on
-Git, GitHub, FAIR data publishing, and agentic AI.] After learning the
-basics, participants get a full day with Greg Wilson teaching his
-Organizational Change for Open Science. If you have anyone in your
-groups who could be interested, or aspiring data stewards and research
-software engineers who want to join this dialogue on the use of AI in
-scientific research, they can express interest on this form. [Anyone
-is welcome, especially qualitative researchers and people from non-IT
-backgrounds.] Once we have a decision by end of November or beginning
-of December, we will pick up the conversation and see how many people
-we can have in the programme, which runs next year over 12 months.
+6:50. [FAIR by doing is a 12 month programme with five workshops on Git, GitHub, FAIR data publishing, and agentic AI.] After the basics, participants get a full day with Greg Wilson on Organizational Change for Open Science. If anyone in your groups could be interested, or aspiring data stewards and research software engineers who want to join this conversation on AI in research, they can express interest on this form. [Anyone is welcome, especially qualitative researchers and people from non-IT backgrounds.] We expect a decision by end of November or early December, then we pick up the conversation and see who joins. The programme starts in February 2027.
 :::
 
 ## Thanks [{{< fa sun >}}]{.accent} {#thanks}
@@ -328,13 +272,7 @@ All material is licensed under Creative Commons Attribution 4.0 International (C
 :::
 
 ::: notes
-7:40. Lastly, I want to thank you for the opportunity to talk about
-this. I have always felt passionate about Git and Git for
-reproducibility. In my opinion it has always been tough for scientists
-to invest in it, likely because of the time and resources it took.
-Today we have an opportunity to change that, and we should all be
-looking into how we can best help scientists to use it, for their own
-benefit. Thank you very much. This slide stays up for the discussion.
+7:40. Thank you for the opportunity to talk about this. I have always been passionate about Git for reproducibility, and it has always been hard for scientists to invest the time in it. Today we can change that, and we should all look at how we help scientists use it, for their own benefit. Thank you. This slide stays up for the discussion.
 :::
 
 ## References
