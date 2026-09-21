@@ -311,7 +311,7 @@ An id and timestamp. The used AI model. The files that were touched.
 - The prompt itself, verbatim, at the bottom
 :::
 
-## A commit skill {.small-title}
+## A commit skill
 
 ::: columns
 ::: {.column width="30%"}
@@ -319,13 +319,16 @@ An id and timestamp. The used AI model. The files that were touched.
 - Claude Code makes the commit
 - Standardised
 - The prompt files behind it are named
+- Contribute at: [Global-Health-Engineering/skills](https://github.com/Global-Health-Engineering/skills)
 :::
 :::
 
 ::: {.column width="70%"}
-![](img/dsn-2026/commit-with-prompts.png){fig-align="center" height="450"}
+![](img/dsn-2026/commit-with-prompts.png){fig-align="center" height="380"}
 :::
 :::
+
+
 
 ::: footer
 Image: [github.com/Global-Health-Engineering/website/commit/754eb73](https://github.com/Global-Health-Engineering/website/commit/754eb73)
