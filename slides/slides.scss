@@ -171,3 +171,23 @@ $presentation-font-size-root: 36px !default;
 .reveal a:hover {
   color: #ED6D37;
 }
+// Classes used by the closing slide of dsn-agentsforsci.qmd (pattern from
+// the aguasan deck): an accent colour, a small uppercase label, a footer line.
+.reveal .accent {
+  color: $link-color;
+}
+
+.reveal .kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.52em;
+  font-weight: 600;
+  color: $presentation-heading-color;
+  margin-bottom: 1.1em;
+}
+
+.reveal .foot {
+  margin-top: 1.8em;
+  font-size: 0.5em;
+  color: $presentation-heading-color;
+}
