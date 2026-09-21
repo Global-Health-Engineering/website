@@ -6,7 +6,7 @@ title: "{{< fa display >}} Slides"
 
 Git for Scientists, so that we can still prove what is human when working with AI in research. 22 September 2026.
 
-[View slides in full screen](dsn-agentsforsci.html) | [Declaration of AI use](dsn-agentsforsci-ai-declaration.html) | [Trial run version of 7 September](dsn-autumn-2026.html)
+[View slides in full screen](dsn-agentsforsci.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/dsn-agentsforsci.pdf) | [Declaration of AI use](dsn-agentsforsci-ai-declaration.html) | [Trial run version of 7 September](dsn-autumn-2026.html)
 
 ```{=html}
 <iframe class="slide-deck" src="dsn-agentsforsci.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
