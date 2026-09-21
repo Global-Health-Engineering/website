@@ -338,6 +338,18 @@ Prompt:
 I can now prompt: use the traces of commits, prompt folders, and pull requests to declare the use of AI against the ETH guidelines for the declaration of AI. The declaration is generated from the record, not written from memory.
 :::
 
+## 10 minutes: Get up and walk
+
+![](img/dsn-2026/claude-code-declaration-25s.gif){fig-align="center" height="400"}
+
+::: footer
+Recording: Claude Code writing the declaration, played at 33 times the speed
+:::
+
+::: notes
+[Screen recording of the session that produced the declaration on the next slide, 13 minutes 37 seconds played in 25 seconds.]
+:::
+
 ## The declaration, from the record {.small-title}
 
 ::: {.small}
