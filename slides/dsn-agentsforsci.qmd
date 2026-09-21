@@ -111,7 +111,7 @@ Fast forward to 2026. Three years that feel like light years for scientific work
 :::
 
 ::: {.column width="45%"}
-![](img/dsn-2026/claude-code-terminal.gif){fig-align="center" height="330"}
+![](img/dsn-2026/clawd.gif){fig-align="center" height="330"}
 
 ::: {.smallest}
 Clawd icon: [cleverhack.com/img/clawd.gif](https://cleverhack.com/img/clawd.gif) (copy in img/dsn-2026/clawd.gif).
@@ -155,9 +155,10 @@ An AI can now produce a paper from open data in 30 minutes. It has been tried, a
 
 So that we can prove what is human when working with AI in research.
 
-- Read a diff
-- Review a pull request
-- Know what never enters a repository
+- Read the tracked changes between two files (a diff)
+- Understand how to experiment safely (a branch)
+- Review what has gone into a set of changes (pull request)
+- Know what should never enter a repository, or an AI tool
 
 ::: notes
 [What is left to teach after the agent took the overhead fits a day: read a diff, review a pull request, know what never enters a repository. The third matters most. It has never been easier to paste personal data into a chat window.]
@@ -169,7 +170,7 @@ So that we can prove what is human when working with AI in research.
 ::: {.column width="55%"}
 - Handbook for how to set up and run the workshop
 - Open, CC BY, for any steward to teach
-- gitforsci.github.io/website
+- [gitforsci.github.io/website](gitforsci.github.io/website)
 :::
 
 ::: {.column width="45%"}
@@ -219,7 +220,7 @@ Documenting the use of AI to produce scientific outputs is a cross-theme of the 
 
 ::: columns
 ::: {.column width="55%"}
-- 12 months, 5 workshops
+- 15 participants, 12 months, 5 workshops
 - Git, GitHub, FAIR data publishing, agentic AI
 - One day with Greg Wilson: Organizational Change for Open Science
 - Anyone is welcome, especially qualitative researchers and people from non-IT backgrounds
