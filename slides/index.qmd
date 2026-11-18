@@ -1,6 +1,19 @@
 ---
 title: "{{< fa display >}} Slides"
+# Decks built in their own repository are copied to the site as they are.
+resources:
+  - rdc-2026.html
 ---
+
+## Research Data Conference 2026 - Bern
+
+Embedded data stewardship and research intelligence: five years of practice at a research group at ETH Zurich. 19 November 2026.
+
+[View slides in full screen](rdc-2026.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/rdc-2026.pdf) | [Declaration of AI use](https://github.com/Global-Health-Engineering/rdc-2026/blob/main/talk/AI-USE.md) | [Source of the slides](https://github.com/Global-Health-Engineering/rdc-2026)
+
+```{=html}
+<iframe class="slide-deck" src="rdc-2026.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
 
 ## Data Stewardship Network Autumn Community Meeting 2026 - ETH Zurich
 
