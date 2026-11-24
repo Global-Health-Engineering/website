@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "Data Stewardship at Global Health Engineering"
 author: 
   - name: Lars Schöbitz

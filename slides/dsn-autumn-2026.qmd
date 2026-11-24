@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "Open Educational Resources for Git for Scientists"
 subtitle: "Teaching on a need to know basis. Data Stewardship Network Autumn Community Meeting, ETH Zurich"
 author:

@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "ethord"
 subtitle: |
   Publishing Open Metadata for Open Research Data Projects of the ETH Domain

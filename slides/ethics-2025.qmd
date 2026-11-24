@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "Ethics and Scientific Integrity for Doctoral Students of D-MAVT"
 subtitle: "Research Data Management"
 author: 

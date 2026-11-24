@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "ETH Library 17:15 Kolloquium"
 subtitle: "Plan for tomorrow today: a model for data stewardship"
 author: 

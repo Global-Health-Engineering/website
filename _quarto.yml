@@ -8,6 +8,12 @@ project:
     - "!prompts/"
     - "!open-science/"
 
+# Colours, fonts and logos: a copy of the Global Health Engineering brand,
+# see README.md for where it comes from. Quarto applies a project brand to
+# every format, so each reveal.js deck in slides/ carries "brand: false"
+# and keeps the look it was given with.
+brand: _brand/_brand.yml
+
 lang: en
 
 website:
@@ -33,11 +39,8 @@ website:
       
 format:
   html:
-    theme:
-      light: [litera, theme.scss]
-    css: styles.css
+    theme: [brand, style/theme.scss]
     toc: true
-    mainfont: "Atkinson Hyperlegible Next"
     code-copy: true
     code-overflow: wrap
 

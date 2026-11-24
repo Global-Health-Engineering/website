@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "open by default"
 subtitle: "a data management strategy"
 author: 

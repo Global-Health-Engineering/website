@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "Global Health Engineering - Monthly"
 subtitle: "Why Analytics?"
 author: 

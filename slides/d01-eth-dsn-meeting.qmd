@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "DSN Kick-off"
 subtitle: "Connecting people and topics on data stewardship at ETH Zurich"
 author: 

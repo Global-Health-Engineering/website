@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "Hello, I am a Data Steward"
 subtitle: "Research Software Engineering and Data Stewardship Career Talk"
 author: 

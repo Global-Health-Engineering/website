@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "Global Health Engineering - Quarterly Meeting Q3 2024"
 subtitle: "Benefits of using a chat tool for distributed teams"
 author: 

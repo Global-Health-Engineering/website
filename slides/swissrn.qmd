@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "Swiss Reproducibility Conference"
 subtitle: "Plan for tomorrow today: why you need a data steward"
 author: 
