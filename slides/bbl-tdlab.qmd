@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "Brown Bags Lunch - D-USYS Transdiciplinary Lab"
 subtitle: "Plan for tomorrow today: a model for data stewardship"
 author: 

@@ -1,0 +1,138 @@
+# Global Health Engineering brand definition. DRAFT of 2026-11-16, not
+# published and not agreed with the group.
+#
+# Single source of truth for colours, typography and logo roles, in the
+# brand.yml format that Quarto, bslib and the brand.yml R package read.
+#
+# Where the values come from:
+# - The 14 colours are the GHE Colour Palette (ghe-colour-palette.pdf in
+#   this folder, from the corporate-design folder of the group drive): a
+#   primary range of seven and a secondary range of seven.
+# - The logos are the files of GHE_logo in the same folder.
+# - Everything marked "new" was added for this draft and is open for review.
+#
+# Rules:
+# - Body text is ink. Headings and links are ghe-indigo.
+# - ghe-yellow, ghe-orange, ghe-amber, ghe-sky and ghe-lime are below 3:1
+#   on paper: fills and large display type only, never text.
+# - Links are underlined.
+# - Typography follows openwashdata/brand, so the two brands share type and
+#   differ in colour.
+meta:
+  name: Global Health Engineering
+  link:
+    home: https://ghe.ethz.ch
+    github: https://github.com/Global-Health-Engineering
+
+color:
+  palette:
+    # Primary colour range. Contrast on paper, rounded.
+    ghe-yellow: "#FBE215"          # 1.2:1
+    ghe-orange: "#ED6D37"          # 2.8:1
+    ghe-purple: "#901C6C"          # 7.4:1
+    ghe-indigo: "#3C2874"          # 10.9:1
+    ghe-blue: "#2C76B5"            # 4.4:1
+    ghe-teal: "#1E8B99"            # 3.7:1
+    ghe-green: "#339167"           # 3.5:1
+    # Secondary colour range.
+    ghe-amber: "#EAA238"           # 2.0:1
+    ghe-red: "#C63432"             # 4.9:1
+    ghe-violet: "#602684"          # 9.1:1
+    ghe-periwinkle: "#5A5BA5"      # 5.5:1
+    ghe-sky: "#18A5C5"             # 2.6:1
+    ghe-pine: "#1C7A6F"            # 4.7:1
+    ghe-lime: "#A6CE8F"            # 1.6:1
+    # new; shades of ghe-indigo for dark backgrounds and for code blocks.
+    ghe-indigo-dark: "#241846"     # 14.8:1
+    ghe-indigo-light: "#C9BFE6"    # primary on dark backgrounds, 9.3:1 on ghe-indigo-dark
+    ghe-indigo-tint: "#EDEAF5"     # code, table and callout backgrounds only
+    # new; muted text and captions (6.5:1), and rules.
+    ghe-gray: "#5c5751"
+    ghe-gray-light: "#d9d6d2"
+    # Core text and surface tokens, the same as openwashdata.
+    ink: "#1e1e1e"
+    paper: "#f4f4f4"
+    white: "#ffffff"
+    # Categorical chart colours, all from the palette, in this order, never
+    # cycled. The first three stay far apart under deuteranopia, protanopia
+    # and tritanopia (minimum CIELAB distance 35.7 in the colorspace
+    # simulation), the first four 18.4, all six 14.0. chart-2 is the orange
+    # and is below 3:1 on paper, so it is for filled marks, not thin lines.
+    chart-1: "#3C2874"             # indigo
+    chart-2: "#ED6D37"             # orange
+    chart-3: "#1E8B99"             # teal
+    chart-4: "#5A5BA5"             # periwinkle
+    chart-5: "#901C6C"             # purple
+    chart-6: "#C63432"             # red
+    # new; sequential ramp for heatmaps and continuous fills.
+    seq-low: "#D8D2EE"
+    seq-high: "#241846"
+    # Bootstrap-name aliases so brand-aware tools pick these up.
+    blue: ghe-blue
+    indigo: ghe-indigo
+    purple: ghe-purple
+    red: ghe-red
+    orange: ghe-orange
+    yellow: ghe-yellow
+    green: ghe-green
+    teal: ghe-teal
+    cyan: ghe-sky
+  foreground: ink
+  background: paper
+  primary: ghe-indigo
+  secondary: ghe-gray
+  tertiary: ghe-indigo-tint
+  success: ghe-pine
+  info: ghe-blue
+  warning: ghe-amber
+  danger: ghe-red
+  light: paper
+  dark: ghe-indigo-dark
+
+typography:
+  fonts:
+    - family: Atkinson Hyperlegible Next
+      source: google
+      weight: [400, 600, 700]
+      style: [normal, italic]
+    - family: Source Code Pro
+      source: google
+      weight: [400, 500]
+  base:
+    family: Atkinson Hyperlegible Next
+    line-height: 1.5
+  headings:
+    family: Atkinson Hyperlegible Next
+    weight: 700
+    color: primary
+    line-height: 1.2
+  monospace:
+    family: Source Code Pro
+  monospace-inline:
+    background-color: ghe-indigo-tint
+  monospace-block:
+    background-color: ghe-indigo-tint
+  link:
+    color: ghe-indigo
+    decoration: underline
+
+logo:
+  images:
+    icon:
+      path: logos/eth-ghe-icon-vector.svg
+      alt: ETH Global Health Engineering, icon
+    icon-dark:
+      path: logos/eth-ghe-icon-vector-white.svg
+      alt: ETH Global Health Engineering, icon in white
+    square:
+      path: logos/ghe-square-logo-vector.svg
+      alt: ETH Global Health Engineering, square logo
+    full:
+      path: logos/ghe-logo-vector.svg
+      alt: ETH Global Health Engineering, logo
+    full-png:
+      path: logos/ghe-logo-rastr-600dpi.png
+      alt: ETH Global Health Engineering, logo
+  small: icon
+  medium: square
+  large: full

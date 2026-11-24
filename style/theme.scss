@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+
+// Colours, fonts and logos come from the brand (_brand/_brand.yml), which
+// Quarto loads before this file. Palette entries are available here as
+// $brand-<name>. This file only holds rules the brand does not express.
+
+/*-- scss:rules --*/
+
+// The navbar is ghe-indigo; its links and icons are white.
+.navbar {
+  --bs-navbar-color: #{$brand-white};
+  --bs-navbar-hover-color: #{$brand-ghe-indigo-light};
+  --bs-navbar-active-color: #{$brand-white};
+}
+
+.navbar .navbar-logo {
+  max-height: 2rem;
+}
+
+// Page footer: muted text on paper, with a rule above.
+.nav-footer {
+  border-top: 1px solid $brand-ghe-gray-light;
+  color: $brand-ghe-gray;
+}
+
+// Embedded decks on the slides page scale down on narrow screens.
+iframe.slide-deck {
+  max-width: 100%;
+}

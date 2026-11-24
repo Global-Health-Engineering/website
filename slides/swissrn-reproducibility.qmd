@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "SwissRN - Computational Reproducibiliy Seminar"
 subtitle: "Plan for tomorrow today: a model for data stewardship"
 author: 

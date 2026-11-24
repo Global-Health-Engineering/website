@@ -10,7 +10,7 @@ author:
     url: https://ghe.ethz.ch/about/people/person-detail.MTc2MjI5.TGlzdC80MTI2LC0xNDYwMDMwNTU3.html
     affiliation: Global Health Engineering, ETH Zurich
     affiliation-url: https://ghe.ethz.ch
-date: today
+date: 2024-03-13
 draft: false
 ---
 

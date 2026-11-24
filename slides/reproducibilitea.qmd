@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "Hello, I am a Data Steward"
 subtitle: "ReproducibiliTea Journal Club, University of Zurich"
 author:

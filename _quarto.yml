@@ -8,23 +8,42 @@ project:
     - "!prompts/"
     - "!open-science/"
 
+# Colours, fonts and logos: a copy of the Global Health Engineering brand,
+# see README.md for where it comes from. Quarto applies a project brand to
+# every format, so each reveal.js deck in slides/ carries "brand: false"
+# and keeps the look it was given with.
+brand: _brand/_brand.yml
+
 lang: en
 
 website:
   page-navigation: true
   title: "Global Health Engineering"
-  description: "Homepage for slides, tutorials, and other teaching material."
+  description: "Slides, tutorials and other open educational material of the Global Health Engineering group at ETH Zurich."
   site-url: "https://ghe-open.ch/"
+  favicon: _brand/logos/eth-ghe-icon-vector.svg
   open-graph: true
+  page-footer:
+    left: |
+      [Global Health Engineering, ETH Zurich](https://ghe.ethz.ch/)
+    right:
+      - icon: github
+        href: https://github.com/Global-Health-Engineering
+        aria-label: GitHub
   navbar:
+    background: primary
+    title: false
+    logo: _brand/logos/eth-ghe-icon-vector-white.svg
+    logo-alt: "Global Health Engineering"
     tools:
       - icon: github
         href: https://github.com/Global-Health-Engineering/website
+        aria-label: Source of this website on GitHub
     left:
-      - href: index.qmd
-        text: Home
       - href: slides/index.qmd
         text: Slides
+      - href: index.qmd#workshops
+        text: Workshops
       - href: tutorials/index.qmd
         text: Tutorials
       - href: blog/index.qmd
@@ -33,11 +52,8 @@ website:
       
 format:
   html:
-    theme:
-      light: [litera, theme.scss]
-    css: styles.css
+    theme: [brand, style/theme.scss, style/landing.scss]
     toc: true
-    mainfont: "Atkinson Hyperlegible Next"
     code-copy: true
     code-overflow: wrap
 

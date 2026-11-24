@@ -1,4 +1,5 @@
 ---
+brand: false
 pagetitle: "Git for Scientists"
 format:
   revealjs:

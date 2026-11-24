@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "Publish with Ease"
 subtitle: "A Low-Cost, Open-Source Solution for Research Data Sharing"
 author: 

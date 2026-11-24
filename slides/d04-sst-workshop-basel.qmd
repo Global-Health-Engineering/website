@@ -1,4 +1,5 @@
 ---
+brand: false
 title: "SST Educational Workshop"
 subtitle: "Data Stewardship"
 author: 
