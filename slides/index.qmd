@@ -69,7 +69,7 @@ Git for Scientists, so that we can still prove what is human when working with A
 
 Info about the event: <https://library.ethz.ch/news-und-kurse/veranstaltungen/17-15-kolloquium-der-eth-bibliothek/data-stewardship.html>
 
-[View slides in full screen](eth-kolloquium.html) 
+[View slides in full screen](eth-kolloquium.html) | [Watch the recording of the talk](https://www.youtube.com/watch?v=zpVo_-Ne91c)
   
 ```{=html}
 <iframe class="slide-deck" src="eth-kolloquium.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>

@@ -31,9 +31,13 @@ format:
     mainfont: "Atkinson Hyperlegible Next"
     code-copy: true
     code-overflow: wrap
-    include-in-header: 
-        - text: |
-            <script defer data-domain="ghe-open.ch" src="https://plausible.io/js/script.js"></script>
+
+# Plausible analytics on every page and every reveal.js deck. Kept outside
+# the format block on purpose: a second format under "format:" makes each
+# page without its own format render twice into the same output file.
+include-in-header:
+  - text: |
+      <script defer data-domain="ghe-open.ch" src="https://plausible.io/js/script.js"></script>
 
 execute: 
   freeze: auto
