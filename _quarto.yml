@@ -25,9 +25,8 @@ website:
         text: Home
       - href: slides/index.qmd
         text: Slides
-      - text: Tutorials
-        menu: 
-          - tutorials/data-package.qmd
+      - href: tutorials/index.qmd
+        text: Tutorials
       - href: blog/index.qmd
         text: Blog
         

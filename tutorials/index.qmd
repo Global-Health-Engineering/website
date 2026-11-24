@@ -1,0 +1,19 @@
+---
+title: "Tutorials"
+listing:
+  contents:
+    - data-package.qmd
+    - here-vs-commandargs.qmd
+  sort: "date desc"
+  type: table
+  fields: [date, title, subtitle]
+  field-display-names:
+    date: "Written"
+    title: "Tutorial"
+    subtitle: "About"
+  date-format: "D MMMM YYYY"
+  sort-ui: false
+  filter-ui: false
+---
+
+Tutorials written by the Global Health Engineering group. Each one carries the date it was written and is kept as it was written.

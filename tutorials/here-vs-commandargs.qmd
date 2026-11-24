@@ -1,6 +1,7 @@
 ---
 title: "Saving files to the right place: `here::here()` vs. `commandArgs()`"
 subtitle: "A short explainer for novices who code with AI"
+date: 2026-06-01
 format: html
 ---
 
