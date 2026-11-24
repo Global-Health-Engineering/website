@@ -10,3 +10,10 @@
   from = "/1-slides/*"
   to = "/slides/"
   status = 301
+
+# The source of this deck was removed in 2024 and its PDF stayed. Older
+# pages link to the deck address.
+[[redirects]]
+  from = "/slides/d03-hubris-to-hope-reference-management.html"
+  to = "https://github.com/Global-Health-Engineering/website/raw/main/slides/d03-hubris-to-hope-reference-management.pdf"
+  status = 302
