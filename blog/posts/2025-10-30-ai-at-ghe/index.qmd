@@ -1,6 +1,9 @@
 ---
 title: "Building AI Literacy Together at GHE"
 format: docx
+# Not finished: no date yet and a Word file as output. Kept out of the
+# blog page until it is.
+draft: true
 ---
 
 ## "Ice cream, now!" - Embracing AI as Scientists in an Inclusive Way
