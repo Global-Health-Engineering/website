@@ -129,6 +129,17 @@ a.ghe-card:hover {
   font-size: 0.95rem;
 }
 
+.ghe-card p.ghe-card-host {
+  color: $brand-ghe-gray;
+  margin-bottom: 0.35rem;
+}
+
+.ghe-section > p.ghe-intro {
+  font-size: 1.1rem;
+  color: $brand-ghe-gray;
+  margin-bottom: 1.5rem;
+}
+
 // Compact listings on the landing page: date on the left, title on the
 // right, no thumbnails.
 .ghe-section .quarto-listing-default .quarto-post {

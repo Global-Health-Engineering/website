@@ -42,6 +42,8 @@ website:
     left:
       - href: slides/index.qmd
         text: Slides
+      - href: index.qmd#workshops
+        text: Workshops
       - href: tutorials/index.qmd
         text: Tutorials
       - href: blog/index.qmd

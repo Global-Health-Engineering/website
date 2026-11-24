@@ -48,6 +48,7 @@ quarto preview
 - **Every public page carries the Plausible script.** It is set once in `_quarto.yml`, outside the `format:` block, and reaches every page and every deck. A deck does not carry a script of its own.
 - **The brand is a copy.** `_brand/` holds a copy of the Global Health Engineering brand, in the draft of 16 November 2026. Change colours, fonts and logos in the brand first, then copy the files here. No colour value is written into the files under `style/`.
 - **Decks keep their look.** Quarto applies the brand to every format, so each reveal.js deck in `slides/` has `brand: false` in its front matter. A new deck needs the same line, or its own brand.
+- **The workshops on the start page come from the aboutme package.** The R chunk in `index.qmd` reads the workshop entries of [aboutme](https://github.com/larnsce/aboutme), the same source as the CV. After a change to the workshops there, install the package, render `index.qmd` locally and commit the changed files under `_freeze/index/`.
 - **Only listed files become pages.** The `render:` list in `_quarto.yml` names them.
 
 ## History

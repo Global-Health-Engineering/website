@@ -34,3 +34,66 @@ toc: false
 [All slides](slides/index.qmd){.ghe-more}
 
 :::
+
+::: {.ghe-tint}
+::: {.ghe-section}
+
+## Workshops {#workshops}
+
+<p class="ghe-intro">Workshops taught by Lars Schöbitz, data steward of the group, newest first. Each card links to the material.</p>
+
+```{r}
+#| label: workshops
+#| echo: false
+#| results: asis
+
+# The list comes from the aboutme package (github.com/larnsce/aboutme), the
+# same source as the CV. Netlify does not run R: after a change to the
+# workshops in aboutme, render this page locally and commit _freeze/index/.
+
+workshops <- aboutme::entries
+workshops <- workshops[workshops$section == "workshops", ]
+workshops <- workshops[order(workshops$start, decreasing = TRUE), ]
+
+# start is a year, a year and month, or a full date.
+format_start <- function(x) {
+  parts <- as.integer(strsplit(x, "-")[[1]])
+  if (length(parts) == 1) return(as.character(parts))
+  month <- month.name[parts[2]]
+  if (length(parts) == 2) return(paste(month, parts[1]))
+  paste(parts[3], month, parts[1])
+}
+
+escape <- function(x) {
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  gsub(">", "&gt;", x, fixed = TRUE)
+}
+
+card <- function(row) {
+  place <- if (is.na(row$loc) || row$loc == "") "" else paste0(", ", row$loc)
+  kicker <- paste0(format_start(row$start), place)
+  body <- paste0(
+    '<span class="ghe-card-kicker">', escape(kicker), "</span>",
+    "<strong>", escape(row$title), "</strong>",
+    '<p class="ghe-card-host">', escape(row$institution), "</p>",
+    "<p>", escape(row$description_1), "</p>"
+  )
+  if (is.na(row$url) || row$url == "") {
+    paste0('<div class="ghe-card">', body, "</div>")
+  } else {
+    paste0('<a class="ghe-card" href="', row$url, '">', body, "</a>")
+  }
+}
+
+cards <- vapply(
+  seq_len(nrow(workshops)),
+  function(i) card(workshops[i, ]),
+  character(1)
+)
+
+cat("```{=html}\n<div class=\"ghe-cards\">\n", paste(cards, collapse = "\n"), "\n</div>\n```\n", sep = "")
+```
+
+:::
+:::
