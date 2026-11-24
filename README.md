@@ -15,6 +15,8 @@ Source of <https://ghe-open.ch>, the open science website of the [Global Health 
 | Folder | Content |
 |---|---|
 | `slides/` | One `.qmd` per talk, built as a reveal.js deck. `slides/index.qmd` is the slides page. |
+| `_brand/` | Copy of the group's brand: colours, fonts and logos (`_brand.yml`, `logos/`). |
+| `style/` | Rules the brand does not express: `theme.scss` for the site, `landing.scss` for the start page. |
 | `slides/archive/` | Files that no page uses, kept for their history. |
 | `tutorials/` | Tutorials, each with the date it was written. |
 | `blog/` | Blog posts under `blog/posts/`. |
@@ -44,6 +46,8 @@ quarto preview
 
 - **Dated material stays.** Talks, posts and tutorials keep their text and their address. The data package tutorial of 9 June 2023 is kept as it was written; a note at its top says so.
 - **Every public page carries the Plausible script.** It is set once in `_quarto.yml`, outside the `format:` block, and reaches every page and every deck. A deck does not carry a script of its own.
+- **The brand is a copy.** `_brand/` holds a copy of the Global Health Engineering brand, in the draft of 16 November 2026. Change colours, fonts and logos in the brand first, then copy the files here. No colour value is written into the files under `style/`.
+- **Decks keep their look.** Quarto applies the brand to every format, so each reveal.js deck in `slides/` has `brand: false` in its front matter. A new deck needs the same line, or its own brand.
 - **Only listed files become pages.** The `render:` list in `_quarto.yml` names them.
 
 ## History
