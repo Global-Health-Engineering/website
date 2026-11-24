@@ -50,7 +50,7 @@ website:
       
 format:
   html:
-    theme: [brand, style/theme.scss]
+    theme: [brand, style/theme.scss, style/landing.scss]
     toc: true
     code-copy: true
     code-overflow: wrap

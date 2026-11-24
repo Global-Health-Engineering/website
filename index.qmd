@@ -1,7 +1,87 @@
 ---
-title: "Welcome!"
+pagetitle: "Global Health Engineering"
+page-layout: custom
+section-divs: false
+toc: false
+listing:
+  - id: tutorials
+    contents:
+      - tutorials/data-package.qmd
+      - tutorials/here-vs-commandargs.qmd
+    type: default
+    sort: "date desc"
+    fields: [date, title]
+    date-format: "D MMMM YYYY"
+    sort-ui: false
+    filter-ui: false
+    categories: false
+  - id: latest-posts
+    # The post of 30 October 2025 has no date and renders to a Word file,
+    # so it stays out of this short list until it is finished.
+    contents:
+      - "blog/posts/*/index.qmd"
+      - "!blog/posts/2025-10-30-ai-at-ghe/index.qmd"
+    type: default
+    max-items: 3
+    sort: "date desc"
+    fields: [date, title, author]
+    date-format: "D MMMM YYYY"
+    sort-ui: false
+    filter-ui: false
+    categories: false
 ---
 
-We run a [Blog](blog/), check out our posts. 
+::: {.ghe-hero}
+::: {.ghe-section}
 
-This website also provides access to [slides](slides/), [tutorials](tutorials/), and other open educational material developed by the [Global Health Engineering group at ETH Zurich](https://ghe.ethz.ch/). 
+# Open science at Global Health Engineering
+
+<p class="ghe-lead">Slides, tutorials and other open educational material developed by the [Global Health Engineering group at ETH Zurich](https://ghe.ethz.ch/).</p>
+
+::: {.ghe-actions}
+[See the slides](slides/index.qmd){.btn .btn-primary}
+[Read the blog](blog/index.qmd){.btn .btn-outline}
+:::
+
+:::
+:::
+
+::: {.ghe-section}
+
+## Talks
+
+```{=html}
+<div class="ghe-cards">
+<a class="ghe-card" href="slides/#research-data-conference-2026---bern"><span class="ghe-card-kicker">19 November 2026, Bern</span><strong>Research Data Conference 2026</strong><p>Embedded data stewardship and research intelligence: five years of practice at a research group at ETH Zurich.</p></a>
+<a class="ghe-card" href="slides/#data-stewardship-network-autumn-community-meeting-2026---eth-zurich"><span class="ghe-card-kicker">22 September 2026, ETH Zurich</span><strong>Data Stewardship Network Autumn Community Meeting 2026</strong><p>Git for Scientists, so that we can still prove what is human when working with AI in research.</p></a>
+<a class="ghe-card" href="slides/#reproducibilitea-journal-club-2026---university-of-zurich"><span class="ghe-card-kicker">28 May 2026, University of Zurich</span><strong>ReproducibiliTea Journal Club 2026</strong><p>Hello, I am a Data Steward.</p></a>
+</div>
+```
+
+[All slides](slides/index.qmd){.ghe-more}
+
+:::
+
+::: {.ghe-tint}
+::: {.ghe-section}
+
+## Tutorials
+
+::: {#tutorials}
+:::
+
+[All tutorials](tutorials/index.qmd){.ghe-more}
+
+:::
+:::
+
+::: {.ghe-section}
+
+## Blog
+
+::: {#latest-posts}
+:::
+
+[All posts](blog/index.qmd){.ghe-more}
+
+:::
