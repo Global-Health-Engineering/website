@@ -3,32 +3,6 @@ pagetitle: "Global Health Engineering"
 page-layout: custom
 section-divs: false
 toc: false
-listing:
-  - id: tutorials
-    contents:
-      - tutorials/data-package.qmd
-      - tutorials/here-vs-commandargs.qmd
-    type: default
-    sort: "date desc"
-    fields: [date, title]
-    date-format: "D MMMM YYYY"
-    sort-ui: false
-    filter-ui: false
-    categories: false
-  - id: latest-posts
-    # The post of 30 October 2025 has no date and renders to a Word file,
-    # so it stays out of this short list until it is finished.
-    contents:
-      - "blog/posts/*/index.qmd"
-      - "!blog/posts/2025-10-30-ai-at-ghe/index.qmd"
-    type: default
-    max-items: 3
-    sort: "date desc"
-    fields: [date, title, author]
-    date-format: "D MMMM YYYY"
-    sort-ui: false
-    filter-ui: false
-    categories: false
 ---
 
 ::: {.ghe-hero}
@@ -40,7 +14,6 @@ listing:
 
 ::: {.ghe-actions}
 [See the slides](slides/index.qmd){.btn .btn-primary}
-[Read the blog](blog/index.qmd){.btn .btn-outline}
 :::
 
 :::
@@ -59,29 +32,5 @@ listing:
 ```
 
 [All slides](slides/index.qmd){.ghe-more}
-
-:::
-
-::: {.ghe-tint}
-::: {.ghe-section}
-
-## Tutorials
-
-::: {#tutorials}
-:::
-
-[All tutorials](tutorials/index.qmd){.ghe-more}
-
-:::
-:::
-
-::: {.ghe-section}
-
-## Blog
-
-::: {#latest-posts}
-:::
-
-[All posts](blog/index.qmd){.ghe-more}
 
 :::
