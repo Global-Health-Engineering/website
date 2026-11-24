@@ -1,6 +1,11 @@
 ---
 title: "R data package - the GHE way"
+date: 2023-06-09
 ---
+
+::: {.callout-note}
+This tutorial was written on 9 June 2023 for a workshop of the Global Health Engineering group. It is kept as it was written, as a record of the group's data publishing workflow at that time. The text has not been updated since 15 June 2023, so some tools and links are out of date. The [history of the file](https://github.com/Global-Health-Engineering/website/commits/main/tutorials/data-package.qmd) shows the dates.
+:::
 
 ## Why?
 

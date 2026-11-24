@@ -12,7 +12,7 @@ Embedded data stewardship and research intelligence: five years of practice at a
 [View slides in full screen](rdc-2026.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/rdc-2026.pdf) | [Declaration of AI use](https://github.com/Global-Health-Engineering/rdc-2026/blob/main/talk/AI-USE.md) | [Source of the slides](https://github.com/Global-Health-Engineering/rdc-2026)
 
 ```{=html}
-<iframe class="slide-deck" src="rdc-2026.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="rdc-2026.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## Data Stewardship Network Autumn Community Meeting 2026 - ETH Zurich
@@ -22,7 +22,7 @@ Git for Scientists, so that we can still prove what is human when working with A
 [View slides in full screen](dsn-agentsforsci.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/dsn-agentsforsci.pdf) | [Declaration of AI use](dsn-agentsforsci-ai-declaration.html) 
 
 ```{=html}
-<iframe class="slide-deck" src="dsn-agentsforsci.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="dsn-agentsforsci.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## ReproducibiliTea Journal Club 2026 - University of Zurich
@@ -30,7 +30,7 @@ Git for Scientists, so that we can still prove what is human when working with A
 [View slides in full screen](reproducibilitea.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/reproducibilitea.pdf)
 
 ```{=html}
-<iframe class="slide-deck" src="reproducibilitea.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="reproducibilitea.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## Swiss Open Academic Data (SOAD) 2025
@@ -38,7 +38,7 @@ Git for Scientists, so that we can still prove what is human when working with A
 [View slides in full screen](soad.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/soad-schoebitz.pdf) | [Access Abstract](soad-abstract.html)
   
 ```{=html}
-<iframe class="slide-deck" src="soad.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="soad.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## Research Software Engineering and Data Stewardship Career Talk
@@ -46,7 +46,7 @@ Git for Scientists, so that we can still prove what is human when working with A
 [View slides in full screen](career-panel.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/career-panel.pdf)
   
 ```{=html}
-<iframe class="slide-deck" src="career-panel.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="career-panel.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## SwissRN - Computational Reproducibiliy Seminar
@@ -54,7 +54,7 @@ Git for Scientists, so that we can still prove what is human when working with A
 [View slides in full screen](swissrn-reproducibility.html) |  [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/swissrn-reproducibility.pdf)
   
 ```{=html}
-<iframe class="slide-deck" src="swissrn-reproducibility.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="swissrn-reproducibility.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## ETH ORD Programme - Metadata
@@ -62,7 +62,7 @@ Git for Scientists, so that we can still prove what is human when working with A
 [View slides in full screen](eth-ord-data.html) |  [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/eth-ord-data.pdf)
   
 ```{=html}
-<iframe class="slide-deck" src="eth-ord-data.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="eth-ord-data.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## ETH 17:15 Kolloquium 
@@ -72,7 +72,7 @@ Info about the event: <https://library.ethz.ch/news-und-kurse/veranstaltungen/17
 [View slides in full screen](eth-kolloquium.html) | [Watch the recording of the talk](https://www.youtube.com/watch?v=zpVo_-Ne91c)
   
 ```{=html}
-<iframe class="slide-deck" src="eth-kolloquium.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="eth-kolloquium.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## Swiss Research Data Day 2024
@@ -80,7 +80,7 @@ Info about the event: <https://library.ethz.ch/news-und-kurse/veranstaltungen/17
 [View slides in full screen](srdd2024.html) 
   
 ```{=html}
-<iframe class="slide-deck" src="srdd2024.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="srdd2024.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## Data Stewardship at the UZH and ETH
@@ -88,7 +88,7 @@ Info about the event: <https://library.ethz.ch/news-und-kurse/veranstaltungen/17
 [View slides in full screen](data-steward-lschoebitz.html) 
   
 ```{=html}
-<iframe class="slide-deck" src="data-steward-lschoebitz.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="data-steward-lschoebitz.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 
@@ -97,32 +97,28 @@ Info about the event: <https://library.ethz.ch/news-und-kurse/veranstaltungen/17
 [View slides in full screen](ghe-quarterly-q3-2024.html) 
   
 ```{=html}
-<iframe class="slide-deck" src="ghe-quarterly-q3-2024.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="ghe-quarterly-q3-2024.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## Swiss Reproducibility Conference 2024
 
-[View slides in full screen](swissrn.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/slides/swiss-rn.pdf)
+[View slides in full screen](swissrn.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/swissrn.pdf)
 
 ```{=html}
-<iframe class="slide-deck" src="swissrn.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="swissrn.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## Swiss Toxicology Society - Education Workshop
 
-[View slides in full screen](d04-sst-workshop-basel.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/slides/d04-sst-workshop-basel.pdf)
+[View slides in full screen](d04-sst-workshop-basel.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/d04-sst-workshop-basel.pdf)
 
 ```{=html}
-<iframe class="slide-deck" src="d04-sst-workshop-basel.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="d04-sst-workshop-basel.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## Hubris to Hope HS23 - Reference Management with Zotero
 
-[View slides in full screen](d03-hubris-to-hope-reference-management.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/blob/main/slides/d03-hubris-to-hope-reference-management.pdf)
-
-```{=html}
-<iframe class="slide-deck" src="d03-hubris-to-hope-reference-management.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
-```
+[Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/d03-hubris-to-hope-reference-management.pdf)
 
 
 ## ETH Research Data Management Summer School 2023
@@ -130,7 +126,7 @@ Info about the event: <https://library.ethz.ch/news-und-kurse/veranstaltungen/17
 [View slides in full screen](d02-eth-rdm-summer-2023.html)
 
 ```{=html}
-<iframe class="slide-deck" src="d02-eth-rdm-summer-2023.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="d02-eth-rdm-summer-2023.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## ETH Data Stewardship Network - Kick-off Meeting
@@ -138,5 +134,5 @@ Info about the event: <https://library.ethz.ch/news-und-kurse/veranstaltungen/17
 [View slides in full screen](d01-eth-dsn-meeting.html)
 
 ```{=html}
-<iframe class="slide-deck" src="d01-eth-dsn-meeting.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+<iframe class="slide-deck" loading="lazy" src="d01-eth-dsn-meeting.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```

@@ -3,3 +3,10 @@
 
 [[plugins]]
   package = "@quarto/netlify-plugin-quarto"
+
+# Old folder name of 2023. The data package tutorial of 9 June 2023 still
+# links to it, and its text is kept as it was written.
+[[redirects]]
+  from = "/1-slides/*"
+  to = "/slides/"
+  status = 301

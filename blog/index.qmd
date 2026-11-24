@@ -1,7 +1,6 @@
 ---
 title: GHE blog
-subtitle:
-    A monthly blog published on ghe.ethz.ch
+subtitle: "Posts by the Global Health Engineering group at ETH Zurich"
 listing:
   sort: "date desc"
   contents: "posts/*/index.qmd"

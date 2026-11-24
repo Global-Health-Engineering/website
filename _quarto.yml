@@ -1,11 +1,21 @@
 project:
   type: website
+  # Only these files become pages. The prompt archive (prompts/) and the
+  # 2023 draft in open-science/ stay in the repository and out of the site.
+  render:
+    - "*.qmd"
+    - "LICENSE.md"
+    - "!prompts/"
+    - "!open-science/"
+
+lang: en
 
 website:
   page-navigation: true
   title: "Global Health Engineering"
   description: "Homepage for slides, tutorials, and other teaching material."
-  site-url: "https://global-health-engineering.github.io/website/"
+  site-url: "https://ghe-open.ch/"
+  open-graph: true
   navbar:
     tools:
       - icon: github
@@ -15,9 +25,8 @@ website:
         text: Home
       - href: slides/index.qmd
         text: Slides
-      - text: Tutorials
-        menu: 
-          - tutorials/data-package.qmd
+      - href: tutorials/index.qmd
+        text: Tutorials
       - href: blog/index.qmd
         text: Blog
         
