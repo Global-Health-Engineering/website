@@ -3,7 +3,18 @@ title: "{{< fa display >}} Slides"
 # Decks built in their own repository are copied to the site as they are.
 resources:
   - rdc-2026.html
+  - enhancer-2026.html
 ---
+
+## EnhanceR Symposium 2026 - PSI Villigen
+
+Teaching Git, GitHub, and AI coding agents to researchers who do not come from IT. 30 November 2026.
+
+[View slides in full screen](enhancer-2026.html) | [Download slides as PDF](https://github.com/Global-Health-Engineering/website/raw/main/slides/enhancer-2026.pdf) | [Declaration of AI use](https://github.com/Global-Health-Engineering/talk-enhancer/blob/main/AI-USE.md) | [Source of the slides](https://github.com/Global-Health-Engineering/talk-enhancer)
+
+```{=html}
+<iframe class="slide-deck" loading="lazy" src="enhancer-2026.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
 
 ## Research Data Conference 2026 - Bern
 
